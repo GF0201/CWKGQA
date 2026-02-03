@@ -1,0 +1,22 @@
+# 1. 忽略 Python 运行缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 2. 忽略虚拟环境（由于你双设备同步，环境应该分别配置）
+venv/
+env/
+.venv/
+
+# 3. 忽略大论文写作产生的临时文件（如果你把论文放在这里）
+*.log
+*.aux
+*.out
+*.toc
+*.pdf
+
+# 4. 忽略知识图谱相关的大型数据或敏感配置
+data/raw_data/
+*.env
+.idea/
+.vscode/
