@@ -1,0 +1,13 @@
+argv: scripts/run_lcquad2_dev200.py --data_file ../kgqa-thesis/data/processed/unified/unified_dev.jsonl --limit 5 --mock
+LC-QuAD2 dev run started
+Run dir: C:\Users\顾北上\KGELLM\kgqa_framework\runs\lcquad2_dev5_20260202_174854
+Data: ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+Limit: 5
+old_dir: C:\Users\顾北上\KGELLM\kgqa-thesis
+Using minimal mock (old_dir exists=True, mock=True)
+Loaded 5 samples from ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+Saved metrics.json
+Validated metrics.json
+Saved repro_manifest.json
+Inputs hashed: 2; first_keys=['unified_dev.jsonl', 'requirements.txt']
+Run completed

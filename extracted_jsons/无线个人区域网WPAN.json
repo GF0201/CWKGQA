@@ -1,0 +1,212 @@
+[
+    {
+        "head": "移动站",
+        "connect": "可能处于",
+        "tail": "待机状态或省电状态"
+    },
+    {
+        "head": "移动站",
+        "connect": "在",
+        "tail": "MAC帧中的功率管理字段置为0时表示活跃状态"
+    },
+    {
+        "head": "移动站",
+        "connect": "在",
+        "tail": "MAC帧中的功率管理字段置为1后进入待机状态"
+    },
+    {
+        "head": "接入点AP",
+        "connect": "总是处于",
+        "tail": "活跃状态"
+    },
+    {
+        "head": "接入点AP",
+        "connect": "保存",
+        "tail": "处于待机状态的移动站的名单"
+    },
+    {
+        "head": "AP",
+        "connect": "周期性地向周围的移动站发送",
+        "tail": "信标帧"
+    },
+    {
+        "head": "移动站",
+        "connect": "必须设置",
+        "tail": "一个计时器以便在AP即将发送信标帧时被唤醒"
+    },
+    {
+        "head": "信标帧",
+        "connect": "包含",
+        "tail": "被缓存在AP中的节节点列表"
+    },
+    {
+        "head": "WEP字段",
+        "connect": "占",
+        "tail": "1位"
+    },
+    {
+        "head": "WEP字段",
+        "connect": "若置为1表示",
+        "tail": "MAC帧的帧主体字段采用了加密算法"
+    },
+    {
+        "head": "WEP加密算法",
+        "connect": "存在",
+        "tail": "安全漏洞"
+    },
+    {
+        "head": "IEEE 802.11i",
+        "connect": "努力解决",
+        "tail": "无线局域网的安全问题"
+    },
+    {
+        "head": "Wi-Fi联盟",
+        "connect": "在2002年制定",
+        "tail": "符合802.11i功能的加密方式WPA"
+    },
+    {
+        "head": "WPA 2",
+        "connect": "在2004年制定并增加了支持",
+        "tail": "AES加密算法"
+    },
+    {
+        "head": "WPA 2",
+        "connect": "符合",
+        "tail": "IEEE 802.11i-2004的安全功能"
+    },
+    {
+        "head": "无线个人区域网WPAN",
+        "connect": "定义为",
+        "tail": "在个人工作的地方把属于个人使用的电子设备用无线技术连接起来自组网络"
+    },
+    {
+        "head": "WPAN",
+        "connect": "可以是",
+        "tail": "一个人使用也可以是若干人共同使用"
+    },
+    {
+        "head": "WPAN",
+        "connect": "与",
+        "tail": "个人区域网PAN不完全相同"
+    },
+    {
+        "head": "WPAN",
+        "connect": "是",
+        "tail": "低功率、小范围、低速率和低价格的电缆替代技术"
+    },
+    {
+        "head": "WPAN",
+        "connect": "工作在",
+        "tail": "2.4 GHz的ISM频段"
+    },
+    {
+        "head": "蓝牙系统",
+        "connect": "最早由",
+        "tail": "爱立信公司在1994年推出"
+    },
+    {
+        "head": "蓝牙技术",
+        "connect": "由",
+        "tail": "蓝牙技术联盟负责维护和更新技术标准"
+    },
+    {
+        "head": "蓝牙4.0",
+        "connect": "增加了",
+        "tail": "低耗能蓝牙BLE"
+    },
+    {
+        "head": "BLE",
+        "connect": "适用于",
+        "tail": "数据量很小的节点"
+    },
+    {
+        "head": "蓝牙4.0",
+        "connect": "传统蓝牙的数据率提高到",
+        "tail": "3 Mbit/s"
+    },
+    {
+        "head": "蓝牙5.0",
+        "connect": "数据率上限达",
+        "tail": "24 Mbit/s"
+    },
+    {
+        "head": "蓝牙5.0",
+        "connect": "有效传输距离最高可达",
+        "tail": "300m"
+    },
+    {
+        "head": "蓝牙技术",
+        "connect": "使用",
+        "tail": "TDM方式和跳频扩频FHSS技术"
+    },
+    {
+        "head": "皮可网",
+        "connect": "由",
+        "tail": "一个主设备和最多7个工作的从设备组成"
+    },
+    {
+        "head": "扩散网",
+        "connect": "由",
+        "tail": "多个皮可网链接起来形成"
+    },
+    {
+        "head": "低速WPAN",
+        "connect": "主要用于",
+        "tail": "工业监控组网、办公自动化与控制等领域"
+    },
+    {
+        "head": "低速WPAN",
+        "connect": "速率为",
+        "tail": "2~250 kbit/s"
+    },
+    {
+        "head": "ZigBee",
+        "connect": "是",
+        "tail": "低速WPAN中最重要的技术"
+    },
+    {
+        "head": "ZigBee",
+        "connect": "基于",
+        "tail": "IEEE 802.15.4标准"
+    },
+    {
+        "head": "ZigBee节点",
+        "connect": "非常省电",
+        "tail": "电池工作时间可长达6个月到2年左右"
+    },
+    {
+        "head": "ZigBee网络",
+        "connect": "最多包括",
+        "tail": "255个节点"
+    },
+    {
+        "head": "ZigBee节点",
+        "connect": "按功能划分为",
+        "tail": "全功能设备FFD和精简功能设备RFD"
+    },
+    {
+        "head": "高速WPAN",
+        "connect": "标准为",
+        "tail": "IEEE 802.15.3"
+    },
+    {
+        "head": "高速WPAN",
+        "connect": "支持",
+        "tail": "11~55 Mbit/s的数据率"
+    },
+    {
+        "head": "超高速WPAN",
+        "connect": "使用",
+        "tail": "超宽带UWB技术"
+    },
+    {
+        "head": "UWB技术",
+        "connect": "工作在",
+        "tail": "3.1~10.6 GHz微波频段"
+    },
+    {
+        "head": "UWB技术",
+        "connect": "可支持",
+        "tail": "100~400 Mbit/s的数据率"
+    }
+]

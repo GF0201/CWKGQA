@@ -1,0 +1,457 @@
+[
+    {
+        "head": "无线蜂窝电话通信技术",
+        "connect": "得到",
+        "tail": "飞速发展"
+    },
+    {
+        "head": "移动电话数",
+        "connect": "超过",
+        "tail": "固定电话数"
+    },
+    {
+        "head": "全世界移动电话的普及率",
+        "connect": "达到",
+        "tail": "96.8%"
+    },
+    {
+        "head": "中国的移动电话用户",
+        "connect": "超过",
+        "tail": "15.9亿户"
+    },
+    {
+        "head": "固定电话的用户数",
+        "connect": "是",
+        "tail": "1.88亿户"
+    },
+    {
+        "head": "无线网络和移动网络的数据链路层",
+        "connect": "与传统的",
+        "tail": "有线互联网的数据链路层相差很大"
+    },
+    {
+        "head": "本章",
+        "connect": "讨论",
+        "tail": "无线局域网WLAN"
+    },
+    {
+        "head": "无线局域网MAC层协议",
+        "connect": "重点讨论",
+        "tail": "载波监听多点接入／碰撞避免CSMA/CA的原理"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "connect": "已演进到",
+        "tail": "全部使用IP技术"
+    },
+    {
+        "head": "智能手机",
+        "connect": "变成",
+        "tail": "计算机网络上的主机"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "提供了",
+        "tail": "移动接入的功能"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "节省",
+        "tail": "投资"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "加快",
+        "tail": "建网速度"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "称为",
+        "tail": "WLAN"
+    },
+    {
+        "head": "便携站",
+        "connect": "与",
+        "tail": "移动站表示的意思不一样"
+    },
+    {
+        "head": "移动站",
+        "connect": "能够",
+        "tail": "在移动过程中进行通信"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "分为",
+        "tail": "有基础设施的和无基础设施的两大类"
+    },
+    {
+        "head": "IEEE 802.11",
+        "connect": "是",
+        "tail": "无线局域网协议"
+    },
+    {
+        "head": "中国WLAN国家标准",
+        "connect": "采用",
+        "tail": "ISO/IEC 8802-11系列国际标准"
+    },
+    {
+        "head": "无线局域网的中心",
+        "connect": "称为",
+        "tail": "接入点AP"
+    },
+    {
+        "head": "接入点AP",
+        "connect": "也称为",
+        "tail": "无线接入点WAP"
+    },
+    {
+        "head": "无线局域网的接入点AP",
+        "connect": "连接到",
+        "tail": "有线以太网"
+    },
+    {
+        "head": "家庭使用的无线局域网接入点AP",
+        "connect": "嵌入了",
+        "tail": "IP层的路由器功能"
+    },
+    {
+        "head": "802.11无线局域网",
+        "connect": "常称为",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "Wi-Fi",
+        "connect": "是非营利性国际组织",
+        "tail": "Wi-Fi联盟的一个标记"
+    },
+    {
+        "head": "基本服务集BSS",
+        "connect": "包括",
+        "tail": "一个接入点和若干个移动站"
+    },
+    {
+        "head": "基本服务区BSA",
+        "connect": "是指",
+        "tail": "一个基本服务集BSS所覆盖的地理范围"
+    },
+    {
+        "head": "无线局域网的基本服务区BSA",
+        "connect": "范围直径一般不超过",
+        "tail": "100米"
+    },
+    {
+        "head": "链路层设备",
+        "connect": "的唯一标志是",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "SSID",
+        "connect": "是",
+        "tail": "无线局域网的名字"
+    },
+    {
+        "head": "SSID",
+        "connect": "使用",
+        "tail": "字串而不是二进制数字"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "使用的频段是",
+        "tail": "2.4 GHz和5 GHz频段"
+    },
+    {
+        "head": "802.11b标准",
+        "connect": "定义了",
+        "tail": "11个部分重叠的信道集"
+    },
+    {
+        "head": "信道1、6和11",
+        "connect": "是",
+        "tail": "唯一的三个非重叠信道的集合"
+    },
+    {
+        "head": "基本服务集",
+        "connect": "可以是",
+        "tail": "孤立的单个服务集"
+    },
+    {
+        "head": "基本服务集",
+        "connect": "也可以通过接入点AP连接到",
+        "tail": "分配系统DS"
+    },
+    {
+        "head": "扩展服务集ESS",
+        "connect": "有标识符",
+        "tail": "扩展服务集标识符ESSID"
+    },
+    {
+        "head": "分配系统DS",
+        "connect": "的作用是使",
+        "tail": "扩展的服务集ESS对上层的表现就像一个基本服务集BSS一样"
+    },
+    {
+        "head": "扩展服务集ESS",
+        "connect": "还可为无线用户提",
+        "tail": "供到802.x局域网的接入"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "connect": "属于",
+        "tail": "通信领域的内容"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "connect": "已演进到",
+        "tail": "全部使用IP技术"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "使用",
+        "tail": "CSMA/CA协议"
+    },
+    {
+        "head": "CSMA/CA",
+        "connect": "表示",
+        "tail": "载波监听多点接入／碰撞避免"
+    },
+    {
+        "head": "802.11系列标准",
+        "connect": "称为",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "Wi-Fi联盟",
+        "connect": "是一个",
+        "tail": "非营利性国际组织"
+    },
+    {
+        "head": "Wi-Fi",
+        "connect": "表示",
+        "tail": "通过Wi-Fi联盟认证的产品"
+    },
+    {
+        "head": "基本服务集BSS",
+        "connect": "包括",
+        "tail": "一个接入点和若干个移动站"
+    },
+    {
+        "head": "移动自组网络",
+        "connect": "是",
+        "tail": "无线局域网的另一类"
+    },
+    {
+        "head": "移动自组网络",
+        "connect": "没有",
+        "tail": "固定基础设施"
+    },
+    {
+        "head": "移动自组网络",
+        "connect": "由",
+        "tail": "一些处于平等状态的移动站相互通信组成"
+    },
+    {
+        "head": "无线传感器网络WSN",
+        "connect": "是",
+        "tail": "无线传感节点通过无线通信技术构成的自组网络"
+    },
+    {
+        "head": "物联网IoT",
+        "connect": "主要应用领域是",
+        "tail": "组成各种无线传感器网络"
+    },
+    {
+        "head": "802.11标准",
+        "connect": "设计了",
+        "tail": "独特的MAC层"
+    },
+    {
+        "head": "802.11的MAC层",
+        "connect": "包括",
+        "tail": "分布协调功能DCF和点协调功能PCF两子层"
+    },
+    {
+        "head": "分布协调功能DCF",
+        "connect": "向",
+        "tail": "上提供争用服务"
+    },
+    {
+        "head": "DCF",
+        "connect": "采用",
+        "tail": "CSMA机制的分布式接入算法"
+    },
+    {
+        "head": "点协调功能PCF",
+        "connect": "是",
+        "tail": "选项"
+    },
+    {
+        "head": "PCF",
+        "connect": "用",
+        "tail": "接入点AP集控制整个BSS内的活动"
+    },
+    {
+        "head": "PCF",
+        "connect": "使用",
+        "tail": "集中控制的接入算法"
+    },
+    {
+        "head": "C SMA/CA协议",
+        "connect": "定义",
+        "tail": "数据和命令应怎样通过互联网"
+    },
+    {
+        "head": "NVT",
+        "connect": "是",
+        "tail": "网络虚拟终端"
+    },
+    {
+        "head": "C SMA/CA协议",
+        "connect": "要求",
+        "tail": "发送前先检测信道"
+    },
+    {
+        "head": "C SMA/CA协议",
+        "connect": "要求",
+        "tail": "边发送边检测信道"
+    },
+    {
+        "head": "C SMA/CA协议",
+        "connect": "规定",
+        "tail": "一旦检测到碰撞就立即停止发送"
+    },
+    {
+        "head": "C SMA/CA协议",
+        "connect": "执行",
+        "tail": "退避算法进行重传"
+    },
+    {
+        "head": "802.11局域网",
+        "connect": "使用",
+        "tail": "C SMA/CA协议"
+    },
+    {
+        "head": "802.11局域网",
+        "connect": "还使用",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "链路层确认",
+        "connect": "是",
+        "tail": "解决碰撞后重传的手段"
+    },
+    {
+        "head": "虚拟载波监听",
+        "connect": "是",
+        "tail": "用软件实现的机制"
+    },
+    {
+        "head": "载波监听",
+        "connect": "用",
+        "tail": "硬件实现"
+    },
+    {
+        "head": "DIFS",
+        "connect": "定义为",
+        "tail": "比SIFS更长的时间间隔"
+    },
+    {
+        "head": "DIFS",
+        "connect": "规定",
+        "tail": "等待时间后才能发送"
+    },
+    {
+        "head": "争用窗口CW",
+        "connect": "由",
+        "tail": "许多时隙组成"
+    },
+    {
+        "head": "退避算法",
+        "connect": "规定",
+        "tail": "在争用窗口执行"
+    },
+    {
+        "head": "退避计时器",
+        "connect": "设置",
+        "tail": "在0~ cw个时隙中随机生成一退避时隙数"
+    },
+    {
+        "head": "802.11标准",
+        "connect": "并未规定",
+        "tail": "争用窗口CW的初始值"
+    },
+    {
+        "head": "802.11标准",
+        "connect": "建议",
+        "tail": "CW最小值为15"
+    },
+    {
+        "head": "802.11标准",
+        "connect": "建议",
+        "tail": "CW最大值为1023"
+    },
+    {
+        "head": "RTS",
+        "connect": "是",
+        "tail": "请求发送控制帧"
+    },
+    {
+        "head": "CTS",
+        "connect": "是",
+        "tail": "允许发送控制帧"
+    },
+    {
+        "head": "802.11数据帧",
+        "connect": "由",
+        "tail": "MAC首部、帧主体和帧检验序列FCS组成"
+    },
+    {
+        "head": "MAC首部",
+        "connect": "包括",
+        "tail": "帧控制、地址、序号控制和持续期字段"
+    },
+    {
+        "head": "帧控制字段",
+        "connect": "共分为",
+        "tail": "11个子字段"
+    },
+    {
+        "head": "WEP",
+        "connect": "表明",
+        "tail": "对MAC帧的帧主体字段采用了加密算法"
+    },
+    {
+        "head": "WPA",
+        "connect": "是",
+        "tail": "符合802.11i功能的加密方式"
+    },
+    {
+        "head": "WPA2",
+        "connect": "增加了支持",
+        "tail": "AES加密算法"
+    },
+    {
+        "head": "WPA2",
+        "connect": "符合",
+        "tail": "IEEE 802.11i-2004的安全功能"
+    },
+    {
+        "head": "无线个人区域网WPAN",
+        "connect": "是",
+        "tail": "在个人工作的地方把属千个人使用的电子设备用无线技术连接起来自组网络"
+    },
+    {
+        "head": "WPAN",
+        "connect": "可以是",
+        "tail": "一个人使用"
+    },
+    {
+        "head": "WPAN",
+        "connect": "也可以是",
+        "tail": "若干人共同使用"
+    },
+    {
+        "head": "蓝牙系统",
+        "connect": "是",
+        "tail": "最早使用的WPAN"
+    }
+]

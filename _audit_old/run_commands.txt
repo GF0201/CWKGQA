@@ -1,0 +1,26 @@
+# Key run commands from old experiment (kgqa-thesis)
+# Source: experiment_trace_summary.md, PREPROCESS_COMMANDS.md
+
+# Download data
+python scripts/10_download_data.py --dataset lcquad2
+
+# Preprocess
+python scripts/20_preprocess.py --dataset lcquad2 --out data/processed/unified/ --seed 42
+
+# Smoke graph builder
+python scripts/45_smoke_graph_builder.py --seed 42 --max_samples 10 --no-cache
+
+# Phase 9 baseline (dev200)
+python scripts/52_run_phase9_experiment.py --run_tag baseline --config configs/runs/lcquad2_baseline.yaml --split dev --limit 200 --seed 42 --no-cache
+
+# Phase 9 phase8 (with subgraph)
+python scripts/52_run_phase9_experiment.py --run_tag phase8 --config configs/runs/lcquad2_phase8.yaml --split dev --limit 200 --seed 42 --no-cache
+
+# Pipeline directly
+python scripts/40_run_pipeline.py --config configs/runs/lcquad2_baseline.yaml --split dev --limit 20 --seed 42 --no-cache
+
+# M3 significance
+python scripts/compute_dev200_significance_canonical.py
+
+# Validate paper outputs
+python scripts/62_validate_paper_outputs.py

@@ -1,0 +1,230 @@
+[
+      {
+        "head": "用户数据报协议UDP",
+        "connect": "只在",
+        "tail": "IP的数据报服务之上增加了很少一点的功能"
+      },
+      {
+        "head": "UDP的功能",
+        "connect": "包括",
+        "tail": "复用和分用的功能以及差错检测的功能"
+      },
+      {
+        "head": "UDP",
+        "connect": "是",
+        "tail": "无连接的"
+      },
+      {
+        "head": "UDP",
+        "connect": "使用",
+        "tail": "尽最大努力交付"
+      },
+      {
+        "head": "UDP",
+        "connect": "不保证",
+        "tail": "可靠交付"
+      },
+      {
+        "head": "UDP",
+        "connect": "是",
+        "tail": "面向报文的"
+      },
+      {
+        "head": "UDP",
+        "connect": "没有",
+        "tail": "拥塞控制"
+      },
+      {
+        "head": "UDP",
+        "connect": "支持",
+        "tail": "一对一、一对多、多对一和多对多的交互通信"
+      },
+      {
+        "head": "UDP的首部开销",
+        "connect": "是",
+        "tail": "8个字节"
+      },
+      {
+        "head": "UDP",
+        "connect": "用于",
+        "tail": "需要对UDP的不可靠的传输进行适当的改进的应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "实时应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "IP电话、实时视频会议等"
+      },
+      {
+        "head": "UDP",
+        "connect": "允许",
+        "tail": "在网络发生拥塞时丢失一些数据"
+      },
+      {
+        "head": "UDP",
+        "connect": "不允许",
+        "tail": "数据有太大的时延"
+      },
+      {
+        "head": "UDP",
+        "connect": "支持",
+        "tail": "多对一的通信"
+      }, {
+        "head": "UDP",
+        "connect": "支持",
+        "tail": "一对多的通信"
+      },
+      {
+        "head": "UDP",
+        "connect": "支持",
+        "tail": "一对一的通信"
+      },
+      {
+        "head": "UDP",
+        "connect": "支持",
+        "tail": "多对多的通信"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "需要简单方便但不可靠的通信的情况"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要建立连接的通信"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "发送数据前不需要建立连接的情况"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "发送数据结束后没有连接可释放的情况"
+      },
+      {
+        "head": "UDP",
+        "connect": "不提供",
+        "tail": "复杂的连接状态表"
+      },
+      {
+        "head": "UDP",
+        "connect": "不保证",
+        "tail": "报文都能按照发送的先后顺序到达终点"
+      },
+      {
+        "head": "UDP",
+        "connect": "不保证",
+        "tail": "报文不丢失"
+      },
+      {
+        "head": "UDP",
+        "connect": "不保证",
+        "tail": "报文不重复"
+      },
+      {
+        "head": "UDP",
+        "connect": "提供",
+        "tail": "简单的差错检测功能"
+      },
+      {
+        "head": "UDP",
+        "connect": "通过",
+        "tail": "检验和检测UDP用户数据报在传输中是否有错"
+      },
+      {
+        "head": "UDP",
+        "connect": "如果检验和检测到错误则",
+        "tail": "丢弃该报文"
+      },
+      {
+        "head": "UDP",
+        "connect": "使用",
+        "tail": "伪首部来计算检验和"
+      },
+      {
+        "head": "伪首部",
+        "connect": "不是",
+        "tail": "UDP用户数据报真正的首部"
+      },
+      {
+        "head": "伪首部",
+        "connect": "仅用于",
+        "tail": "计算检验和"
+      },
+      {
+        "head": "UDP",
+        "connect": "在",
+        "tail": "源端口号和目的端口号以及UDP用户数据报的数据部分进行检查"
+      },
+      {
+        "head": "UDP",
+        "connect": "不检查",
+        "tail": "IP数据报的源IP地址和目的地址"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "需要快速处理的应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要复杂连接状态的应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要维持连接状态的应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要全双工通信的应用"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "面向报文的传输"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要字节流的服务"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要顺序传输的服务"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要可靠传输的服务"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要流量控制的服务"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要拥塞控制的服务"
+      },
+      {
+        "head": "UDP",
+        "connect": "适用于",
+        "tail": "不需要端到端的可靠传输"
+      }
+]
+ 
+  
+     
+  

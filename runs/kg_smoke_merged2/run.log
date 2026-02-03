@@ -1,0 +1,9 @@
+argv: scripts/run_kg_smoke.py --triples datasets/domain_main_kg/processed/merged/triples.jsonl --index_dir datasets/domain_main_kg/index --output-id kg_smoke_merged2 --seed 42 --audit-n 50
+KG smoke started
+Loaded 3078 triples
+Metrics: n_triples=3078, n_entities=4070, n_relations=769, density=0.000186
+Wrote kg_sample_audit.csv with 50 rows
+Wrote case_studies.md with 8 samples
+KG smoke completed
+validate_audit_artifacts: PASS
+Report saved to C:\Users\顾北上\KGELLM\kgqa_framework\reports\20260203_task_kg_smoke__kg_smoke_merged2.md

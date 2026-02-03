@@ -1,0 +1,4 @@
+qid,question,status,is_executable,http_status,error_type,em,f1,trace_path
+6637,What is Peter Cosgrove's given name in the series ordinal 2?,metric_missing,True,,metric_missing,,,C:\Users\顾北上\KGELLM\kgqa-thesis\outputs\runs\run_20260202_190530
+11528,What did is the post of Austen Chamberlain and vested?,metric_missing,True,,metric_missing,,,C:\Users\顾北上\KGELLM\kgqa-thesis\outputs\runs\run_20260202_190530
+29557,Which is the Library of Congress Cultural Heritage Organizations for The Walt Disney Company?,metric_missing,True,,metric_missing,,,C:\Users\顾北上\KGELLM\kgqa-thesis\outputs\runs\run_20260202_190530

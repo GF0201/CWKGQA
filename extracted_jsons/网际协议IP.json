@@ -1,0 +1,212 @@
+[
+    {
+        "head": "网际协议IP",
+        "connect": "是",
+        "tail": "TCP/IP体系中两个最主要的协议之一"
+    },
+    {
+        "head": "网际协议IP",
+        "connect": "也是",
+        "tail": "最重要的互联网标准协议之一"
+    },
+    {
+        "head": "网际协议IP",
+        "connect": "称为",
+        "tail": "Kahn-Cerf协议"
+    },
+    {
+        "head": "Kahn-Cerf协议",
+        "connect": "由",
+        "tail": "Robert Kahn和Vint Cerf共同研发"
+    },
+    {
+        "head": "Robert Kahn和Vint Cerf",
+        "connect": "在2004年获得",
+        "tail": "图灵奖"
+    },
+    {
+        "head": "IP",
+        "connect": "是",
+        "tail": "IP的第4个版本，记为IPv4"
+    },
+    {
+        "head": "与协议IP配套使用的协议",
+        "connect": "包括",
+        "tail": "地址解析协议ARP、网际控制报文协议ICMP和网际组管理协议IGMP"
+    },
+    {
+        "head": "逆地址解析协议RARP",
+        "connect": "是",
+        "tail": "与协议ARP配合使用的"
+    },
+    {
+        "head": "TCP/IP体系中的网络层",
+        "connect": "常被称为",
+        "tail": "网际层(internet layer)或IP层"
+    },
+    {
+        "head": "虚拟互连网络",
+        "connect": "是",
+        "tail": "由很多网络构成的互连网络"
+    },
+    {
+        "head": "中间设备",
+        "connect": "根据",
+        "tail": "所在层次的不同有转发器、网桥、路由器和网关"
+    },
+    {
+        "head": "路由器",
+        "connect": "是",
+        "tail": "专用计算机，用来在互连网中进行路由选择"
+    },
+    {
+        "head": "IP网",
+        "connect": "好处是",
+        "tail": "主机进行通信时，好像在一个单个网络上通信一样"
+    },
+    {
+        "head": "IP地址",
+        "connect": "是",
+        "tail": "给连到互联网上的每台主机或路由器的每个接口分配的一个在全世界范围内唯一的32位的标识符"
+    },
+    {
+        "head": "IP地址",
+        "connect": "由",
+        "tail": "互联网名字和数字分配机构ICANN进行分配"
+    },
+    {
+        "head": "IP地址",
+        "connect": "采用",
+        "tail": "点分十进制记法"
+    },
+    {
+        "head": "IP地址",
+        "connect": "具有",
+        "tail": "两级结构，由网络号和主机号组成"
+    },
+    {
+        "head": "网络号",
+        "connect": "标志",
+        "tail": "主机所连接的网络"
+    },
+    {
+        "head": "主机号",
+        "connect": "标志",
+        "tail": "该主机（对路由器来说，就是标志该路由器）"
+    },
+    {
+        "head": "IP地址",
+        "connect": "含义是",
+        "tail": "这个IP地址不但标志了该主机（或路由器），而且还标志了此接口所连接的网络"
+    },
+    {
+        "head": "分类的IP地址",
+        "connect": "包括",
+        "tail": "A类、B类和C类地址"
+    },
+    {
+        "head": "D类地址",
+        "connect": "是",
+        "tail": "多播地址"
+    },
+    {
+        "head": "E类地址",
+        "connect": "是",
+        "tail": "保留地址"
+    },
+    {
+        "head": "无分类编址CIDR",
+        "connect": "把",
+        "tail": "网络号改称为网络前缀"
+    },
+    {
+        "head": "CIDR",
+        "connect": "使用",
+        "tail": "斜线记法"
+    },
+    {
+        "head": "地址掩码",
+        "connect": "由",
+        "tail": "一连串1和接着的一连串0组成"
+    },
+    {
+        "head": "地址掩码",
+        "connect": "又称为",
+        "tail": "子网掩码"
+    },
+    {
+        "head": "IP地址",
+        "connect": "是",
+        "tail": "标志一台主机（或路由器）和一条链路的接口"
+    },
+    {
+        "head": "多归属主机",
+        "connect": "是",
+        "tail": "一台主机同时连接到两个网络上时，该主机必须同时具有两个相应的IP地址"
+    },
+    {
+        "head": "路由器",
+        "connect": "至少应当",
+        "tail": "连接到两个网络，因此一个路由器至少应当有两个不同的IP地址"
+    },
+    {
+        "head": "IP地址",
+        "connect": "在",
+        "tail": "互联网上是平等的"
+    },
+    {
+        "head": "地址解析协议ARP",
+        "connect": "用来解决",
+        "tail": "IP地址和MAC地址之间的映射问题"
+    },
+    {
+        "head": "ARP",
+        "connect": "存放",
+        "tail": "从IP地址到MAC地址的映射表"
+    },
+    {
+        "head": "IP数据报",
+        "connect": "由",
+        "tail": "首部和数据两部分组成"
+    },
+    {
+        "head": "IP数据报首部",
+        "connect": "包括",
+        "tail": "固定部分和选项字段"
+    },
+    {
+        "head": "IP数据报首部的固定部分",
+        "connect": "长度",
+        "tail": "是固定的，共20字节"
+    },
+    {
+        "head": "IP数据报首部",
+        "connect": "指出",
+        "tail": "此数据报携带的数据使用何种协议"
+    },
+    {
+        "head": "IP数据报首部检验和",
+        "connect": "只检验",
+        "tail": "数据报的首部，但不包括数据部分"
+    },
+    {
+        "head": "IP数据报",
+        "connect": "在",
+        "tail": "互联网中传送和转发是基于分组首部中的目的地址的"
+    },
+    {
+        "head": "IP数据报",
+        "connect": "必须能够",
+        "tail": "接受长度不超过576字节的数据报"
+    },
+    {
+        "head": "IP数据报",
+        "connect": "在",
+        "tail": "互联网中至多可经过255个路由器"
+    },
+    {
+        "head": "IP数据报",
+        "connect": "如果",
+        "tail": "长度超过网络的MTU而必须分片"
+    }
+]

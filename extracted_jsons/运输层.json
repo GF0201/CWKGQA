@@ -1,0 +1,107 @@
+[
+    {
+        "head": "运输层",
+        "connect": "为",
+        "tail": "相互通信的应用进程提供逻辑通信"
+    },
+    {
+        "head": "运输层",
+        "connect": "包含",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "运输层",
+        "connect": "包含",
+        "tail": "TCP协议"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "ARQ协议"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "滑动窗口"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "流量控制"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "拥塞控制机制"
+    },
+    {
+        "head": "运输层",
+        "connect": "讨论",
+        "tail": "连接管理"
+    },
+    {
+        "head": "运输层协议",
+        "connect": "提供",
+        "tail": "通信服务"
+    },
+    {
+        "head": "运输层协议",
+        "connect": "属于",
+        "tail": "面向通信部分的最高层"
+    },
+    {
+        "head": "运输层协议",
+        "connect": "属于",
+        "tail": "用户功能中的最低层"
+    },
+    {
+        "head": "运输层",
+        "connect": "使用",
+        "tail": "协议栈"
+    },
+    {
+        "head": "路由器",
+        "connect": "只用到",
+        "tail": "下三层的功能"
+    },
+    {
+        "head": "IP协议",
+        "connect": "能够",
+        "tail": "把分组送交到目的主机"
+    },
+    {
+        "head": "IP协议",
+        "connect": "不能",
+        "tail": "交付主机中的应用进程"
+    },
+    {
+        "head": "端到端通信",
+        "connect": "是",
+        "tail": "应用进程之间的通信"
+    },
+    {
+        "head": "一台主机",
+        "connect": "有",
+        "tail": "多个应用进程"
+    },
+    {
+        "head": "运输层",
+        "connect": "新增",
+        "tail": "流控制传输协议SCTP"
+    },
+    {
+        "head": "SCTP",
+        "connect": "具有",
+        "tail": "TCP和UDP协议的共同优点"
+    },
+    {
+        "head": "SCTP",
+        "connect": "支持",
+        "tail": "IP电话等新应用"
+    }
+]

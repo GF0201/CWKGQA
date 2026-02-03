@@ -1,0 +1,67 @@
+argv: scripts/run_lcquad2_dev200.py --data_file ../kgqa-thesis/data/processed/unified/unified_dev.jsonl --limit 3 --mock
+LC-QuAD2 dev run started
+Run dir: C:\Users\顾北上\KGELLM\kgqa_framework\runs\lcquad2_dev3_20260202_180607
+DataData: ..\kgqa-thesis\data\processed\unified\unified_dev.jsoLimiLimit:old_old_dir: C:\Users\顾北上\KGELLM\kgqa-thesUsinPre-run manifest saved
+Running: C:\ProgramData\anaconda3\python.exe C:\Users\顾北上\KGELLM\kgqa-thesis\scripts\40_run_pipeline.py --config C:\Users\顾北上\KGELLM\kgqa-thesis\configs\runs\lcquad2_baseline.yaml --data_file ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl --limit 3 --seed 42 --no-cache
+Run ID: run_20260202_180610
+Seed: 42
+Config: C:\Users\顾北上\KGELLM\kgqa-thesis\configs\runs\lcquad2_baseline.yaml
+Split: dev
+Limit: 3
+
+Loaded 3 samples from ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+
+Initializing modules...
+  KG Client: https://query.wikidata.org/sparql
+  Intent Classifier: enabled (TF-IDF + LR)
+  Entity Linker: enabled (method=wikidata_search, topk=20)
+  Graph Builder: disabled (not enabled in run config)
+
+Processing 3 samples...
+Per-sample budget: 15.0s
+
+Processed 1/3 | elapsed: 10.7s | avg: 10.69s/sample | last_step: entity_link
+Processed 2/3 | elapsed: 21.5s | avg: 10.74s/sample | last_step: entity_link
+Processed 3/3 | elapsed: 32.4s | avg: 10.79s/sample | last_step: entity_link
+
+Saved 3 predictions to outputs\runs\run_20260202_180610\preds.jsonl
+
+Entity Linking Statistics:
+  Total queries: 3
+  Cache hits: 0
+  Cache misses: 30
+  Cache hit rate: 0.0%
+  Non-empty rate: 100.0%
+  Avg candidates: 20.0
+
+KG Client Statistics:
+  Cache hits: 0
+  Cache misses: 0
+
+Pipeline Statistics:
+  Total samples: 3
+  Successful: 3
+  Skipped (timeout): 0
+  Failed (errors): 0
+  Avg latency: 10.788s
+  Total WDQS calls: 30
+  Avg WDQS calls/sample: 10.00
+  Cache hits: 0
+  Cache misses: 30
+  Cache hit rate: 0.0%
+Saved metrics to outputs\runs\run_20260202_180610\metrics.json
+
+============================================================
+Pipeline execution complete
+============================================================
+
+Run directory: outputs\runs\run_20260202_180610
+  - config.yaml: outputs\runs\run_20260202_180610\config.yaml
+  - logs.txt: outputs\runs\run_20260202_180610\logs.txt
+  - preds.jsonl: outputs\runs\run_20260202_180610\preds.jsonl
+  - metrics.json: outputs\runs\run_20260202_180610\metrics.json
+Saved metrics.json
+Validated metrics.json
+Saved repro_manifest.json
+Inputs hashed: 8; first_keys=['DATA::unified_dev.jsonl', 'requirements.txt', 'configs/default.yaml']
+Run completed

@@ -1,0 +1,254 @@
+[
+      {
+        "head": "socket",
+        "connect": "可以表示",
+        "tail": "应用程序访问连网协议的应用编程接口API"
+      },
+      {
+        "head": "socket",
+        "connect": "可以表示为",
+        "tail": "socketAPI中使用的一个函数名"
+      },
+      {
+        "head": "socket",
+        "connect": "可以称为",
+        "tail": "调用socket函数的端点"
+      },
+      {
+        "head": "socket",
+        "connect": "可以称为",
+        "tail": "socket描述符"
+      },
+      {
+        "head": "socket实现",
+        "connect": "指的是",
+        "tail": "操作系统内核中连网协议的Berkeley实现"
+      },
+      {
+        "head": "TCP",
+        "connect": "依赖于",
+        "tail": "IP层传送报文段"
+      },
+      {
+        "head": "IP层",
+        "connect": "提供",
+        "tail": "尽最大努力服务"
+      },
+      {
+        "head": "TCP",
+        "connect": "必须采用",
+        "tail": "适当措施以实现可靠传输"
+      },
+      {
+        "head": "理想传输条件",
+        "connect": "包括",
+        "tail": "传输信道不产生差错"
+      },
+      {
+        "head": "理想传输条件",
+        "connect": "包括",
+        "tail": "接收方总能来得及处理收到的数据"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "指的是",
+        "tail": "每发送完一个分组就停止发送，等待对方确认"
+      },
+      {
+        "head": "超时重传",
+        "connect": "指的是",
+        "tail": "超过了一段时间没有收到确认就认为分组丢失，因而重传"
+      },
+      {
+        "head": "确认丢失",
+        "connect": "导致",
+        "tail": "发送方在超时计时器到期后重传分组"
+      },
+      {
+        "head": "确认迟到",
+        "connect": "导致",
+        "tail": "发送方收到重复的确认"
+      },
+      {
+        "head": "自动重传请求ARQ",
+        "connect": "指的是",
+        "tail": "重传请求自动进行，接收方不需要请求发送方重传出错的分组"
+      },
+      {
+        "head": "信道利用率",
+        "connect": "受",
+        "tail": "往返时间RTT影响"
+      },
+      {
+        "head": "流水线传输",
+        "connect": "指的是",
+        "tail": "发送方可连续发送多个分组，不必每发完一个分组就停顿下来等待对方的确认"
+      },
+      {
+        "head": "连续ARQ协议",
+        "connect": "规定",
+        "tail": "每收到一个确认，发送窗口向前滑动一个分组的位置"
+      },
+      {
+        "head": "累积确认",
+        "connect": "指的是",
+        "tail": "接收方对按序到达的最后一个分组发送确认"
+      },
+      {
+        "head": "Go-back-N",
+        "connect": "指的是",
+        "tail": "需要退回重传已发送过的N个分组"
+      },
+      {
+        "head": "TCP报文段",
+        "connect": "分为",
+        "tail": "首部和数据两部分"
+      },
+      {
+        "head": "TCP首部",
+        "connect": "包括",
+        "tail": "固定部分和选项部分"
+      },
+      {
+        "head": "TCP首部固定部分",
+        "connect": "包含",
+        "tail": "源端口号和目的端口号"
+      },
+      {
+        "head": "TCP首部固定部分",
+        "connect": "包含",
+        "tail": "序号"
+      },
+      {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "面向字节流的传输协议"
+      },
+      {
+        "head": "TCP传送的数据单元",
+        "connect": "是",
+        "tail": "报文段"
+      },
+      {
+        "head": "TCP的全部功能",
+        "connect": "体现在",
+        "tail": "TCP首部中各字段的作用"
+      },
+      {
+        "head": "TCP首部的最小长度",
+        "connect": "是",
+        "tail": "20字节"
+      },
+      {
+        "head": "TCP",
+        "connect": "使用",
+        "tail": "mod 2^32运算的序号"
+      },
+      {
+        "head": "TCP",
+        "connect": "依赖于",
+        "tail": "IP层的不可靠传输服务"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "确认和重传机制实现可靠传输"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "在",
+        "tail": "无差错情况下简单有效"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "在",
+        "tail": "出现差错时需要超时重传"
+      },
+      {
+        "head": "确认丢失",
+        "connect": "导致",
+        "tail": "发送方无法确定分组是否需要重传"
+      },
+      {
+        "head": "确认迟到",
+        "connect": "导致",
+        "tail": "发送方可能错误地重传分组"
+      },
+      {
+        "head": "自动重传请求ARQ",
+        "connect": "允许",
+        "tail": "发送方在未收到确认时重传分组"
+      },
+      {
+        "head": "流水线传输",
+        "connect": "通过",
+        "tail": "连续发送多个分组提高信道利用率"
+      },
+      {
+        "head": "连续ARQ协议",
+        "connect": "通过",
+        "tail": "发送窗口滑动提高传输效率"
+      },
+      {
+        "head": "累积确认",
+        "connect": "可能导致",
+        "tail": "发送方无法及时了解分组接收情况"
+      },
+      {
+        "head": "Go-back-N",
+        "connect": "要求",
+        "tail": "发送方在出现差错时退回并重传多个分组"
+      },
+      {
+        "head": "TCP首部",
+        "connect": "用于",
+        "tail": "控制TCP报文段的传输"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "首部字段实现流量控制和拥塞控制"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "序号实现数据的顺序传输"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "确认机制实现数据的可靠传输"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "超时重传机制应对信道错误"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "流水线传输提高信道利用率"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "连续ARQ协议提高传输效率"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "滑动窗口协议提高传输效率"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "累积确认减少网络开销"
+      },
+      {
+        "head": "TCP",
+        "connect": "通过",
+        "tail": "Go-back-N协议应对传输差错"
+      }
+    ]
+
+  

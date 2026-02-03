@@ -1,0 +1,172 @@
+[
+    {
+        "head": "电路交换",
+        "connect": "适合",
+        "tail": "话音通信"
+    },
+    {
+        "head": "分组交换",
+        "connect": "适合",
+        "tail": "数据通信"
+    },
+    {
+        "head": "铁道部",
+        "connect": "开始进行",
+        "tail": "计算机联网实验"
+    },
+    {
+        "head": "我国第一个公用分组交换网",
+        "connect": "是",
+        "tail": "CNPAC"
+    },
+    {
+        "head": "CNPAC",
+        "connect": "建成运行时间",
+        "tail": "1989年11月"
+    },
+    {
+        "head": "局域网",
+        "connect": "对",
+        "tail": "各行各业的管理现代化和办公自动化起到积极作用"
+    },
+    {
+        "head": "我国",
+        "connect": "正式连入",
+        "tail": "互联网"
+    },
+    {
+        "head": "我国连入互联网的时间",
+        "connect": "是",
+        "tail": "1994年4月20日"
+    },
+    {
+        "head": "中国第一个万维网服务器",
+        "connect": "设立于",
+        "tail": "中国科学院高能物理研究所"
+    },
+    {
+        "head": "中国公用计算机互联网",
+        "connect": "正式启功于",
+        "tail": "1994年9月"
+    },
+    {
+        "head": "CHINANET",
+        "connect": "是",
+        "tail": "中国电信互联网"
+    },
+    {
+        "head": "UNINET",
+        "connect": "是",
+        "tail": "中国联通互联网"
+    },
+    {
+        "head": "CMNET",
+        "connect": "是",
+        "tail": "中国移动互联网"
+    },
+    {
+        "head": "CERNET",
+        "connect": "是",
+        "tail": "中国教育和科研计算机网"
+    },
+    {
+        "head": "CSTNET",
+        "connect": "是",
+        "tail": "中国科学技术网"
+    },
+    {
+        "head": "CERNET2试验网",
+        "connect": "正式开通于",
+        "tail": "2004年2月"
+    },
+    {
+        "head": "CNNIC",
+        "connect": "每年两次公布",
+        "tail": "我国互联网的发展情况"
+    },
+    {
+        "head": "CNNIC",
+        "connect": "把",
+        "tail": "过去半年内使用过互联网的6周岁及以上的中国居民称为网民"
+    },
+    {
+        "head": "我国网民数量",
+        "connect": "达到",
+        "tail": "9.04亿"
+    },
+    {
+        "head": "互联网普及率",
+        "connect": "达到",
+        "tail": "64.5%"
+    },
+    {
+        "head": "手机网民规模",
+        "connect": "达到",
+        "tail": "8.97亿"
+    },
+    {
+        "head": "农村网民",
+        "connect": "占",
+        "tail": "整体网民的28.2%"
+    },
+    {
+        "head": "国际出口带宽",
+        "connect": "超过",
+        "tail": "8.8 Tbit/s"
+    },
+    {
+        "head": "爱特信公司",
+        "connect": "创立者",
+        "tail": "张朝阳"
+    },
+    {
+        "head": "搜狐公司",
+        "connect": "前身",
+        "tail": "爱特信公司"
+    },
+    {
+        "head": "网易公司",
+        "connect": "创立者",
+        "tail": "丁磊"
+    },
+    {
+        "head": "新浪网站",
+        "connect": "创立者",
+        "tail": "王志东"
+    },
+    {
+        "head": "腾讯公司",
+        "connect": "创立者",
+        "tail": "马化腾、张志东"
+    },
+    {
+        "head": "QQ",
+        "connect": "原名",
+        "tail": "OICQ"
+    },
+    {
+        "head": "微信",
+        "connect": "研发领导者",
+        "tail": "张小龙"
+    },
+    {
+        "head": "百度网站",
+        "connect": "创立者",
+        "tail": "李彦宏和徐勇"
+    },
+    {
+        "head": "阿里巴巴网站",
+        "connect": "创立者",
+        "tail": "马云"
+    },
+    {
+        "head": "淘宝网",
+        "connect": "创立者",
+        "tail": "马云"
+    },
+    {
+        "head": "支付宝",
+        "connect": "创立者",
+        "tail": "阿里巴巴集团"
+    }
+]

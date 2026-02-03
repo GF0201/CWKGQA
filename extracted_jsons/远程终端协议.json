@@ -1,0 +1,202 @@
+[
+    {
+        "head": "远程终端协议",
+        "connect": "允许",
+        "tail": "应用进程打开远地文件"
+    },
+    {
+        "head": "远程终端协议",
+        "connect": "允许",
+        "tail": "用户只复制大文件中的小片段"
+    },
+    {
+        "head": "NFS",
+        "connect": "允许",
+        "tail": "计算机A中的NFS客户端发送数据和写数据请求到计算机B中的NFS服务器"
+    },
+    {
+        "head": "NFS",
+        "connect": "使",
+        "tail": "用户在网络上传送少量的修改数据"
+    },
+    {
+        "head": "TFTP",
+        "connect": "是",
+        "tail": "一个很小且易实现的文件传送协议"
+    },
+    {
+        "head": "TFTP",
+        "connect": "使用",
+        "tail": "UDP数据报"
+    },
+    {
+        "head": "TFTP",
+        "connect": "需要",
+        "tail": "自己的差错改正措施"
+    },
+    {
+        "head": "TFTP",
+        "connect": "支持",
+        "tail": "文件传输"
+    },
+    {
+        "head": "TFTP",
+        "connect": "不支持",
+        "tail": "交互"
+    },
+    {
+        "head": "TFTP",
+        "connect": "没有",
+        "tail": "庞大的命令集"
+    },
+    {
+        "head": "TFTP",
+        "connect": "没有",
+        "tail": "列目录的功能"
+    },
+    {
+        "head": "TFTP",
+        "connect": "不能",
+        "tail": "对用户进行身份鉴别"
+    },
+    {
+        "head": "TFTP",
+        "connect": "可用",
+        "tail": "在UDP环境中"
+    },
+    {
+        "head": "TFTP",
+        "connect": "适用于",
+        "tail": "将程序或文件同时向许多机器下载"
+    },
+    {
+        "head": "TFTP",
+        "connect": "占用",
+        "tail": "较小的内存"
+    },
+    {
+        "head": "TFTP",
+        "connect": "适合",
+        "tail": "较小的计算机或特殊用途的设备"
+    },
+    {
+        "head": "TFTP",
+        "connect": "允许",
+        "tail": "设备执行只读存储器中的代码"
+    },
+    {
+        "head": "TFTP",
+        "connect": "支持",
+        "tail": "ASCII码或二进制传送"
+    },
+    {
+        "head": "TFTP",
+        "connect": "允许",
+        "tail": "对文件进行读或写"
+    },
+    {
+        "head": "TFTP",
+        "connect": "使用",
+        "tail": "很简单的首部"
+    },
+    {
+        "head": "TFTP",
+        "connect": "工作类似",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "TFTP",
+        "connect": "要求",
+        "tail": "确认时应指明所确认的块编号"
+    },
+    {
+        "head": "TFTP",
+        "connect": "要求",
+        "tail": "在规定时间内收不到确认就要重发数据PDU"
+    },
+    {
+        "head": "TFTP",
+        "connect": "要求",
+        "tail": "若在规定时间内收不到下一个文件块，也要重发确认PDU"
+    },
+    {
+        "head": "TFTP",
+        "connect": "要求",
+        "tail": "客户进程发送一个读请求报文或写请求报文给TFTP服务器进程"
+    },
+    {
+        "head": "TFTP",
+        "connect": "熟知",
+        "tail": "端口号码为69"
+    },
+    {
+        "head": "TFTP",
+        "connect": "要求",
+        "tail": "在文件传送完毕后发送一个只含首部而无数据的数据报文"
+    },
+    {
+        "head": "TELNET",
+        "connect": "允许",
+        "tail": "用户通过TCP连接注册到远地的另一台主机上"
+    },
+    {
+        "head": "TELNET",
+        "connect": "能",
+        "tail": "将用户的击键传到远地主机"
+    },
+    {
+        "head": "TELNET",
+        "connect": "能",
+        "tail": "将远地主机的输出通过TCP连接返回到用户屏幕"
+    },
+    {
+        "head": "TELNET",
+        "connect": "称为",
+        "tail": "终端仿真协议"
+    },
+    {
+        "head": "TELNET",
+        "connect": "使用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "TELNET",
+        "connect": "适应",
+        "tail": "许多计算机和操作系统的差异"
+    },
+    {
+        "head": "TELNET",
+        "connect": "定义",
+        "tail": "网络虚拟终端NVT"
+    },
+    {
+        "head": "NVT",
+        "connect": "使用",
+        "tail": "7位ASCII码传送数据"
+    },
+    {
+        "head": "NVT",
+        "connect": "使用",
+        "tail": "控制命令"
+    },
+    {
+        "head": "NVT",
+        "connect": "定义",
+        "tail": "CR-LF为标准的行结束控制符"
+    },
+    {
+        "head": "TELNET",
+        "connect": "允许",
+        "tail": "选项协商"
+    },
+    {
+        "head": "万维网WWW",
+        "connect": "是",
+        "tail": "大规模的、联机式的信息储藏所"
+    },
+    {
+        "head": "万维网WWW",
+        "connect": "使用",
+        "tail": "链接的方法从一个站点访问另一个站点"
+    }
+]

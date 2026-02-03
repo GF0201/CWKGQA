@@ -1,0 +1,352 @@
+[
+    {
+        "head": "TELNET",
+        "connect": "通过",
+        "tail": "TCP连接注册到远地主机"
+    },
+    {
+        "head": "TELNET",
+        "connect": "能将",
+        "tail": "用户击键传到远地主机"
+    },
+    {
+        "head": "TELNET",
+        "connect": "能将",
+        "tail": "远地主机输出返回到用户屏幕"
+    },
+    {
+        "head": "TELNET服务",
+        "connect": "是",
+        "tail": "透明的"
+    },
+    {
+        "head": "TELNET",
+        "connect": "又称为",
+        "tail": "终端仿真协议"
+    },
+    {
+        "head": "TELNET",
+        "connect": "使用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "TELNET服务器",
+        "connect": "等待",
+        "tail": "新的请求"
+    },
+    {
+        "head": "TELNET服务器",
+        "connect": "产生",
+        "tail": "从属进程处理每一个连接"
+    },
+    {
+        "head": "TELNET",
+        "connect": "适应",
+        "tail": "计算机和操作系统差异"
+    },
+    {
+        "head": "TELNET",
+        "connect": "定义了",
+        "tail": "网络虚拟终端NVT"
+    },
+    {
+        "head": "NVT",
+        "connect": "是",
+        "tail": "数据和命令应怎样通过互联网"
+    },
+    {
+        "head": "NVT格式",
+        "connect": "定义为",
+        "tail": "所有通信使用8位一个字节"
+    },
+    {
+        "head": "NVT",
+        "connect": "使用",
+        "tail": "7位ASCII码传送数据"
+    },
+    {
+        "head": "NVT",
+        "connect": "使用",
+        "tail": "高位置1作为控制命令"
+    },
+    {
+        "head": "NVT",
+        "connect": "定义",
+        "tail": "CR-LF为标准的行结束控制符"
+    },
+    {
+        "head": "TELNET选项协商",
+        "connect": "使",
+        "tail": "TELNET客户和服务器可商定使用更多终端功能"
+    },
+    {
+        "head": "万维网WWW",
+        "connect": "是一个",
+        "tail": "大规模的、联机式的信息储藏所"
+    },
+    {
+        "head": "万维网",
+        "connect": "通过",
+        "tail": "链接方法从一个站点访问另一个站点"
+    },
+    {
+        "head": "万维网",
+        "connect": "由",
+        "tail": "Tim Berners-Lee提出"
+    },
+    {
+        "head": "第一个图形界面浏览器",
+        "connect": "名为",
+        "tail": "Mosaic"
+    },
+    {
+        "head": "万维网",
+        "connect": "是",
+        "tail": "超文本系统的扩充"
+    },
+    {
+        "head": "超文本",
+        "connect": "指",
+        "tail": "包含指向其他文档的链接的文本"
+    },
+    {
+        "head": "超媒体",
+        "connect": "与",
+        "tail": "超文本的区别是文档内容不同"
+    },
+    {
+        "head": "万维网",
+        "connect": "以",
+        "tail": "客户服务器方式工作"
+    },
+    {
+        "head": "万维网文档",
+        "connect": "称为",
+        "tail": "页面"
+    },
+    {
+        "head": "统一资源定位符URL",
+        "connect": "用来",
+        "tail": "标志万维网文档"
+    },
+    {
+        "head": "URL",
+        "connect": "使",
+        "tail": "每一个文档在整个互联网范围内具有唯一的标识符"
+    },
+    {
+        "head": "超文本传送协议HTTP",
+        "connect": "是",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "HTTP",
+        "connect": "使用",
+        "tail": "TCP连接进行可靠的传送"
+    },
+    {
+        "head": "HTTP",
+        "connect": "定义了",
+        "tail": "浏览器怎样向万维网服务器请求万维网文档"
+    },
+    {
+        "head": "HTTP",
+        "connect": "规定",
+        "tail": "浏览器和服务器之间的请求和响应的交互格式和规则"
+    },
+    {
+        "head": "HTTP",
+        "connect": "是",
+        "tail": "无状态的"
+    },
+    {
+        "head": "HTTP/1.1",
+        "connect": "支持",
+        "tail": "持续连接"
+    },
+    {
+        "head": "HTTP/2",
+        "connect": "是",
+        "tail": "HTTP/1.1的升级版本"
+    },
+    {
+        "head": "代理服务器",
+        "connect": "又称为",
+        "tail": "万维网高速缓存Web cache"
+    },
+    {
+        "head": "代理服务器",
+        "connect": "把",
+        "tail": "最近的一些请求和响应暂存在本地磁盘中"
+    },
+    {
+        "head": "内容分发网络CDN",
+        "connect": "由",
+        "tail": "代理服务器方式构成"
+    },
+    {
+        "head": "HTTP报文",
+        "connect": "由",
+        "tail": "请求报文和响应报文组成"
+    },
+    {
+        "head": "HTTP请求报文",
+        "connect": "包括",
+        "tail": "请求行、首部行和实体主体"
+    },
+    {
+        "head": "HTTP响应报文",
+        "connect": "包括",
+        "tail": "状态行、首部行和实体主体"
+    },
+    {
+        "head": "状态码",
+        "connect": "分为",
+        "tail": "5大类"
+    },
+    {
+        "head": "Cookie",
+        "connect": "用于",
+        "tail": "在HTTP服务器和客户之间传递状态信息"
+    },
+    {
+        "head": "Cookie",
+        "connect": "可以",
+        "tail": "跟踪用户在网站的活动"
+    },
+    {
+        "head": "超文本标记语言HTML",
+        "connect": "是",
+        "tail": "制作万维网页面的标准语言"
+    },
+    {
+        "head": "HTML",
+        "connect": "定义了许多",
+        "tail": "用于排版的命令即标签"
+    },
+    {
+        "head": "HTML文档",
+        "connect": "是一种",
+        "tail": "ASCII码文件"
+    },
+    {
+        "head": "动态万维网文档",
+        "connect": "指",
+        "tail": "文档内容在浏览器访问万维网服务器时由应用程序动态创建"
+    },
+    {
+        "head": "动态文档",
+        "connect": "需要",
+        "tail": "通用网关接口CGI"
+    },
+    {
+        "head": "CGI程序",
+        "connect": "又称为",
+        "tail": "CGI脚本"
+    },
+    {
+        "head": "活动万维网文档",
+        "connect": "指",
+        "tail": "文档内容可以连续地改变"
+    },
+    {
+        "head": "活动文档",
+        "connect": "不需要",
+        "tail": "服务器的连续更新传送"
+    },
+    {
+        "head": "Java",
+        "connect": "用于",
+        "tail": "创建和运行活动文档"
+    },
+    {
+        "head": "Java小应用程序",
+        "connect": "称为",
+        "tail": "小应用程序apple t"
+    },
+    {
+        "head": "全文检索搜索引擎",
+        "connect": "通过",
+        "tail": "蜘蛛程序到互联网上收集信息"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "connect": "利用",
+        "tail": "各网站向搜索引擎提交网站信息"
+    },
+    {
+        "head": "博客",
+        "connect": "是",
+        "tail": "万维网日志的简称"
+    },
+    {
+        "head": "微博",
+        "connect": "是",
+        "tail": "微型博客"
+    },
+    {
+        "head": "社交网站SNS",
+        "connect": "为",
+        "tail": "一群拥有相同兴趣与活动的人创建在线社区"
+    },
+    {
+        "head": "社交网站",
+        "connect": "功能包括",
+        "tail": "电子邮件、即时传信、博客撰写、共享相册、上传视频、网页游戏、创建社团、刊登广告等"
+    },
+    {
+        "head": "脸书Facebook",
+        "connect": "是",
+        "tail": "2004年在美国诞生的社交网站"
+    },
+    {
+        "head": "脸书Facebook",
+        "connect": "特点包括",
+        "tail": "方便地寻找朋友或联系老同学、老同事"
+    },
+    {
+        "head": "脸书Facebook",
+        "connect": "特点包括",
+        "tail": "在朋友圈中分享图片、视频和音频文件"
+    },
+    {
+        "head": "脸书Facebook",
+        "connect": "特点包括",
+        "tail": "通过集成的地图功能分享用户所在的位置"
+    },
+    {
+        "head": "电子邮件",
+        "connect": "是",
+        "tail": "互联网上使用最多的和最受用户欢迎的一种应用"
+    },
+    {
+        "head": "电子邮件",
+        "connect": "具有",
+        "tail": "传递迅速和费用低廉的优点"
+    },
+    {
+        "head": "电子邮件系统",
+        "connect": "应具有",
+        "tail": "用户代理、邮件服务器以及邮件发送协议和邮件读取协议"
+    },
+    {
+        "head": "简单邮件传送协议SMTP",
+        "connect": "是",
+        "tail": "电子邮件发送协议"
+    },
+    {
+        "head": "邮局协议POP3",
+        "connect": "是",
+        "tail": "邮件读取协议"
+    },
+    {
+        "head": "MIME",
+        "connect": "用于",
+        "tail": "扩充电子邮件传送多种类型的数据"
+    },
+    {
+        "head": "MIME邮件首部",
+        "connect": "说明",
+        "tail": "邮件的数据类型"
+    }
+]

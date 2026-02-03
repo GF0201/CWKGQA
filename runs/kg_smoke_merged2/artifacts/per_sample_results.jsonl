@@ -1,0 +1,9 @@
+{"qid": "load_triples", "status": "ok", "question": "Load triples", "em": 1, "f1": 1, "error_type": "", "trace_path": "", "n_triples": 3078}
+{"qid": "load_forward", "status": "ok", "question": "Load forward index", "em": 1, "f1": 1, "error_type": ""}
+{"qid": "load_backward", "status": "ok", "question": "Load backward index", "em": 1, "f1": 1, "error_type": ""}
+{"qid": "load_hp_to_t", "status": "ok", "question": "Load hp_to_t index", "em": 1, "f1": 1, "error_type": ""}
+{"qid": "lookup_0", "status": "ok", "question": "Lookup (外联网VPN..., 允许...)", "error_type": ""}
+{"qid": "lookup_1", "status": "ok", "question": "Lookup (脸书Facebook..., 特点包括...)", "error_type": ""}
+{"qid": "lookup_2", "status": "ok", "question": "Lookup (IP地址..., 由...)", "error_type": ""}
+{"qid": "lookup_3", "status": "ok", "question": "Lookup (VLAN..., 解决...)", "error_type": ""}
+{"qid": "lookup_4", "status": "ok", "question": "Lookup (TCP首部的最小长度..., 是...)", "error_type": ""}

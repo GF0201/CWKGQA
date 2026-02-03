@@ -1,0 +1,42 @@
+{"subject": "移动站", "predicate": "可能处于", "object": "待机状态或省电状态", "source_row": 0}
+{"subject": "移动站", "predicate": "在", "object": "MAC帧中的功率管理字段置为0时表示活跃状态", "source_row": 1}
+{"subject": "移动站", "predicate": "在", "object": "MAC帧中的功率管理字段置为1后进入待机状态", "source_row": 2}
+{"subject": "接入点AP", "predicate": "总是处于", "object": "活跃状态", "source_row": 3}
+{"subject": "接入点AP", "predicate": "保存", "object": "处于待机状态的移动站的名单", "source_row": 4}
+{"subject": "AP", "predicate": "周期性地向周围的移动站发送", "object": "信标帧", "source_row": 5}
+{"subject": "移动站", "predicate": "必须设置", "object": "一个计时器以便在AP即将发送信标帧时被唤醒", "source_row": 6}
+{"subject": "信标帧", "predicate": "包含", "object": "被缓存在AP中的节节点列表", "source_row": 7}
+{"subject": "WEP字段", "predicate": "占", "object": "1位", "source_row": 8}
+{"subject": "WEP字段", "predicate": "若置为1表示", "object": "MAC帧的帧主体字段采用了加密算法", "source_row": 9}
+{"subject": "WEP加密算法", "predicate": "存在", "object": "安全漏洞", "source_row": 10}
+{"subject": "IEEE 802.11i", "predicate": "努力解决", "object": "无线局域网的安全问题", "source_row": 11}
+{"subject": "Wi-Fi联盟", "predicate": "在2002年制定", "object": "符合802.11i功能的加密方式WPA", "source_row": 12}
+{"subject": "WPA 2", "predicate": "在2004年制定并增加了支持", "object": "AES加密算法", "source_row": 13}
+{"subject": "WPA 2", "predicate": "符合", "object": "IEEE 802.11i-2004的安全功能", "source_row": 14}
+{"subject": "无线个人区域网WPAN", "predicate": "定义为", "object": "在个人工作的地方把属于个人使用的电子设备用无线技术连接起来自组网络", "source_row": 15}
+{"subject": "WPAN", "predicate": "可以是", "object": "一个人使用也可以是若干人共同使用", "source_row": 16}
+{"subject": "WPAN", "predicate": "与", "object": "个人区域网PAN不完全相同", "source_row": 17}
+{"subject": "WPAN", "predicate": "是", "object": "低功率、小范围、低速率和低价格的电缆替代技术", "source_row": 18}
+{"subject": "WPAN", "predicate": "工作在", "object": "2.4 GHz的ISM频段", "source_row": 19}
+{"subject": "蓝牙系统", "predicate": "最早由", "object": "爱立信公司在1994年推出", "source_row": 20}
+{"subject": "蓝牙技术", "predicate": "由", "object": "蓝牙技术联盟负责维护和更新技术标准", "source_row": 21}
+{"subject": "蓝牙4.0", "predicate": "增加了", "object": "低耗能蓝牙BLE", "source_row": 22}
+{"subject": "BLE", "predicate": "适用于", "object": "数据量很小的节点", "source_row": 23}
+{"subject": "蓝牙4.0", "predicate": "传统蓝牙的数据率提高到", "object": "3 Mbit/s", "source_row": 24}
+{"subject": "蓝牙5.0", "predicate": "数据率上限达", "object": "24 Mbit/s", "source_row": 25}
+{"subject": "蓝牙5.0", "predicate": "有效传输距离最高可达", "object": "300m", "source_row": 26}
+{"subject": "蓝牙技术", "predicate": "使用", "object": "TDM方式和跳频扩频FHSS技术", "source_row": 27}
+{"subject": "皮可网", "predicate": "由", "object": "一个主设备和最多7个工作的从设备组成", "source_row": 28}
+{"subject": "扩散网", "predicate": "由", "object": "多个皮可网链接起来形成", "source_row": 29}
+{"subject": "低速WPAN", "predicate": "主要用于", "object": "工业监控组网、办公自动化与控制等领域", "source_row": 30}
+{"subject": "低速WPAN", "predicate": "速率为", "object": "2~250 kbit/s", "source_row": 31}
+{"subject": "ZigBee", "predicate": "是", "object": "低速WPAN中最重要的技术", "source_row": 32}
+{"subject": "ZigBee", "predicate": "基于", "object": "IEEE 802.15.4标准", "source_row": 33}
+{"subject": "ZigBee节点", "predicate": "非常省电", "object": "电池工作时间可长达6个月到2年左右", "source_row": 34}
+{"subject": "ZigBee网络", "predicate": "最多包括", "object": "255个节点", "source_row": 35}
+{"subject": "ZigBee节点", "predicate": "按功能划分为", "object": "全功能设备FFD和精简功能设备RFD", "source_row": 36}
+{"subject": "高速WPAN", "predicate": "标准为", "object": "IEEE 802.15.3", "source_row": 37}
+{"subject": "高速WPAN", "predicate": "支持", "object": "11~55 Mbit/s的数据率", "source_row": 38}
+{"subject": "超高速WPAN", "predicate": "使用", "object": "超宽带UWB技术", "source_row": 39}
+{"subject": "UWB技术", "predicate": "工作在", "object": "3.1~10.6 GHz微波频段", "source_row": 40}
+{"subject": "UWB技术", "predicate": "可支持", "object": "100~400 Mbit/s的数据率", "source_row": 41}

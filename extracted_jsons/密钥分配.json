@@ -1,0 +1,193 @@
+[
+      {
+        "head": "公钥分配",
+        "connect": "是",
+        "tail": "密钥管理中的一个重要问题"
+      },
+      {
+        "head": "密钥分配",
+        "connect": "必须通过",
+        "tail": "最安全的通路进行"
+      },
+      {
+        "head": "密钥分配",
+        "connect": "可以采用",
+        "tail": "网外分配方式"
+      },
+      {
+        "head": "密钥分配",
+        "connect": "也可以采用",
+        "tail": "网内分配方式"
+      },
+      {
+        "head": "密钥分配中心KDC",
+        "connect": "是",
+        "tail": "大家都信任的机构"
+      },
+      {
+        "head": "KDC",
+        "connect": "负责",
+        "tail": "给用户临时分配会话密钥"
+      },
+      {
+        "head": "会话密钥",
+        "connect": "是",
+        "tail": "仅使用一次的密钥"
+      },
+      {
+        "head": "用户A和B",
+        "connect": "在",
+        "tail": "KDC登记时安装了各自的主密钥"
+      },
+      {
+        "head": "密钥分配",
+        "connect": "分为",
+        "tail": "三个步骤"
+      },
+      {
+        "head": "KDC",
+        "connect": "用",
+        "tail": "随机数产生会话密钥"
+      },
+      {
+        "head": "票据",
+        "connect": "是",
+        "tail": "请A转给B的一个加密信息"
+      },
+      {
+        "head": "票据",
+        "connect": "用",
+        "tail": "B的密钥KB加密"
+      },
+      {
+        "head": "用户B",
+        "connect": "使用",
+        "tail": "自己的密钥KB解密票据"
+      },
+      {
+        "head": "KDC",
+        "connect": "可在报文加入",
+        "tail": "时间戳"
+      },
+      {
+        "head": "会话密钥KAB",
+        "connect": "是",
+        "tail": "一次性的"
+      },
+      {
+        "head": "Kerberos V5",
+        "connect": "是",
+        "tail": "美国麻省理工学院开发的对称密钥分配协议"
+      },
+      {
+        "head": "Kerberos",
+        "connect": "使用",
+        "tail": "高级加密标准AES进行加密"
+      },
+      {
+        "head": "Kerberos",
+        "connect": "包括",
+        "tail": "鉴别服务器AS和票据授予服务器TGS"
+      },
+      {
+        "head": "Kerberos",
+        "connect": "用于",
+        "tail": "客户与服务器之间的鉴别"
+      },
+      {
+        "head": "Kerberos",
+        "connect": "需要通过",
+        "tail": "六个步骤鉴别用户身份"
+      },
+      {
+        "head": "公钥分配",
+        "connect": "面临",
+        "tail": "如何获得和确认公钥真实性的问题"
+      },
+      {
+        "head": "认证中心CA",
+        "connect": "是",
+        "tail": "可信任的第三方机构"
+      },
+      {
+        "head": "CA",
+        "connect": "给拥有公钥的实体发",
+        "tail": "数字证书"
+      },
+      {
+        "head": "数字证书",
+        "connect": "是",
+        "tail": "对公钥与其对应实体进行绑定的证明"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "公钥及其拥有者标识信息"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "CA使用自己私钥的数字签名"
+      },
+      {
+        "head": "用户",
+        "connect": "可以从",
+        "tail": "可信任的地方获得CA的公钥"
+      },
+      {
+        "head": "X.509",
+        "connect": "是",
+        "tail": "ITU-T制定的数字证书格式标准"
+      },
+      {
+        "head": "X.509",
+        "connect": "规定",
+        "tail": "数字证书必须包括的字段"
+      },
+      {
+        "head": "X.509",
+        "connect": "提出",
+        "tail": "多级认证中心链接起来的树状认证系统"
+      },
+      {
+        "head": "根认证中心",
+        "connect": "是",
+        "tail": "最高级别的认证中心"
+      },
+      {
+        "head": "信任链",
+        "connect": "表示",
+        "tail": "这条链接上的认证机构都是可信的"
+      },
+      {
+        "head": "证书链",
+        "connect": "通过",
+        "tail": "链接可以查到本证书的签发者"
+      },
+      {
+        "head": "根证书",
+        "connect": "是",
+        "tail": "自签名的"
+      },
+      {
+        "head": "用户",
+        "connect": "若发现私钥被盗或遗失",
+        "tail": "应及时报告上级CA"
+      },
+      {
+        "head": "CA",
+        "connect": "应当有一个",
+        "tail": "公布于众的证书撤销名单"
+      },
+      {
+        "head": "互联网使用的",
+        "tail": "安全协议"
+      },
+      {
+        "head": "安全协议",
+        "connect": "应用于",
+        "tail": "网络层、运输层和应用层"
+      }
+    ]
+
+  

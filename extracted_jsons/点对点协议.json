@@ -1,0 +1,265 @@
+[
+      {
+        "head": "传输差错",
+        "connect": "包括",
+        "tail": "帧丢失、帧重复或帧失序"
+      },
+      {
+        "head": "帧丢失",
+        "connect": "指",
+        "tail": "收到[#1]-[#3]（丢失[#2]）"
+      },
+      {
+        "head": "帧重复",
+        "connect": "指",
+        "tail": "收到[#1]-[#2]-[#2]-[#3]（收到两个[#2]）"
+      },
+      {
+        "head": "帧失序",
+        "connect": "指",
+        "tail": "收到[#1]-[#3]-[#2]（后发送的帧反而先到达了接收端）"
+      },
+      {
+        "head": "传输差错",
+        "connect": "不包括",
+        "tail": "比特差错"
+      },
+      {
+        "head": "数据链路层",
+        "connect": "使用",
+        "tail": "CRC检验"
+      },
+      {
+        "head": "可靠传输",
+        "connect": "要求",
+        "tail": "数据链路层向网络层提供可靠传输"
+      },
+      {
+        "head": "通信线路质量",
+        "connect": "提高后",
+        "tail": "差错概率降低"
+      },
+      {
+        "head": "互联网",
+        "connect": "采取",
+        "tail": "区别对待的方法"
+      },
+      {
+        "head": "有线传输链路",
+        "connect": "不使用",
+        "tail": "确认和重传机制"
+      },
+      {
+        "head": "无线传输链路",
+        "connect": "使用",
+        "tail": "确认和重传机制"
+      },
+      {
+        "head": "点对点协议PPP",
+        "connect": "是",
+        "tail": "用户计算机和ISP进行通信时所使用的数据链路层协议"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "由",
+        "tail": "IETF在1992年制定"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "满足",
+        "tail": "简单、封装成帧、透明性、多种网络层协议、多种类型链路、差错检测、检测连接状态、最大传送单元、网络层地址协商、数据压缩协商等需求"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "不提供",
+        "tail": "比IP协议更多的功能"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "保证",
+        "tail": "数据传输的透明性"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "支持",
+        "tail": "多种网络层协议如IP和IPX"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "支持",
+        "tail": "多种类型的链路"
+      },
+      {
+        "head": "PPPoE",
+        "connect": "是",
+        "tail": "PPP协议能够适应多种类类型链路的典型例子"
+      },
+      {
+        "head": "PPPoE",
+        "connect": "用于",
+        "tail": "宽带上网的主机使用的链路层协议"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "能够",
+        "tail": "对接收端收到的帧进行检测并立即丢弃有差错的帧"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "具有",
+        "tail": "自动检测链路是否处于正常工作状态的机制"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "设置",
+        "tail": "最大传送单元MTU的标准默认值"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "提供",
+        "tail": "网络层地址协商机制"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "提供",
+        "tail": "数据压缩算法协商方法"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "不支持",
+        "tail": "多点线路"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "支持",
+        "tail": "全双工链路"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "由",
+        "tail": "三个部分组成：封装方法、链路控制协议LCP、网络控制协议NCP"
+      },
+      {
+        "head": "PPP帧",
+        "connect": "由",
+        "tail": "首部、信息字段和尾部组成"
+      },
+      {
+        "head": "PPP首部",
+        "connect": "包含",
+        "tail": "标志字段F、地址字段A、控制字段C和协议字段"
+      },
+      {
+        "head": "标志字段F",
+        "connect": "规定为",
+        "tail": "Ox7E"
+      },
+      {
+        "head": "地址字段A",
+        "connect": "规定为",
+        "tail": "OxFF"
+      },
+      {
+        "head": "控制字段C",
+        "connect": "规定为",
+        "tail": "Ox03"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "使用",
+        "tail": "字节填充方法"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "使用",
+        "tail": "零比特填充方法"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "SONET/SDH链路使用同步传输"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "异步传输时使用转义符Ox7D"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "建立链路层的LCP连接后进入鉴别状态"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "鉴别成功后进入网络层协议状态"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "网络层配置完毕后进入链路打开状态"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "数据传输结束后通过终止请求LCP分组请求终止链路连接"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "调制解调器的载波停止后回到链路静止状态"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "包含",
+        "tail": "物理层和网络层的内容"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "使用",
+        "tail": "IP控制协议IPCP"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "允许",
+        "tail": "双方协商使用压缩的TCP和IP首部"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "通过",
+        "tail": "NCP分配临时IP地址"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "链路建立状态时建立链路层的LCP连接"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+        "tail": "链路打开状态时PPP端点可以彼此向对方发送分组"
+      },
+      {
+        "head": "PPP协议",
+        "connect": "在",
+      "tail": "链路终止状态时释放数据链路层连接"
+    }
+  ]
+
+
+  

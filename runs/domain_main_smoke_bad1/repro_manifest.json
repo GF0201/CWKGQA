@@ -1,0 +1,16 @@
+{
+  "run_id": "domain_main_smoke_bad1",
+  "args": {
+    "data_file": "data\\domain_main_demo_bad.jsonl",
+    "limit": 3,
+    "seed": 42,
+    "output_id": "domain_main_smoke_bad1",
+    "mode": "domain_main_smoke",
+    "n_total": 2,
+    "n_ok": 1,
+    "n_bad": 1
+  },
+  "warnings": [
+    "schema_invalid: bad_count=1, bad_examples=data\\domain_main_demo_bad.jsonl.bad.jsonl"
+  ]
+}

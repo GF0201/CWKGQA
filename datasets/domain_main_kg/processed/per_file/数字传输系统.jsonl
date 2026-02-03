@@ -1,0 +1,33 @@
+{"subject": "CDMA系统", "predicate": "由", "object": "多个站相互通信组成", "source_row": 0}
+{"subject": "每个站所发送的", "predicate": "是", "object": "数据比特和本站的码片序列的乘积", "source_row": 1}
+{"subject": "码片序列", "predicate": "相当于", "object": "发送比特1", "source_row": 2}
+{"subject": "码片序列的二进制反码", "predicate": "相当于", "object": "发送比特0", "source_row": 3}
+{"subject": "所有站所发送的码片序列", "predicate": "必须是", "object": "同步的", "source_row": 4}
+{"subject": "实现码片序列同步", "predicate": "可通过", "object": "全球定位系统GPS", "source_row": 5}
+{"subject": "X站", "predicate": "要接收", "object": "S站发送的数据", "source_row": 6}
+{"subject": "X站", "predicate": "必须知道", "object": "S站所特有的码片序列", "source_row": 7}
+{"subject": "X站", "predicate": "使用", "object": "码片向量S与接收到的未知信号进行求内积的运算", "source_row": 8}
+{"subject": "X站接收到的信号", "predicate": "是", "object": "各个站发送的码片序列之和", "source_row": 9}
+{"subject": "内积的结果", "predicate": "是", "object": "所有其他站的信号都被过滤掉", "source_row": 10}
+{"subject": "S站发送比特1时", "predicate": "内积的结果是", "object": "+1", "source_row": 11}
+{"subject": "S站发送比特0时", "predicate": "内积的结果是", "object": "-1", "source_row": 12}
+{"subject": "早期电话网", "predicate": "采用", "object": "双绞线电缆和频分复用FDM的模拟传输方式", "source_row": 13}
+{"subject": "长途干线", "predicate": "采用", "object": "时分复用PCM的数字传输方式", "source_row": 14}
+{"subject": "现代电信网", "predicate": "包括", "object": "视频、图像和各种数据业务", "source_row": 15}
+{"subject": "光纤", "predicate": "成为", "object": "长途干线最主要的传输媒体", "source_row": 16}
+{"subject": "光纤", "predicate": "适用于承载", "object": "高速率数据业务和大量复用的低速率业务", "source_row": 17}
+{"subject": "早期的数字传输系统", "predicate": "存在", "object": "速率标准不统一和不是同步传输的问题", "source_row": 18}
+{"subject": "北美和日本的T1速率", "predicate": "是", "object": "1.544 Mbit/s", "source_row": 19}
+{"subject": "欧洲的E1速率", "predicate": "是", "object": "2.048 Mbit/s", "source_row": 20}
+{"subject": "同步光纤网络SONET", "predicate": "由美国在1988年推出", "object": "定义了同步传输的线路速率等级结构", "source_row": 21}
+{"subject": "SONET", "predicate": "以", "object": "51.840 Mbit/s为基础气", "source_row": 22}
+{"subject": "ITU-T", "predicate": "制定出", "object": "国际标准同步数字系列SDH", "source_row": 23}
+{"subject": "SDH", "predicate": "基于", "object": "美国标准SONET", "source_row": 24}
+{"subject": "SDH的基本速率", "predicate": "为", "object": "155.520 Mbit/s", "source_row": 25}
+{"subject": "SONET和SDH", "predicate": "成为", "object": "公认的新一代理想的传输网体制", "source_row": 26}
+{"subject": "宽带接入技术", "predicate": "包括", "object": "有线宽带接入和无线宽带接入", "source_row": 27}
+{"subject": "ADSL技术", "predicate": "是", "object": "非对称数字用户线技术", "source_row": 28}
+{"subject": "ADSL技术", "predicate": "用于", "object": "对现有模拟电话的用户线进行改造", "source_row": 29}
+{"subject": "ADSL技术", "predicate": "把", "object": "0~4 kHz低端频谱留给传统电话使用", "source_row": 30}
+{"subject": "ADSL技术", "predicate": "把", "object": "高端频谱留给用户上网使用", "source_row": 31}
+{"subject": "ADSL的ITU标准", "predicate": "是", "object": "G.992.1", "source_row": 32}

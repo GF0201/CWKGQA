@@ -1,0 +1,229 @@
+[
+      {
+        "head": "互联网",
+        "connect": "提供",
+        "tail": "服务器存储的电子文档"
+      },
+      {
+        "head": "互联网",
+        "connect": "使得",
+        "tail": "资源使用非常方便"
+      },
+      {
+        "head": "互联网",
+        "connect": "已成为",
+        "tail": "社会重要的基础设施之一"
+      },
+      {
+        "head": "互联网＋",
+        "connect": "代表",
+        "tail": "互联网与各传统行业的融合"
+      },
+      {
+        "head": "互联网＋",
+        "connect": "提升",
+        "tail": "实体经济的创新力和生产力"
+      },
+      {
+        "head": "互联网应用",
+        "connect": "对",
+        "tail": "各行各业产生巨大冲击"
+      },
+      {
+        "head": "互联网",
+        "connect": "带来",
+        "tail": "负面影响如计算机病毒传播"
+      },
+      {
+        "head": "互联网",
+        "connect": "需要",
+        "tail": "加强管理以减少负面影响"
+      },
+      {
+        "head": "互联网",
+        "connect": "已成为",
+        "tail": "世界上最大的计算机网络"
+      },
+      {
+        "head": "网络",
+        "connect": "由",
+        "tail": "若干节点和连接这些节点的链路组成"
+      },
+      {
+        "head": "互连网",
+        "connect": "是",
+        "tail": "网络的网络"
+      },
+      {
+        "head": "主机",
+        "connect": "常称为",
+        "tail": "与网络相连的计算机"
+      },
+      {
+        "head": "路由器",
+        "connect": "是",
+        "tail": "互联网不可缺少的特殊计算机"
+      },
+      {
+        "head": "ARPANET",
+        "connect": "是",
+        "tail": "美国国防创建的分组交换网"
+      },
+      {
+        "head": "TCP/IP协议",
+        "connect": "成为",
+        "tail": "ARPANET上的标准协议"
+      },
+      {
+        "head": "NSFNET",
+        "connect": "是",
+        "tail": "美国国家科学基金会建设的计算机网络"
+      },
+      {
+        "head": "NSFNET",
+        "connect": "具有",
+        "tail": "三级计算机网络结构"
+      },
+      {
+        "head": "互联网",
+        "connect": "由",
+        "tail": "众多网络相互连接而成"
+      },
+      {
+        "head": "ISP",
+        "connect": "是",
+        "tail": "互联网服务提供者"
+      },
+      {
+        "head": "ISP",
+        "connect": "分为",
+        "tail": "主干ISP、地区ISP和本地ISP"
+      },
+      {
+        "head": "IXP",
+        "connect": "允许",
+        "tail": "两个网络直接交换分组"
+      },
+      {
+        "head": "内容提供者",
+        "connect": "提供",
+        "tail": "互联网上的视频文件服务"
+      },
+      {
+        "head": "万维网WWW",
+        "connect": "被广泛使用在",
+        "tail": "互联网上"
+      },
+      {
+        "head": "IAB",
+        "connect": "负责",
+        "tail": "管理互联网有关协议的开发"
+      },
+      {
+        "head": "IETF",
+        "connect": "是",
+        "tail": "互联网工程部"
+      },
+      {
+        "head": "IRTF",
+        "connect": "是",
+        "tail": "互联网研究部"
+      },
+      {
+        "head": "RFC",
+        "connect": "是",
+        "tail": "请求评论文档"
+      },
+      {
+        "head": "RFC文档",
+        "connect": "可以",
+        "tail": "从互联网上免费下载"
+      },
+      {
+        "head": "互联网标准",
+        "connect": "经过",
+        "tail": "三个阶段的制定过程"
+      },
+      {
+        "head": "互联网草案",
+        "connect": "具有",
+        "tail": "六个月的有效期"
+      },
+      {
+        "head": "建议标准",
+        "connect": "成为",
+        "tail": "RFC文档"
+      },
+      {
+        "head": "互联网标准",
+        "connect": "分配",
+        "tail": "标准编号STDxx"
+      },
+      {
+        "head": "RFC文档",
+        "connect": "包括",
+        "tail": "历史的、实验的和提供信息的文档"
+      },
+      {
+        "head": "RFC INDEX",
+        "connect": "用于",
+        "tail": "查找RFC文档"
+      },
+      {
+        "head": "互联网",
+        "connect": "覆盖",
+        "tail": "全球"
+      },
+      {
+        "head": "互联网",
+        "connect": "划分为",
+        "tail": "边缘部分和核心部分"
+      },
+      {
+        "head": "边缘部分",
+        "connect": "由",
+        "tail": "所有连接在互联网上的主机组成"
+      },
+      {
+        "head": "核心部分",
+        "connect": "由",
+        "tail": "大量网络和连接这些网络的路由器组成"
+      },
+      {
+        "head": "智能手机",
+        "connect": "相当于",
+        "tail": "计算机网络上的主机"
+      },
+      {
+        "head": "互联网协会ISOC",
+        "connect": "负责",
+        "tail": "对互联网进行全面管理"
+      },
+      {
+        "head": "IETF",
+        "connect": "由",
+        "tail": "许多工作组WG组成"
+      },
+      {
+        "head": "IRTF",
+        "connect": "由",
+        "tail": "一些研究组RG组成"
+      },
+      {
+        "head": "RFC文档",
+        "connect": "更新后",
+        "tail": "使用新的编号"
+      },
+      {
+        "head": "互联网用户数",
+        "connect": "在",
+        "tail": "2019年3月超过43.8亿"
+      },
+      {
+        "head": "互联网",
+        "connect": "迅猛发展始于",
+        "tail": "20世纪90年代"
+      }
+    ]
+
+  

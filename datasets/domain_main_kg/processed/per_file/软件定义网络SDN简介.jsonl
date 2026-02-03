@@ -1,0 +1,35 @@
+{"subject": "段路由选择协议", "predicate": "简称为", "object": "SR", "source_row": 0}
+{"subject": "SR", "predicate": "基于", "object": "标签交换", "source_row": 1}
+{"subject": "SR", "predicate": "不需要使用", "object": "协议LDP", "source_row": 2}
+{"subject": "SR", "predicate": "由", "object": "源节点指定路径", "source_row": 3}
+{"subject": "SDN控制器", "predicate": "收集并掌握", "object": "全网的拓扑信息和链路状态信息", "source_row": 4}
+{"subject": "SDN控制器", "predicate": "负责", "object": "给分组分配SR标签", "source_row": 5}
+{"subject": "SRv6", "predicate": "是", "object": "SR向IPv6演进的版本", "source_row": 6}
+{"subject": "SRv6", "predicate": "利用", "object": "IPv6字段作为标签寻址", "source_row": 7}
+{"subject": "SR-MPLS", "predicate": "基于", "object": "MPLS", "source_row": 8}
+{"subject": "SDN", "predicate": "由", "object": "斯坦福大学N. McKeown于2009年首先提出", "source_row": 9}
+{"subject": "SDN", "predicate": "是一种", "object": "设计、构建和管理网络的新方法或新概念", "source_row": 10}
+{"subject": "SDN", "predicate": "把", "object": "网络的控制层面和数据层面分离", "source_row": 11}
+{"subject": "Ope nFlow", "predicate": "是", "object": "控制层面和数据层面之间的通信接口", "source_row": 12}
+{"subject": "Ope nFlow", "predicate": "使得", "object": "控制层面的控制器可以对数据层面中的物理设备或虚拟设备进行直接访问和操纵", "source_row": 13}
+{"subject": "Ope nFlow", "predicate": "由", "object": "开放网络基金会ONF负责制定", "source_row": 14}
+{"subject": "Ope nFlow", "predicate": "使得", "object": "匹配＋动作的转发方式在SDN中得到了扩充", "source_row": 15}
+{"subject": "SDN", "predicate": "广义转发中", "object": "匹配能够对不同层次的首部中的字段进行匹配", "source_row": 16}
+{"subject": "SDN", "predicate": "广义转发中", "object": "动作不仅是转发分组，而且可以把具有同样目的地址的分组从不同的接口转发出去", "source_row": 17}
+{"subject": "SDN", "predicate": "广义转发中", "object": "动作可以重写IP首部", "source_row": 18}
+{"subject": "SDN", "predicate": "广义转发中", "object": "动作可以人为地阻挡或丢弃一些分组", "source_row": 19}
+{"subject": "SDN", "predicate": "取代", "object": "传统转发表的是流表", "source_row": 20}
+{"subject": "流表", "predicate": "是", "object": "匹配＋动作的转发表", "source_row": 21}
+{"subject": "OpenFlow交换机", "predicate": "由", "object": "远程控制器管理", "source_row": 22}
+{"subject": "OpenFlow协议", "predicate": "用于", "object": "远程控制器通过安全信道管理OpenFlow交换机中的流表", "source_row": 23}
+{"subject": "OpenFlow", "predicate": "是", "object": "SDN远程控制器与网络设备之间的通信协议", "source_row": 24}
+{"subject": "OpenFlow", "predicate": "是", "object": "网络交换功能的逻辑结构的规约", "source_row": 25}
+{"subject": "流", "predicate": "定义为", "object": "穿过网络的一种分组序列", "source_row": 26}
+{"subject": "流", "predicate": "在序列中", "object": "分组共享分组首部某些字段的值", "source_row": 27}
+{"subject": "流表项", "predicate": "包括", "object": "首部字段值、计数器和动作", "source_row": 28}
+{"subject": "计数器", "predicate": "包括", "object": "已经与该表项匹配的分组数量", "source_row": 29}
+{"subject": "计数器", "predicate": "包括", "object": "从该表项上次更新到现在经历的时间", "source_row": 30}
+{"subject": "动作", "predicate": "例如", "object": "当分组匹配某个流表项时把分组转发到指明的端口", "source_row": 31}
+{"subject": "动作", "predicate": "例如", "object": "丢弃该分组", "source_row": 32}
+{"subject": "动作", "predicate": "例如", "object": "把分组进行复制后再从多个端口转发出去", "source_row": 33}
+{"subject": "动作", "predicate": "例如", "object": "重写分组的首部字段", "source_row": 34}

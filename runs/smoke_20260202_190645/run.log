@@ -1,0 +1,8 @@
+Smoke test started
+Run dir: C:\Users\顾北上\KGELLM\kgqa_framework\runs\smoke_20260202_190645
+Processed 5 dummy samples
+Saved metrics.json
+Validated metrics.json
+Saved repro_manifest.json
+Inputs hashed: 2; first_keys=['configs/default.yaml', 'requirements.txt']
+Smoke test completed

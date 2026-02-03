@@ -1,0 +1,6 @@
+argv: scripts/gen_kg_sample_audit.py --input datasets/domain_main_kg/processed/merged/triples.tsv --n 200 --seed 42 --output-id kg_domain_main_merged_audit1
+KG sample audit run_id=kg_domain_main_merged_audit1
+Loaded 3078 triples, sampling N=200 with seed=42
+Wrote audit CSV with 200 rows to C:\Users\顾北上\KGELLM\kgqa_framework\runs\kg_domain_main_merged_audit1\artifacts\kg_sample_audit.csv
+Wrote summary JSON to C:\Users\顾北上\KGELLM\kgqa_framework\runs\kg_domain_main_merged_audit1\artifacts\kg_sample_audit_summary.json
+KG sample audit completed

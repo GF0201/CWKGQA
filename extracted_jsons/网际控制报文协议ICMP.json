@@ -1,0 +1,248 @@
+[
+      {
+        "head": "网际控制报文协议ICMP",
+        "connect": "用于",
+        "tail": "更有效地转发IP数据报和提高交付成功的机会"
+      },
+      {
+        "head": "ICMP",
+        "connect": "允许",
+        "tail": "主机或路由器报告差错情况和提供有关异常情况的报告"
+      },
+      {
+        "head": "ICMP",
+        "connect": "是",
+        "tail": "互联网的标准协议"
+      },
+      {
+        "head": "ICMP",
+        "connect": "不是",
+        "tail": "高层协议"
+      },
+      {
+        "head": "ICMP",
+        "connect": "是",
+        "tail": "IP层的协议"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "作为",
+        "tail": "IP层数据报的数据"
+      },
+      {
+        "head": "ICMP报文格式",
+        "connect": "包括",
+        "tail": "类型、代码和检验和"
+      },
+      {
+        "head": "ICMP",
+        "connect": "分为",
+        "tail": "ICMP差错报告报文和ICMP询问报文"
+      },
+      {
+        "head": "ICMP差错报告报文",
+        "connect": "包括",
+        "tail": "终点不可达、时间超过、参数问题和改变路由"
+      },
+      {
+        "head": "ICMP询问报文",
+        "connect": "包括",
+        "tail": "回送请求或回送回答和时间戳请求或时间戳回答"
+      },
+      {
+        "head": "ICMP报文的代码字段",
+        "connect": "用于",
+        "tail": "进一步区分某种类型中的几种不同情况"
+      },
+      {
+        "head": "检验和字段",
+        "connect": "用来",
+        "tail": "检验整个ICMP报文"
+      },
+      {
+        "head": "终点不可达",
+        "connect": "是",
+        "tail": "当路由器或主机不能交付数据报时发送的报文"
+      },
+      {
+        "head": "时间超过",
+        "connect": "是",
+        "tail": "当路由器收到生存时间为零的数据报时发送的报文"
+      },
+      {
+        "head": "参数问题",
+        "connect": "是",
+        "tail": "当路由器或目的主机收到的数据报的首部中有的字段的值不正确时发送的报文"
+      },
+      {
+        "head": "改变路由",
+        "connect": "是",
+        "tail": "路由器把改变路由报文发送给主机的报文"
+      },
+      {
+        "head": "ICMP差错报告报文",
+        "connect": "包含",
+        "tail": "收到的需要进行差错报告的IP数据报的首部和数据字段的前8个字节"
+      },
+      {
+        "head": "回送请求或回送回答",
+        "connect": "用于",
+        "tail": "测试目的站是否可达以及了解其有关状态"
+      },
+      {
+        "head": "时间戳请求或时间戳回答",
+        "connect": "用于",
+        "tail": "计算当前网络的往返时延"
+      },
+      {
+        "head": "分组网间探测PING",
+        "connect": "使用",
+        "tail": "ICMP回送请求与回送回答报文"
+      },
+      {
+        "head": "PING",
+        "connect": "是",
+        "tail": "应用层直接使用网络层ICMP的一个例子"
+      },
+      {
+        "head": "traceroute",
+        "connect": "用于",
+        "tail": "跟踪一个分组从源点到终点的路径"
+      },
+      {
+        "head": "traceroute",
+        "connect": "在",
+        "tail": "Windows操作系统中称为tracert"
+      },
+      {
+        "head": "traceroute",
+        "connect": "发送",
+        "tail": "一连串的IP数据报"
+      },
+      {
+        "head": "IP数据报",
+        "connect": "封装",
+        "tail": "无法交付的UDP用户数据报"
+      },
+      {
+        "head": "ICMP时间超过差错报告报文",
+        "connect": "由",
+        "tail": "路由器发送给源主机"
+      },
+      {
+        "head": "ICMP终点不可达差错报告报文",
+        "connect": "由",
+        "tail": "目的主机发送给源主机"
+      },
+      {
+        "head": "IP",
+        "connect": "是",
+        "tail": "互联网的核心协议"
+      },
+      {
+        "head": "IP地址耗尽",
+        "connect": "导致",
+        "tail": "IANA停止向地区互联网注册机构RIR分配IPv4地址"
+      },
+      {
+        "head": "解决IP地址耗尽",
+        "connect": "需要",
+        "tail": "采用具有更大地址空间的新版本的IP，即IPv6"
+      },
+      {
+        "head": "IPv6",
+        "connect": "发布",
+        "tail": "2017年7月"
+      },
+      {
+        "head": "IPv6",
+        "connect": "是",
+        "tail": "IP的新版本"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "不包括",
+        "tail": "对ICMP差错报告报文的ICMP差错报告报文"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "不包括",
+        "tail": "对第一个分片的数据报片的所有后续数据报片的ICMP差错报告报文"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "不包括",
+        "tail": "对具有多播地址的数据报的ICMP差错报告报文"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "不包括",
+        "tail": "对具有特殊地址的数据报的ICMP差错报告报文"
+      },
+      {
+        "head": "ICMP",
+        "connect": "允许",
+        "tail": "主机或路由器报告差错情况"
+      },
+      {
+        "head": "ICMP",
+        "connect": "允许",
+        "tail": "主机或路由器提供有关异常情况的报告"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "作为",
+        "tail": "IP数据报的数据部分发送"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "具有",
+        "tail": "统一的格式"
+      },
+      {
+        "head": "ICMP报文",
+        "connect": "包括",
+        "tail": "数据字段"
+      },
+      {
+        "head": "ICMP差错报告报文",
+        "connect": "共有",
+        "tail": "四种类型"
+      },
+      {
+        "head": "ICMP询问报文",
+        "connect": "包括",
+        "tail": "回送请求或回送回答"
+      },
+      {
+        "head": "ICMP询问报文",
+        "connect": "包括",
+        "tail": "时间戳请求或时间戳回答"
+      },
+      {
+        "head": "ICMP标准",
+        "connect": "在",
+        "tail": "不断更新"
+      },
+      {
+        "head": "ICMP",
+        "connect": "不再使用",
+        "tail": "信息请求与回答报文"
+      },
+      {
+        "head": "ICMP",
+        "connect": "不再使用",
+        "tail": "地址掩码请求与回答报文"
+      },
+      {
+        "head": "ICMP",
+        "connect": "不再使用",
+        "tail": "路由器请求与通告报文"
+      },
+      {
+        "head": "ICMP",
+        "connect": "不再使用",
+        "tail": "源点抑制报文"
+      }
+    ]
+  

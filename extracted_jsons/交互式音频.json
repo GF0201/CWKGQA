@@ -1,0 +1,390 @@
+[
+      {
+        "head": "音频/视频文件",
+        "connect": "使用协议下载",
+        "tail": "RTP"
+      },
+      {
+        "head": "媒体播放器",
+        "connect": "可以",
+        "tail": "暂停和继续播放"
+      },
+      {
+        "head": "RTSP客户端",
+        "connect": "可以发送",
+        "tail": "TEARDOWN报文断开连接"
+      },
+      {
+        "head": "媒体服务器的RTSP服务器",
+        "connect": "发送",
+        "tail": "RESPONSE报文"
+      },
+      {
+        "head": "IP电话",
+        "connect": "是",
+        "tail": "在互联网上传送多媒体信息的一个例子"
+      },
+      {
+        "head": "IP电话",
+        "connect": "有",
+        "tail": "狭义和广义两种解释"
+      },
+      {
+        "head": "IP电话网关",
+        "connect": "是",
+        "tail": "公用电话网与IP网络的接口设备"
+      },
+      {
+        "head": "IP电话网关",
+        "connect": "进行",
+        "tail": "电话信令的转换"
+      },
+      {
+        "head": "IP电话网关",
+        "connect": "进行",
+        "tail": "话音编码的转换"
+      },
+      {
+        "head": "IP电话",
+        "connect": "受",
+        "tail": "端到端的时延和时延抖动影响"
+      },
+      {
+        "head": "IP电话",
+        "connect": "受",
+        "tail": "话音分组的丢失率影响"
+      },
+      {
+        "head": "IP电话",
+        "connect": "需要",
+        "tail": "统一的国际标准的话音编码"
+      },
+      {
+        "head": "ITU-T",
+        "connect": "制定",
+        "tail": "G.729和G.723.1标准"
+      },
+      {
+        "head": "G.729",
+        "connect": "是",
+        "tail": "8 kbit/s的共辅结构代数码激励线性预测声码器"
+      },
+      {
+        "head": "G.723.1",
+        "connect": "是",
+        "tail": "5.3/6.3 kbit/s的线性预测编码声码器"
+      },
+      {
+        "head": "Skype",
+        "connect": "使用",
+        "tail": "iLBC互联网低比特率编解码器"
+      },
+      {
+        "head": "Skype",
+        "connect": "支持",
+        "tail": "两种帧长"
+      },
+      {
+        "head": "Skype",
+        "connect": "采用",
+        "tail": "P2P技术和全球索引技术"
+      },
+      {
+        "head": "Skype",
+        "connect": "采用",
+        "tail": "端对端的加密方式"
+      },
+      {
+        "head": "Skype",
+        "connect": "对",
+        "tail": "公共目录中存储的数据采用数字签名"
+      },
+      {
+        "head": "RTP",
+        "connect": "提供",
+        "tail": "端到端的运输但不保证服务质量"
+      },
+      {
+        "head": "RTP分组",
+        "connect": "包含",
+        "tail": "RTP数据和控制信息"
+      },
+      {
+        "head": "RTCP",
+        "connect": "提供",
+        "tail": "服务质量的监视与反馈"
+      },
+      {
+        "head": "RTCP",
+        "connect": "提供",
+        "tail": "媒体间的同步"
+      },
+      {
+        "head": "RTCP",
+        "connect": "提供",
+        "tail": "多播组成员的标志"
+      },
+      {
+        "head": "H.323",
+        "connect": "是",
+        "tail": "ITU-T制定的在局域网上传送话音信息的建议书"
+      },
+      {
+        "head": "H.323",
+        "connect": "包括",
+        "tail": "系统和构件的描述、呼叫模型的描述、呼叫信令过程等"
+      },
+      {
+        "head": "H.323终端",
+        "connect": "可以是",
+        "tail": "PC或运行H.323程序的单个设备"
+      },
+      {
+        "head": "H.323网关",
+        "connect": "连接",
+        "tail": "两种不同的网络"
+      },
+      {
+        "head": "H.323网闸",
+        "connect": "提供",
+        "tail": "地址转换、授权、带宽管理和计费功能"
+      },
+      {
+        "head": "H.323 MCU",
+        "connect": "支持",
+        "tail": "三个或更多的H.323终端的音频或视频会议"
+      },
+      {
+        "head": "SIP",
+        "connect": "是",
+        "tail": "会话发起协议"
+      },
+      {
+        "head": "SIP",
+        "connect": "使用",
+        "tail": "文本方式的客户－服务器协议"
+      },
+      {
+        "head": "SIP系统",
+        "connect": "包括",
+        "tail": "用户代理和网络服务器"
+      },
+      {
+        "head": "SIP用户代理",
+        "connect": "包括",
+        "tail": "用户代理客户和用户代理服务器"
+      },
+      {
+        "head": "SIP网络服务器",
+        "connect": "分为",
+        "tail": "代理服务器和重定向服务器"
+      },
+      {
+        "head": "SIP",
+        "connect": "使用",
+        "tail": "灵活的地址格式"
+      },
+      {
+        "head": "SIP",
+        "connect": "基于",
+        "tail": "报文的协议"
+      },
+      {
+        "head": "SIP会话",
+        "connect": "包括",
+        "tail": "建立会话、通信和终止会话三个阶段"
+      },
+      {
+        "head": "SIP",
+        "connect": "使用",
+        "tail": "跟踪用户机制"
+      },
+      {
+        "head": "SIP",
+        "connect": "定义",
+        "tail": "登记器"
+      },
+      {
+        "head": "SDP",
+        "connect": "是",
+        "tail": "会话描述协议"
+      },
+      {
+        "head": "服务质量QoS",
+        "connect": "是",
+        "tail": "服务性能的总效果"
+      },
+      {
+        "head": "服务质量QoS",
+        "connect": "决定",
+        "tail": "用户对服务的满意程度"
+      },
+      {
+        "head": "服务质量QoS",
+        "connect": "可用",
+        "tail": "基本性能指标描述"
+      },
+      {
+        "head": "互联网",
+        "connect": "提供",
+        "tail": "尽最大努力交付的服务"
+      },
+      {
+        "head": "互联网",
+        "connect": "需要",
+        "tail": "一定的服务质量以传送多媒体信息"
+      },
+      {
+        "head": "Skype",
+        "connect": "占据",
+        "tail": "国际长途电话市场份额的40%"
+      },
+      {
+        "head": "Skype",
+        "connect": "推出时间",
+        "tail": "2003年8月"
+      },
+      {
+        "head": "Skype",
+        "connect": "用户增长速度",
+        "tail": "每天超过15万用户"
+      },
+      {
+        "head": "RTP",
+        "connect": "封装",
+        "tail": "多媒体数据块"
+      },
+      {
+        "head": "RTCP",
+        "connect": "提供",
+        "tail": "服务质量监视与反馈"
+      },
+      {
+        "head": "RTCP",
+        "connect": "提供",
+        "tail": "媒体间的同步"
+      },
+      {
+        "head": "H.323",
+        "connect": "包括",
+        "tail": "音频编解码器、视频编解码器、呼叫信令等"
+      },
+      {
+        "head": "H.323",
+        "connect": "支持",
+        "tail": "点对点或一点对多点的多媒体通信"
+      },
+      {
+        "head": "SIP",
+        "connect": "使用",      "tail": "KISS原则"
+    },
+    {
+      "head": "SIP",
+      "connect": "以",
+      "tail": "互联网为基础"
+    },
+    {
+      "head": "SIP",
+      "connect": "视为",
+      "tail": "IP电话为互联网上的新应用"
+    },
+    {
+      "head": "SIP",
+      "connect": "涉及",
+      "tail": "信令和服务质量问题"
+    },
+    {
+      "head": "SIP",
+      "connect": "不强制使用",
+      "tail": "特定的编解码器"
+    },
+    {
+      "head": "SIP",
+      "connect": "不强制使用",
+      "tail": "RTP协议"
+    },
+    {
+      "head": "SIP",
+      "connect": "使用",
+      "tail": "文本方式的客户-服务器协议"
+    },
+    {
+      "head": "SIP",
+      "connect": "具有",
+      "tail": "更好的可扩缩性"
+    },
+    {
+      "head": "SIP",
+      "connect": "定义",
+      "tail": "用户代理和网络服务器"
+    },
+    {
+      "head": "SIP",
+      "connect": "包含",
+      "tail": "用户代理客户和用户代理服务器"
+    },
+    {
+      "head": "SIP",
+      "connect": "包含",
+      "tail": "代理服务器和重定向服务器"
+    },
+    {
+      "head": "SIP",
+      "connect": "使用",
+      "tail": "灵活的地址格式"
+    },
+    {
+      "head": "SIP",
+      "connect": "基于",
+      "tail": "报文的协议"
+    },
+    {
+      "head": "SIP会话",
+      "connect": "包括",
+      "tail": "建立会话、通信和终止会话三个阶段"
+    },
+    {
+      "head": "SIP",
+      "connect": "使用",
+      "tail": "跟踪用户机制"
+    },
+    {
+      "head": "SIP",
+      "connect": "定义",
+      "tail": "登记器"
+    },
+    {
+      "head": "SDP",
+      "connect": "是",
+      "tail": "会话描述协议"
+    },
+    {
+      "head": "服务质量QoS",
+      "connect": "是",
+      "tail": "服务性能的总效果"
+    },
+    {
+      "head": "服务质量QoS",
+      "connect": "决定",
+      "tail": "用户对服务的满意程度"
+    },
+    {
+      "head": "服务质量QoS",
+      "connect": "可用",
+      "tail": "基本性能指标描述"
+    },
+    {
+      "head": "互联网",
+      "connect": "提供",
+      "tail": "尽最大努力交付的服务"
+    },
+    {
+      "head": "互联网",
+      "connect": "需要",
+      "tail": "一定的服务质量以传送多媒体信息"
+    }
+  ]
+
+
+  
+  

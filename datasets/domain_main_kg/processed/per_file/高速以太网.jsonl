@@ -1,0 +1,43 @@
+{"subject": "VLAN", "predicate": "解决", "object": "不同VLAN间的通信问题", "source_row": 0}
+{"subject": "交换机", "predicate": "嵌入", "object": "转发模块", "source_row": 1}
+{"subject": "转发模块", "predicate": "用于", "object": "不同VLAN间转发帧", "source_row": 2}
+{"subject": "第3层交换", "predicate": "实现", "object": "第3层的转发功能", "source_row": 3}
+{"subject": "L3/L2交换机", "predicate": "称为", "object": "第3层交换机", "source_row": 4}
+{"subject": "100BASE-T以太网", "predicate": "也称为", "object": "快速以太网", "source_row": 5}
+{"subject": "快速以太网", "predicate": "使用", "object": "IEEE 802.3的CSMA/CD协议", "source_row": 6}
+{"subject": "100BASE-T以太网", "predicate": "允许", "object": "直接升级到100 Mbit/s", "source_row": 7}
+{"subject": "100BASE-T适配器", "predicate": "能够", "object": "自动识别10 Mbit/s和100 Mbit/s", "source_row": 8}
+{"subject": "100BASE-T以太网", "predicate": "在", "object": "全双工方式下工作而无冲突发生", "source_row": 9}
+{"subject": "吉比特以太网", "predicate": "允许", "object": "在1 Gbit/s下全双工和半双工两种方式工作", "source_row": 10}
+{"subject": "吉比特以太网", "predicate": "使用", "object": "IEEE 802.3协议规定的帧格式", "source_row": 11}
+{"subject": "吉比特以太网", "predicate": "与", "object": "10BASE-T和100BASE-T技术向后兼容", "source_row": 12}
+{"subject": "10GbE", "predicate": "称为", "object": "万兆比特", "source_row": 13}
+{"subject": "10GbE", "predicate": "保留", "object": "802.3标准规定的以太网最小帧长和最大帧长", "source_row": 14}
+{"subject": "10GbE", "predicate": "只工作在", "object": "全双工方式", "source_row": 15}
+{"subject": "10GbE", "predicate": "不使用", "object": "CSMA/CD协议", "source_row": 16}
+{"subject": "40GbE/100GbE", "predicate": "制定", "object": "IEEE 802.3ba-2010和802.3bm-2015标准", "source_row": 17}
+{"subject": "以太网", "predicate": "可以", "object": "提供双向的宽带通信", "source_row": 18}
+{"subject": "以太网", "predicate": "可以", "object": "根据用户对带宽的需求灵活地进行带宽升级", "source_row": 19}
+{"subject": "PPPoE", "predicate": "是", "object": "在以太网上运行PPP", "source_row": 20}
+{"subject": "PPPoE", "predicate": "用于", "object": "宽带上网的主机使用的链路层协议", "source_row": 21}
+{"subject": "以太网", "predicate": "实现", "object": "端到端的以太网传输", "source_row": 22}
+{"subject": "以太网", "predicate": "适应", "object": "多种传输媒体", "source_row": 23}
+{"subject": "以太网", "predicate": "简化", "object": "操作和管理", "source_row": 24}
+{"subject": "以太网", "predicate": "从", "object": "10 Mbit/s发展到400 Gbit/s", "source_row": 25}
+{"subject": "以太网", "predicate": "证明是", "object": "可扩展的、灵活的、易于安装的、稳健性好的", "source_row": 26}
+{"subject": "链路", "predicate": "是", "object": "从一个节点到相邻节点的一段物理线路", "source_row": 27}
+{"subject": "数据链路层", "predicate": "传送的协议数据单元是", "object": "帧", "source_row": 28}
+{"subject": "数据链路层", "predicate": "使用的检错方法是", "object": "循环冗余检验CRC", "source_row": 29}
+{"subject": "点对点协议PPP", "predicate": "是", "object": "数据链路层使用最多的一种协议", "source_row": 30}
+{"subject": "局域网", "predicate": "具有", "object": "广播功能", "source_row": 31}
+{"subject": "以太网", "predicate": "采用", "object": "无连接的工作方式", "source_row": 32}
+{"subject": "以太网", "predicate": "采用", "object": "具有冲突检测的载波监听多点接入CSMA/CD", "source_row": 33}
+{"subject": "以太网交换机", "predicate": "工作在", "object": "数据链路层", "source_row": 34}
+{"subject": "以太网适配器", "predicate": "具有", "object": "过滤功能", "source_row": 35}
+{"subject": "以太网", "predicate": "使用", "object": "MAC地址", "source_row": 36}
+{"subject": "集线器", "predicate": "工作在", "object": "物理层", "source_row": 37}
+{"subject": "交换式集线器", "predicate": "常称为", "object": "以太网交换机或第二层交换机", "source_row": 38}
+{"subject": "10GbE", "predicate": "使用", "object": "波分复用技术", "source_row": 39}
+{"subject": "IEEE 802.3bs标准", "predicate": "包括", "object": "200 GbE和400 GbE两种速率", "source_row": 40}
+{"subject": "以太网", "predicate": "扩大到", "object": "城域网和广域网", "source_row": 41}
+{"subject": "以太网", "predicate": "价格大约只有", "object": "同步光纤网SONET的五分之一", "source_row": 43}

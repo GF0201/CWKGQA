@@ -1,0 +1,3 @@
+# KGQA Framework - minimal deps for smoke and adapter
+# For full LC-QuAD2 pipeline, use OLD_DIR (kgqa-thesis) environment
+pyyaml>=6.0

@@ -1,0 +1,8 @@
+LC-QuAD2 dev run started
+Data: ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+Limit: 5
+Using minimal mock (old_dir exists=True, mock=True)
+Loaded 5 samples from ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+Saved metrics.json
+Saved repro_manifest.json
+Run completed

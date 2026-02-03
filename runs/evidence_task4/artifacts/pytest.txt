@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform win32 -- Python 3.13.9, pytest-8.3.4, pluggy-1.6.0
+rootdir: C:\Users\顾北上\KGELLM\kgqa_framework
+collected 4 items
+
+tests/test_stats.py ....                                                 [100%]
+
+============================== 4 passed in 2.04s ===============================

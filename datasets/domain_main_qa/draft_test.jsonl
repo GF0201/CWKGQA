@@ -1,0 +1,20 @@
+{"id": "draft_0", "question": "低轨道卫星 的 相对地球是 是什么？", "gold_answers": ["非静止的，而是不停地围绕地球旋转"], "evidence_triple": ["低轨道卫星", "相对地球是", "非静止的，而是不停地围绕地球旋转"]}
+{"id": "draft_1", "question": "局域网 的 特点包括 是什么？", "gold_answers": ["地理范围和站点数目有限"], "evidence_triple": ["局域网", "特点包括", "地理范围和站点数目有限"]}
+{"id": "draft_2", "question": "本地站点单播地址 的 占IPv6地址总数的 是什么？", "gold_answers": ["1/1024"], "evidence_triple": ["本地站点单播地址", "占IPv6地址总数的", "1/1024"]}
+{"id": "draft_3", "question": "确认迟到 的 导致 是什么？", "gold_answers": ["发送方收到重复的确认"], "evidence_triple": ["确认迟到", "导致", "发送方收到重复的确认"]}
+{"id": "draft_4", "question": "TCP 的 是 是什么？", "gold_answers": ["面向连接的协议"], "evidence_triple": ["TCP", "是", "面向连接的协议"]}
+{"id": "draft_5", "question": "分组交换 的 需要 是什么？", "gold_answers": ["专门的管理和控制机制"], "evidence_triple": ["分组交换", "需要", "专门的管理和控制机制"]}
+{"id": "draft_6", "question": "吞吐量 的 表示 是什么？", "gold_answers": ["单位时间内通过某个网络的实际数据量"], "evidence_triple": ["吞吐量", "表示", "单位时间内通过某个网络的实际数据量"]}
+{"id": "draft_7", "question": "顶级域名服务器 的 告诉 是什么？", "gold_answers": ["本地域名服务器下一步应当向哪一个权限域名服务器进行查询"], "evidence_triple": ["顶级域名服务器", "告诉", "本地域名服务器下一步应当向哪一个权限域名服务器进行查询"]}
+{"id": "draft_8", "question": "SDN 的 使得 是什么？", "gold_answers": ["网络管理更加高效"], "evidence_triple": ["SDN", "使得", "网络管理更加高效"]}
+{"id": "draft_9", "question": "SIP 的 是 是什么？", "gold_answers": ["会话发起协议"], "evidence_triple": ["SIP", "是", "会话发起协议"]}
+{"id": "draft_10", "question": "循环冗余检验CRC 的 是一种 是什么？", "gold_answers": ["广泛使用的检错技术"], "evidence_triple": ["循环冗余检验CRC", "是一种", "广泛使用的检错技术"]}
+{"id": "draft_11", "question": "虚拟专用网VPN 的 使得 是什么？", "gold_answers": ["机构内部的通信更加安全"], "evidence_triple": ["虚拟专用网VPN", "使得", "机构内部的通信更加安全"]}
+{"id": "draft_12", "question": "分组交换 的 适合 是什么？", "gold_answers": ["计算机数据通信"], "evidence_triple": ["分组交换", "适合", "计算机数据通信"]}
+{"id": "draft_13", "question": "发送窗口 的 受到 是什么？", "gold_answers": ["网络拥塞程度的制约"], "evidence_triple": ["发送窗口", "受到", "网络拥塞程度的制约"]}
+{"id": "draft_14", "question": "多级结构的集线器以太网 的 导致 是什么？", "gold_answers": ["最大吞吐量降低"], "evidence_triple": ["多级结构的集线器以太网", "导致", "最大吞吐量降低"]}
+{"id": "draft_15", "question": "IEEE 802.3标准 的 规定 是什么？", "gold_answers": ["无效的MAC帧的三种情况"], "evidence_triple": ["IEEE 802.3标准", "规定", "无效的MAC帧的三种情况"]}
+{"id": "draft_16", "question": "爱特信公司 的 创立者 是什么？", "gold_answers": ["张朝阳"], "evidence_triple": ["爱特信公司", "创立者", "张朝阳"]}
+{"id": "draft_17", "question": "物联网IoT 的 主要应用领域是 是什么？", "gold_answers": ["组成各种无线传感器网络"], "evidence_triple": ["物联网IoT", "主要应用领域是", "组成各种无线传感器网络"]}
+{"id": "draft_18", "question": "IPv6 的 取消了 是什么？", "gold_answers": ["检验和字段"], "evidence_triple": ["IPv6", "取消了", "检验和字段"]}
+{"id": "draft_19", "question": "混杂方式 的 允许适配器接收 是什么？", "gold_answers": ["所有在以太网上传输的帧"], "evidence_triple": ["混杂方式", "允许适配器接收", "所有在以太网上传输的帧"]}

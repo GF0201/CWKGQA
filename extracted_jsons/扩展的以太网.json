@@ -1,0 +1,410 @@
+[
+      {
+        "head": "前同步码",
+        "connect": "使",
+        "tail": "接收端的适配器在接收MAC帧时能够迅速调整其时钟频率"
+      },
+      {
+        "head": "前同步码",
+        "connect": "实现",
+        "tail": "位同步"
+      },
+      {
+        "head": "帧开始定界符",
+        "connect": "定义为",
+        "tail": "10 10 10 11"
+      },
+      {
+        "head": "帧开始定界符的前六位",
+        "connect": "作用与",
+        "tail": "前同步码一样"
+      },
+      {
+        "head": "连续的两个1",
+        "connect": "告诉接收端适配器",
+        "tail": "MAC帧的信息马上就要来了"
+      },
+      {
+        "head": "FCS字段的检验范围",
+        "connect": "不包括",
+        "tail": "前同步码和帧开始定界符"
+      },
+      {
+        "head": "以太网",
+        "connect": "传送数据时以",
+        "tail": "帧为单位"
+      },
+      {
+        "head": "以太网",
+        "connect": "在传送帧时",
+        "tail": "各帧之间还必须有一定的间隙"
+      },
+      {
+        "head": "IEEE 802.3标准",
+        "connect": "规定",
+        "tail": "无效的MAC帧的三种情况"
+      },
+      {
+        "head": "有效的MAC帧长度",
+        "connect": "为",
+        "tail": "64 ~ 1518字节之间"
+      },
+      {
+        "head": "检查出的无效MAC帧",
+        "connect": "被",
+        "tail": "简单地丢弃"
+      },
+      {
+        "head": "以太网",
+        "connect": "不负责",
+        "tail": "重传丢弃的帧"
+      },
+      {
+        "head": "IEEE 802.3标准",
+        "connect": "规定",
+        "tail": "MAC帧的第三个字段是'长度/类型'"
+      },
+      {
+        "head": "长度字段",
+        "connect": "表示",
+        "tail": "MAC帧的数据部分长度"
+      },
+      {
+        "head": "类型字段",
+        "connect": "表示",
+        "tail": "帧格式"
+      },
+      {
+        "head": "LLC帧",
+        "connect": "必须装入",
+        "tail": "逻辑链路控制子层"
+      },
+      {
+        "head": "以太网V2 MAC帧",
+        "connect": "与",
+        "tail": "IEEE 802.3标准的MAC帧格式的区别"
+      },
+      {
+        "head": "扩展的以太网",
+        "connect": "在物理层和数据链路层",
+        "tail": "进行扩展"
+      },
+      {
+        "head": "以太网集线器",
+        "connect": "通过",
+        "tail": "光纤和光纤调制解调器连接主机"
+      },
+      {
+        "head": "光纤调制解调器",
+        "connect": "进行",
+        "tail": "电信号和光信号的转换"
+      },
+      {
+        "head": "多个集线器",
+        "connect": "连接成",
+        "tail": "更大范围的多级星形结构的以太网"
+      },
+      {
+        "head": "多级结构的集线器以太网",
+        "connect": "带来",
+        "tail": "跨系的通信和扩大以太网覆盖的地理范围"
+      },
+      {
+        "head": "多级结构的集线器以太网",
+        "connect": "导致",
+        "tail": "最大吞吐量降低"
+      },
+      {
+        "head": "集线器",
+        "connect": "是",
+        "tail": "多端口的转发器"
+      },
+      {
+        "head": "网桥",
+        "connect": "根据",
+        "tail": "MAC帧的目的地址进行转发和过滤"
+      },
+      {
+        "head": "交换式集线器",
+        "connect": "称为",
+        "tail": "以太网交换机或第二层交换机"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "实质上是",
+        "tail": "多端口的网桥"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "具有",
+        "tail": "并行性和存储器"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "是",
+        "tail": "即插即用设备"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "使用",
+        "tail": "专用的交换结构芯片"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "性能超过",
+        "tail": "普通的集线器"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "具有",
+        "tail": "多种速率的端口"
+      },
+      {
+        "head": "直通交换",
+        "connect": "提高",
+        "tail": "帧的转发速度"
+      },
+      {
+        "head": "直通交换",
+        "connect": "不检查",
+        "tail": "差错就直接将帧转发出去"
+      },
+      {
+        "head": "以太网交换机的学习功能",
+        "connect": "通过",
+        "tail": "自学习算法自动建立交换表"
+      },
+      {
+        "head": "交换表",
+        "connect": "是",
+        "tail": "内容可寻址存储器CAM"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "使用",
+        "tail": "硬件转发收到的帧"
+      },
+      {
+        "head": "生成树协议STP",
+        "connect": "制定",
+        "tail": "IEEE的802.1D标准"
+      },
+      {
+        "head": "生成树协议STP",
+        "connect": "消除",
+        "tail": "兜圈子现象"
+      },
+      {
+        "head": "总线以太网",
+        "connect": "使用",
+        "tail": "CSMA/CD协议"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "不使用",
+        "tail": "CSMA/CD协议"
+      },
+      {
+        "head": "以太网",
+        "connect": "采用",
+        "tail": "全双工方式工作"
+      },
+      {
+        "head": "虚拟局域网",
+        "connect": "定义",
+        "tail": "IEEE的802.3ac标准"
+      },
+      {
+        "head": "VLAN标签",
+        "connect": "插入在",
+        "tail": "以太网MAC帧的源地址字段和类型字段之间"
+      },
+      {
+        "head": "VLAN标签",
+        "connect": "称为",
+        "tail": "802.1Q帧"
+      },
+      {
+        "head": "VLAN标签",
+        "connect": "由",
+        "tail": "12位的VLAN标识符VID组成"
+      },
+      {
+        "head": "汇聚链路",
+        "connect": "称为",
+        "tail": "trunk link或干线链路"
+      },
+      {
+        "head": "第三层交换",
+        "connect": "实现",
+        "tail": "第3层的转发功能"
+      },
+      {
+        "head": "第三层交换机",
+        "connect": "称为",
+        "tail": "L3/L2交换机"
+      },
+      {
+        "head": "高速以太网",
+        "connect": "从",
+        "tail": "10 Mbit/s以太网发展而来"
+      },
+      {
+        "head": "100BASE-T以太网",
+        "connect": "称为",
+        "tail": "快速以太网"
+      },
+      {
+        "head": "快速以太网",
+        "connect": "使用",
+        "tail": "100 Mbit/s的适配器和集线器或交换机"
+      },
+      {
+        "head": "100BASE-T以太网",
+        "connect": "保持",
+        "tail": "CSMA/CD协议"
+    },
+    {
+      "head": "快速以太网",
+      "connect": "使用",
+      "tail": "全双工方式工作"
+    },
+    {
+      "head": "快速以太网",
+      "connect": "不使用",
+      "tail": "CSMA/CD协议"
+    },
+    {
+      "head": "100BASE-T以太网",
+      "connect": "使用",
+      "tail": "无屏蔽双绞线布线"
+    },
+    {
+      "head": "100 Mbit/s以太网",
+      "connect": "保持",
+      "tail": "最短帧长不变"
+    },
+    {
+      "head": "100 Mbit/s以太网",
+      "connect": "争用期为",
+      "tail": "5.12 µs"
+    },
+    {
+      "head": "100 Mbit/s以太网",
+      "connect": "帧间最小间隔为",
+      "tail": "0.96 µs"
+    },
+    {
+      "head": "参数α",
+      "connect": "保持",
+      "tail": "很小的数值"
+    },
+    {
+      "head": "以太网单程端到端时延",
+      "connect": "与",
+      "tail": "帧的发送时间的乘积不变"
+    },
+    {
+      "head": "网络电缆长度",
+      "connect": "减小到",
+      "tail": "原有数值的十分之一"
+    },
+    {
+      "head": "VLAN",
+      "connect": "允许",
+      "tail": "在以太网的帧格式中插入一个4字节的标识符"
+    },
+    {
+      "head": "VLAN-10和VLAN-20",
+      "connect": "是",
+      "tail": "虚拟局域网的编号"
+    },
+    {
+      "head": "虚拟局域网",
+      "connect": "跨越",
+      "tail": "不同交换机"
+    },
+    {
+      "head": "汇聚链路",
+      "connect": "用于",
+      "tail": "连接两个交换机"
+    },
+    {
+      "head": "802.1Q帧",
+      "connect": "在",
+      "tail": "汇聚链路传送"
+    },
+    {
+      "head": "标准以太网帧",
+      "connect": "被",
+      "tail": "802.1Q帧替换"
+    },
+    {
+      "head": "不同网络之间的通信",
+      "connect": "由",
+      "tail": "网络层中的路由器解决"
+    },
+    {
+      "head": "第三层交换机",
+      "connect": "嵌入了",
+      "tail": "专用芯片构成的转发模块"
+    },
+    {
+      "head": "第三层交换",
+      "connect": "提高了",
+      "tail": "转发帧的速率"
+    },
+    {
+      "head": "10BASE-T以太网",
+      "connect": "升级到",
+      "tail": "100 Mbit/s"
+    },
+    {
+      "head": "100 Mbit/s的适配器",
+      "connect": "自动识别",
+      "tail": "10 Mbit/s和100 Mbit/s"
+    },
+    {
+      "head": "IEEE 802.3u",
+      "connect": "是",
+      "tail": "100BASE-T快速以太网的正式标准"
+    },
+    {
+      "head": "快速以太网",
+      "connect": "保持",
+      "tail": "IEEE 802.3标准规定的帧格式"
+    },
+    {
+      "head": "IEEE 802.3u标准",
+      "connect": "未包括",
+      "tail": "对同轴电缆的支持"
+    },
+    {
+      "head": "100 Mbit/s以太网",
+      "connect": "采用",
+      "tail": "保持争用期不变的方法"
+    },
+    {
+      "head": "100 Mbit/s以太网",
+      "connect": "减小",
+      "tail": "网络电缆长度"
+    },
+    {
+      "head": "以太网",
+      "connect": "保持",
+      "tail": "帧长一定的条件下"
+    },
+    {
+      "head": "争用期",
+      "connect": "是",
+      "tail": "10 Mbit/s以太网的1/10"
+    },
+    {
+      "head": "帧间最小间隔",
+      "connect": "是",
+      "tail": "10 Mbit/s以太网的1/10"
+    }
+  ]
+
+
+  

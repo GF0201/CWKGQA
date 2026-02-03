@@ -1,0 +1,162 @@
+[
+    {
+        "head": "域名服务器",
+        "connect": "下载",
+        "tail": "名字和地址的全部数据库"
+    },
+    {
+        "head": "域名服务器",
+        "connect": "维护",
+        "tail": "存放自己最近使用的域名的高速缓存"
+    },
+    {
+        "head": "主机",
+        "connect": "定期检查",
+        "tail": "域名服务器以获取新的映射信息"
+    },
+    {
+        "head": "主机",
+        "connect": "必须从缓存中删掉",
+        "tail": "无效的项"
+    },
+    {
+        "head": "文件传送协议FTP",
+        "connect": "曾是",
+        "tail": "互联网上使用得最广泛的文件传送协议"
+    },
+    {
+        "head": "FTP",
+        "connect": "提供",
+        "tail": "交互式访问"
+    },
+    {
+        "head": "FTP",
+        "connect": "允许",
+        "tail": "客户指明文件的类型与格式"
+    },
+    {
+        "head": "FTP",
+        "connect": "允许",
+        "tail": "文件具有存取权限"
+    },
+    {
+        "head": "FTP",
+        "connect": "屏蔽了",
+        "tail": "各计算机系统的细节"
+    },
+    {
+        "head": "FTP",
+        "connect": "适合于",
+        "tail": "异构网络中任意计算机之间传送文件"
+    },
+    {
+        "head": "FTP",
+        "connect": "在互联网发展的早期阶段",
+        "tail": "通信量约占整个互联网通信量的三分之一"
+    },
+    {
+        "head": "WWW",
+        "connect": "在1995年",
+        "tail": "通信量首次超过了FTP"
+    },
+    {
+        "head": "FTP",
+        "connect": "基于",
+        "tail": "TCP"
+    },
+    {
+        "head": "简单文件传送协议TFTP",
+        "connect": "基于",
+        "tail": "UDP"
+    },
+    {
+        "head": "文件共享协议",
+        "connect": "分为",
+        "tail": "复制整个文件和联机访问两大类"
+    },
+    {
+        "head": "网络文件系统NFS",
+        "connect": "属于",
+        "tail": "文件共享协议"
+    },
+    {
+        "head": "NFS",
+        "connect": "允许",
+        "tail": "本地计算机共享远地的资源"
+    },
+    {
+        "head": "NFS",
+        "connect": "主要应用在",
+        "tail": "TCP/IP网络上"
+    },
+    {
+        "head": "NFS",
+        "connect": "也可在",
+        "tail": "OS/2, MS-Windows, NetWare等操作系统上运行"
+    },
+    {
+        "head": "FTP服务器进程",
+        "connect": "由",
+        "tail": "主进程和从属进程两大部分组成"
+    },
+    {
+        "head": "FTP主进程",
+        "connect": "负责",
+        "tail": "接受新的请求"
+    },
+    {
+        "head": "FTP从属进程",
+        "connect": "负责",
+        "tail": "处理单个请求"
+    },
+    {
+        "head": "FTP",
+        "connect": "使用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "FTP客户和服务器之间",
+        "connect": "建立",
+        "tail": "两个并行的TCP连接"
+    },
+    {
+        "head": "FTP",
+        "connect": "使用",
+        "tail": "控制连接和数据连接"
+    },
+    {
+        "head": "TFTP",
+        "connect": "使用",
+        "tail": "UDP数据报"
+    },
+    {
+        "head": "TFTP",
+        "connect": "需要",
+        "tail": "自己的差错改正措施"
+    },
+    {
+        "head": "TFTP",
+        "connect": "支持",
+        "tail": "ASCII码或二进制传送"
+    },
+    {
+        "head": "TFTP",
+        "connect": "可对文件进行",
+        "tail": "读或写"
+    },
+    {
+        "head": "TFTP",
+        "connect": "使用",
+        "tail": "很简单的首部"
+    },
+    {
+        "head": "TFTP",
+        "connect": "工作类似",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "TELNET",
+        "connect": "是一个",
+        "tail": "远程终端协议"
+    }
+]

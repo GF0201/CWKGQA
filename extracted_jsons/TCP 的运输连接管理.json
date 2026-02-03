@@ -1,0 +1,182 @@
+[
+    {
+        "head": "尾部丢弃策略",
+        "connect": "导致",
+        "tail": "一连串分组的丢失"
+    },
+    {
+        "head": "TCP连接",
+        "connect": "进入",
+        "tail": "拥塞控制的慢开始状态"
+    },
+    {
+        "head": "路由器中的尾部丢弃",
+        "connect": "可能",
+        "tail": "同时影响到很多条TCP连接"
+    },
+    {
+        "head": "TCP连接",
+        "connect": "在",
+        "tail": "同一时间突然都进入到慢开始状态"
+    },
+    {
+        "head": "这种现象",
+        "connect": "称为",
+        "tail": "全局同步(global synchronization)"
+    },
+    {
+        "head": "全局同步",
+        "connect": "导致",
+        "tail": "全网的通信量突然下降了很多"
+    },
+    {
+        "head": "网络恢复正常后",
+        "connect": "导致",
+        "tail": "通信量突然增大很多"
+    },
+    {
+        "head": "主动队列管理AQM",
+        "connect": "是",
+        "tail": "为了避免发生网络中的全局同步现象"
+    },
+    {
+        "head": "AQM",
+        "connect": "意味着",
+        "tail": "在队列长度达到某个值得警惕的数值时主动丢弃到达的分组"
+    },
+    {
+        "head": "RED",
+        "connect": "是",
+        "tail": "随机早期检测(Random Early Detection)"
+    },
+    {
+        "head": "RED",
+        "connect": "需要",
+        "tail": "使路由器维持两个参数，即队列长度最小门限和最大门限"
+    },
+    {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "面向连接的协议"
+    },
+    {
+        "head": "TCP运输连接",
+        "connect": "用来",
+        "tail": "传送TCP报文"
+    },
+    {
+        "head": "TCP运输连接",
+        "connect": "有三个阶段",
+        "tail": "连接建立、数据传送和连接释放"
+    },
+    {
+        "head": "TCP连接建立",
+        "connect": "要解决",
+        "tail": "使每一方能够确知对方的存在"
+    },
+    {
+        "head": "TCP连接建立",
+        "connect": "要解决",
+        "tail": "允许双方协商一些参数"
+    },
+    {
+        "head": "TCP连接建立",
+        "connect": "要解决",
+        "tail": "对运输实体资源进行分配"
+    },
+    {
+        "head": "TCP连接的建立",
+        "connect": "采用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "主动发起连接建立的应用进程",
+        "connect": "称为",
+        "tail": "客户(client)"
+    },
+    {
+        "head": "被动等待连接建立的应用进程",
+        "connect": "称为",
+        "tail": "服务器(server)"
+    },
+    {
+        "head": "TCP建立连接的过程",
+        "connect": "称为",
+        "tail": "握手"
+    },
+    {
+        "head": "握手",
+        "connect": "需要",
+        "tail": "在客户和服务器之间交换三个TCP报文段"
+    },
+    {
+        "head": "SYN报文段",
+        "connect": "不能携带",
+        "tail": "数据"
+    },
+    {
+        "head": "TCP客户进程",
+        "connect": "在打算建立TCP连接时",
+        "tail": "进入SYN-SENT状态"
+    },
+    {
+        "head": "TCP服务器进程",
+        "connect": "在收到连接请求后",
+        "tail": "进入SYN-RCVD状态"
+    },
+    {
+        "head": "TCP客户进程",
+        "connect": "收到确认后",
+        "tail": "进入ESTABLISHED状态"
+    },
+    {
+        "head": "TCP服务器进程",
+        "connect": "收到确认后",
+        "tail": "进入ESTABLISHED状态"
+    },
+    {
+        "head": "TCP连接释放",
+        "connect": "比较复杂",
+        "tail": "涉及双方状态的改变"
+    },
+    {
+        "head": "TCP连接释放",
+        "connect": "需要",
+        "tail": "四报文握手"
+    },
+    {
+        "head": "FIN报文段",
+        "connect": "即使不携带数据",
+        "tail": "也消耗掉一个序号"
+    },
+    {
+        "head": "TCP",
+        "connect": "设有",
+        "tail": "保活计时器(keepalive timer)"
+    },
+    {
+        "head": "保活计时器",
+        "connect": "用来",
+        "tail": "检测客户端是否正常"
+    },
+    {
+        "head": "服务器",
+        "connect": "每收到一次客户的数据",
+        "tail": "就重新设置保活计时器"
+    },
+    {
+        "head": "若两小时没有收到客户的数据",
+        "connect": "服务器",
+        "tail": "就发送一个探测报文段"
+    },
+    {
+        "head": "服务器",
+        "connect": "若一连发送10个探测报文段后仍无客户的响应",
+        "tail": "就关闭这个连接"
+    },
+    {
+        "head": "TCP的有限状态机",
+        "connect": "描述",
+        "tail": "TCP连接的各种状态之间关系"
+    }
+]

@@ -1,0 +1,82 @@
+{"subject": "局域网", "predicate": "使用的是", "object": "广播信道", "source_row": 0}
+{"subject": "局域网", "predicate": "发展于", "object": "20世纪70年代末", "source_row": 1}
+{"subject": "局域网", "predicate": "特点包括", "object": "网络为一个单位所拥有", "source_row": 2}
+{"subject": "局域网", "predicate": "特点包括", "object": "地理范围和站点数目有限", "source_row": 3}
+{"subject": "局域网", "predicate": "特点包括", "object": "具有广播功能", "source_row": 4}
+{"subject": "局域网", "predicate": "特点包括", "object": "便于系统的扩展和逐渐地演变", "source_row": 5}
+{"subject": "局域网", "predicate": "特点包括", "object": "提高了系统的可靠性、可用性和生存性", "source_row": 6}
+{"subject": "局域网", "predicate": "可按", "object": "网络拓扑进行分类", "source_row": 7}
+{"subject": "局域网拓扑", "predicate": "包括", "object": "星形网", "source_row": 8}
+{"subject": "局域网拓扑", "predicate": "包括", "object": "环形网", "source_row": 9}
+{"subject": "局域网拓扑", "predicate": "包括", "object": "总线网", "source_row": 10}
+{"subject": "总线网", "predicate": "特点为", "object": "各站直接连接在总线上", "source_row": 11}
+{"subject": "以太网", "predicate": "发展为", "object": "星形网", "source_row": 12}
+{"subject": "以太网", "predicate": "速率为", "object": "1 Gbit/s", "source_row": 13}
+{"subject": "以太网", "predicate": "速率为", "object": "10 Gbit/s", "source_row": 14}
+{"subject": "以太网", "predicate": "速率为", "object": "100 Gbit/s", "source_row": 15}
+{"subject": "局域网", "predicate": "可使用", "object": "多种传输媒体", "source_row": 16}
+{"subject": "局域网", "predicate": "主流传输媒体为", "object": "双绞线", "source_row": 17}
+{"subject": "双绞线", "predicate": "可用于", "object": "从10 Mbit/s至10 Gbit/s的局域网", "source_row": 18}
+{"subject": "局域网", "predicate": "工作层次跨越", "object": "数据链路层和物理层", "source_row": 19}
+{"subject": "共享信道", "predicate": "考虑问题为", "object": "如何使众多用户能够合理而方便地共享通信媒体资源", "source_row": 20}
+{"subject": "共享信道", "predicate": "解决方法包括", "object": "静态划分信道", "source_row": 21}
+{"subject": "共享信道", "predicate": "解决方法包括", "object": "动态媒体接入控制", "source_row": 22}
+{"subject": "动态媒体接入控制", "predicate": "又称为", "object": "多点接入", "source_row": 23}
+{"subject": "多点接入", "predicate": "特点为", "object": "信道并非在用户通信时固定分配给用户", "source_row": 24}
+{"subject": "多点接入", "predicate": "分为", "object": "随机接入", "source_row": 25}
+{"subject": "多点接入", "predicate": "分为", "object": "受控接入", "source_row": 26}
+{"subject": "随机接入", "predicate": "特点是", "object": "所有的用户可随机地发送信息", "source_row": 27}
+{"subject": "受控接入", "predicate": "特点是", "object": "用户不能随机地发送信息而必须服从一定的控制", "source_row": 28}
+{"subject": "以太网", "predicate": "主要标准为", "object": "DIX Ethernet V2", "source_row": 29}
+{"subject": "以太网", "predicate": "主要标准为", "object": "IEEE 802.3", "source_row": 30}
+{"subject": "适配器", "predicate": "作用为", "object": "计算机与外界局域网的连接", "source_row": 31}
+{"subject": "适配器", "predicate": "又称为", "object": "网络接口卡NIC", "source_row": 32}
+{"subject": "适配器", "predicate": "功能包括", "object": "进行数据串行传输和并行传输的转换", "source_row": 33}
+{"subject": "适配器", "predicate": "功能包括", "object": "实现以太网协议", "source_row": 34}
+{"subject": "适配器", "predicate": "功能包括", "object": "不使用计算机的CPU接收和发送各种帧", "source_row": 35}
+{"subject": "CSMA/CD协议", "predicate": "意思是", "object": "载波监听多点接入／碰撞检测", "source_row": 36}
+{"subject": "CSMA/CD协议", "predicate": "实质为", "object": "载波监听和碰撞检测", "source_row": 37}
+{"subject": "以太网", "predicate": "使用", "object": "曼彻斯特编码的信号", "source_row": 38}
+{"subject": "曼彻斯特编码", "predicate": "特点为", "object": "保证了在每一个比特的正中间出现一次电压的转换", "source_row": 39}
+{"subject": "以太网", "predicate": "规定", "object": "最短帧长64字节", "source_row": 40}
+{"subject": "以太网", "predicate": "规定", "object": "帧间最小间隔为9.6 µs", "source_row": 41}
+{"subject": "集线器", "predicate": "工作在", "object": "物理层", "source_row": 42}
+{"subject": "集线器", "predicate": "特点为", "object": "简单地转发比特", "source_row": 43}
+{"subject": "集线器", "predicate": "特点为", "object": "不进行碰撞检测", "source_row": 44}
+{"subject": "以太网", "predicate": "信道利用率", "object": "受碰撞影响", "source_row": 45}
+{"subject": "以太网", "predicate": "参数包括", "object": "单程端到端时延", "source_row": 46}
+{"subject": "以太网", "predicate": "参数包括", "object": "帧的发送时间", "source_row": 47}
+{"subject": "MAC层", "predicate": "硬件地址又称为", "object": "物理地址", "source_row": 48}
+{"subject": "MAC地址", "predicate": "规定为", "object": "48位", "source_row": 49}
+{"subject": "MAC地址", "predicate": "由IEEE 802标准规定", "object": "", "source_row": 50}
+{"subject": "MAC地址", "predicate": "固化在", "object": "适配器的ROM中", "source_row": 51}
+{"subject": "适配器", "predicate": "地址字段可采用", "object": "6字节或2字节", "source_row": 52}
+{"subject": "MAC地址", "predicate": "由IEEE的注册管理机构RA负责分配", "object": "前三个字节", "source_row": 53}
+{"subject": "MAC地址", "predicate": "由厂家自行指派", "object": "后三个字节", "source_row": 54}
+{"subject": "MAC地址", "predicate": "第一字节的最低有效位为", "object": "I/G位", "source_row": 55}
+{"subject": "I/G位", "predicate": "表示", "object": "Individual/Group", "source_row": 56}
+{"subject": "MAC地址", "predicate": "第一字节的最低第二位为", "object": "G/L位", "source_row": 57}
+{"subject": "G/L位", "predicate": "表示", "object": "Global/Local", "source_row": 58}
+{"subject": "适配器", "predicate": "可设置为", "object": "混杂方式", "source_row": 59}
+{"subject": "混杂方式", "predicate": "允许适配器接收", "object": "所有在以太网上传输的帧", "source_row": 60}
+{"subject": "MAC帧", "predicate": "由", "object": "五个字段组成", "source_row": 61}
+{"subject": "以太网V2的MAC帧", "predicate": "使用", "object": "曼彻斯特编码", "source_row": 62}
+{"subject": "曼彻斯特编码", "predicate": "特点为", "object": "每个码元的正中间一定有一次电压转换", "source_row": 63}
+{"subject": "MAC帧", "predicate": "首部没有", "object": "帧长度字段", "source_row": 64}
+{"subject": "MAC帧", "predicate": "长度在", "object": "46到1500字节之间", "source_row": 65}
+{"subject": "MAC帧", "predicate": "检验序列为", "object": "FCS", "source_row": 66}
+{"subject": "FCS", "predicate": "使用", "object": "CRC检验", "source_row": 67}
+{"subject": "IEEE 802.3标准", "predicate": "规定", "object": "MAC帧格式", "source_row": 68}
+{"subject": "IEEE 802.3标准", "predicate": "规定", "object": "无效的MAC帧条件", "source_row": 69}
+{"subject": "以太网", "predicate": "传送数据时", "object": "以帧为单位", "source_row": 70}
+{"subject": "以太网", "predicate": "在帧之间必须有", "object": "一定的间隙", "source_row": 71}
+{"subject": "以太网", "predicate": "不需要", "object": "帧结束定界符", "source_row": 72}
+{"subject": "以太网", "predicate": "不需要", "object": "字节插入来保证透明传输", "source_row": 73}
+{"subject": "IEEE 802.3标准", "predicate": "包括", "object": "8字节的前同步码和帧开始定界符", "source_row": 74}
+{"subject": "前同步码", "predicate": "作用为", "object": "使接收端适配器迅速实现位同步", "source_row": 75}
+{"subject": "帧开始定界符", "predicate": "定义为", "object": "10 10 10 11", "source_row": 76}
+{"subject": "IEEE 802.3标准", "predicate": "规定的MAC帧格式与以太网V2的区别包括", "object": "长度／类型字段", "source_row": 77}
+{"subject": "长度／类型字段", "predicate": "表示", "object": "当值大于0x0600时表示类型", "source_row": 78}
+{"subject": "长度／类型字段", "predicate": "表示", "object": "当值小于0x0600时表示长度", "source_row": 79}
+{"subject": "以太网", "predicate": "扩展包括", "object": "在物理层扩展", "source_row": 80}
+{"subject": "以太网", "predicate": "扩展包括", "object": "在数据链路层扩展", "source_row": 81}

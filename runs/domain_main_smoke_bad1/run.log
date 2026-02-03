@@ -1,0 +1,9 @@
+argv: scripts/run_domain_main_smoke.py --data_file data/domain_main_demo_bad.jsonl --limit 3 --seed 42 --output-id domain_main_smoke_bad1
+domain_main smoke started
+Run dir: runs/domain_main_smoke_bad1
+Data: data/domain_main_demo_bad.jsonl
+Limit: 3
+Dataset validation: ok=1, bad=1, bad_path=data/domain_main_demo_bad.jsonl.bad.jsonl
+Loaded 2 samples from data/domain_main_demo_bad.jsonl
+Saved repro_manifest.json
+domain_main smoke completed

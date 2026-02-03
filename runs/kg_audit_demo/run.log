@@ -1,0 +1,6 @@
+argv: scripts/gen_kg_sample_audit.py --input data/triples_demo.tsv --n 5 --seed 42 --output-id kg_audit_demo
+KG sample audit run_id=kg_audit_demo
+Loaded 5 triples, sampling N=5 with seed=42
+Wrote audit CSV with 5 rows to C:\Users\顾北上\KGELLM\kgqa_framework\runs\kg_audit_demo\artifacts\kg_sample_audit.csv
+Wrote summary JSON to C:\Users\顾北上\KGELLM\kgqa_framework\runs\kg_audit_demo\artifacts\kg_sample_audit_summary.json
+KG sample audit completed

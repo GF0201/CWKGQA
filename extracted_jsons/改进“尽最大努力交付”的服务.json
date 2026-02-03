@@ -1,0 +1,280 @@
+[
+      {
+        "head": "SIP代理",
+        "connect": "用于",
+        "tail": "跟踪被叫方的机制"
+      },
+      {
+        "head": "SIP登记器",
+        "connect": "如果被叫没有进行过登记就发回",
+        "tail": "重定向报文"
+      },
+      {
+        "head": "SDP",
+        "connect": "是",
+        "tail": "会话描述协议"
+      },
+      {
+        "head": "SDP",
+        "connect": "详细地指明了",
+        "tail": "媒体编码、协议的端口号以及多播地址"
+      },
+      {
+        "head": "服务质量QoS",
+        "connect": "是",
+        "tail": "服务性能的总效果"
+      },
+      {
+        "head": "服务质量QoS",
+        "connect": "决定",
+        "tail": "用户对服务的满意程度"
+      },
+      {
+        "head": "互联网",
+        "connect": "提供",
+        "tail": "尽最大努力交付的服务"
+      },
+      {
+        "head": "服务质量",
+        "connect": "可用若干基本性能指标描述，包括",
+        "tail": "可用性、差错率、响应时间、吞吐量、分组丢失率、连接建立时间、故障检测和改正时间等"
+      },
+      {
+        "head": "服务质量",
+        "connect": "可",
+        "tail": "由服务提供者向其用户保证某一等级"
+      },
+      {
+        "head": "路由器R1",
+        "connect": "处理",
+        "tail": "实时音频数据和FTP文件数据"
+      },
+      {
+        "head": "路由器R1",
+        "connect": "需要",
+        "tail": "增加机制给不同性质的分组打上不同的标记"
+      },
+      {
+        "head": "路由器",
+        "connect": "需要",
+        "tail": "增加分类机制"
+      },
+      {
+        "head": "路由器",
+        "connect": "需要",
+        "tail": "对数据流进行通信量管制"
+      },
+      {
+        "head": "路由器",
+        "connect": "需要",
+        "tail": "增加调度机制"
+      },
+      {
+        "head": "路由器",
+        "connect": "需要",
+        "tail": "增加呼叫接纳机制"
+      },
+      {
+        "head": "调度机制",
+        "connect": "指",
+        "tail": "排队的规则"
+      },
+      {
+        "head": "先进先出FIFO",
+        "connect": "的最大缺点是",
+        "tail": "不能区分时间敏感分组和一般数据分组"
+      },
+      {
+        "head": "按优先级排队",
+        "connect": "使",
+        "tail": "优先级高的分组优先得到服务"
+      },
+      {
+        "head": "公平排队FQ",
+        "connect": "解决",
+        "tail": "优先级排队带来的问题"
+      },
+      {
+        "head": "加权公平排队WFQ",
+        "connect": "增加",
+        "tail": "队列权重概念"
+      },
+      {
+        "head": "漏桶管制器",
+        "connect": "用于",
+        "tail": "对数据流进行管制"
+      },
+      {
+        "head": "漏桶管制器",
+        "connect": "控制",
+        "tail": "分组流进入网络的速率"
+      },
+      {
+        "head": "综合服务IntServ",
+        "connect": "由",
+        "tail": "IETF提出"
+      },
+      {
+        "head": "IntServ",
+        "connect": "包括",
+        "tail": "资源预留和呼叫建立"
+      },
+      {
+        "head": "资源预留协议RSVP",
+        "connect": "是",
+        "tail": "IntServ的信令协议"
+      },
+      {
+        "head": "RSVP",
+        "connect": "采用",
+        "tail": "多播树的方式"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "由",
+        "tail": "IETF提出"
+      },
+      {
+        "head": "DiffServ",
+        "connect": "将",
+        "tail": "IPv4的服务类型字段和IPv6的通信量类字段重新定义为区分服务DS"
+      },
+      {
+        "head": "DiffServ",
+        "connect": "提供",
+        "tail": "不同等级的服务质量"
+      },
+      {
+        "head": "DS域",
+        "connect": "由",
+        "tail": "一个管理实体控制"
+      },
+      {
+        "head": "边界路由器",
+        "connect": "是",
+        "tail": "DS域的边界节点"
+      },
+      {
+        "head": "边界路由器",
+        "connect": "包括",
+        "tail": "分类器和通信量调节器"
+      },
+      {
+        "head": "DiffServ",
+        "connect": "提供",
+        "tail": "聚合功能"
+      },
+      {
+        "head": "每跳行为PHB",
+        "connect": "定义",
+        "tail": "转发分组时体现服务水平的行为"
+      },
+      {
+        "head": "迅速转发PHB",
+        "connect": "构造",
+        "tail": "低丢失率、低时延、低时延抖动、确保带宽的端到端服务"
+      },
+      {
+        "head": "确保转发PHB",
+        "connect": "提供",
+        "tail": "最低数量的带宽和缓存空间"
+      },
+      {
+        "head": "多媒体信息",
+        "connect": "具有",
+        "tail": "大信息量和对时延及时延抖动的高要求"
+      },
+      {
+        "head": "流媒体",
+        "connect": "是",
+        "tail": "流式音频/视频"
+      },
+      {
+        "head": "媒体服务器",
+        "connect": "支持",
+        "tail": "流式音频和视频的传送"
+      },
+      {
+        "head": "实时流式协议RTSP",
+        "connect": "用于",
+        "tail": "控制多媒体流的传送"
+      },
+      {
+        "head": "IP电话",
+        "connect": "决定于",
+        "tail": "通话双方端到端的时延和时延抖动以及语音分组的丢失率"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "不需要",
+        "tail": "使用RSVP信令"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "通过",
+        "tail": "DS字段的不同数值提供不同等级的服务质量"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "将",
+        "tail": "网络划分为多个DS域"
+      },
+      {
+        "head": "DS域内部路由器",
+        "connect": "工作",
+        "tail": "尽可能简单"
+      },
+      {
+        "head": "边界路由器",
+        "connect": "根据",
+        "tail": "DS字段的值处理分组转发"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "定义了",
+        "tail": "两种PHB，即迅速转发PHB和确保转发PHB"
+      },
+      {
+        "head": "迅速转发PHB",
+        "connect": "又称为",
+        "tail": "EF PHB"
+      },
+      {
+        "head": "确保转发PHB",
+        "connect": "使用",
+        "tail": "DSCP的第0~2位把通信量划分为四个等级"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "没有定义",
+        "tail": "特定的服务或服务类别"
+      },
+      {
+        "head": "区分服务DiffServ",
+        "connect": "允许",
+        "tail": "新的服务类别出现而旧的服务类别不再使用时仍然可以工作"
+      },
+      {
+        "head": "互联网提供的音频/视频服务",
+        "connect": "包括",
+        "tail": "流式存储音频/视频、流式实况音频/视频和交互式音频/视频"
+      },
+      {
+        "head": "流媒体",
+        "connect": "允许",
+        "tail": "边下载、边播放"
+      },
+      {
+        "head": "实时流式协议RTSP",
+        "connect": "不传送",
+      "tail": "数据"
+    },
+    {
+      "head": "IP电话",
+      "connect": "包括",
+      "tail": "电话通信、交互式多媒体实时通信和即时传信IM"
+    }
+]
+
+
+  

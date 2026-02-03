@@ -1,0 +1,76 @@
+argv: scripts/run_lcquad2_dev200.py --data_file ../kgqa-thesis/data/processed/unified/unified_dev.jsonl --limit 10 --no-cache
+LC-QuAD2 dev run started
+Run dir: C:\Users\顾北上\KGELLM\kgqa_framework\runs\lcquad2_dev10_20260202_174902
+Data: ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+Limit: 10
+old_dir: C:\Users\顾北上\KGELLM\kgqa-thesis
+Running: C:\ProgramData\anaconda3\python.exe C:\Users\顾北上\KGELLM\kgqa-thesis\scripts\40_run_pipeline.py --config C:\Users\顾北上\KGELLM\kgqa-thesis\configs\runs\lcquad2_baseline.yaml --data_file ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl --limit 10 --seed 42 --no-cache
+Run ID: run_20260202_174904
+Seed: 42
+Config: C:\Users\顾北上\KGELLM\kgqa-thesis\configs\runs\lcquad2_baseline.yaml
+Split: dev
+Limit: 10
+
+Loaded 10 samples from ..\kgqa-thesis\data\processed\unified\unified_dev.jsonl
+
+Initializing modules...
+  KG Client: https://query.wikidata.org/sparql
+  Intent Classifier: enabled (TF-IDF + LR)
+  Entity Linker: enabled (method=wikidata_search, topk=20)
+  Graph Builder: disabled (not enabled in run config)
+
+Processing 10 samples...
+Per-sample budget: 15.0s
+
+Processed 1/10 | elapsed: 10.7s | avg: 10.67s/sample | last_step: entity_link
+Processed 2/10 | elapsed: 21.4s | avg: 10.68s/sample | last_step: entity_link
+Processed 3/10 | elapsed: 32.2s | avg: 10.72s/sample | last_step: entity_link
+Processed 4/10 | elapsed: 38.7s | avg: 9.67s/sample | last_step: entity_link
+Processed 5/10 | elapsed: 49.5s | avg: 9.91s/sample | last_step: entity_link
+Processed 6/10 | elapsed: 56.0s | avg: 9.33s/sample | last_step: entity_link
+Processed 7/10 | elapsed: 66.8s | avg: 9.54s/sample | last_step: entity_link
+Processed 8/10 | elapsed: 76.4s | avg: 9.55s/sample | last_step: entity_link
+Processed 9/10 | elapsed: 79.9s | avg: 8.88s/sample | last_step: entity_link
+Processed 10/10 | elapsed: 90.8s | avg: 9.08s/sample | last_step: entity_link
+
+Saved 10 predictions to outputs\runs\run_20260202_174904\preds.jsonl
+
+Entity Linking Statistics:
+  Total queries: 10
+  Cache hits: 0
+  Cache misses: 84
+  Cache hit rate: 0.0%
+  Non-empty rate: 100.0%
+  Avg candidates: 19.2
+
+KG Client Statistics:
+  Cache hits: 0
+  Cache misses: 0
+
+Pipeline Statistics:
+  Total samples: 10
+  Successful: 10
+  Skipped (timeout): 0
+  Failed (errors): 0
+  Avg latency: 9.078s
+  Total WDQS calls: 84
+  Avg WDQS calls/sample: 8.40
+  Cache hits: 0
+  Cache misses: 84
+  Cache hit rate: 0.0%
+Saved metrics to outputs\runs\run_20260202_174904\metrics.json
+
+============================================================
+Pipeline execution complete
+============================================================
+
+Run directory: outputs\runs\run_20260202_174904
+  - config.yaml: outputs\runs\run_20260202_174904\config.yaml
+  - logs.txt: outputs\runs\run_20260202_174904\logs.txt
+  - preds.jsonl: outputs\runs\run_20260202_174904\preds.jsonl
+  - metrics.json: outputs\runs\run_20260202_174904\metrics.json
+Saved metrics.json
+Validated metrics.json
+Saved repro_manifest.json
+Inputs hashed: 6; first_keys=['unified_dev.jsonl', 'requirements.txt', '40_run_pipeline.py']
+Run completed

@@ -1,0 +1,67 @@
+{"subject": "SDH/SONET", "predicate": "定义了", "object": "标准光信号", "source_row": 0}
+{"subject": "SDH/SONET", "predicate": "规定了", "object": "波长为1310 nm和1550 nm的激光源", "source_row": 1}
+{"subject": "SDH/SONET", "predicate": "定义了", "object": "帧结构", "source_row": 2}
+{"subject": "SDH/SONET", "predicate": "实现了", "object": "数字传输体制上的世界性标准", "source_row": 3}
+{"subject": "SDH/SONET", "predicate": "适合", "object": "微波和卫星传输的技术体制", "source_row": 4}
+{"subject": "用户", "predicate": "连接到", "object": "ISP", "source_row": 5}
+{"subject": "用户", "predicate": "通过", "object": "调制解调器连接到ISP", "source_row": 6}
+{"subject": "宽带", "predicate": "定义为", "object": "接入到互联网的速率远大于56 kbit/s", "source_row": 7}
+{"subject": "FCC", "predicate": "定义", "object": "宽带为双向速率之和超过200 kbit/s", "source_row": 8}
+{"subject": "FCC", "predicate": "重新定义", "object": "宽带下行速率为25 Mbit/s", "source_row": 9}
+{"subject": "FCC", "predicate": "重新定义", "object": "宽带上行速率为3 Mbit/s", "source_row": 10}
+{"subject": "宽带接入", "predicate": "划分为", "object": "有线宽带接入和无线宽带接入", "source_row": 11}
+{"subject": "ADSL", "predicate": "使用", "object": "数字技术对现有模拟电话的用户线进行改造", "source_row": 12}
+{"subject": "ADSL", "predicate": "把", "object": "0 ~ 4 k Hz低端频谱留给传统电话使用", "source_row": 13}
+{"subject": "ADSL", "predicate": "使用", "object": "高端频谱留给用户上网使用", "source_row": 14}
+{"subject": "ADSL", "predicate": "采用", "object": "ITU标准G.992.1", "source_row": 15}
+{"subject": "ADSL", "predicate": "采用", "object": "DMT调制技术", "source_row": 16}
+{"subject": "ADSL", "predicate": "采用", "object": "频分复用的方法", "source_row": 17}
+{"subject": "ADSL", "predicate": "使用", "object": "自适应调制技术", "source_row": 18}
+{"subject": "ADSL", "predicate": "由", "object": "数字用户线接入复用器DSLAM、用户线和用户家中的一些设施组成", "source_row": 19}
+{"subject": "DSLAM", "predicate": "包括", "object": "许多ADSL调制解调器", "source_row": 20}
+{"subject": "ADSL调制解调器", "predicate": "又称为", "object": "接入端接单元ATU", "source_row": 21}
+{"subject": "ATU-C", "predicate": "代表", "object": "端局(Central Office)", "source_row": 22}
+{"subject": "ATU-R", "predicate": "代表", "object": "远端(Remote)", "source_row": 23}
+{"subject": "电话分离器", "predicate": "利用", "object": "低通滤波器将电话信号与数字信号分开", "source_row": 24}
+{"subject": "DSLAM", "predicate": "可支持", "object": "多达500~1000个用户", "source_row": 25}
+{"subject": "ADSL", "predicate": "可以", "object": "利用现有电话网中的用户线（铜线）", "source_row": 26}
+{"subject": "ADSL技术", "predicate": "发展为", "object": "G系列标准", "source_row": 27}
+{"subject": "ADSL2", "predicate": "要求", "object": "至少应支持下行8Mbit/s、上行800kbit/s的速率", "source_row": 28}
+{"subject": "ADSL2+", "predicate": "扩展", "object": "频谱范围从1.1 MHz扩展至2.2 MHz", "source_row": 29}
+{"subject": "ADSL2+", "predicate": "提供", "object": "下行速率可达16 Mbit/s", "source_row": 30}
+{"subject": "SDSL", "predicate": "是", "object": "对称DSL", "source_row": 31}
+{"subject": "HDSL", "predicate": "是", "object": "使用一对线或两对线的对称DSL", "source_row": 32}
+{"subject": "VDSL", "predicate": "提供", "object": "下行速率达50~55 Mbit/s", "source_row": 33}
+{"subject": "VDSL2", "predicate": "提供", "object": "上行和下行速率都能够达到100 Mbit/s", "source_row": 34}
+{"subject": "G.fast", "predicate": "目标是", "object": "使用单对直径为0.5 mm的铜线在100 m距离提供900 Mbit/s的接入速率", "source_row": 35}
+{"subject": "HFC网", "predicate": "基于", "object": "有线电视网", "source_row": 36}
+{"subject": "HFC网", "predicate": "提供", "object": "电话、数据和其他宽带交互型业务", "source_row": 37}
+{"subject": "HFC网", "predicate": "采用", "object": "模拟技术的频分复用", "source_row": 38}
+{"subject": "HFC网", "predicate": "改造为", "object": "光纤同轴混合网", "source_row": 39}
+{"subject": "HFC网", "predicate": "具有", "object": "双向传输功能", "source_row": 40}
+{"subject": "HFC网", "predicate": "扩展了", "object": "传输频带", "source_row": 41}
+{"subject": "机顶盒", "predicate": "用于", "object": "使模拟电视机能够接收数字电视信号", "source_row": 42}
+{"subject": "电缆调制解调器", "predicate": "又称为", "object": "cable modem", "source_row": 43}
+{"subject": "DOCSIS", "predicate": "由", "object": "美国有线电视实验室CableLabs制定", "source_row": 44}
+{"subject": "FTTx", "predicate": "表示", "object": "Fiber To The ...", "source_row": 45}
+{"subject": "FTTH", "predicate": "是", "object": "光纤到户", "source_row": 46}
+{"subject": "FTTx", "predicate": "包括", "object": "FTTC、FTTZ、FTTB、FTTF、FTTO、FTTD", "source_row": 47}
+{"subject": "无源光配线网ODN", "predicate": "使得", "object": "数十个家庭用户能够共享一根光纤干线", "source_row": 48}
+{"subject": "无源光网络PON", "predicate": "采用", "object": "波分复用", "source_row": 49}
+{"subject": "EPON", "predicate": "是", "object": "以太网无源光网络", "source_row": 50}
+{"subject": "GPON", "predicate": "是", "object": "吉比特无源光网络", "source_row": 51}
+{"subject": "GPON", "predicate": "采用", "object": "通用封装方法GEM", "source_row": 52}
+{"subject": "物理层", "predicate": "确定", "object": "与传输媒体的接口有关的一些特性", "source_row": 53}
+{"subject": "数据通信系统", "predicate": "划分为", "object": "源系统、传输系统和目的系统", "source_row": 54}
+{"subject": "通信", "predicate": "传送", "object": "消息", "source_row": 55}
+{"subject": "信号", "predicate": "可分为", "object": "模拟信号和数字信号", "source_row": 56}
+{"subject": "通信", "predicate": "划分为", "object": "单向通信、双向交替通信和双向同时通信", "source_row": 57}
+{"subject": "基带信号", "predicate": "来自", "object": "信源", "source_row": 58}
+{"subject": "调制", "predicate": "有", "object": "基带调制和带通调制", "source_row": 59}
+{"subject": "传输媒体", "predicate": "可分为", "object": "导引型传输媒体和非导引型传输媒体", "source_row": 60}
+{"subject": "信道复用技术", "predicate": "包括", "object": "频分复用、时分复用、统计时分复用、码分复用和波分复用", "source_row": 61}
+{"subject": "数字传输系统", "predicate": "使用", "object": "脉冲编码调制PCM", "source_row": 62}
+{"subject": "高速数字传输系统", "predicate": "使用", "object": "同步光纤网SONET或同步数字系列SDH", "source_row": 63}
+{"subject": "宽带接入方法", "predicate": "有", "object": "ADSL、HFC和FTTx", "source_row": 64}
+{"subject": "无源光网络PON", "predicate": "无须", "object": "配备电源", "source_row": 65}
+{"subject": "最流行的无源光网络", "predicate": "是", "object": "EPON和GPON", "source_row": 66}

@@ -1,0 +1,152 @@
+[
+    {
+        "head": "移动IP",
+        "connect": "需要",
+        "tail": "永久IP地址"
+    },
+    {
+        "head": "移动用户",
+        "connect": "更换",
+        "tail": "连接点（基站）"
+    },
+    {
+        "head": "TCP连接",
+        "connect": "受",
+        "tail": "移动用户切换影响"
+    },
+    {
+        "head": "TCP",
+        "connect": "响应",
+        "tail": "报文段丢失或出错"
+    },
+    {
+        "head": "TCP拥塞控制",
+        "connect": "会",
+        "tail": "减小拥塞窗口"
+    },
+    {
+        "head": "TCP",
+        "connect": "需要",
+        "tail": "区分有线网络拥塞和无线链路拥塞"
+    },
+    {
+        "head": "TCP连接",
+        "connect": "拆分为",
+        "tail": "两个互相串接的TCP连接"
+    },
+    {
+        "head": "蜂窝移动通信",
+        "connect": "发展规律",
+        "tail": "大约十年更新一代"
+    },
+    {
+        "head": "蜂窝移动通信",
+        "connect": "从",
+        "tail": "1G发展到4G"
+    },
+    {
+        "head": "5G",
+        "connect": "包含",
+        "tail": "增强型移动宽带eMBB"
+    },
+    {
+        "head": "5G",
+        "connect": "包含",
+        "tail": "大规模机器类型通信mMTC"
+    },
+    {
+        "head": "5G",
+        "connect": "包含",
+        "tail": "超高可靠超低时延通信uRLLC"
+    },
+    {
+        "head": "eMBB",
+        "connect": "属于",
+        "tail": "人联网"
+    },
+    {
+        "head": "mMTC",
+        "connect": "又称为",
+        "tail": "海量物联网"
+    },
+    {
+        "head": "uRLLC",
+        "connect": "使用在",
+        "tail": "工业控制、交通安全和控制、远程制造、远程手术以及无人驾驶等领域"
+    },
+    {
+        "head": "5G",
+        "connect": "规定",
+        "tail": "下行数据峰值速率为10Gbit/s"
+    },
+    {
+        "head": "5G",
+        "connect": "使用",
+        "tail": "5GNR(5G New Radio)空口标准"
+    },
+    {
+        "head": "5G",
+        "connect": "采用",
+        "tail": "更高的频率"
+    },
+    {
+        "head": "5G",
+        "connect": "使用",
+        "tail": "更大的信道带宽"
+    },
+    {
+        "head": "5G",
+        "connect": "具有",
+        "tail": "极高的速率、极大的容量、极低的时延"
+    },
+    {
+        "head": "5G",
+        "connect": "引入",
+        "tail": "毫米波"
+    },
+    {
+        "head": "5G",
+        "connect": "选用",
+        "tail": "与4G不同的信道编码方式"
+    },
+    {
+        "head": "5G",
+        "connect": "采用",
+        "tail": "天线波束赋形技术"
+    },
+    {
+        "head": "5G",
+        "connect": "发展",
+        "tail": "大规模MIMO系统和立体三维MIMO技术"
+    },
+    {
+        "head": "5G基站",
+        "connect": "必须",
+        "tail": "更加密集"
+    },
+    {
+        "head": "5G",
+        "connect": "增加",
+        "tail": "网络的复杂性"
+    },
+    {
+        "head": "5G",
+        "connect": "增加",
+        "tail": "网络运营商的投资和运营成本"
+    },
+    {
+        "head": "无线局域网",
+        "connect": "分为",
+        "tail": "有固定基础设施和无固定基础设施两大类"
+    },
+    {
+        "head": "无线局域网标准",
+        "connect": "是",
+        "tail": "IEEE的802.11系列"
+    },
+    {
+        "head": "使用802.11系列协议的局域网",
+        "connect": "又称为",
+        "tail": "Wi-Fi"
+    }
+]

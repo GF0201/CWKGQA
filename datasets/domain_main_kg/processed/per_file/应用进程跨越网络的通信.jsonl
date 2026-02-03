@@ -1,0 +1,34 @@
+{"subject": "应用层协议", "predicate": "使", "object": "用户可以更加方便地利用互联网的资源", "source_row": 0}
+{"subject": "特定应用", "predicate": "需要", "object": "互联网的支持", "source_row": 1}
+{"subject": "特定应用", "predicate": "不能直接使用", "object": "已经标准化的互联网应用协议", "source_row": 2}
+{"subject": "系统调用和应用编程接口", "predicate": "是", "object": "了解如何让不能直接使用标准化互联网应用协议的特定应用获得互联网支持的关键", "source_row": 3}
+{"subject": "系统调用", "predicate": "是", "object": "操作系统用来在应用程序和操作系统之间传递控制权的机制", "source_row": 4}
+{"subject": "系统调用接口", "predicate": "又称为", "object": "应用编程接口API", "source_row": 5}
+{"subject": "API", "predicate": "定义", "object": "许多标准的系统调用函数", "source_row": 6}
+{"subject": "TCP/IP协议软件", "predicate": "已驻留在", "object": "操作系统中", "source_row": 7}
+{"subject": "TCP/IP协议族", "predicate": "被设计成", "object": "能运行在多种操作系统环境中", "source_row": 8}
+{"subject": "套接字接口", "predicate": "是", "object": "一种著名的API，由美国加利福尼亚大学伯克利分校为Berkeley UNIX操作系统定义", "source_row": 9}
+{"subject": "微软公司", "predicate": "采用了", "object": "套接字接口API", "source_row": 10}
+{"subject": "微软公司的套接字接口API", "predicate": "称为", "object": "Windows Socket（WinSock）", "source_row": 11}
+{"subject": "AT&T", "predicate": "定义了", "object": "TLI (Transport Layer Interface)", "source_row": 12}
+{"subject": "计算机之间的通信", "predicate": "是", "object": "本计算机读取另一个地点的计算机中的数据或将数据写入到另一个地点的计算机中", "source_row": 13}
+{"subject": "套接字", "predicate": "作为", "object": "应用进程和运输层协议之间的接口", "source_row": 14}
+{"subject": "套接字", "predicate": "已成为", "object": "计算机操作系统内核的一部分", "source_row": 15}
+{"subject": "应用程序", "predicate": "必须通过", "object": "套接字与操作系统交互", "source_row": 16}
+{"subject": "socket系统调用", "predicate": "用于", "object": "请求操作系统创建一个套接字", "source_row": 17}
+{"subject": "操作系统", "predicate": "分配", "object": "网络通信所需的系统资源给应用进程", "source_row": 18}
+{"subject": "套接字描述符", "predicate": "是", "object": "操作系统用来表示网络通信资源总和的号码", "source_row": 19}
+{"subject": "应用进程", "predicate": "通过", "object": "套接字描述符进行网络操作", "source_row": 20}
+{"subject": "close系统调用", "predicate": "用于", "object": "通知操作系统回收与套接字描述符相关的所有资源", "source_row": 21}
+{"subject": "bind系统调用", "predicate": "用于", "object": "指明套接字的本地地址", "source_row": 22}
+{"subject": "listen系统调用", "predicate": "用于", "object": "把套接字设置为被动方式，以便接受客户的服务请求", "source_row": 23}
+{"subject": "accept系统调用", "predicate": "用于", "object": "提取远地客户进程发来的连接请求", "source_row": 24}
+{"subject": "connect系统调用", "predicate": "用于", "object": "和远地服务器建立连接", "source_row": 25}
+{"subject": "send系统调用", "predicate": "用于", "object": "在TCP连接上传送数据", "source_row": 26}
+{"subject": "recv系统调用", "predicate": "用于", "object": "在TCP连接上接收数据", "source_row": 27}
+{"subject": "close系统调用", "predicate": "用于", "object": "释放连接和撤销套接字", "source_row": 28}
+{"subject": "P2P应用", "predicate": "是", "object": "具有P2P体系结构的网络应用", "source_row": 29}
+{"subject": "P2P体系结构", "predicate": "特征为", "object": "没有固定服务器，绝大多数交互使用对等方式进行", "source_row": 30}
+{"subject": "P2P文件分发", "predicate": "不需要", "object": "使用集中式的媒体服务器", "source_row": 31}
+{"subject": "P2P文件分发", "predicate": "通过", "object": "普通互联网用户之间传输音频/视频文件", "source_row": 32}
+{"subject": "Napster", "predicate": "是", "object": "最早使用P2P工作方式的软件之一", "source_row": 33}

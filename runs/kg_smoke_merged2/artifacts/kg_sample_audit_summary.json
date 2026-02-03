@@ -1,0 +1,7 @@
+{
+  "n": 50,
+  "seed": 42,
+  "input": "datasets\\domain_main_kg\\processed\\merged\\triples.jsonl",
+  "audit_strict": null,
+  "audit_relaxed": null
+}

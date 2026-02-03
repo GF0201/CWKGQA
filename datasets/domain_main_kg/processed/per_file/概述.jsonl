@@ -1,0 +1,16 @@
+{"subject": "计算机网络", "predicate": "在信息时代的作用", "object": "实现信息化必须依靠完善的网络，网络可以非常迅速地传递信息，已经成为信息社会的命脉和发展知识经济的重要基础，对社会生活和经济发展产生了不可估量的影响。", "source_row": 0}
+{"subject": "计算机网络", "predicate": "包括", "object": "电信网络、有线电视网络和计算机网络。", "source_row": 1}
+{"subject": "计算机网络", "predicate": "提供服务", "object": "在计算机之间传送数据文件。", "source_row": 2}
+{"subject": "计算机网络", "predicate": "发展最快并起着核心作用", "object": "是信息时代中发展最快并起着核心作用的网络。", "source_row": 3}
+{"subject": "计算机网络", "predicate": "技术发展", "object": "电信网络和有线电视网络逐渐融入了现代计算机网络的技术，扩大了原有的服务范围。", "source_row": 4}
+{"subject": "计算机网络", "predicate": "提供的服务", "object": "包括电话通信、视频通信以及传送视频节目的服务。", "source_row": 5}
+{"subject": "计算机网络", "predicate": "融合概念", "object": "三网融合，即把电信网络、有线电视网络和计算机网络融合成一种网络提供所有服务。", "source_row": 6}
+{"subject": "计算机网络", "predicate": "发展", "object": "20世纪90年代以后，以Internet为代表的计算机网络得到了飞速发展，从最初的仅供美国人使用的免费教育科研网络逐步发展成为供全球使用的商业网络。", "source_row": 7}
+{"subject": "计算机网络", "predicate": "重要性", "object": "是人类自印刷术发明以来在存储和交换信息领域的最大变革。", "source_row": 8}
+{"subject": "Internet", "predicate": "中文译名", "object": "因特网，这个译名是全国科学技术名词审定委员会推荐的。", "source_row": 9}
+{"subject": "Internet", "predicate": "发展", "object": "从最初的仅供美国人使用的免费教育科研网络逐步发展成为供全球使用的商业网络。", "source_row": 10}
+{"subject": "Internet", "predicate": "作用", "object": "是人类自印刷术发明以来在存储和交换信息领域的最大变革。", "source_row": 11}
+{"subject": "Internet", "predicate": "服务", "object": "供全球使用的商业网络（有偿使用）。", "source_row": 12}
+{"subject": "计算机网络", "predicate": "组成", "object": "由边缘部分和核心部分组成。", "source_row": 13}
+{"subject": "计算机网络", "predicate": "性能指标", "object": "包括计算机网络的性能指标。", "source_row": 14}
+{"subject": "计算机网络", "predicate": "体系结构", "object": "分层次的体系结构，包含协议和服务的概念。", "source_row": 15}

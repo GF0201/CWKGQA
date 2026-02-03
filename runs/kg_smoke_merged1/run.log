@@ -1,0 +1,6 @@
+argv: scripts/run_kg_smoke.py --triples datasets/domain_main_kg/processed/merged/triples.jsonl --index_dir datasets/domain_main_kg/index --output-id kg_smoke_merged1 --seed 42
+KG smoke started
+Loaded 3078 triples
+KG smoke completed
+validate_audit_artifacts: PASS
+Report saved to C:\Users\顾北上\KGELLM\kgqa_framework\reports\20260203_task_kg_smoke__kg_smoke_merged1.md

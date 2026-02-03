@@ -1,0 +1,17 @@
+{
+  "total": {
+    "n": 10,
+    "EM": 0.0,
+    "F1": 0.0,
+    "avg_wdqs_calls": 8.4
+  },
+  "executable_or_answerable": {
+    "n": 10,
+    "EM": 0.0,
+    "F1": 0.0
+  },
+  "coverage_upper_bound": {
+    "n": 10,
+    "ratio": 1.0
+  }
+}

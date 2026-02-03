@@ -1,0 +1,264 @@
+[
+      {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "TCP/IP体系中非常复杂的一个协议"
+      },
+      {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "面向连接的运输层协议"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "必须",
+        "tail": "先建立"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "必须",
+        "tail": "释放"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "是",
+        "tail": "点对点的"
+      },
+      {
+        "head": "TCP",
+        "connect": "提供",
+        "tail": "可靠交付的服务"
+      },
+      {
+        "head": "TCP",
+        "connect": "提供",
+        "tail": "全双工通信"
+      },
+      {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "面向字节流"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "像",
+        "tail": "一条管道"
+      },
+      {
+        "head": "TCP报文段",
+        "connect": "包含",
+        "tail": "上千个字节"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "是",
+        "tail": "虚连接"
+      },
+      {
+        "head": "TCP",
+        "connect": "不关心",
+        "tail": "报文发送长度"
+      },
+      {
+        "head": "TCP",
+        "connect": "根据",
+        "tail": "窗口值和网络拥塞程度决定报文段长度"
+      },
+      {
+        "head": "TCP",
+        "connect": "可以",
+        "tail": "划分数据块"
+      },
+      {
+        "head": "TCP",
+        "connect": "可以",
+        "tail": "等待积累足够多的字节后再发送"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "由",
+        "tail": "套接字对确定"
+      },
+      {
+        "head": "套接字",
+        "connect": "定义为",
+        "tail": "端口号拼接到IP地址"
+      },
+      {
+        "head": "套接字",
+        "connect": "表示为",
+        "tail": "IP地址后写上端口号"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "是",
+        "tail": "两个套接字之间的连接"
+      },
+      {
+        "head": "IP地址",
+        "connect": "可以",
+        "tail": "有多个不同的TCP连接"
+      },
+      {
+        "head": "端口号",
+        "connect": "可以",
+        "tail": "出现在多个不同的TCP连接中"
+      },
+      {
+        "head": "套接字",
+        "connect": "有时表示为",
+        "tail": "插座"
+      },
+      {
+        "head": "TCP连接",
+        "connect": "像",
+        "tail": "电缆线"
+      },
+      {
+        "head": "套接字",
+        "connect": "有时表示为",
+        "tail": "软件名词"
+      },
+      {
+        "head": "socket",
+        "connect": "表示",
+        "tail": "多种不同的意思"
+      },
+      {
+        "head": "IP层",
+        "connect": "提供",
+        "tail": "尽最大努力服务"
+      },
+      {
+        "head": "TCP",
+        "connect": "必须",
+        "tail": "采取措施实现可靠传输"
+      },
+      {
+        "head": "理想传输条件",
+        "connect": "包括",
+        "tail": "传输信道不产生差错"
+      },
+      {
+        "head": "理想传输条件",
+        "connect": "包括",
+        "tail": "接收方来得及处理数据"
+      },
+      {
+        "head": "可靠传输协议",
+        "connect": "可以",
+        "tail": "实现可靠传输"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "是",
+        "tail": "每发送完一个分组就停止发送"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "需要",
+        "tail": "等待对方确认"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "在",
+        "tail": "收到确认后再发送下一个分组"
+      },
+      {
+        "head": "停止等待协议",
+        "connect": "适用于",
+        "tail": "全双工通信"
+      },
+      {
+        "head": "分组",
+        "connect": "称为",
+        "tail": "传送的数据单元"
+      },
+      {
+        "head": "TCP",
+        "connect": "使用",
+        "tail": "可靠传输协议"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "通信双方的应用进程在任何时候都能发送数据"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "应用程序在把数据传送给TCP的缓存后就可以做自己的事"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "上层的应用进程在合适的时候读取缓存中的数据"
+      },
+      {
+        "head": "TCP",
+        "connect": "把",
+        "tail": "应用程序交下来的数据看成是一连串的无结构的字节流"
+      },
+      {
+        "head": "TCP",
+        "connect": "不保证",
+        "tail": "接收方应用程序所收到的数据块和发送方应用程序所发出的数据块具有对应大小的关系"
+      },
+      {
+        "head": "接收方应用程序",
+        "connect": "必须",
+        "tail": "有能力识别收到的字节流"
+      },
+      {
+        "head": "TCP",
+        "connect": "必须",
+        "tail": "传送数据无差错、不丢失、不重复，并且按序到达"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "通信双方的应用进程在任何时候都能发送数据"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "接收方的TCP可能只用了4个数据块就把收到的字节流交付上层的应用程序"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "发送方应用程序交给发送方的TCP共10个数据块"
+      },
+      {
+        "head": "TCP",
+        "connect": "允许",
+        "tail": "接收方应用程序收到的字节流必须和发送方应用程序发出的字节流完全一样"
+      },
+      {
+        "head": "套接字",
+        "connect": "有时表示为",
+        "tail": "应用程序访问连网协议的应用编程接口API"
+      },
+      {
+        "head": "socket",
+        "connect": "有时表示为",
+        "tail": "socketAPI中使用的一个函数名"
+      },
+      {
+        "head": "socket",
+        "connect": "有时表示为",
+        "tail": "调用socket函数的端点"
+      },
+      {
+        "head": "socket",
+        "connect": "有时表示为",
+        "tail": "调用socket函数时的返回值"
+      },
+      {
+        "head": "socket",
+        "connect": "有时表示为",
+        "tail": "操作系统内核中连网协议的Berkeley实现"
+      }
+    ]
+
+  

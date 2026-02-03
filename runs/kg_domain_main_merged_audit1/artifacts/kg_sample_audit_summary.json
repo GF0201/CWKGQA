@@ -1,0 +1,11 @@
+{
+  "n": 200,
+  "n_annotated_strict": 0,
+  "n_correct_strict": 0,
+  "strict_precision": null,
+  "n_annotated_relaxed": 0,
+  "n_correct_relaxed": 0,
+  "relaxed_precision": null,
+  "seed": 42,
+  "input": "datasets\\domain_main_kg\\processed\\merged\\triples.tsv"
+}

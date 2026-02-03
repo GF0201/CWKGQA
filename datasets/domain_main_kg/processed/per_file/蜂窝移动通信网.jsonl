@@ -1,0 +1,47 @@
+{"subject": "ZigBee网络", "predicate": "中包含", "object": "路由器RFD节点和协调器FFD节点", "source_row": 0}
+{"subject": "RFD节点", "predicate": "只能与", "object": "星形网中心的FFD节点交换数据", "source_row": 1}
+{"subject": "FFD节点", "predicate": "充当", "object": "ZigBee网络的协调器", "source_row": 2}
+{"subject": "协调器", "predicate": "负责", "object": "维护整个ZigBee网络的节点信息", "source_row": 3}
+{"subject": "协调器", "predicate": "可以", "object": "与其他ZigBee网络的协调器交换数据", "source_row": 4}
+{"subject": "高速WPAN", "predicate": "标准是", "object": "IEEE 802.15.3", "source_row": 5}
+{"subject": "高速WPAN", "predicate": "支持", "object": "11~55 Mbit/s的数据率", "source_row": 6}
+{"subject": "IEEE 802.15.3a工作组", "predicate": "提出", "object": "超高速WPAN物理层标准", "source_row": 7}
+{"subject": "超高速WPAN", "predicate": "使用", "object": "超宽带UWB技术", "source_row": 8}
+{"subject": "超宽带UWB技术", "predicate": "工作在", "object": "3.1~10.6 GHz微波频段", "source_row": 9}
+{"subject": "蜂窝移动通信系统", "predicate": "又称为", "object": "小区制移动通信", "source_row": 10}
+{"subject": "蜂窝无线通信网", "predicate": "最初用来", "object": "打电话", "source_row": 11}
+{"subject": "蜂窝无线通信技术", "predicate": "使得", "object": "手机成为接入互联网最主要的用户设备", "source_row": 12}
+{"subject": "蜂窝移动通信系统", "predicate": "使用最多的是", "object": "蜂窝移动通信", "source_row": 13}
+{"subject": "第一代蜂窝移动通信系统", "predicate": "使用", "object": "模拟技术和传统电路交换及频分多址FDMA", "source_row": 14}
+{"subject": "第二代蜂窝移动通信系统", "predicate": "代表性体制是", "object": "GSM系统", "source_row": 15}
+{"subject": "蜂窝移动通信", "predicate": "特点", "object": "把整个网络服务区划分成许多小区", "source_row": 16}
+{"subject": "GSM系统", "predicate": "使用", "object": "数字技术", "source_row": 17}
+{"subject": "GSM系统", "predicate": "提供", "object": "基本的话音通信服务", "source_row": 18}
+{"subject": "GSM系统", "predicate": "采用", "object": "FDMA/TDMA的混合系统", "source_row": 19}
+{"subject": "GSM系统", "predicate": "包括", "object": "基站子系统和网络子系统", "source_row": 20}
+{"subject": "基站子系统", "predicate": "包括", "object": "几十个基站和一个基站控制器BSC", "source_row": 21}
+{"subject": "核心网", "predicate": "包括", "object": "移动交换中心MSC和网关移动交换中心GMSC", "source_row": 22}
+{"subject": "MSC", "predicate": "负责", "object": "用户的授权和账单", "source_row": 23}
+{"subject": "GPRS", "predicate": "是", "object": "通用分组无线服务", "source_row": 24}
+{"subject": "EDGE", "predicate": "是", "object": "增强型数据速率GSM演进", "source_row": 25}
+{"subject": "3G蜂窝移动通信系统", "predicate": "标准名称定为", "object": "IMT-2000", "source_row": 26}
+{"subject": "3GPP", "predicate": "制定", "object": "从2G GSM平滑过渡到3G的端到端标准", "source_row": 27}
+{"subject": "3GPP R99版本", "predicate": "要求", "object": "下行和上行的数据率都要超过384 kbit/s", "source_row": 28}
+{"subject": "UTRANT", "predicate": "由", "object": "多个无线网络系统组成", "source_row": 29}
+{"subject": "无线网络控制器RNC", "predicate": "和", "object": "许多基站组成UTRANT", "source_row": 30}
+{"subject": "3G UMTS", "predicate": "把移动站称为", "object": "用户设备UE", "source_row": 31}
+{"subject": "4G蜂窝移动通信系统", "predicate": "称为", "object": "IMT-Advanced", "source_row": 32}
+{"subject": "4G", "predicate": "取消", "object": "电路交换", "source_row": 33}
+{"subject": "4G", "predicate": "全部使用", "object": "分组交换技术", "source_row": 34}
+{"subject": "LTE", "predicate": "是", "object": "长期演进", "source_row": 35}
+{"subject": "LTE", "predicate": "采用", "object": "频分复用与时分复用相结合的方式，称为正交频分多址OFDMA", "source_row": 36}
+{"subject": "LTE", "predicate": "采用", "object": "高阶调制64QAM", "source_row": 37}
+{"subject": "LTE", "predicate": "采用", "object": "多天线的多入多出MIMO技术", "source_row": 38}
+{"subject": "E-UTRAN", "predicate": "取消", "object": "无线网络控制器RNC", "source_row": 39}
+{"subject": "E-UTRAN", "predicate": "把基站称为", "object": "演进的节点B，简称为eNB", "source_row": 40}
+{"subject": "核心网EPC", "predicate": "由", "object": "用户层面和控制层面组成", "source_row": 41}
+{"subject": "P-GW", "predicate": "负责", "object": "给所有用户设备UE分配IP地址和确保服务队列QoS的实施", "source_row": 42}
+{"subject": "S-GW", "predicate": "负责", "object": "用户层面的数据分组的转发和路由选择", "source_row": 43}
+{"subject": "HSS", "predicate": "是", "object": "中心数据库", "source_row": 44}
+{"subject": "MME", "predicate": "负责", "object": "移动性管理", "source_row": 45}
+{"subject": "移动IP", "predicate": "研究", "object": "移动站的IP地址在移动中保持不变", "source_row": 46}

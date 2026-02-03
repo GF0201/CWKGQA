@@ -1,0 +1,11 @@
+{
+  "n": 5,
+  "n_annotated_strict": 2,
+  "n_correct_strict": 1,
+  "strict_precision": 0.5,
+  "n_annotated_relaxed": 2,
+  "n_correct_relaxed": 2,
+  "relaxed_precision": 1.0,
+  "seed": 42,
+  "input": "data\\triples_demo.tsv"
+}

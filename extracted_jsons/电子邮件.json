@@ -1,0 +1,259 @@
+[
+      {
+        "head": "新浪微博",
+        "connect": "是",
+        "tail": "社交网站"
+      },
+      {
+        "head": "腾讯微博",
+        "connect": "是",
+        "tail": "社交网站"
+      },
+      {
+        "head": "领英Linkedin",
+        "connect": "是",
+        "tail": "职业性社交网站"
+      },
+      {
+        "head": "微信",
+        "connect": "是",
+        "tail": "社交网站"
+      },
+      {
+        "head": "微信",
+        "connect": "最初是",
+        "tail": "专为手机用户使用的聊天工具"
+      },
+      {
+        "head": "电子邮件",
+        "connect": "可以发送给",
+        "tail": "网上任何一个并不认识你的用户"
+      },
+      {
+        "head": "电子邮件",
+        "connect": "具有",
+        "tail": "传递迅速和费用低廉的优点"
+      },
+      {
+        "head": "电子邮件",
+        "connect": "可提高",
+        "tail": "劳动生产率30%以上"
+      },
+      {
+        "head": "电子邮件",
+        "connect": "可传送",
+        "tail": "文字信息、声音和图像"
+      },
+      {
+        "head": "电子邮件",
+        "connect": "导致",
+        "tail": "传统电报业务退出市场"
+      },
+      {
+        "head": "简单邮件传送协议SMTP",
+        "connect": "是",
+        "tail": "电子邮件的草案标准之一"
+      },
+      {
+        "head": "互联网文本报文格式",
+        "connect": "是",
+        "tail": "电子邮件的草案标准之一"
+      },
+      {
+        "head": "通用互联网邮件扩充MIME",
+        "connect": "是",
+        "tail": "草案标准"
+      },
+      {
+        "head": "MIME",
+        "connect": "在其邮件首部中说明了",
+        "tail": "邮件的数据类型"
+      },
+      {
+        "head": "电子邮件系统",
+        "connect": "应具有",
+        "tail": "用户代理、邮件服务器和邮件发送协议"
+      },
+      {
+        "head": "用户代理UA",
+        "connect": "是",
+        "tail": "用户与电子邮件系统的接口"
+      },
+      {
+        "head": "用户代理",
+        "connect": "又称为",
+        "tail": "电子邮件客户端软件"
+      },
+      {
+        "head": "用户代理",
+        "connect": "提供",
+        "tail": "编辑信件的环境"
+      },
+      {
+        "head": "用户代理",
+        "connect": "能",
+        "tail": "在计算机屏幕上显示出来信"
+      },
+      {
+        "head": "用户代理",
+        "connect": "处理",
+        "tail": "包括发送邮件和接收邮件"
+      },
+      {
+        "head": "邮件服务器",
+        "connect": "功能是",
+        "tail": "发送和接收邮件"
+      },
+      {
+        "head": "邮件服务器",
+        "connect": "需要使用",
+        "tail": "SMTP协议和POP3协议"
+      },
+      {
+        "head": "SMTP服务器",
+        "connect": "收到用户代理发来的邮件后",
+        "tail": "把邮件临时存放在邮件缓存队列中"
+      },
+      {
+        "head": "SMTP客户",
+        "connect": "与",
+        "tail": "SMTP服务器建立TCP连接"
+      },
+      {
+        "head": "电子邮件地址",
+        "connect": "规定",
+        "tail": "用户名＠邮件服务器的域名格式"
+      },
+      {
+        "head": "SMTP",
+        "connect": "规定了",
+        "tail": "在两个SMTP进程之间如何交换信息"
+      },
+      {
+        "head": "SMTP",
+        "connect": "规定了",
+        "tail": "14条命令和21种应答信息"
+      },
+      {
+        "head": "SMTP通信",
+        "connect": "包括",
+        "tail": "连接建立、邮件传送和连接释放三个阶段"
+      },
+      {
+        "head": "SMTP客户",
+        "connect": "发送",
+        "tail": "MAIL命令开始邮件传送"
+      },
+      {
+        "head": "RCPT命令",
+        "connect": "是",
+        "tail": "recipient的缩写"
+      },
+      {
+        "head": "DATA命令",
+        "connect": "表示",
+        "tail": "要开始传送邮件的内容"
+      },
+      {
+        "head": "SMTP",
+        "connect": "使用",
+        "tail": "TCP连接传送邮件"
+      },
+      {
+        "head": "POP3",
+        "connect": "是",
+        "tail": "邮局协议的版本3"
+      },
+      {
+        "head": "IMAP",
+        "connect": "是",
+        "tail": "网际报文存取协议"
+      },
+      {
+        "head": "MIME",
+        "connect": "定义了",
+        "tail": "传送编码"
+      },
+      {
+        "head": "MIME",
+        "connect": "定义了",
+        "tail": "许多邮件内容的格式"
+      },
+      {
+        "head": "MIME",
+        "connect": "增加了",
+        "tail": "邮件主体的结构"
+      },
+      {
+        "head": "MIME邮件",
+        "connect": "可在",
+        "tail": "现有的电子邮件程序和协议下传送"
+      },
+      {
+        "head": "MIME",
+        "connect": "包括",
+        "tail": "5个新的邮件首部字段"
+      },
+      {
+        "head": "Content-Transfer-Encoding",
+        "connect": "说明",
+        "tail": "邮件的主体是如何编码的"
+      },
+      {
+        "head": "Content-Type",
+        "connect": "说明",
+        "tail": "邮件主体的数据类型和子类型"
+      },
+      {
+        "head": "万维网电子邮件",
+        "connect": "不需要",
+        "tail": "在计算机中安装用户代理软件"
+      },
+      {
+        "head": "HTTP协议",
+        "connect": "用于",
+        "tail": "浏览器和互联网上的邮件服务器之间传送邮件"
+      },
+      {
+        "head": "SMTP协议",
+        "connect": "用于",
+        "tail": "各邮件服务器之间传送邮件"
+      },
+      {
+        "head": "MIME",
+        "connect": "允许",
+        "tail": "发件人和收件人自己定义专用的内容类型"
+      },
+      {
+        "head": "multipart",
+        "connect": "是",
+        "tail": "MIME内容类型中很有用的部分"
+      },
+      {
+        "head": "multipart",
+        "connect": "定义了",
+        "tail": "四种可能的子类型"
+      },
+      {
+        "head": "base64编码",
+        "connect": "用于",
+        "tail": "任意的二进制文件"
+      },
+      {
+        "head": "quoted-printable编码",
+        "connect": "适用于",
+        "tail": "所传送的数据中只有少量的非ASCII码"
+      },
+      {
+        "head": "MIME",
+        "connect": "允许",
+        "tail": "在同一数据中附上文本、图形和声音"
+      },
+      {
+        "head": "MIME",
+        "connect": "允许",
+        "tail": "用户同时用普通ASCII文本和格式化的形式发送文本"
+      }
+]
+
+  

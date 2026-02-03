@@ -1,0 +1,81 @@
+{"subject": "前同步码", "predicate": "使", "object": "接收端的适配器在接收MAC帧时能够迅速调整其时钟频率", "source_row": 0}
+{"subject": "前同步码", "predicate": "实现", "object": "位同步", "source_row": 1}
+{"subject": "帧开始定界符", "predicate": "定义为", "object": "10 10 10 11", "source_row": 2}
+{"subject": "帧开始定界符的前六位", "predicate": "作用与", "object": "前同步码一样", "source_row": 3}
+{"subject": "连续的两个1", "predicate": "告诉接收端适配器", "object": "MAC帧的信息马上就要来了", "source_row": 4}
+{"subject": "FCS字段的检验范围", "predicate": "不包括", "object": "前同步码和帧开始定界符", "source_row": 5}
+{"subject": "以太网", "predicate": "传送数据时以", "object": "帧为单位", "source_row": 6}
+{"subject": "以太网", "predicate": "在传送帧时", "object": "各帧之间还必须有一定的间隙", "source_row": 7}
+{"subject": "IEEE 802.3标准", "predicate": "规定", "object": "无效的MAC帧的三种情况", "source_row": 8}
+{"subject": "有效的MAC帧长度", "predicate": "为", "object": "64 ~ 1518字节之间", "source_row": 9}
+{"subject": "检查出的无效MAC帧", "predicate": "被", "object": "简单地丢弃", "source_row": 10}
+{"subject": "以太网", "predicate": "不负责", "object": "重传丢弃的帧", "source_row": 11}
+{"subject": "IEEE 802.3标准", "predicate": "规定", "object": "MAC帧的第三个字段是'长度/类型'", "source_row": 12}
+{"subject": "长度字段", "predicate": "表示", "object": "MAC帧的数据部分长度", "source_row": 13}
+{"subject": "类型字段", "predicate": "表示", "object": "帧格式", "source_row": 14}
+{"subject": "LLC帧", "predicate": "必须装入", "object": "逻辑链路控制子层", "source_row": 15}
+{"subject": "以太网V2 MAC帧", "predicate": "与", "object": "IEEE 802.3标准的MAC帧格式的区别", "source_row": 16}
+{"subject": "扩展的以太网", "predicate": "在物理层和数据链路层", "object": "进行扩展", "source_row": 17}
+{"subject": "以太网集线器", "predicate": "通过", "object": "光纤和光纤调制解调器连接主机", "source_row": 18}
+{"subject": "光纤调制解调器", "predicate": "进行", "object": "电信号和光信号的转换", "source_row": 19}
+{"subject": "多个集线器", "predicate": "连接成", "object": "更大范围的多级星形结构的以太网", "source_row": 20}
+{"subject": "多级结构的集线器以太网", "predicate": "带来", "object": "跨系的通信和扩大以太网覆盖的地理范围", "source_row": 21}
+{"subject": "多级结构的集线器以太网", "predicate": "导致", "object": "最大吞吐量降低", "source_row": 22}
+{"subject": "集线器", "predicate": "是", "object": "多端口的转发器", "source_row": 23}
+{"subject": "网桥", "predicate": "根据", "object": "MAC帧的目的地址进行转发和过滤", "source_row": 24}
+{"subject": "交换式集线器", "predicate": "称为", "object": "以太网交换机或第二层交换机", "source_row": 25}
+{"subject": "以太网交换机", "predicate": "实质上是", "object": "多端口的网桥", "source_row": 26}
+{"subject": "以太网交换机", "predicate": "具有", "object": "并行性和存储器", "source_row": 27}
+{"subject": "以太网交换机", "predicate": "是", "object": "即插即用设备", "source_row": 28}
+{"subject": "以太网交换机", "predicate": "使用", "object": "专用的交换结构芯片", "source_row": 29}
+{"subject": "以太网交换机", "predicate": "性能超过", "object": "普通的集线器", "source_row": 30}
+{"subject": "以太网交换机", "predicate": "具有", "object": "多种速率的端口", "source_row": 31}
+{"subject": "直通交换", "predicate": "提高", "object": "帧的转发速度", "source_row": 32}
+{"subject": "直通交换", "predicate": "不检查", "object": "差错就直接将帧转发出去", "source_row": 33}
+{"subject": "以太网交换机的学习功能", "predicate": "通过", "object": "自学习算法自动建立交换表", "source_row": 34}
+{"subject": "交换表", "predicate": "是", "object": "内容可寻址存储器CAM", "source_row": 35}
+{"subject": "以太网交换机", "predicate": "使用", "object": "硬件转发收到的帧", "source_row": 36}
+{"subject": "生成树协议STP", "predicate": "制定", "object": "IEEE的802.1D标准", "source_row": 37}
+{"subject": "生成树协议STP", "predicate": "消除", "object": "兜圈子现象", "source_row": 38}
+{"subject": "总线以太网", "predicate": "使用", "object": "CSMA/CD协议", "source_row": 39}
+{"subject": "以太网交换机", "predicate": "不使用", "object": "CSMA/CD协议", "source_row": 40}
+{"subject": "以太网", "predicate": "采用", "object": "全双工方式工作", "source_row": 41}
+{"subject": "虚拟局域网", "predicate": "定义", "object": "IEEE的802.3ac标准", "source_row": 42}
+{"subject": "VLAN标签", "predicate": "插入在", "object": "以太网MAC帧的源地址字段和类型字段之间", "source_row": 43}
+{"subject": "VLAN标签", "predicate": "称为", "object": "802.1Q帧", "source_row": 44}
+{"subject": "VLAN标签", "predicate": "由", "object": "12位的VLAN标识符VID组成", "source_row": 45}
+{"subject": "汇聚链路", "predicate": "称为", "object": "trunk link或干线链路", "source_row": 46}
+{"subject": "第三层交换", "predicate": "实现", "object": "第3层的转发功能", "source_row": 47}
+{"subject": "第三层交换机", "predicate": "称为", "object": "L3/L2交换机", "source_row": 48}
+{"subject": "高速以太网", "predicate": "从", "object": "10 Mbit/s以太网发展而来", "source_row": 49}
+{"subject": "100BASE-T以太网", "predicate": "称为", "object": "快速以太网", "source_row": 50}
+{"subject": "快速以太网", "predicate": "使用", "object": "100 Mbit/s的适配器和集线器或交换机", "source_row": 51}
+{"subject": "100BASE-T以太网", "predicate": "保持", "object": "CSMA/CD协议", "source_row": 52}
+{"subject": "快速以太网", "predicate": "使用", "object": "全双工方式工作", "source_row": 53}
+{"subject": "快速以太网", "predicate": "不使用", "object": "CSMA/CD协议", "source_row": 54}
+{"subject": "100BASE-T以太网", "predicate": "使用", "object": "无屏蔽双绞线布线", "source_row": 55}
+{"subject": "100 Mbit/s以太网", "predicate": "保持", "object": "最短帧长不变", "source_row": 56}
+{"subject": "100 Mbit/s以太网", "predicate": "争用期为", "object": "5.12 µs", "source_row": 57}
+{"subject": "100 Mbit/s以太网", "predicate": "帧间最小间隔为", "object": "0.96 µs", "source_row": 58}
+{"subject": "参数α", "predicate": "保持", "object": "很小的数值", "source_row": 59}
+{"subject": "以太网单程端到端时延", "predicate": "与", "object": "帧的发送时间的乘积不变", "source_row": 60}
+{"subject": "网络电缆长度", "predicate": "减小到", "object": "原有数值的十分之一", "source_row": 61}
+{"subject": "VLAN", "predicate": "允许", "object": "在以太网的帧格式中插入一个4字节的标识符", "source_row": 62}
+{"subject": "VLAN-10和VLAN-20", "predicate": "是", "object": "虚拟局域网的编号", "source_row": 63}
+{"subject": "虚拟局域网", "predicate": "跨越", "object": "不同交换机", "source_row": 64}
+{"subject": "汇聚链路", "predicate": "用于", "object": "连接两个交换机", "source_row": 65}
+{"subject": "802.1Q帧", "predicate": "在", "object": "汇聚链路传送", "source_row": 66}
+{"subject": "标准以太网帧", "predicate": "被", "object": "802.1Q帧替换", "source_row": 67}
+{"subject": "不同网络之间的通信", "predicate": "由", "object": "网络层中的路由器解决", "source_row": 68}
+{"subject": "第三层交换机", "predicate": "嵌入了", "object": "专用芯片构成的转发模块", "source_row": 69}
+{"subject": "第三层交换", "predicate": "提高了", "object": "转发帧的速率", "source_row": 70}
+{"subject": "10BASE-T以太网", "predicate": "升级到", "object": "100 Mbit/s", "source_row": 71}
+{"subject": "100 Mbit/s的适配器", "predicate": "自动识别", "object": "10 Mbit/s和100 Mbit/s", "source_row": 72}
+{"subject": "IEEE 802.3u", "predicate": "是", "object": "100BASE-T快速以太网的正式标准", "source_row": 73}
+{"subject": "快速以太网", "predicate": "保持", "object": "IEEE 802.3标准规定的帧格式", "source_row": 74}
+{"subject": "IEEE 802.3u标准", "predicate": "未包括", "object": "对同轴电缆的支持", "source_row": 75}
+{"subject": "100 Mbit/s以太网", "predicate": "采用", "object": "保持争用期不变的方法", "source_row": 76}
+{"subject": "100 Mbit/s以太网", "predicate": "减小", "object": "网络电缆长度", "source_row": 77}
+{"subject": "以太网", "predicate": "保持", "object": "帧长一定的条件下", "source_row": 78}
+{"subject": "争用期", "predicate": "是", "object": "10 Mbit/s以太网的1/10", "source_row": 79}
+{"subject": "帧间最小间隔", "predicate": "是", "object": "10 Mbit/s以太网的1/10", "source_row": 80}

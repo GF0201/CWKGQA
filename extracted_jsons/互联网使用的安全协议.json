@@ -1,0 +1,279 @@
+[
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "签名算法"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "签发者的唯一标识符"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "有效期"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "主体名"
+      },
+      {
+        "head": "数字证书",
+        "connect": "包含",
+        "tail": "公钥"
+      },
+      {
+        "head": "X.509",
+        "connect": "提出",
+        "tail": "多级认证中心链接构成树状认证系统"
+      },
+      {
+        "head": "X.509",
+        "connect": "规定",
+        "tail": "根认证中心为公认可信的认证中心"
+      },
+      {
+        "head": "信任链",
+        "connect": "表示",
+        "tail": "链上的认证机构都是可信的"
+      },
+      {
+        "head": "证书链",
+        "connect": "对应",
+        "tail": "信任链"
+      },
+      {
+        "head": "根CA",
+        "connect": "给",
+        "tail": "中间CA签发中间证书"
+      },
+      {
+        "head": "中间CA2",
+        "connect": "给",
+        "tail": "用户签发用户证书"
+      },
+      {
+        "head": "根证书",
+        "connect": "是",
+        "tail": "自签名的"
+      },
+      {
+        "head": "CA",
+        "connect": "应有一个",
+        "tail": "公布于众的证书撤销名单"
+      },
+      {
+        "head": "IPsec",
+        "connect": "提供",
+        "tail": "IP层的互联网通信安全"
+      },
+      {
+        "head": "IPsec",
+        "connect": "包含",
+        "tail": "AH协议和ESP协议"
+      },
+      {
+        "head": "AH协议",
+        "connect": "提供",
+        "tail": "源点鉴别和数据完整性"
+      },
+      {
+        "head": "ESP协议",
+        "connect": "提供",
+        "tail": "源点鉴别、数据完整性和保密"
+      },
+      {
+        "head": "IP安全数据报",
+        "connect": "可以在",
+        "tail": "两台主机之间发送"
+      },
+      {
+        "head": "IP安全数据报",
+        "connect": "可以在",
+        "tail": "两个路由器之间发送"
+      },
+      {
+        "head": "IP安全数据报",
+        "connect": "可以在",
+        "tail": "一台主机和一个路由器之间发送"
+      },
+      {
+        "head": "安全关联SA",
+        "connect": "是",
+        "tail": "网络层的逻辑连接"
+      },
+      {
+        "head": "安全关联SA",
+        "connect": "提供",
+        "tail": "安全服务"
+      },
+      {
+        "head": "IPsec",
+        "connect": "支持",
+        "tail": "IPv4和IPv6"
+      },
+      {
+        "head": "IPsec",
+        "connect": "要求",
+        "tail": "所有实现都必须包含推荐的加密算法"
+      },
+      {
+        "head": "ESP协议",
+        "connect": "包含",
+        "tail": "ESP尾部"
+      },
+      {
+        "head": "ESP尾部",
+        "connect": "包含",
+        "tail": "填充字段"
+      },
+      {
+        "head": "ESP尾部",
+        "connect": "包含",
+        "tail": "填充长度"
+      },
+      {
+        "head": "ESP尾部",
+        "connect": "包含",
+        "tail": "下一个首部"
+      },
+      {
+        "head": "IP安全数据报",
+        "connect": "包含",
+        "tail": "IP首部"
+      },
+      {
+        "head": "IP首部",
+        "connect": "包含",
+        "tail": "协议字段"
+      },
+      {
+        "head": "安全参数索引SPI",
+        "connect": "用于",
+        "tail": "标识安全关联SA"
+      },
+      {
+        "head": "TLS",
+        "connect": "提供",
+        "tail": "安全的运输层协议"
+      },
+      {
+        "head": "TLS",
+        "connect": "用于",
+        "tail": "网上购物等安全服务"
+      },
+      {
+        "head": "TLS",
+        "connect": "保证",
+        "tail": "报文内容的数据完整性"
+      },
+      {
+        "head": "TLS",
+        "connect": "保证",
+        "tail": "通信内容的机密性"
+      },
+      {
+        "head": "TLS",
+        "connect": "提供",
+        "tail": "身份鉴别"
+      },
+      {
+        "head": "SSL",
+        "connect": "由",
+        "tail": "Netscapte公司开发"
+      },
+      {
+        "head": "TLS",
+        "connect": "基于",
+        "tail": "SSL 3.0"
+      },
+      {
+        "head": "TLS",
+        "connect": "提供",
+        "tail": "安全的HTTP服务"
+      },
+      {
+        "head": "HTTPS",
+        "connect": "表示",
+        "tail": "使用TLS协议的HTTP"
+      },
+      {
+        "head": "HTTPS",
+        "connect": "使用",
+        "tail": "TCP的443端口"
+      },
+      {
+        "head": "HTTP",
+        "connect": "使用",
+        "tail": "TCP的80端口"
+      },
+      {
+        "head": "TLS",
+        "connect": "包含",
+        "tail": "握手协议"
+      },
+      {
+        "head": "TLS",
+        "connect": "包含",
+        "tail": "记录协议"
+      },
+      {
+        "head": "TLS",
+        "connect": "使用",
+        "tail": "主密钥MS"
+      },
+      {
+        "head": "PGP",
+        "connect": "提供",
+        "tail": "电子邮件的安全性"
+      },
+      {
+        "head": "PGP",
+        "connect": "提供",
+        "tail": "发送方鉴别"
+      },
+      {
+        "head": "PGP",
+        "connect": "提供",
+        "tail": "报文完整性"
+      },
+      {
+        "head": "PGP",
+        "connect": "使用",
+        "tail": "加密、鉴别、电子签名和压缩技术"
+      },
+      {
+        "head": "OpenPGP",
+        "connect": "是",
+        "tail": "PGP的公开互联网标准"
+      },
+      {
+        "head": "防火墙",
+        "connect": "作为",
+        "tail": "访问控制技术"
+      },
+      {
+        "head": "防火墙",
+        "connect": "安装在",
+        "tail": "网点和网络的其余部分之间"
+      },
+      {
+        "head": "防火墙",
+        "connect": "实施",
+        "tail": "访问控制策略"
+      },
+      {
+        "head": "入侵检测系统IDS",
+        "connect": "作为",
+        "tail": "系统防御的第二道防线"
+      },
+      {
+        "head": "IDS",
+        "connect": "检测",
+        "tail": "疑似入侵行为的网络活动"
+      }
+    ]
+
+  

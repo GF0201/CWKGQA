@@ -1,0 +1,207 @@
+[
+    {
+        "head": "运输层",
+        "connect": "为",
+        "tail": "相互通信的应用进程提供逻辑通信"
+    },
+    {
+        "head": "运输层",
+        "connect": "包含",
+        "tail": "端口和套接字的意义"
+    },
+    {
+        "head": "UDP",
+        "connect": "是",
+        "tail": "无连接的"
+    },
+    {
+        "head": "TCP",
+        "connect": "是",
+        "tail": "面向连接的"
+    },
+    {
+        "head": "运输层",
+        "connect": "实现",
+        "tail": "在不可靠的网络上的可靠传输"
+    },
+    {
+        "head": "运输层",
+        "connect": "使用",
+        "tail": "停止等待协议和ARQ协议"
+    },
+    {
+        "head": "TCP",
+        "connect": "具有",
+        "tail": "滑动窗口、流量控制、拥塞控制和连接管理"
+    },
+    {
+        "head": "运输层",
+        "connect": "提供",
+        "tail": "复用和分用功能"
+    },
+    {
+        "head": "IP协议",
+        "connect": "负责",
+        "tail": "将分组送至目的主机"
+    },
+    {
+        "head": "运输层",
+        "connect": "负责",
+        "tail": "将分组交付目的主机中的应用进程"
+    },
+    {
+        "head": "主机中多个应用进程",
+        "connect": "可以",
+        "tail": "同时与另一主机中的多个应用进程通信"
+    },
+    {
+        "head": "浏览器客户进程",
+        "connect": "用于",
+        "tail": "查找网站信息"
+    },
+    {
+        "head": "电子邮件客户进程",
+        "connect": "用于",
+        "tail": "发送反馈意见"
+    },
+    {
+        "head": "运输层",
+        "connect": "向",
+        "tail": "应用层提供逻辑通信服务"
+    },
+    {
+        "head": "网络层",
+        "connect": "为",
+        "tail": "主机之间的通信提供服务"
+    },
+    {
+        "head": "运输层",
+        "connect": "向",
+        "tail": "高层用户屏蔽网络核心的细节"
+    },
+    {
+        "head": "TCP协议",
+        "connect": "提供",
+        "tail": "全双工的可靠信道"
+    },
+    {
+        "head": "UDP协议",
+        "connect": "提供",
+        "tail": "不可靠信道"
+    },
+    {
+        "head": "TCP/IP运输层",
+        "connect": "包含",
+        "tail": "UDP和TCP两个主要协议"
+    },
+    {
+        "head": "UDP",
+        "connect": "传送数据前",
+        "tail": "不需要建立连接"
+    },
+    {
+        "head": "TCP",
+        "connect": "提供",
+        "tail": "面向连接的服务"
+    },
+    {
+        "head": "TCP",
+        "connect": "增加",
+        "tail": "确认、流量控制、计时器以及连接管理等开销"
+    },
+    {
+        "head": "应用层协议",
+        "connect": "根据",
+        "tail": "使用的运输层协议是TCP或UDP"
+    },
+    {
+        "head": "DNS",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "TFTP",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "RIP",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "DHCP",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "SNMP",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "NFS",
+        "connect": "使用",
+        "tail": "UDP协议"
+    },
+    {
+        "head": "SMTP",
+        "connect": "使用",
+        "tail": "TCP协议"
+    },
+    {
+        "head": "TELNET",
+        "connect": "使用",
+        "tail": "TCP协议"
+    },
+    {
+        "head": "HTTP",
+        "connect": "使用",
+        "tail": "TCP协议"
+    },
+    {
+        "head": "FTP",
+        "connect": "使用",
+        "tail": "TCP协议"
+    },
+    {
+        "head": "协议端口",
+        "connect": "是",
+        "tail": "应用层和运输层之间的抽象的门"
+    },
+    {
+        "head": "端口号",
+        "connect": "用于",
+        "tail": "标志本计算机应用层中的各个进程在和运输层交互时的层间接口"
+    },
+    {
+        "head": "熟知端口号",
+        "connect": "是",
+        "tail": "0~1023的端口号"
+    },
+    {
+        "head": "登记端口号",
+        "connect": "是",
+        "tail": "1024~49151的端口号"
+    },
+    {
+        "head": "短暂端口号",
+        "connect": "是",
+        "tail": "49152~65535的端口号"
+    },
+    {
+        "head": "UDP",
+        "connect": "提供",
+        "tail": "复用和分用功能以及差错检测功能"
+    },
+    {
+        "head": "短暂端口",
+        "connect": "表示",
+        "tail": "存在时间短期的端口"
+    },
+    {
+        "head": "服务器程序",
+        "connect": "使用",
+        "tail": "熟知端口以便互联网上所有的客户程序能找到"
+    }
+]

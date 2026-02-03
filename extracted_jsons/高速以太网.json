@@ -1,0 +1,224 @@
+[
+      {
+        "head": "VLAN",
+        "connect": "解决",
+        "tail": "不同VLAN间的通信问题"
+      },
+      {
+        "head": "交换机",
+        "connect": "嵌入",
+        "tail": "转发模块"
+      },
+      {
+        "head": "转发模块",
+        "connect": "用于",
+        "tail": "不同VLAN间转发帧"
+      },
+      {
+        "head": "第3层交换",
+        "connect": "实现",
+        "tail": "第3层的转发功能"
+      },
+      {
+        "head": "L3/L2交换机",
+        "connect": "称为",
+        "tail": "第3层交换机"
+      },
+      {
+        "head": "100BASE-T以太网",
+        "connect": "也称为",
+        "tail": "快速以太网"
+      },
+      {
+        "head": "快速以太网",
+        "connect": "使用",
+        "tail": "IEEE 802.3的CSMA/CD协议"
+      },
+      {
+        "head": "100BASE-T以太网",
+        "connect": "允许",
+        "tail": "直接升级到100 Mbit/s"
+      },
+      {
+        "head": "100BASE-T适配器",
+        "connect": "能够",
+        "tail": "自动识别10 Mbit/s和100 Mbit/s"
+      },
+      {
+        "head": "100BASE-T以太网",
+        "connect": "在",
+        "tail": "全双工方式下工作而无冲突发生"
+      },
+      {
+        "head": "吉比特以太网",
+        "connect": "允许",
+        "tail": "在1 Gbit/s下全双工和半双工两种方式工作"
+      },
+      {
+        "head": "吉比特以太网",
+        "connect": "使用",
+        "tail": "IEEE 802.3协议规定的帧格式"
+      },
+      {
+        "head": "吉比特以太网",
+        "connect": "与",
+        "tail": "10BASE-T和100BASE-T技术向后兼容"
+      },
+      {
+        "head": "10GbE",
+        "connect": "称为",
+        "tail": "万兆比特"
+      },
+      {
+        "head": "10GbE",
+        "connect": "保留",
+        "tail": "802.3标准规定的以太网最小帧长和最大帧长"
+      },
+      {
+        "head": "10GbE",
+        "connect": "只工作在",
+        "tail": "全双工方式"
+      },
+      {
+        "head": "10GbE",
+        "connect": "不使用",
+        "tail": "CSMA/CD协议"
+      },
+      {
+        "head": "40GbE/100GbE",
+        "connect": "制定",
+        "tail": "IEEE 802.3ba-2010和802.3bm-2015标准"
+      },
+      {
+        "head": "以太网",
+        "connect": "可以",
+        "tail": "提供双向的宽带通信"
+      },
+      {
+        "head": "以太网",
+        "connect": "可以",
+        "tail": "根据用户对带宽的需求灵活地进行带宽升级"
+      },
+      {
+        "head": "PPPoE",
+        "connect": "是",
+        "tail": "在以太网上运行PPP"
+      },
+      {
+        "head": "PPPoE",
+        "connect": "用于",
+        "tail": "宽带上网的主机使用的链路层协议"
+      },
+      {
+        "head": "以太网",
+        "connect": "实现",
+        "tail": "端到端的以太网传输"
+      },
+      {
+        "head": "以太网",
+        "connect": "适应",
+        "tail": "多种传输媒体"
+      },
+      {
+        "head": "以太网",
+        "connect": "简化",
+        "tail": "操作和管理"
+      },
+      {
+        "head": "以太网",
+        "connect": "从",
+        "tail": "10 Mbit/s发展到400 Gbit/s"
+      },
+      {
+        "head": "以太网",
+        "connect": "证明是",
+        "tail": "可扩展的、灵活的、易于安装的、稳健性好的"
+      },
+      {
+        "head": "链路",
+        "connect": "是",
+        "tail": "从一个节点到相邻节点的一段物理线路"
+      },
+      {
+        "head": "数据链路层",
+        "connect": "传送的协议数据单元是",
+        "tail": "帧"
+      },
+      {
+        "head": "数据链路层",
+        "connect": "使用的检错方法是",
+        "tail": "循环冗余检验CRC"
+      },
+      {
+        "head": "点对点协议PPP",
+        "connect": "是",
+        "tail": "数据链路层使用最多的一种协议"
+      },
+      {
+        "head": "局域网",
+        "connect": "具有",
+        "tail": "广播功能"
+      },
+      {
+        "head": "以太网",
+        "connect": "采用",
+        "tail": "无连接的工作方式"
+      },
+      {
+        "head": "以太网",
+        "connect": "采用",
+        "tail": "具有冲突检测的载波监听多点接入CSMA/CD"
+      },
+      {
+        "head": "以太网交换机",
+        "connect": "工作在",
+        "tail": "数据链路层"
+      },
+      {
+        "head": "以太网适配器",
+        "connect": "具有",
+        "tail": "过滤功能"
+      },
+      {
+        "head": "以太网",
+        "connect": "使用",
+        "tail": "MAC地址"
+      },
+      {
+        "head": "集线器",
+        "connect": "工作在",
+        "tail": "物理层"
+      },
+      {
+        "head": "交换式集线器",
+        "connect": "常称为",
+        "tail": "以太网交换机或第二层交换机"
+      },
+      {
+        "head": "10GbE",
+        "connect": "使用",
+        "tail": "波分复用技术"
+      },
+      {
+        "head": "IEEE 802.3bs标准",
+        "connect": "包括",
+        "tail": "200 GbE和400 GbE两种速率"
+      },
+      {
+        "head": "以太网",
+        "connect": "扩大到",
+        "tail": "城域网和广域网"
+      },
+      {
+        "head": "以太网",
+        "connect": "实现",
+        "tail": "端到端的以太网传输"
+      },
+      {
+        "head": "以太网",
+        "connect": "价格大约只有",
+        "tail": "同步光纤网SONET的五分之一"
+      }
+]
+
+  

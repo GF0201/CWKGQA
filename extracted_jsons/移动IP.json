@@ -1,0 +1,241 @@
+[
+    {
+        "head": "数据传送",
+        "connect": "涉及",
+        "tail": "用户层面"
+    },
+    {
+        "head": "信令传送",
+        "connect": "需要使用",
+        "tail": "不同的协议栈"
+    },
+    {
+        "head": "eNB和MME之间信令传送",
+        "connect": "使用",
+        "tail": "流控制传输协议SCTP"
+    },
+    {
+        "head": "MME和HSS之间信令传送",
+        "connect": "使用",
+        "tail": "流控制传输协议SCTP"
+    },
+    {
+        "head": "两个eNB之间信令传送",
+        "connect": "使用",
+        "tail": "流控制传输协议SCTP"
+    },
+    {
+        "head": "SCTP",
+        "connect": "结合了",
+        "tail": "UDP和TCP的优点"
+    },
+    {
+        "head": "SCTP",
+        "connect": "是",
+        "tail": "面向报文的可靠传输协议"
+    },
+    {
+        "head": "IEEE 802.16标准",
+        "connect": "也称为",
+        "tail": "WiMAX标准"
+    },
+    {
+        "head": "WiMAX",
+        "connect": "意为",
+        "tail": "全球微波接入的互操作性"
+    },
+    {
+        "head": "WiMAX",
+        "connect": "流行",
+        "tail": "若干年后市场上已很难见到"
+    },
+    {
+        "head": "LTE-Advanced",
+        "connect": "简称为",
+        "tail": "LTE-A"
+    },
+    {
+        "head": "LTE-A",
+        "connect": "达到",
+        "tail": "ITU-R制定的4G标准"
+    },
+    {
+        "head": "LTE-A网络",
+        "connect": "全球投入商用数量",
+        "tail": "超过100个"
+    },
+    {
+        "head": "LTE-A网络",
+        "connect": "分布",
+        "tail": "49个国家和地区"
+    },
+    {
+        "head": "LTE-A Pro",
+        "connect": "吞吐量超过",
+        "tail": "3 Gbit/s"
+    },
+    {
+        "head": "LTE-A Pro",
+        "connect": "俗称",
+        "tail": "4.5G"
+    },
+    {
+        "head": "3GPP",
+        "connect": "发布",
+        "tail": "R15/16等5G标准版本"
+    },
+    {
+        "head": "移动IP",
+        "connect": "研究",
+        "tail": "移动站IP地址在移动中保持不变"
+    },
+    {
+        "head": "移动站",
+        "connect": "必须有",
+        "tail": "原始地址（永久地址）"
+    },
+    {
+        "head": "移动站原始连接到的网络",
+        "connect": "称为",
+        "tail": "归属网络"
+    },
+    {
+        "head": "归属代理",
+        "connect": "是",
+        "tail": "连接在归属网络上的路由器"
+    },
+    {
+        "head": "外地代理",
+        "connect": "是",
+        "tail": "连接在被访网络上的路由器"
+    },
+    {
+        "head": "外地代理",
+        "connect": "为移动站创建",
+        "tail": "临时地址（转交地址）"
+    },
+    {
+        "head": "转交地址",
+        "connect": "网络号必须和",
+        "tail": "被访网络一致"
+    },
+    {
+        "head": "移动站",
+        "connect": "可以",
+        "tail": "充当外地代理"
+    },
+    {
+        "head": "移动站当外地代理时的转交地址",
+        "connect": "称为",
+        "tail": "同址转交地址"
+    },
+    {
+        "head": "通信者B",
+        "connect": "使用",
+        "tail": "A的永久地址作为发送的IP数据报中的目的地址"
+    },
+    {
+        "head": "归属代理",
+        "connect": "截获",
+        "tail": "发给A的数据报"
+    },
+    {
+        "head": "归属代理",
+        "connect": "把B发来的数据报",
+        "tail": "进行再封装"
+    },
+    {
+        "head": "外地代理",
+        "connect": "把收到的封装的数据报",
+        "tail": "进行拆封"
+    },
+    {
+        "head": "移动站",
+        "connect": "需要",
+        "tail": "向外地代理进行登记"
+    },
+    {
+        "head": "外地代理",
+        "connect": "向移动站的归属代理登记移动站的转交地址"
+    },
+    {
+        "head": "归属代理",
+        "connect": "收到",
+        "tail": "发送给移动站的数据报"
+    },
+    {
+        "head": "外地代理",
+        "connect": "收到",
+        "tail": "归属代理封装好的数据报"
+    },
+    {
+        "head": "间接路由选择",
+        "connect": "又称为",
+        "tail": "数据报转发过程"
+    },
+    {
+        "head": "三角形路由选择问题",
+        "connect": "可能引起",
+        "tail": "数据报转发的低效"
+    },
+    {
+        "head": "直接路由选择",
+        "connect": "解决",
+        "tail": "三角形路由选择问题"
+    },
+    {
+        "head": "移动用户定位协议",
+        "connect": "用来使",
+        "tail": "通信者代理向移动站的归属代理查询移动站的转交地址"
+    },
+    {
+        "head": "移动性管理",
+        "connect": "涉及",
+        "tail": "新增的措施和协议"
+    },
+    {
+        "head": "TCP连接",
+        "connect": "可能由于",
+        "tail": "移动用户切换引起报文段的丢失"
+    },
+    {
+        "head": "TCP",
+        "connect": "默认",
+        "tail": "报文段丢失是由网络拥塞造成的"
+    },
+    {
+        "head": "本地恢复",
+        "connect": "是",
+        "tail": "差错在什么地方出现，就在什么地方改正"
+    },
+    {
+        "head": "TCP发送方",
+        "connect": "需要知道",
+        "tail": "什么地方使用了无线链路"
+    },
+    {
+        "head": "端到端TCP连接",
+        "connect": "拆成",
+        "tail": "两个互相串接的TCP连接"
+    },
+    {
+        "head": "蜂窝移动通信",
+        "connect": "发展规律",
+        "tail": "大约是十年更新一代"
+    },
+    {
+        "head": "5G",
+        "connect": "发展到",
+        "tail": "第五代蜂窝移动通信"
+    },
+    {
+        "head": "5G",
+        "connect": "特点",
+        "tail": "支持高质音频和视频传输和高速移动互联网业务"
+    },
+    {
+        "head": "工信部",
+        "connect": "宣布",
+        "tail": "5G的商用正式启动"
+    }
+]

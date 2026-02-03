@@ -1,0 +1,341 @@
+[
+      {
+        "head": "NAT路由器",
+        "connect": "必须由",
+        "tail": "专用网内的主机发起通信"
+      },
+      {
+        "head": "NAT路由器",
+        "connect": "不能",
+        "tail": "将目的IP地址转换成专用网内的本地IP地址"
+      },
+      {
+        "head": "NAT",
+        "connect": "允许",
+        "tail": "多个拥有本地地址的主机共用一个全球IP地址"
+      },
+      {
+        "head": "NAPT",
+        "connect": "是",
+        "tail": "网络地址与端口号转换"
+      },
+      {
+        "head": "传统NAT",
+        "connect": "不使用",
+        "tail": "端口号"
+      },
+      {
+        "head": "NAPT",
+        "connect": "允许",
+        "tail": "不同的源IP地址转换为同样的全球IP地址"
+      },
+      {
+        "head": "NAPT",
+        "connect": "转换",
+        "tail": "源主机所采用的TCP端口号为不同的新的端口号"
+      },
+      {
+        "head": "NAPT路由器",
+        "connect": "查看和转换",
+        "tail": "运输层的端口号"
+      },
+      {
+        "head": "MPLS",
+        "connect": "是",
+        "tail": "多协议标签交换"
+      },
+      {
+        "head": "MPLS",
+        "connect": "综合了",
+        "tail": "思科公司的标签交换和Ipsilon公司的IP交换等技术"
+      },
+      {
+        "head": "MPLS",
+        "connect": "成为",
+        "tail": "互联网的建议标准"
+      },
+      {
+        "head": "MPLS",
+        "connect": "利用",
+        "tail": "面向连接技术"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使",
+        "tail": "每个分组携带一个标签"
+      },
+      {
+        "head": "MPLS",
+        "connect": "采用",
+        "tail": "硬件技术对打上标签的IP数据报进行转发"
+      },
+      {
+        "head": "MPLS",
+        "connect": "支持",
+        "tail": "多种链路层协议"
+      },
+      {
+        "head": "MPLS",
+        "connect": "具有",
+        "tail": "支持面向连接的服务质量、支持流量工程、有效支持VPN等特点"
+      },
+      {
+        "head": "MPLS",
+        "connect": "通过",
+        "tail": "在入口处给每一个IP数据报打上固定长度的标签"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使得",
+        "tail": "IP数据报转发过程大大加快"
+      },
+      {
+        "head": "MPLS域",
+        "connect": "由",
+        "tail": "支持MPLS技术的标签交换路由器LSR组成"
+      },
+      {
+        "head": "LSR",
+        "connect": "具有",
+        "tail": "标签交换和路由选择功能"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使用",
+        "tail": "专门的标签分配协议LDP交换报文"
+      },
+      {
+        "head": "LDP",
+        "connect": "用于",
+        "tail": "找出和特定标签相对应的路径"
+      },
+      {
+        "head": "MPLS",
+        "connect": "将",
+        "tail": "属于同样FEC的IP数据报指派同样的标签"
+      },
+      {
+        "head": "FEC",
+        "connect": "是",
+        "tail": "转发等价类"
+      },
+      {
+        "head": "FEC",
+        "connect": "表示",
+        "tail": "路由器按照同样方式对待的IP数据报的集合"
+      },
+      {
+        "head": "MPLS",
+        "connect": "用于",
+        "tail": "负载均衡"
+      },
+      {
+        "head": "MPLS",
+        "connect": "通过",
+        "tail": "自定义的FEC更好地管理网络资源"
+      },
+      {
+        "head": "MPLS",
+        "connect": "需要",
+        "tail": "封装技术插入MPLS首部"
+      },
+      {
+        "head": "MPLS首部",
+        "connect": "处在",
+        "tail": "第二层和第三层之间"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使用",
+        "tail": "以太网的类型字段设置为8847来标识MPLS帧"
+      },
+      {
+        "head": "MPLS",
+        "connect": "包含",
+        "tail": "标签值、实验、S位和TTL四个字段"
+      },
+      {
+        "head": "MPLS",
+        "connect": "允许",
+        "tail": "高达220个流的同时存在"
+      },
+      {
+        "head": "MPLS",
+        "connect": "通过",
+        "tail": "控制器分配SR标签"
+      },
+      {
+        "head": "SR",
+        "connect": "是",
+        "tail": "段路由选择协议"
+      },
+      {
+        "head": "SR",
+        "connect": "基于",
+        "tail": "标签交换"
+      },
+      {
+        "head": "SR",
+        "connect": "由",
+        "tail": "源节点指定路径"
+      },
+      {
+        "head": "SR",
+        "connect": "将路径转换成",
+        "tail": "有序的段列表"
+      },
+      {
+        "head": "SRv6",
+        "connect": "是",
+        "tail": "SR的IPv6演进版本"
+      },
+      {
+        "head": "SRv6",
+        "connect": "直接利用",
+        "tail": "IPv6字段作为标签寻址"
+      },
+      {
+        "head": "SR-MPLS",
+        "connect": "是",
+        "tail": "基于MPLS的SR"
+      },
+      {
+        "head": "SDN",
+        "connect": "由",
+        "tail": "斯坦福大学N. McKeown于2009年首先提出"
+      },
+      {
+        "head": "SDN",
+        "connect": "是一个",
+        "tail": "体系结构"
+      },
+      {
+        "head": "SDN",
+        "connect": "把",
+        "tail": "网络的控制层面和数据层面分离"
+      },
+      {
+        "head": "OpenFlow",
+        "connect": "是",
+        "tail": "SDN体系结构中控制层面和数据层面之间的通信接口"
+      },
+      {
+        "head": "OpenFlow",
+        "connect": "使得",
+        "tail": "控制层面的控制器可以对数据层面中的物理设备或虚拟设备进行直接访问和操纵"
+      },
+      {
+        "head": "SDN",
+        "connect": "通过",
+        "tail": "协议OpenFlow实现控制层面对数据层面的控制"
+      },
+      {
+        "head": "SDN",
+        "connect": "使得",
+        "tail": "网络运行更加稳定和管理更加高效简化"
+      },
+      {
+        "head": "SDN",
+        "connect": "可以",
+        "tail": "提高网络带宽利用率"
+      },
+      {
+        "head": "SDN",
+        "connect": "可以",
+        "tail": "降低运行费用"
+      },
+      {
+        "head": "OpenFlow",
+        "connect": "是一个",
+        "tail": "得到高度认可的标准"
+      },
+      {
+        "head": "MPLS",
+        "connect": "支持",
+        "tail": "虚拟专用网VPN"
+      },
+      {
+        "head": "MPLS",
+        "connect": "通过",
+        "tail": "显式路由选择确定进入MPLS域后的转发路径"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使得",
+        "tail": "IP数据报转发过程加快"
+      },
+      {
+        "head": "MPLS",
+        "connect": "使用",
+        "tail": "标签交换路径LSP"
+      },
+      {
+        "head": "MPLS",
+        "connect": "通过",
+        "tail": "入口节点给IP数据报打上标签"
+      },
+      {
+        "head": "MPLS",
+        "connect": "在",
+        "tail": "出口节点去除MPLS标签"
+    },
+    {
+      "head": "MPLS",
+      "connect": "允许",
+      "tail": "网络管理员自定义FEC"
+    },
+    {
+      "head": "MPLS",
+      "connect": "通过",
+      "tail": "流量工程实现网络负载均衡"
+    },
+    {
+      "head": "MPLS",
+      "connect": "使用",
+      "tail": "标签栈"
+    },
+    {
+      "head": "MPLS",
+      "connect": "使用",
+      "tail": "生存时间TTL防止分组在MPLS域中兜圈子"
+    },
+    {
+      "head": "新一代MPLS",
+      "connect": "需要",
+      "tail": "资源预留协议RSVP"
+    },
+    {
+      "head": "RSVP",
+      "connect": "不支持",
+      "tail": "等价多路径路由选择ECMP"
+    },
+    {
+      "head": "SR",
+      "connect": "简化了",
+      "tail": "设备运行的协议数量"
+    },
+    {
+      "head": "SR",
+      "connect": "由",
+      "tail": "源节点为发送的报文指定路径"
+    },
+    {
+      "head": "SDN",
+      "connect": "通过",
+      "tail": "控制器分配SR标签"
+    },
+    {
+      "head": "SDN",
+      "connect": "使得",
+      "tail": "网络控制更加集中"
+    },
+    {
+      "head": "SDN",
+      "connect": "使得",
+      "tail": "网络管理更加高效"
+    }
+]
+
+
+        
+  

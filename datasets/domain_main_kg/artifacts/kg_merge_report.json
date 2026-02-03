@@ -1,0 +1,955 @@
+{
+  "n_files": 71,
+  "per_file_stats": [
+    {
+      "file": "IPv6",
+      "n_merged": 51
+    },
+    {
+      "file": "IP多播",
+      "n_merged": 41
+    },
+    {
+      "file": "IP层转发分组的过程",
+      "n_merged": 32
+    },
+    {
+      "file": "P2P应用",
+      "n_merged": 53
+    },
+    {
+      "file": "TCP 的运输连接管理",
+      "n_merged": 36
+    },
+    {
+      "file": "TCP可靠传输的实现",
+      "n_merged": 42
+    },
+    {
+      "file": "TCP报文段的首部格式",
+      "n_merged": 38
+    },
+    {
+      "file": "TCP的拥塞控制",
+      "n_merged": 44
+    },
+    {
+      "file": "TCP的流量控制",
+      "n_merged": 39
+    },
+    {
+      "file": "一些未来的发展方向",
+      "n_merged": 18
+    },
+    {
+      "file": "万维网WWW",
+      "n_merged": 70
+    },
+    {
+      "file": "两类密码体制 ",
+      "n_merged": 49
+    },
+    {
+      "file": "互联网上的音频",
+      "n_merged": 46
+    },
+    {
+      "file": "互联网使用的安全协议",
+      "n_merged": 55
+    },
+    {
+      "file": "互联网概述",
+      "n_merged": 45
+    },
+    {
+      "file": "互联网的组成",
+      "n_merged": 78
+    },
+    {
+      "file": "互联网的路由选择协议",
+      "n_merged": 70
+    },
+    {
+      "file": "交互式音频",
+      "n_merged": 65
+    },
+    {
+      "file": "传输控制协议TCP概述 ",
+      "n_merged": 51
+    },
+    {
+      "file": "使用广播信道的数据链路层",
+      "n_merged": 82
+    },
+    {
+      "file": "信道复用技术",
+      "n_merged": 51
+    },
+    {
+      "file": "动态主机配置协议DHCP",
+      "n_merged": 46
+    },
+    {
+      "file": "可靠传输的工作原理",
+      "n_merged": 47
+    },
+    {
+      "file": "域名系统DNS",
+      "n_merged": 82
+    },
+    {
+      "file": "多协议标签交换MPLS",
+      "n_merged": 16
+    },
+    {
+      "file": "宽带接入技术",
+      "n_merged": 67
+    },
+    {
+      "file": "密钥分配",
+      "n_merged": 37
+    },
+    {
+      "file": "应用层",
+      "n_merged": 40
+    },
+    {
+      "file": "应用进程跨越网络的通信",
+      "n_merged": 33
+    },
+    {
+      "file": "扩展的以太网",
+      "n_merged": 80
+    },
+    {
+      "file": "改进“尽最大努力交付”的服务",
+      "n_merged": 51
+    },
+    {
+      "file": "数字传输系统",
+      "n_merged": 33
+    },
+    {
+      "file": "数据通信的基础知识",
+      "n_merged": 41
+    },
+    {
+      "file": "数据链路层",
+      "n_merged": 39
+    },
+    {
+      "file": "数据链路层的几个共同问题",
+      "n_merged": 40
+    },
+    {
+      "file": "文件传送协议",
+      "n_merged": 24
+    },
+    {
+      "file": "无线个人区域网WPAN",
+      "n_merged": 42
+    },
+    {
+      "file": "无线局域网WLAN",
+      "n_merged": 89
+    },
+    {
+      "file": "无线网络和移动网络",
+      "n_merged": 8
+    },
+    {
+      "file": "概述",
+      "n_merged": 16
+    },
+    {
+      "file": "概述2",
+      "n_merged": 18
+    },
+    {
+      "file": "流式存储音频",
+      "n_merged": 65
+    },
+    {
+      "file": "点对点协议",
+      "n_merged": 50
+    },
+    {
+      "file": "物理层",
+      "n_merged": 47
+    },
+    {
+      "file": "物理层下面的传输媒体",
+      "n_merged": 47
+    },
+    {
+      "file": "物理层的基本概念",
+      "n_merged": 5
+    },
+    {
+      "file": "用户数据报协议UDP",
+      "n_merged": 45
+    },
+    {
+      "file": "电子邮件",
+      "n_merged": 50
+    },
+    {
+      "file": "移动IP",
+      "n_merged": 48
+    },
+    {
+      "file": "移动通信的展望",
+      "n_merged": 30
+    },
+    {
+      "file": "简单网络管理协议SNMP",
+      "n_merged": 61
+    },
+    {
+      "file": "系统安全：防火墙与入侵检测",
+      "n_merged": 29
+    },
+    {
+      "file": "网络安全",
+      "n_merged": 36
+    },
+    {
+      "file": "网络安全问题概述",
+      "n_merged": 40
+    },
+    {
+      "file": "网络层",
+      "n_merged": 20
+    },
+    {
+      "file": "网络层的几个重要概念",
+      "n_merged": 43
+    },
+    {
+      "file": "网际协议IP",
+      "n_merged": 42
+    },
+    {
+      "file": "网际控制报文协议ICMP",
+      "n_merged": 49
+    },
+    {
+      "file": "虚拟专用网VPN和网络地址转换NAT",
+      "n_merged": 45
+    },
+    {
+      "file": "蜂窝移动通信网",
+      "n_merged": 45
+    },
+    {
+      "file": "计算机网络体系结构",
+      "n_merged": 43
+    },
+    {
+      "file": "计算机网络在信息时代中的作用",
+      "n_merged": 24
+    },
+    {
+      "file": "计算机网络在我国的发展",
+      "n_merged": 31
+    },
+    {
+      "file": "计算机网络的性能",
+      "n_merged": 37
+    },
+    {
+      "file": "计算机网络的类别",
+      "n_merged": 36
+    },
+    {
+      "file": "软件定义网络SDN简介",
+      "n_merged": 31
+    },
+    {
+      "file": "运输层",
+      "n_merged": 21
+    },
+    {
+      "file": "运输层协议概述",
+      "n_merged": 39
+    },
+    {
+      "file": "远程终端协议",
+      "n_merged": 32
+    },
+    {
+      "file": "鉴别",
+      "n_merged": 41
+    },
+    {
+      "file": "高速以太网",
+      "n_merged": 41
+    }
+  ],
+  "n_kept": 3078,
+  "n_dedup": 3078,
+  "top_predicates": [
+    [
+      "是",
+      332
+    ],
+    [
+      "使用",
+      138
+    ],
+    [
+      "包括",
+      125
+    ],
+    [
+      "允许",
+      87
+    ],
+    [
+      "用于",
+      85
+    ],
+    [
+      "由",
+      78
+    ],
+    [
+      "通过",
+      69
+    ],
+    [
+      "在",
+      58
+    ],
+    [
+      "需要",
+      56
+    ],
+    [
+      "提供",
+      55
+    ],
+    [
+      "包含",
+      48
+    ],
+    [
+      "指",
+      43
+    ],
+    [
+      "采用",
+      42
+    ],
+    [
+      "称为",
+      41
+    ],
+    [
+      "使得",
+      40
+    ],
+    [
+      "可以",
+      39
+    ],
+    [
+      "适用于",
+      34
+    ],
+    [
+      "具有",
+      33
+    ],
+    [
+      "又称为",
+      29
+    ],
+    [
+      "表示",
+      27
+    ]
+  ],
+  "top_heads": [
+    [
+      "TCP",
+      70
+    ],
+    [
+      "UDP",
+      45
+    ],
+    [
+      "分组交换",
+      38
+    ],
+    [
+      "以太网",
+      36
+    ],
+    [
+      "PPP协议",
+      36
+    ],
+    [
+      "互联网",
+      35
+    ],
+    [
+      "SNMP",
+      31
+    ],
+    [
+      "MPLS",
+      29
+    ],
+    [
+      "DHCP客户",
+      25
+    ],
+    [
+      "TFTP",
+      25
+    ],
+    [
+      "计算机网络",
+      24
+    ],
+    [
+      "IPv6",
+      22
+    ],
+    [
+      "IP电话",
+      22
+    ],
+    [
+      "路由器",
+      21
+    ],
+    [
+      "DHCP",
+      21
+    ],
+    [
+      "物理层",
+      21
+    ],
+    [
+      "数据链路层",
+      21
+    ],
+    [
+      "本章",
+      21
+    ],
+    [
+      "运输层",
+      19
+    ],
+    [
+      "SIP",
+      18
+    ]
+  ],
+  "per_file_reports": [
+    {
+      "source_file": "IPv6.json",
+      "n_raw": 51,
+      "n_kept": 51,
+      "n_dedup": 51,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "IP多播.json",
+      "n_raw": 41,
+      "n_kept": 41,
+      "n_dedup": 41,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "IP层转发分组的过程.json",
+      "n_raw": 32,
+      "n_kept": 32,
+      "n_dedup": 32,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "P2P应用.json",
+      "n_raw": 53,
+      "n_kept": 53,
+      "n_dedup": 53,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "TCP 的运输连接管理.json",
+      "n_raw": 36,
+      "n_kept": 36,
+      "n_dedup": 36,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "TCP可靠传输的实现.json",
+      "n_raw": 44,
+      "n_kept": 42,
+      "n_dedup": 42,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "TCP报文段的首部格式.json",
+      "n_raw": 38,
+      "n_kept": 38,
+      "n_dedup": 38,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "TCP的拥塞控制.json",
+      "n_raw": 45,
+      "n_kept": 45,
+      "n_dedup": 45,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "TCP的流量控制.json",
+      "n_raw": 41,
+      "n_kept": 41,
+      "n_dedup": 41,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "一些未来的发展方向.json",
+      "n_raw": 18,
+      "n_kept": 18,
+      "n_dedup": 18,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "万维网WWW.json",
+      "n_raw": 70,
+      "n_kept": 70,
+      "n_dedup": 70,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "两类密码体制 .json",
+      "n_raw": 49,
+      "n_kept": 49,
+      "n_dedup": 49,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "互联网上的音频.json",
+      "n_raw": 46,
+      "n_kept": 46,
+      "n_dedup": 46,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "互联网使用的安全协议.json",
+      "n_raw": 55,
+      "n_kept": 55,
+      "n_dedup": 55,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "互联网概述.json",
+      "n_raw": 45,
+      "n_kept": 45,
+      "n_dedup": 45,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "互联网的组成.json",
+      "n_raw": 80,
+      "n_kept": 80,
+      "n_dedup": 80,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "互联网的路由选择协议.json",
+      "n_raw": 70,
+      "n_kept": 70,
+      "n_dedup": 70,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "交互式音频.json",
+      "n_raw": 77,
+      "n_kept": 65,
+      "n_dedup": 65,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "传输控制协议TCP概述 .json",
+      "n_raw": 52,
+      "n_kept": 51,
+      "n_dedup": 51,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "使用广播信道的数据链路层.json",
+      "n_raw": 82,
+      "n_kept": 82,
+      "n_dedup": 82,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "信道复用技术.json",
+      "n_raw": 51,
+      "n_kept": 51,
+      "n_dedup": 51,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "动态主机配置协议DHCP.json",
+      "n_raw": 56,
+      "n_kept": 56,
+      "n_dedup": 56,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "可靠传输的工作原理.json",
+      "n_raw": 50,
+      "n_kept": 50,
+      "n_dedup": 50,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "域名系统DNS.json",
+      "n_raw": 86,
+      "n_kept": 85,
+      "n_dedup": 85,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "多协议标签交换MPLS.json",
+      "n_raw": 67,
+      "n_kept": 67,
+      "n_dedup": 67,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "宽带接入技术.json",
+      "n_raw": 67,
+      "n_kept": 67,
+      "n_dedup": 67,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "密钥分配.json",
+      "n_raw": 38,
+      "n_kept": 38,
+      "n_dedup": 38,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "应用层.json",
+      "n_raw": 44,
+      "n_kept": 44,
+      "n_dedup": 44,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "应用进程跨越网络的通信.json",
+      "n_raw": 34,
+      "n_kept": 34,
+      "n_dedup": 34,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "扩展的以太网.json",
+      "n_raw": 81,
+      "n_kept": 81,
+      "n_dedup": 81,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "改进“尽最大努力交付”的服务.json",
+      "n_raw": 55,
+      "n_kept": 55,
+      "n_dedup": 55,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "数字传输系统.json",
+      "n_raw": 33,
+      "n_kept": 33,
+      "n_dedup": 33,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "数据通信的基础知识.json",
+      "n_raw": 42,
+      "n_kept": 42,
+      "n_dedup": 42,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "数据链路层.json",
+      "n_raw": 39,
+      "n_kept": 39,
+      "n_dedup": 39,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "数据链路层的几个共同问题.json",
+      "n_raw": 55,
+      "n_kept": 55,
+      "n_dedup": 55,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "文件传送协议.json",
+      "n_raw": 32,
+      "n_kept": 32,
+      "n_dedup": 32,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "无线个人区域网WPAN.json",
+      "n_raw": 42,
+      "n_kept": 42,
+      "n_dedup": 42,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "无线局域网WLAN.json",
+      "n_raw": 91,
+      "n_kept": 89,
+      "n_dedup": 89,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "无线网络和移动网络.json",
+      "n_raw": 19,
+      "n_kept": 19,
+      "n_dedup": 19,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "概述.json",
+      "n_raw": 16,
+      "n_kept": 16,
+      "n_dedup": 16,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "概述2.json",
+      "n_raw": 21,
+      "n_kept": 21,
+      "n_dedup": 21,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "流式存储音频.json",
+      "n_raw": 73,
+      "n_kept": 66,
+      "n_dedup": 66,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "点对点协议.json",
+      "n_raw": 52,
+      "n_kept": 52,
+      "n_dedup": 52,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "物理层.json",
+      "n_raw": 51,
+      "n_kept": 48,
+      "n_dedup": 48,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "物理层下面的传输媒体.json",
+      "n_raw": 53,
+      "n_kept": 53,
+      "n_dedup": 53,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "物理层的基本概念.json",
+      "n_raw": 50,
+      "n_kept": 45,
+      "n_dedup": 45,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "用户数据报协议UDP.json",
+      "n_raw": 45,
+      "n_kept": 45,
+      "n_dedup": 45,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "电子邮件.json",
+      "n_raw": 51,
+      "n_kept": 51,
+      "n_dedup": 51,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "移动IP.json",
+      "n_raw": 48,
+      "n_kept": 48,
+      "n_dedup": 48,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "移动通信的展望.json",
+      "n_raw": 30,
+      "n_kept": 30,
+      "n_dedup": 30,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "简单网络管理协议SNMP.json",
+      "n_raw": 66,
+      "n_kept": 62,
+      "n_dedup": 62,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "系统安全：防火墙与入侵检测.json",
+      "n_raw": 41,
+      "n_kept": 41,
+      "n_dedup": 41,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网络安全.json",
+      "n_raw": 36,
+      "n_kept": 36,
+      "n_dedup": 36,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网络安全问题概述.json",
+      "n_raw": 54,
+      "n_kept": 54,
+      "n_dedup": 54,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网络层.json",
+      "n_raw": 20,
+      "n_kept": 20,
+      "n_dedup": 20,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网络层的几个重要概念.json",
+      "n_raw": 50,
+      "n_kept": 50,
+      "n_dedup": 50,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网际协议IP.json",
+      "n_raw": 42,
+      "n_kept": 42,
+      "n_dedup": 42,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "网际控制报文协议ICMP.json",
+      "n_raw": 49,
+      "n_kept": 49,
+      "n_dedup": 49,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "虚拟专用网VPN和网络地址转换NAT.json",
+      "n_raw": 48,
+      "n_kept": 47,
+      "n_dedup": 47,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "蜂窝移动通信网.json",
+      "n_raw": 47,
+      "n_kept": 47,
+      "n_dedup": 47,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "计算机网络体系结构.json",
+      "n_raw": 43,
+      "n_kept": 43,
+      "n_dedup": 43,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "计算机网络在信息时代中的作用.json",
+      "n_raw": 24,
+      "n_kept": 24,
+      "n_dedup": 24,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "计算机网络在我国的发展.json",
+      "n_raw": 34,
+      "n_kept": 34,
+      "n_dedup": 34,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "计算机网络的性能.json",
+      "n_raw": 44,
+      "n_kept": 44,
+      "n_dedup": 44,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "计算机网络的类别.json",
+      "n_raw": 36,
+      "n_kept": 36,
+      "n_dedup": 36,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "软件定义网络SDN简介.json",
+      "n_raw": 35,
+      "n_kept": 35,
+      "n_dedup": 35,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "运输层.json",
+      "n_raw": 21,
+      "n_kept": 21,
+      "n_dedup": 21,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "运输层协议概述.json",
+      "n_raw": 41,
+      "n_kept": 41,
+      "n_dedup": 41,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "远程终端协议.json",
+      "n_raw": 40,
+      "n_kept": 40,
+      "n_dedup": 40,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "鉴别.json",
+      "n_raw": 42,
+      "n_kept": 41,
+      "n_dedup": 41,
+      "empty_filtered": 0
+    },
+    {
+      "source_file": "高速以太网.json",
+      "n_raw": 44,
+      "n_kept": 43,
+      "n_dedup": 43,
+      "empty_filtered": 0
+    }
+  ],
+  "n_raw_total": 3354
+}

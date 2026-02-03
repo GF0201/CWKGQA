@@ -1,0 +1,10 @@
+argv: scripts/run_domain_main_smoke.py --data_file data/domain_main_demo.jsonl --limit 3 --seed 42 --output-id domain_main_smoke_verify
+domain_main smoke started
+Run dir: C:\Users\顾北上\KGELLM\kgqa_framework\runs\domain_main_smoke_verify
+Data: data\domain_main_demo.jsonl
+Limit: 3
+Dataset validation: ok=3, bad=0, bad_path=None
+Loaded 3 samples from data\domain_main_demo.jsonl
+Saved repro_manifest.json
+Inputs hashed: 4; first_keys=['DATA::domain_main_demo.jsonl', 'configs/default.yaml', 'requirements.txt']
+domain_main smoke completed

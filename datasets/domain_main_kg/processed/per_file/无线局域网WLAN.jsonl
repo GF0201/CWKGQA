@@ -1,0 +1,89 @@
+{"subject": "无线蜂窝电话通信技术", "predicate": "得到", "object": "飞速发展", "source_row": 0}
+{"subject": "移动电话数", "predicate": "超过", "object": "固定电话数", "source_row": 1}
+{"subject": "全世界移动电话的普及率", "predicate": "达到", "object": "96.8%", "source_row": 2}
+{"subject": "中国的移动电话用户", "predicate": "超过", "object": "15.9亿户", "source_row": 3}
+{"subject": "固定电话的用户数", "predicate": "是", "object": "1.88亿户", "source_row": 4}
+{"subject": "无线网络和移动网络的数据链路层", "predicate": "与传统的", "object": "有线互联网的数据链路层相差很大", "source_row": 5}
+{"subject": "本章", "predicate": "讨论", "object": "无线局域网WLAN", "source_row": 6}
+{"subject": "无线局域网MAC层协议", "predicate": "重点讨论", "object": "载波监听多点接入／碰撞避免CSMA/CA的原理", "source_row": 7}
+{"subject": "蜂窝移动通信网", "predicate": "已演进到", "object": "全部使用IP技术", "source_row": 8}
+{"subject": "智能手机", "predicate": "变成", "object": "计算机网络上的主机", "source_row": 9}
+{"subject": "无线局域网", "predicate": "提供了", "object": "移动接入的功能", "source_row": 10}
+{"subject": "无线局域网", "predicate": "节省", "object": "投资", "source_row": 11}
+{"subject": "无线局域网", "predicate": "加快", "object": "建网速度", "source_row": 12}
+{"subject": "无线局域网", "predicate": "称为", "object": "WLAN", "source_row": 13}
+{"subject": "便携站", "predicate": "与", "object": "移动站表示的意思不一样", "source_row": 14}
+{"subject": "移动站", "predicate": "能够", "object": "在移动过程中进行通信", "source_row": 15}
+{"subject": "无线局域网", "predicate": "分为", "object": "有基础设施的和无基础设施的两大类", "source_row": 16}
+{"subject": "IEEE 802.11", "predicate": "是", "object": "无线局域网协议", "source_row": 17}
+{"subject": "中国WLAN国家标准", "predicate": "采用", "object": "ISO/IEC 8802-11系列国际标准", "source_row": 18}
+{"subject": "无线局域网的中心", "predicate": "称为", "object": "接入点AP", "source_row": 19}
+{"subject": "接入点AP", "predicate": "也称为", "object": "无线接入点WAP", "source_row": 20}
+{"subject": "无线局域网的接入点AP", "predicate": "连接到", "object": "有线以太网", "source_row": 21}
+{"subject": "家庭使用的无线局域网接入点AP", "predicate": "嵌入了", "object": "IP层的路由器功能", "source_row": 22}
+{"subject": "802.11无线局域网", "predicate": "常称为", "object": "Wi-Fi", "source_row": 23}
+{"subject": "Wi-Fi", "predicate": "是非营利性国际组织", "object": "Wi-Fi联盟的一个标记", "source_row": 24}
+{"subject": "基本服务集BSS", "predicate": "包括", "object": "一个接入点和若干个移动站", "source_row": 25}
+{"subject": "基本服务区BSA", "predicate": "是指", "object": "一个基本服务集BSS所覆盖的地理范围", "source_row": 26}
+{"subject": "无线局域网的基本服务区BSA", "predicate": "范围直径一般不超过", "object": "100米", "source_row": 27}
+{"subject": "链路层设备", "predicate": "的唯一标志是", "object": "MAC地址", "source_row": 28}
+{"subject": "SSID", "predicate": "是", "object": "无线局域网的名字", "source_row": 29}
+{"subject": "SSID", "predicate": "使用", "object": "字串而不是二进制数字", "source_row": 30}
+{"subject": "无线局域网", "predicate": "使用的频段是", "object": "2.4 GHz和5 GHz频段", "source_row": 31}
+{"subject": "802.11b标准", "predicate": "定义了", "object": "11个部分重叠的信道集", "source_row": 32}
+{"subject": "信道1、6和11", "predicate": "是", "object": "唯一的三个非重叠信道的集合", "source_row": 33}
+{"subject": "基本服务集", "predicate": "可以是", "object": "孤立的单个服务集", "source_row": 34}
+{"subject": "基本服务集", "predicate": "也可以通过接入点AP连接到", "object": "分配系统DS", "source_row": 35}
+{"subject": "扩展服务集ESS", "predicate": "有标识符", "object": "扩展服务集标识符ESSID", "source_row": 36}
+{"subject": "分配系统DS", "predicate": "的作用是使", "object": "扩展的服务集ESS对上层的表现就像一个基本服务集BSS一样", "source_row": 37}
+{"subject": "扩展服务集ESS", "predicate": "还可为无线用户提", "object": "供到802.x局域网的接入", "source_row": 38}
+{"subject": "蜂窝移动通信网", "predicate": "属于", "object": "通信领域的内容", "source_row": 39}
+{"subject": "无线局域网", "predicate": "使用", "object": "CSMA/CA协议", "source_row": 41}
+{"subject": "CSMA/CA", "predicate": "表示", "object": "载波监听多点接入／碰撞避免", "source_row": 42}
+{"subject": "802.11系列标准", "predicate": "称为", "object": "Wi-Fi", "source_row": 43}
+{"subject": "Wi-Fi联盟", "predicate": "是一个", "object": "非营利性国际组织", "source_row": 44}
+{"subject": "Wi-Fi", "predicate": "表示", "object": "通过Wi-Fi联盟认证的产品", "source_row": 45}
+{"subject": "移动自组网络", "predicate": "是", "object": "无线局域网的另一类", "source_row": 47}
+{"subject": "移动自组网络", "predicate": "没有", "object": "固定基础设施", "source_row": 48}
+{"subject": "移动自组网络", "predicate": "由", "object": "一些处于平等状态的移动站相互通信组成", "source_row": 49}
+{"subject": "无线传感器网络WSN", "predicate": "是", "object": "无线传感节点通过无线通信技术构成的自组网络", "source_row": 50}
+{"subject": "物联网IoT", "predicate": "主要应用领域是", "object": "组成各种无线传感器网络", "source_row": 51}
+{"subject": "802.11标准", "predicate": "设计了", "object": "独特的MAC层", "source_row": 52}
+{"subject": "802.11的MAC层", "predicate": "包括", "object": "分布协调功能DCF和点协调功能PCF两子层", "source_row": 53}
+{"subject": "分布协调功能DCF", "predicate": "向", "object": "上提供争用服务", "source_row": 54}
+{"subject": "DCF", "predicate": "采用", "object": "CSMA机制的分布式接入算法", "source_row": 55}
+{"subject": "点协调功能PCF", "predicate": "是", "object": "选项", "source_row": 56}
+{"subject": "PCF", "predicate": "用", "object": "接入点AP集控制整个BSS内的活动", "source_row": 57}
+{"subject": "PCF", "predicate": "使用", "object": "集中控制的接入算法", "source_row": 58}
+{"subject": "C SMA/CA协议", "predicate": "定义", "object": "数据和命令应怎样通过互联网", "source_row": 59}
+{"subject": "NVT", "predicate": "是", "object": "网络虚拟终端", "source_row": 60}
+{"subject": "C SMA/CA协议", "predicate": "要求", "object": "发送前先检测信道", "source_row": 61}
+{"subject": "C SMA/CA协议", "predicate": "要求", "object": "边发送边检测信道", "source_row": 62}
+{"subject": "C SMA/CA协议", "predicate": "规定", "object": "一旦检测到碰撞就立即停止发送", "source_row": 63}
+{"subject": "C SMA/CA协议", "predicate": "执行", "object": "退避算法进行重传", "source_row": 64}
+{"subject": "802.11局域网", "predicate": "使用", "object": "C SMA/CA协议", "source_row": 65}
+{"subject": "802.11局域网", "predicate": "还使用", "object": "停止等待协议", "source_row": 66}
+{"subject": "链路层确认", "predicate": "是", "object": "解决碰撞后重传的手段", "source_row": 67}
+{"subject": "虚拟载波监听", "predicate": "是", "object": "用软件实现的机制", "source_row": 68}
+{"subject": "载波监听", "predicate": "用", "object": "硬件实现", "source_row": 69}
+{"subject": "DIFS", "predicate": "定义为", "object": "比SIFS更长的时间间隔", "source_row": 70}
+{"subject": "DIFS", "predicate": "规定", "object": "等待时间后才能发送", "source_row": 71}
+{"subject": "争用窗口CW", "predicate": "由", "object": "许多时隙组成", "source_row": 72}
+{"subject": "退避算法", "predicate": "规定", "object": "在争用窗口执行", "source_row": 73}
+{"subject": "退避计时器", "predicate": "设置", "object": "在0~ cw个时隙中随机生成一退避时隙数", "source_row": 74}
+{"subject": "802.11标准", "predicate": "并未规定", "object": "争用窗口CW的初始值", "source_row": 75}
+{"subject": "802.11标准", "predicate": "建议", "object": "CW最小值为15", "source_row": 76}
+{"subject": "802.11标准", "predicate": "建议", "object": "CW最大值为1023", "source_row": 77}
+{"subject": "RTS", "predicate": "是", "object": "请求发送控制帧", "source_row": 78}
+{"subject": "CTS", "predicate": "是", "object": "允许发送控制帧", "source_row": 79}
+{"subject": "802.11数据帧", "predicate": "由", "object": "MAC首部、帧主体和帧检验序列FCS组成", "source_row": 80}
+{"subject": "MAC首部", "predicate": "包括", "object": "帧控制、地址、序号控制和持续期字段", "source_row": 81}
+{"subject": "帧控制字段", "predicate": "共分为", "object": "11个子字段", "source_row": 82}
+{"subject": "WEP", "predicate": "表明", "object": "对MAC帧的帧主体字段采用了加密算法", "source_row": 83}
+{"subject": "WPA", "predicate": "是", "object": "符合802.11i功能的加密方式", "source_row": 84}
+{"subject": "WPA2", "predicate": "增加了支持", "object": "AES加密算法", "source_row": 85}
+{"subject": "WPA2", "predicate": "符合", "object": "IEEE 802.11i-2004的安全功能", "source_row": 86}
+{"subject": "无线个人区域网WPAN", "predicate": "是", "object": "在个人工作的地方把属千个人使用的电子设备用无线技术连接起来自组网络", "source_row": 87}
+{"subject": "WPAN", "predicate": "可以是", "object": "一个人使用", "source_row": 88}
+{"subject": "WPAN", "predicate": "也可以是", "object": "若干人共同使用", "source_row": 89}
+{"subject": "蓝牙系统", "predicate": "是", "object": "最早使用的WPAN", "source_row": 90}

@@ -1,0 +1,340 @@
+[
+      {
+        "head": "SDH/SONET",
+        "connect": "定义了",
+        "tail": "标准光信号"
+      },
+      {
+        "head": "SDH/SONET",
+        "connect": "规定了",
+        "tail": "波长为1310 nm和1550 nm的激光源"
+      },
+      {
+        "head": "SDH/SONET",
+        "connect": "定义了",
+        "tail": "帧结构"
+      },
+      {
+        "head": "SDH/SONET",
+        "connect": "实现了",
+        "tail": "数字传输体制上的世界性标准"
+      },
+      {
+        "head": "SDH/SONET",
+        "connect": "适合",
+        "tail": "微波和卫星传输的技术体制"
+      },
+      {
+        "head": "用户",
+        "connect": "连接到",
+        "tail": "ISP"
+      },
+      {
+        "head": "用户",
+        "connect": "通过",
+        "tail": "调制解调器连接到ISP"
+      },
+      {
+        "head": "宽带",
+        "connect": "定义为",
+        "tail": "接入到互联网的速率远大于56 kbit/s"
+      },
+      {
+        "head": "FCC",
+        "connect": "定义",
+        "tail": "宽带为双向速率之和超过200 kbit/s"
+      },
+      {
+        "head": "FCC",
+        "connect": "重新定义",
+        "tail": "宽带下行速率为25 Mbit/s"
+      },
+      {
+        "head": "FCC",
+        "connect": "重新定义",
+        "tail": "宽带上行速率为3 Mbit/s"
+      },
+      {
+        "head": "宽带接入",
+        "connect": "划分为",
+        "tail": "有线宽带接入和无线宽带接入"
+      },
+      {
+        "head": "ADSL",
+        "connect": "使用",
+        "tail": "数字技术对现有模拟电话的用户线进行改造"
+      },
+      {
+        "head": "ADSL",
+        "connect": "把",
+        "tail": "0 ~ 4 k Hz低端频谱留给传统电话使用"
+      },
+      {
+        "head": "ADSL",
+        "connect": "使用",
+        "tail": "高端频谱留给用户上网使用"
+      },
+      {
+        "head": "ADSL",
+        "connect": "采用",
+        "tail": "ITU标准G.992.1"
+      },
+      {
+        "head": "ADSL",
+        "connect": "采用",
+        "tail": "DMT调制技术"
+      },
+      {
+        "head": "ADSL",
+        "connect": "采用",
+        "tail": "频分复用的方法"
+      },
+      {
+        "head": "ADSL",
+        "connect": "使用",
+        "tail": "自适应调制技术"
+      },
+      {
+        "head": "ADSL",
+        "connect": "由",
+        "tail": "数字用户线接入复用器DSLAM、用户线和用户家中的一些设施组成"
+      },
+      {
+        "head": "DSLAM",
+        "connect": "包括",
+        "tail": "许多ADSL调制解调器"
+      },
+      {
+        "head": "ADSL调制解调器",
+        "connect": "又称为",
+        "tail": "接入端接单元ATU"
+      },
+      {
+        "head": "ATU-C",
+        "connect": "代表",
+        "tail": "端局(Central Office)"
+      },
+      {
+        "head": "ATU-R",
+        "connect": "代表",
+        "tail": "远端(Remote)"
+      },
+      {
+        "head": "电话分离器",
+        "connect": "利用",
+        "tail": "低通滤波器将电话信号与数字信号分开"
+      },
+      {
+        "head": "DSLAM",
+        "connect": "可支持",
+        "tail": "多达500~1000个用户"
+      },
+      {
+        "head": "ADSL",
+        "connect": "可以",
+        "tail": "利用现有电话网中的用户线（铜线）"
+      },
+      {
+        "head": "ADSL技术",
+        "connect": "发展为",
+        "tail": "G系列标准"
+      },
+      {
+        "head": "ADSL2",
+        "connect": "要求",
+        "tail": "至少应支持下行8Mbit/s、上行800kbit/s的速率"
+      },
+      {
+        "head": "ADSL2+",
+        "connect": "扩展",
+        "tail": "频谱范围从1.1 MHz扩展至2.2 MHz"
+      },
+      {
+        "head": "ADSL2+",
+        "connect": "提供",
+        "tail": "下行速率可达16 Mbit/s"
+      },
+      {
+        "head": "SDSL",
+        "connect": "是",
+        "tail": "对称DSL"
+      },
+      {
+        "head": "HDSL",
+        "connect": "是",
+        "tail": "使用一对线或两对线的对称DSL"
+      },
+      {
+        "head": "VDSL",
+        "connect": "提供",
+        "tail": "下行速率达50~55 Mbit/s"
+      },
+      {
+        "head": "VDSL2",
+        "connect": "提供",
+        "tail": "上行和下行速率都能够达到100 Mbit/s"
+      },
+      {
+        "head": "G.fast",
+        "connect": "目标是",
+        "tail": "使用单对直径为0.5 mm的铜线在100 m距离提供900 Mbit/s的接入速率"
+      },
+      {
+        "head": "HFC网",
+        "connect": "基于",
+        "tail": "有线电视网"
+      },
+      {
+        "head": "HFC网",
+        "connect": "提供",
+        "tail": "电话、数据和其他宽带交互型业务"
+      },
+      {
+        "head": "HFC网",
+        "connect": "采用",
+        "tail": "模拟技术的频分复用"
+      },
+      {
+        "head": "HFC网",
+        "connect": "改造为",
+        "tail": "光纤同轴混合网"
+      },
+      {
+        "head": "HFC网",
+        "connect": "具有",
+        "tail": "双向传输功能"
+      },
+      {
+        "head": "HFC网",
+        "connect": "扩展了",
+        "tail": "传输频带"
+      },
+      {
+        "head": "机顶盒",
+        "connect": "用于",
+        "tail": "使模拟电视机能够接收数字电视信号"
+      },
+      {
+        "head": "电缆调制解调器",
+        "connect": "又称为",
+        "tail": "cable modem"
+      },
+      {
+        "head": "DOCSIS",
+        "connect": "由",
+        "tail": "美国有线电视实验室CableLabs制定"
+      },
+      {
+        "head": "FTTx",
+        "connect": "表示",
+        "tail": "Fiber To The ..."
+      },
+      {
+        "head": "FTTH",
+        "connect": "是",
+        "tail": "光纤到户"
+      },
+      {
+        "head": "FTTx",
+        "connect": "包括",
+        "tail": "FTTC、FTTZ、FTTB、FTTF、FTTO、FTTD"
+      },
+      {
+        "head": "无源光配线网ODN",
+        "connect": "使得",
+        "tail": "数十个家庭用户能够共享一根光纤干线"
+      },
+      {
+        "head": "无源光网络PON",
+        "connect": "采用",
+        "tail": "波分复用"
+      },
+      {
+        "head": "EPON",
+        "connect": "是",
+        "tail": "以太网无源光网络"
+      },
+      {
+        "head": "GPON",
+        "connect": "是",
+        "tail": "吉比特无源光网络"
+      },
+      {
+        "head": "GPON",
+        "connect": "采用",
+        "tail": "通用封装方法GEM"
+      },
+      {
+        "head": "物理层",
+        "connect": "确定",
+        "tail": "与传输媒体的接口有关的一些特性"
+    },
+    {
+      "head": "数据通信系统",
+      "connect": "划分为",
+      "tail": "源系统、传输系统和目的系统"
+    },
+    {
+      "head": "通信",
+      "connect": "传送",
+      "tail": "消息"
+    },
+    {
+      "head": "信号",
+      "connect": "可分为",
+      "tail": "模拟信号和数字信号"
+    },
+    {
+      "head": "通信",
+      "connect": "划分为",
+      "tail": "单向通信、双向交替通信和双向同时通信"
+    },
+    {
+      "head": "基带信号",
+      "connect": "来自",
+      "tail": "信源"
+    },
+    {
+      "head": "调制",
+      "connect": "有",
+      "tail": "基带调制和带通调制"
+    },
+    {
+      "head": "传输媒体",
+      "connect": "可分为",
+      "tail": "导引型传输媒体和非导引型传输媒体"
+    },
+    {
+      "head": "信道复用技术",
+      "connect": "包括",
+      "tail": "频分复用、时分复用、统计时分复用、码分复用和波分复用"
+    },
+    {
+      "head": "数字传输系统",
+      "connect": "使用",
+      "tail": "脉冲编码调制PCM"
+    },
+    {
+      "head": "高速数字传输系统",
+      "connect": "使用",
+      "tail": "同步光纤网SONET或同步数字系列SDH"
+    },
+    {
+      "head": "宽带接入方法",
+      "connect": "有",
+      "tail": "ADSL、HFC和FTTx"
+    },
+    {
+      "head": "无源光网络PON",
+      "connect": "无须",
+      "tail": "配备电源"
+    },
+    {
+      "head": "最流行的无源光网络",
+      "connect": "是",
+      "tail": "EPON和GPON"
+    }
+  ]
+
+
+  

@@ -1,0 +1,18 @@
+{"subject": "入侵检测方法", "predicate": "可以分为", "object": "基于特征的入侵检测和基于异常的入侵检测", "source_row": 0}
+{"subject": "基于特征的IDS", "predicate": "维护", "object": "所有已知攻击标志性特征的数据库", "source_row": 1}
+{"subject": "基于特征的IDS", "predicate": "只能检测", "object": "已知攻击", "source_row": 2}
+{"subject": "基于异常的IDS", "predicate": "通过", "object": "观察正常运行的网络流量学习正常流量的统计特性和规律", "source_row": 3}
+{"subject": "基于异常的IDS", "predicate": "认为可能发生了入侵行为当", "object": "检测到网络中流量的某种统计规律不符合正常情况", "source_row": 4}
+{"subject": "入侵检测系统", "predicate": "存在", "object": "漏报和误报情况", "source_row": 5}
+{"subject": "误报率", "predicate": "会导致", "object": "大量虚假警报", "source_row": 6}
+{"subject": "网络安全", "predicate": "包括", "object": "机密性、端点鉴别、信息的完整性、运行的安全性", "source_row": 7}
+{"subject": "椭圆曲线密码ECC", "predicate": "已在", "object": "TLS 1.3的握手协议中占据非常重要的地位", "source_row": 8}
+{"subject": "椭圆曲线密码系统", "predicate": "大量使用在", "object": "电子护照和金融系统", "source_row": 9}
+{"subject": "移动安全", "predicate": "应对", "object": "移动通信带来的广泛应用", "source_row": 10}
+{"subject": "量子密码", "predicate": "使得", "object": "目前许多使用中的密码技术无效", "source_row": 11}
+{"subject": "后量子密码学", "predicate": "是", "object": "方兴未艾的研究领域", "source_row": 12}
+{"subject": "标识密码", "predicate": "把", "object": "用户的标识作为公钥", "source_row": 13}
+{"subject": "标识密码", "predicate": "使得", "object": "安全系统变得易于部署和管理", "source_row": 14}
+{"subject": "商密九号算法SM9", "predicate": "是", "object": "标识密码算法", "source_row": 15}
+{"subject": "商密九号算法SM9", "predicate": "不需要", "object": "申请数字证书", "source_row": 16}
+{"subject": "商密九号算法SM9", "predicate": "适用于", "object": "互联网应用的各种新兴应用的安全保障", "source_row": 17}

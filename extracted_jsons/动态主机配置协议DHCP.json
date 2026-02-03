@@ -1,0 +1,285 @@
+[
+      {
+        "head": "协议软件",
+        "connect": "需要",
+        "tail": "协议参数化"
+      },
+      {
+        "head": "协议参数化",
+        "connect": "使得",
+        "tail": "同一经过编译的二进制代码可在多台计算机上使用"
+      },
+      {
+        "head": "协议软件",
+        "connect": "需要",
+        "tail": "协议配置"
+      },
+      {
+        "head": "协议配置",
+        "connect": "包括",
+        "tail": "IP地址、子网掩码、默认路由器的IP地址、域名服务器的IP地址"
+      },
+      {
+        "head": "IP地址",
+        "connect": "包括",
+        "tail": "主机号和网络号"
+      },
+      {
+        "head": "动态主机配置协议DHCP",
+        "connect": "提供",
+        "tail": "即插即用连网机制"
+      },
+      {
+        "head": "DHCP",
+        "connect": "允许",
+        "tail": "计算机加入新网络和获取IP地址而不用手工参与"
+      },
+      {
+        "head": "DHCP",
+        "connect": "适用于",
+        "tail": "运行客户软件和服务器软件的计算机"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "给",
+        "tail": "运行服务器软件而位置固定的计算机指派一个永久地址"
+      },
+      {
+        "head": "DHCP",
+        "connect": "使用",
+        "tail": "客户服务器方式"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "发现报文DHCPDISCOVER"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "返回",
+        "tail": "提供报文DHCPOFFER"
+      },
+      {
+        "head": "DHCP中继代理",
+        "connect": "通常是一个",
+        "tail": "路由器"
+      },
+      {
+        "head": "DHCP中继代理",
+        "connect": "配置了",
+        "tail": "DHCP服务器的IP地址信息"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "分配给",
+        "tail": "DHCP客户临时的IP地址"
+      },
+      {
+        "head": "DHCP协议",
+        "connect": "称分配的IP地址使用时间为",
+        "tail": "租用期"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "可以在",
+        "tail": "租用期范围内使用分配到的IP地址"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "设置",
+        "tail": "两个计时器T1和T2"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "请求报文DHCPREQUEST"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "发送",
+        "tail": "确认报文DHCPACK"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "进入",
+        "tail": "已绑定状态"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "可以随时提前终止",
+        "tail": "服务器所提供的租用期"
+      },
+      {
+        "head": "DHCP",
+        "connect": "适合",
+        "tail": "经常移动位置的计算机"
+      },
+      {
+        "head": "DHCP",
+        "connect": "允许",
+        "tail": "计算机使用Windows操作系统时自动获得IP地址"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "若同意",
+        "tail": "则发回确认报文DHCPACK"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "若不同意",
+        "tail": "则发回否认报文DHCPNACK"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "必须",
+        "tail": "立即停止使用原来的IP地址"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "需要",
+        "tail": "重新申请IP地址"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "不响应",
+        "tail": "则DHCP客户必须重新发送请求报文DHCPREQUEST"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "释放报文DHCPRELEASE"
+      },
+      {
+        "head": "DHCP",
+        "connect": "使得",
+        "tail": "计算机易于配置和管理"
+      },
+      {
+        "head": "DHCP",
+        "connect": "允许",
+        "tail": "网络管理员轻松管理网络中的主机"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "提供",
+        "tail": "网络中的主机IP地址分配和管理"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "接收",
+        "tail": "来自DHCP服务器的IP地址分配"
+      },
+      {
+        "head": "DHCP",
+        "connect": "定义了",
+        "tail": "一系列DHCP消息类型"
+      },
+      {
+        "head": "DHCP",
+        "connect": "使用",
+        "tail": "UDP端口68和67"
+      },
+      {
+        "head": "DHCP中继代理",
+        "connect": "转发",
+        "tail": "DHCP发现报文"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "返回",
+        "tail": "提供报文包含租用期信息"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "可以",
+        "tail": "提出对租用期的要求"
+      },
+      {
+        "head": "DHCP",
+        "connect": "允许",
+        "tail": "计算机动态获取网络配置"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "可以",
+        "tail": "设定租用期长度"
+      },
+      {
+        "head": "DHCP",
+        "connect": "使得",
+        "tail": "网络配置自动化和集中管理"
+      },
+      {
+        "head": "DHCP",
+        "connect": "适用于",
+        "tail": "大型网络环境"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "可以",
+        "tail": "管理多个网络接口的IP地址分配"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "在",
+        "tail": "租用期满后需要重新申请IP地址"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "可以",
+        "tail": "拒绝DHCP客户的IP地址续租请求"
+      },
+      {
+        "head": "DHCP",
+        "connect": "使得",
+        "tail": "网络中的设备可以自动配置"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "DHCPREQUEST报文选择DHCP服务器"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "发送",
+        "tail": "DHCPACK报文确认IP地址分配"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "在",
+        "tail": "租用期结束前发送DHCPREQUEST报文请求续租"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "可以",
+        "tail": "更新DHCP客户的租用期"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "在",
+        "tail": "租用期过了87.5%时重新发送DHCPREQUEST报文"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "可以",
+        "tail": "决定是否接受DHCP客户的续租请求"
+    },
+    {
+      "head": "DHCP客户",
+      "connect": "可以",
+      "tail": "通过发送DHCPRELEASE报文提前终止租用期"
+    },
+    {
+      "head": "DHCP",
+      "connect": "允许",
+      "tail": "网络管理员轻松管理IP地址分配"
+    },
+    {
+      "head": "DHCP",
+      "connect": "使得",
+      "tail": "网络中的主机可以动态获取IP地址"
+    }
+]
+
+
+  

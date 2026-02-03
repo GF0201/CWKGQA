@@ -1,0 +1,334 @@
+[
+      {
+        "head": "DHCP客户",
+        "connect": "从",
+        "tail": "DHCP服务器中选择一个进行通信"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "DHCP请求报文"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "发送",
+        "tail": "DHCPACK确认报文"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "使用",
+        "tail": "IP地址"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "设置",
+        "tail": "租用期T的计时器T1和T2"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "DHCPREQUEST请求报文"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "发回",
+        "tail": "DHCPACK确认报文"
+      },
+      {
+        "head": "DHCP服务器",
+        "connect": "发回",
+        "tail": "DHCPNACK否认报文"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "必须",
+        "tail": "停止使用原来的IP地址"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "重新发送",
+        "tail": "DHCPREQUEST请求报文"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "可以随时提前终止",
+        "tail": "租用期"
+      },
+      {
+        "head": "DHCP客户",
+        "connect": "发送",
+        "tail": "DHCPRELEASE释放报文"
+      },
+      {
+        "head": "DHCP",
+        "connect": "适合",
+        "tail": "经常移动位置的计算机"
+      },
+      {
+        "head": "网络管理",
+        "connect": "包括",
+        "tail": "对硬件、软件和人力的使用、综合与协调"
+      },
+      {
+        "head": "网络管理",
+        "connect": "满足",
+        "tail": "网络需求如实时运行性能、服务质量等"
+      },
+      {
+        "head": "管理站",
+        "connect": "又称为",
+        "tail": "管理器"
+      },
+      {
+        "head": "管理站",
+        "connect": "由",
+        "tail": "网络管理员直接操作和控制"
+      },
+      {
+        "head": "管理程序",
+        "connect": "运行时成为",
+        "tail": "管理进程"
+      },
+      {
+        "head": "被管设备",
+        "connect": "可以是",
+        "tail": "主机、路由器、打印机、集线器、网桥或调制解调器等"
+      },
+      {
+        "head": "被管对象",
+        "connect": "可以是",
+        "tail": "被管设备中的某个硬件或软件配置参数的集合"
+      },
+      {
+        "head": "代理程序",
+        "connect": "运行",
+        "tail": "SNMP服务器程序"
+      },
+      {
+        "head": "简单网络管理协议SNMP",
+        "connect": "按",
+        "tail": "客户服务器方式工作"
+      },
+      {
+        "head": "SNMP",
+        "connect": "包括",
+        "tail": "监视网络性能、检测分析网络差错和配置网络设备等功能"
+      },
+      {
+        "head": "SNMP v3",
+        "connect": "改进了",
+        "tail": "安全特性"
+      },
+      {
+        "head": "委托代理",
+        "connect": "提供",
+        "tail": "协议转换和过滤操作等功能"
+      },
+      {
+        "head": "SNMP",
+        "connect": "由",
+        "tail": "SNMP本身、SMI和管理信息库MIB三部分组成"
+      },
+      {
+        "head": "SMI",
+        "connect": "定义了",
+        "tail": "命名对象和定义对象类型的通用规则"
+      },
+      {
+        "head": "MIB",
+        "connect": "在被管理的实体中创建了命名对象并规定了其类型"
+      },
+      {
+        "head": "SNMP",
+        "connect": "负责",
+        "tail": "读取和改变MIB中对象的数值"
+      },
+      {
+        "head": "对象命名树",
+        "connect": "由",
+        "tail": "SMI规定所有被管对象必须处在其上"
+      },
+      {
+        "head": "管理信息结构SMI",
+        "connect": "是",
+        "tail": "SNMP的重要组成部分"
+      },
+      {
+        "head": "SMI",
+        "connect": "使用",
+        "tail": "ASN.1制定的基本编码规则BER进行数据编码"
+      },
+      {
+        "head": "管理信息库MIB",
+        "connect": "是",
+        "tail": "被管对象的集合"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "不经过询问就能发送某些信息，称为陷阱"
+      },
+      {
+        "head": "SNMP",
+        "connect": "使用",
+        "tail": "无连接的UDP"
+      },
+      {
+        "head": "SNMP报文",
+        "connect": "使用",
+        "tail": "标准ASN.1编码"
+      },
+      {
+        "head": "SNMP",
+        "connect": "定义了",
+        "tail": "8种类型的协议数据单元"
+      },
+      {
+        "head": "SNMP报文",
+        "connect": "由",
+        "tail": "版本、首部、安全参数和SNMP报文的数据部分组成"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者从代理读取一个或一组变量的值"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者对代理的一个或多个MIB变量的值进行设置"
+      },
+      {
+        "head": "SNMP",
+        "connect": "使用",
+        "tail": "熟知端口161来接收Get或Set报文和发送响应报文"
+      },
+      {
+        "head": "SNMP",
+        "connect": "使用",
+        "tail": "熟知端口162来接收来自各代理的trap报文"
+      },
+      {
+        "head": "SNMP",
+        "connect": "通过",
+        "tail": "探询操作实现管理功能"
+      },
+      {
+        "head": "SNMP",
+        "connect": "采用",
+        "tail": "周期性探询以维持对网络资源的实时监视"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "代理检测到有事件发生时发送陷阱信息"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者从代理读取MIB树的下一个变量的值"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者从另一远程管理者读取该管理者控制的代理中的变量值"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "代理向管理者报告代理中发生的异常事件"
+      },
+      {
+        "head": "SNMP",
+        "connect": "在",
+        "tail": "管理者之间报告某些类型的差错"
+      },
+      {
+        "head": "SNMP",
+        "connect": "使用",
+        "tail": "隐式标记IMPLICIT简化编码"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者从代理读取一个或一组变量的值"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者对代理的一个或多个MIB变量的值进行设置"
+      },
+      {
+        "head": "SNMP",
+        "connect": "允许",
+        "tail": "管理者从代理读取大数据块的值"
+      },
+      {
+        "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者从另一远程管理者读取该管理者控制的代理中的变量值"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "代理向管理者报告代理中发生的异常事件"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者之间报告某些类型的差错"
+    },
+    {
+      "head": "SNMP",
+      "connect": "使用",
+      "tail": "UDP协议传输"
+    },
+    {
+      "head": "SNMP",
+      "connect": "使用",
+      "tail": "熟知端口161和162"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者从代理读取变量的值"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者设置代理中变量的值"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "代理向管理者发送trap报文"
+    },
+    {
+      "head": "SNMP",
+      "connect": "使用",
+      "tail": "ASN.1编码报文"
+    },
+    {
+      "head": "SNMP",
+      "connect": "使用",
+      "tail": "UDP作为传输层协议"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者和代理之间进行Get和Set操作"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者和代理之间进行GetBulk操作"
+    },
+    {
+      "head": "SNMP",
+      "connect": "允许",
+      "tail": "管理者和代理之间进行Inform和SNMPv2Trap操作"
+    }
+]
+
+
+  
