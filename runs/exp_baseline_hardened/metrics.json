@@ -1,0 +1,18 @@
+{
+  "total": {
+    "n": 55,
+    "EM": 0.03636363636363636,
+    "F1": 0.05174825174825174
+  },
+  "executable_or_answerable": {
+    "n": 55,
+    "EM": 0.03636363636363636,
+    "F1": 0.05174825174825174
+  },
+  "audit": {
+    "eval_tokenizer": "mixed_zh_char_en_word_v1",
+    "generator_parse_version": "v1_content_or_text",
+    "retry_policy": "max_attempts=3",
+    "prompt_contract_version": "short_answer_v1"
+  }
+}

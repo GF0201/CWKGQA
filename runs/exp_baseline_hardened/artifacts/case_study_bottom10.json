@@ -1,0 +1,522 @@
+[
+  {
+    "id": "draft_0",
+    "question": "ICMP 允许完成什么功能？",
+    "gold": "主机或路由器提供有关异常情况的报告",
+    "pred": "主机或路由器提供有关异常情况的报告",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "ICMP",
+        "predicate": "不再使用",
+        "object": "源点抑制报文"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "不再使用",
+        "object": "路由器请求与通告报文"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "不再使用",
+        "object": "地址掩码请求与回答报文"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "不再使用",
+        "object": "信息请求与回答报文"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "允许",
+        "object": "主机或路由器提供有关异常情况的报告"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "允许",
+        "object": "主机或路由器报告差错情况"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "分为",
+        "object": "ICMP差错报告报文和ICMP询问报文"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "是",
+        "object": "IP层的协议"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "不是",
+        "object": "高层协议"
+      },
+      {
+        "subject": "ICMP",
+        "predicate": "是",
+        "object": "互联网的标准协议"
+      }
+    ]
+  },
+  {
+    "id": "draft_1",
+    "question": "完整域名 的长度或数量限制是多少？",
+    "gold": "255个字符",
+    "pred": "255个字符",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "完整域名",
+        "predicate": "总共不超过",
+        "object": "255个字符"
+      },
+      {
+        "subject": "域名",
+        "predicate": "不代表",
+        "object": "计算机所在的物理地点"
+      },
+      {
+        "subject": "域名",
+        "predicate": "只是",
+        "object": "逻辑概念"
+      },
+      {
+        "subject": "域名",
+        "predicate": "不区分",
+        "object": "大小写字母"
+      },
+      {
+        "subject": "域名",
+        "predicate": "由",
+        "object": "标号序列组成"
+      },
+      {
+        "subject": "域名",
+        "predicate": "因为",
+        "object": "长度不固定而机器处理困难"
+      }
+    ]
+  },
+  {
+    "id": "draft_2",
+    "question": "计算机网络中的信道 广泛使用什么技术？",
+    "gold": "各种复用技术",
+    "pred": "各种复用技术",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "计算机网络中的信道",
+        "predicate": "广泛地使用",
+        "object": "各种复用技术"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "随着技术发展",
+        "object": "应用范围不断扩大，能够传送音频和视频文件"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起初用来",
+        "object": "传送数据"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "并非专门用来",
+        "object": "传送数据，而是能够支持很多种应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "所连接的硬件",
+        "object": "不限于一般的计算机，而是包括了智能手机或智能电视机"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够用来",
+        "object": "传送多种不同类型的数据，并支持广泛的和日益增长的应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "定义为",
+        "object": "由一些通用的、可编程的硬件互连而成的网络"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够",
+        "object": "向用户提供电话通信、视频通信以及传送视频节目的服务"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起着",
+        "object": "核心作用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "具有",
+        "object": "非性能特征"
+      }
+    ]
+  },
+  {
+    "id": "draft_3",
+    "question": "基本服务集 也可以通过接入点AP连接到什么？",
+    "gold": "分配系统DS",
+    "pred": "分配系统DS",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "基本服务集",
+        "predicate": "也可以通过接入点AP连接到",
+        "object": "分配系统DS"
+      },
+      {
+        "subject": "基本服务集",
+        "predicate": "可以是",
+        "object": "孤立的单个服务集"
+      },
+      {
+        "subject": "接入点AP",
+        "predicate": "也称为",
+        "object": "无线接入点WAP"
+      },
+      {
+        "subject": "无线局域网的中心",
+        "predicate": "称为",
+        "object": "接入点AP"
+      },
+      {
+        "subject": "接入点AP",
+        "predicate": "保存",
+        "object": "处于待机状态的移动站的名单"
+      },
+      {
+        "subject": "接入点AP",
+        "predicate": "总是处于",
+        "object": "活跃状态"
+      },
+      {
+        "subject": "服务",
+        "predicate": "必须",
+        "object": "能够被高一层实体‘看得见’"
+      },
+      {
+        "subject": "服务",
+        "predicate": "是",
+        "object": "由下层向上一层通过层间接口提供的"
+      },
+      {
+        "subject": "网络层",
+        "predicate": "向运输层提供",
+        "object": "服务"
+      },
+      {
+        "subject": "AP",
+        "predicate": "周期性地向周围的移动站发送",
+        "object": "信标帧"
+      }
+    ]
+  },
+  {
+    "id": "draft_4",
+    "question": "流量控制 的定义是什么？",
+    "gold": "让发送方的发送速率不要太快，要让接收方来得及接收",
+    "pred": "让发送方的发送速率不要太快，要让接收方来得及接收",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "运输层",
+        "predicate": "讨论",
+        "object": "流量控制"
+      },
+      {
+        "subject": "流量控制",
+        "predicate": "是",
+        "object": "端到端的问题"
+      },
+      {
+        "subject": "流量控制",
+        "predicate": "包括",
+        "object": "把窗口减小到rwnd=300，再减到rwnd=100，最后减到rwnd=0"
+      },
+      {
+        "subject": "流量控制",
+        "predicate": "定义为",
+        "object": "让发送方的发送速率不要太快，要让接收方来得及接收"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "实现",
+        "object": "流量控制"
+      },
+      {
+        "subject": "流量控制",
+        "predicate": "是",
+        "object": "端到端的问题，接收端控制发送端"
+      },
+      {
+        "subject": "流",
+        "predicate": "在序列中",
+        "object": "分组共享分组首部某些字段的值"
+      },
+      {
+        "subject": "流",
+        "predicate": "定义为",
+        "object": "穿过网络的一种分组序列"
+      }
+    ]
+  },
+  {
+    "id": "draft_5",
+    "question": "UDP 提供哪些功能或服务？",
+    "gold": "复用和分用功能以及差错检测功能",
+    "pred": "复用和分用功能以及差错检测功能",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "UDP",
+        "predicate": "提供",
+        "object": "复用和分用功能以及差错检测功能"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "传送数据前",
+        "object": "不需要建立连接"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "提供",
+        "object": "无连接的尽最大努力的数据传输服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要端到端的可靠传输"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要拥塞控制的服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要流量控制的服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要可靠传输的服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要顺序传输的服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "不需要字节流的服务"
+      },
+      {
+        "subject": "UDP",
+        "predicate": "适用于",
+        "object": "面向报文的传输"
+      }
+    ]
+  },
+  {
+    "id": "draft_6",
+    "question": "RTSP控制分组 可以在什么？",
+    "gold": "TCP上传送",
+    "pred": "TCP上传送",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "RTSP控制分组",
+        "predicate": "可以在",
+        "object": "UDP上传送"
+      },
+      {
+        "subject": "RTSP控制分组",
+        "predicate": "可以在",
+        "object": "TCP上传送"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "是有状态的协议",
+        "object": "与HTTP不同"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "与",
+        "object": "HTTP协议的语法和操作相似"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "允许",
+        "object": "媒体播放器控制多媒体流的传送"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "记录",
+        "object": "客户机所处的状态"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "又称为",
+        "object": "互联网录像机遥控协议"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "允许",
+        "object": "用户在播放从互联网下载的实时数据时能够进行控制"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "是一个",
+        "object": "应用层的多媒体播放控制协议"
+      },
+      {
+        "subject": "RTSP",
+        "predicate": "以",
+        "object": "客户-服务器方式工作"
+      }
+    ]
+  },
+  {
+    "id": "draft_7",
+    "question": "RTCP 提供哪些功能或服务？",
+    "gold": "多播组成员的标志",
+    "pred": "多播组成员的标志",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "RTCP",
+        "predicate": "提供",
+        "object": "服务质量监视与反馈"
+      },
+      {
+        "subject": "RTCP",
+        "predicate": "提供",
+        "object": "多播组成员的标志"
+      },
+      {
+        "subject": "RTCP",
+        "predicate": "提供",
+        "object": "媒体间的同步"
+      },
+      {
+        "subject": "RTCP",
+        "predicate": "提供",
+        "object": "服务质量的监视与反馈"
+      },
+      {
+        "subject": "RTCP",
+        "predicate": "用于",
+        "object": "实时传送控制"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      }
+    ]
+  },
+  {
+    "id": "draft_8",
+    "question": "移动用户 更换时需要切换什么？",
+    "gold": "连接点（基站）",
+    "pred": "连接点（基站）",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "移动用户",
+        "predicate": "更换",
+        "object": "连接点（基站）"
+      },
+      {
+        "subject": "用户",
+        "predicate": "需要",
+        "object": "和密钥分配中心KDC进行通信的主密钥"
+      },
+      {
+        "subject": "用户",
+        "predicate": "很难记住",
+        "object": "点分十进制IP地址"
+      },
+      {
+        "subject": "用户",
+        "predicate": "很难记住",
+        "object": "长达32位的二进制主机地址"
+      },
+      {
+        "subject": "用户",
+        "predicate": "必须知道",
+        "object": "互联网上某台主机的IP地址"
+      },
+      {
+        "subject": "用户",
+        "predicate": "若发现私钥被盗或遗失",
+        "object": "应及时报告上级CA"
+      },
+      {
+        "subject": "用户",
+        "predicate": "可以从",
+        "object": "可信任的地方获得CA的公钥"
+      },
+      {
+        "subject": "用户",
+        "predicate": "通过",
+        "object": "调制解调器连接到ISP"
+      },
+      {
+        "subject": "用户",
+        "predicate": "连接到",
+        "object": "ISP"
+      },
+      {
+        "subject": "用户",
+        "predicate": "必须知道",
+        "object": "对方的IP地址"
+      }
+    ]
+  },
+  {
+    "id": "draft_9",
+    "question": "ARP 中存放什么信息？",
+    "gold": "从IP地址到MAC地址的映射表",
+    "pred": "从IP地址到MAC地址的映射表",
+    "f1": 1.0,
+    "retrieved_triples": [
+      {
+        "subject": "ARP",
+        "predicate": "存放",
+        "object": "从IP地址到MAC地址的映射表"
+      },
+      {
+        "subject": "ARP",
+        "predicate": "用于",
+        "object": "解析MAC地址"
+      }
+    ]
+  }
+]

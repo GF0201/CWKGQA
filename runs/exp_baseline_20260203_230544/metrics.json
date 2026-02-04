@@ -1,0 +1,18 @@
+{
+  "total": {
+    "n": 55,
+    "EM": 0.0,
+    "F1": 0.0613089390212156
+  },
+  "executable_or_answerable": {
+    "n": 55,
+    "EM": 0.0,
+    "F1": 0.0613089390212156
+  },
+  "audit": {
+    "eval_tokenizer": "mixed_zh_char_en_word_v1",
+    "eval_py_sha256": "f6899e6891400e9a9b742ddafbcaa4a3b7438552c01b4bc482eed444ada04dba",
+    "eval_remove_en_articles": true,
+    "normalize_rules": "lower, remove_punc(en+cn), white_space_fix"
+  }
+}

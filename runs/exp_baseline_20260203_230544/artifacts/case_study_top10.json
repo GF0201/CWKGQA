@@ -1,0 +1,437 @@
+[
+  {
+    "id": "draft_22",
+    "question": "IP多播 可以分为什么？",
+    "gold": "只在本局域网网上进行硬件多播和在互联网的范围进行多播",
+    "pred": "答案：IP多播可以分为只在本局域网网上进行硬件多播和在互联网的范围进行多播。",
+    "f1": 0.8387096774193548,
+    "retrieved_triples": [
+      {
+        "subject": "IP多播",
+        "predicate": "是",
+        "object": "网络层讨论的概念之一"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "需要",
+        "object": "网际组管理协议IGMP和多播路由选择协议"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "可以分为",
+        "object": "只在本局域网网上进行硬件多播和在互联网的范围进行多播"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "使用",
+        "object": "多播IP地址"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "支持",
+        "object": "一对多的通信"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "需要",
+        "object": "在互联网上增加更多的智能才能提供的一种服务"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "已成为",
+        "object": "互联网的一个热门课题"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "在",
+        "object": "1992年3月IETF会议声音的多播中首次试验"
+      },
+      {
+        "subject": "IP多播",
+        "predicate": "由",
+        "object": "Steve Deering首次在其博士学位论文中提出"
+      },
+      {
+        "subject": "IP",
+        "predicate": "是",
+        "object": "互联网的核心协议"
+      }
+    ]
+  },
+  {
+    "id": "draft_9",
+    "question": "ARP 中存放什么信息？",
+    "gold": "从IP地址到MAC地址的映射表",
+    "pred": "答案：ARP中存放从IP地址到MAC地址的映射表。",
+    "f1": 0.7894736842105263,
+    "retrieved_triples": [
+      {
+        "subject": "ARP",
+        "predicate": "存放",
+        "object": "从IP地址到MAC地址的映射表"
+      },
+      {
+        "subject": "ARP",
+        "predicate": "用于",
+        "object": "解析MAC地址"
+      }
+    ]
+  },
+  {
+    "id": "draft_39",
+    "question": "物理层的主要任务 在 描述为 方面有什么特点？",
+    "gold": "确定与传输媒体的接口有关的一些特性",
+    "pred": "答案：物理层的主要任务在描述为方面特点是确定与传输媒体的接口有关的一些特性。",
+    "f1": 0.6415094339622641,
+    "retrieved_triples": [
+      {
+        "subject": "物理层的主要任务",
+        "predicate": "描述为",
+        "object": "确定与传输媒体的接口有关的一些特性"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "负责",
+        "object": "在物理媒介上传送比特流"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "使",
+        "object": "数据链路层感觉不到这些差异"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "考虑的是",
+        "object": "如何在连接各种计算机的传输媒体上传输数据比特流"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "位于",
+        "object": "数据传输系统的底层"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "应将",
+        "object": "重点放在掌握基本概念"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "确定",
+        "object": "过程特性"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "确定",
+        "object": "功能特性"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "确定",
+        "object": "电气特性"
+      },
+      {
+        "subject": "物理层",
+        "predicate": "确定",
+        "object": "机械特性"
+      }
+    ]
+  },
+  {
+    "id": "draft_53",
+    "question": "DES的机密性 在 取决于 方面有什么特点？",
+    "gold": "对密钥的保密",
+    "pred": "答案：DES的机密性取决于对密钥的保密",
+    "f1": 0.5,
+    "retrieved_triples": [
+      {
+        "subject": "DES的机密性",
+        "predicate": "取决于",
+        "object": "对密钥的保密"
+      },
+      {
+        "subject": "DES",
+        "predicate": "是",
+        "object": "一种分组密码"
+      },
+      {
+        "subject": "DES",
+        "predicate": "在",
+        "object": "1977年被美国定为联邦信息标准"
+      },
+      {
+        "subject": "DES",
+        "predicate": "属于",
+        "object": "对称密钥密码体制"
+      },
+      {
+        "subject": "安全的计算机网络",
+        "predicate": "应设法达到",
+        "object": "机密性"
+      },
+      {
+        "subject": "DES",
+        "predicate": "被",
+        "object": "美国在1977年定为联邦信息标准"
+      },
+      {
+        "subject": "DES",
+        "predicate": "被",
+        "object": "ISO作为数据加密标准"
+      },
+      {
+        "subject": "DES",
+        "predicate": "是",
+        "object": "分组密码"
+      },
+      {
+        "subject": "DES",
+        "predicate": "由",
+        "object": "IBM公司研制出"
+      },
+      {
+        "subject": "DES",
+        "predicate": "成为",
+        "object": "美国的数据加密标准"
+      }
+    ]
+  },
+  {
+    "id": "draft_12",
+    "question": "客户进程 在 向 方面有什么特点？",
+    "gold": "服务器进程发出请求建立连接",
+    "pred": "答案：客户进程在向服务器进程发出请求建立连接方面具有主动性，是通信中服务请求方，负责发起连接请求以建立通信通道。",
+    "f1": 0.4,
+    "retrieved_triples": [
+      {
+        "subject": "客户进程",
+        "predicate": "向",
+        "object": "服务器进程发出请求建立连接"
+      },
+      {
+        "subject": "客户",
+        "predicate": "指",
+        "object": "通信中的服务请求方"
+      },
+      {
+        "subject": "客户",
+        "predicate": "是",
+        "object": "服务请求方"
+      }
+    ]
+  },
+  {
+    "id": "draft_29",
+    "question": "蜂窝无线通信网 在 最初用来 方面有什么特点？",
+    "gold": "打电话",
+    "pred": "答案：蜂窝无线通信网最初用来打电话，其特点主要体现在支持移动通信和实现远距离无线通话，这是",
+    "f1": 0.13333333333333333,
+    "retrieved_triples": [
+      {
+        "subject": "蜂窝无线通信网",
+        "predicate": "最初用来",
+        "object": "打电话"
+      },
+      {
+        "subject": "通信",
+        "predicate": "可以看成由",
+        "object": "四段不同的链路层通信组成"
+      },
+      {
+        "subject": "通信",
+        "predicate": "目的是",
+        "object": "传送消息"
+      },
+      {
+        "subject": "通信",
+        "predicate": "划分为",
+        "object": "单向通信、双向交替通信和双向同时通信"
+      },
+      {
+        "subject": "通信",
+        "predicate": "传送",
+        "object": "消息"
+      }
+    ]
+  },
+  {
+    "id": "draft_20",
+    "question": "波分复用 使用什么技术或方法？",
+    "gold": "一根光纤同时传输多个光载波信号",
+    "pred": "答案：波分复用使用波分复用技术",
+    "f1": 0.0689655172413793,
+    "retrieved_triples": [
+      {
+        "subject": "无源光网络PON",
+        "predicate": "采用",
+        "object": "波分复用"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使用",
+        "object": "光复用器和光分用器"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "提高",
+        "object": "光纤传输能力"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "通过",
+        "object": "改变光载波的波长实现"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使用",
+        "object": "一根光纤同时传输多个光载波信号"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使",
+        "object": "光纤的传输能力成倍提高"
+      }
+    ]
+  },
+  {
+    "id": "draft_56",
+    "question": "区分服务DiffServ 在 定义了 方面有什么特点？",
+    "gold": "两种PHB，即迅速转发PHB和确保转发PHB",
+    "pred": "",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "允许",
+        "object": "新的服务类别出现而旧的服务类别不再使用时仍然可以工作"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "没有定义",
+        "object": "特定的服务或服务类别"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "定义了",
+        "object": "两种PHB，即迅速转发PHB和确保转发PHB"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "将",
+        "object": "网络划分为多个DS域"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "通过",
+        "object": "DS字段的不同数值提供不同等级的服务质量"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "不需要",
+        "object": "使用RSVP信令"
+      },
+      {
+        "subject": "区分服务DiffServ",
+        "predicate": "由",
+        "object": "IETF提出"
+      },
+      {
+        "subject": "改进服务",
+        "predicate": "包括",
+        "object": "区分服务DiffServ"
+      },
+      {
+        "subject": "DiffServ",
+        "predicate": "提供",
+        "object": "聚合功能"
+      },
+      {
+        "subject": "DiffServ",
+        "predicate": "提供",
+        "object": "不同等级的服务质量"
+      }
+    ]
+  },
+  {
+    "id": "draft_55",
+    "question": "FCC 在 重新定义 方面有什么特点？",
+    "gold": "宽带上行速率为3 Mbit/s",
+    "pred": "",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "FCC",
+        "predicate": "重新定义",
+        "object": "宽带上行速率为3 Mbit/s"
+      },
+      {
+        "subject": "FCC",
+        "predicate": "重新定义",
+        "object": "宽带下行速率为25 Mbit/s"
+      },
+      {
+        "subject": "FCC",
+        "predicate": "定义",
+        "object": "宽带为双向速率之和超过200 kbit/s"
+      }
+    ]
+  },
+  {
+    "id": "draft_54",
+    "question": "TCP 有哪些要求？",
+    "gold": "接收方对按序收到的数据中的最高序号给出确认",
+    "pred": "",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "需要",
+        "object": "区分有线网络拥塞和无线链路拥塞"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "响应",
+        "object": "报文段丢失或出错"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "默认",
+        "object": "报文段丢失是由网络拥塞造成的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "YouTube和Netflix等流媒体服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "流式存储音频/视频的播放"
+      }
+    ]
+  }
+]
