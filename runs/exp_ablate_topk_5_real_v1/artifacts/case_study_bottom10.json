@@ -1,0 +1,322 @@
+[
+  {
+    "id": "draft_10",
+    "question": "椭圆曲线密码ECC 已在时会发生什么？",
+    "gold": "TLS 1.3的握手协议中占据非常重要地位",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "在",
+        "object": "电子护照和金融系统中大量使用"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要地位"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要的地位"
+      }
+    ]
+  },
+  {
+    "id": "draft_11",
+    "question": "Skype 采用什么技术或方案？",
+    "gold": "P2P技术和全球索引技术",
+    "pred": "端对端的加密方式",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "Skype",
+        "predicate": "用户增长速度",
+        "object": "每天超过15万用户"
+      },
+      {
+        "subject": "Skype",
+        "predicate": "推出时间",
+        "object": "2003年8月"
+      },
+      {
+        "subject": "Skype",
+        "predicate": "占据",
+        "object": "国际长途电话市场份额的40%"
+      },
+      {
+        "subject": "Skype",
+        "predicate": "对",
+        "object": "公共目录中存储的数据采用数字签名"
+      },
+      {
+        "subject": "Skype",
+        "predicate": "采用",
+        "object": "端对端的加密方式"
+      }
+    ]
+  },
+  {
+    "id": "draft_12",
+    "question": "客户进程 在 向 方面有什么特点？",
+    "gold": "服务器进程发出请求建立连接",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "客户进程",
+        "predicate": "向",
+        "object": "服务器进程发出请求建立连接"
+      },
+      {
+        "subject": "客户",
+        "predicate": "指",
+        "object": "通信中的服务请求方"
+      },
+      {
+        "subject": "客户",
+        "predicate": "是",
+        "object": "服务请求方"
+      }
+    ]
+  },
+  {
+    "id": "draft_14",
+    "question": "本地域名服务器 在 不隶属于 方面有什么特点？",
+    "gold": "域名服务器层次结构",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "本地域名服务器",
+        "predicate": "维护",
+        "object": "存放自己最近使用的域名的高速缓存"
+      },
+      {
+        "subject": "本地域名服务器",
+        "predicate": "把查询结果",
+        "object": "告诉发起查询的主机"
+      },
+      {
+        "subject": "本地域名服务器",
+        "predicate": "经过",
+        "object": "三次迭代查询后从权限域名服务器得到主机IP地址"
+      },
+      {
+        "subject": "本地域名服务器",
+        "predicate": "向",
+        "object": "根域名服务器的查询通常采用迭代查询"
+      },
+      {
+        "subject": "本地域名服务器",
+        "predicate": "对",
+        "object": "域名系统非常重要"
+      }
+    ]
+  },
+  {
+    "id": "draft_18",
+    "question": "以太网 在 参数包括 方面有什么特点？",
+    "gold": "单程端到端时延",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "以太网",
+        "predicate": "价格大约只有",
+        "object": "同步光纤网SONET的五分之一"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "扩大到",
+        "object": "城域网和广域网"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "使用",
+        "object": "MAC地址"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "具有冲突检测的载波监听多点接入CSMA/CD"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "无连接的工作方式"
+      }
+    ]
+  },
+  {
+    "id": "draft_23",
+    "question": "以太网 在 保持 方面有什么特点？",
+    "gold": "帧长一定的条件下",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "以太网",
+        "predicate": "价格大约只有",
+        "object": "同步光纤网SONET的五分之一"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "扩大到",
+        "object": "城域网和广域网"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "使用",
+        "object": "MAC地址"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "具有冲突检测的载波监听多点接入CSMA/CD"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "无连接的工作方式"
+      }
+    ]
+  },
+  {
+    "id": "draft_24",
+    "question": "IPv6 在 取消了 方面有什么特点？",
+    "gold": "首部长度字段",
+    "pred": "取消了子网掩码",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "IPv6",
+        "predicate": "是",
+        "object": "IP的新版本"
+      },
+      {
+        "subject": "IPv6",
+        "predicate": "发布",
+        "object": "2017年7月"
+      },
+      {
+        "subject": "IPv6",
+        "predicate": "把",
+        "object": "IP数据报的首部长度做成固定的"
+      },
+      {
+        "subject": "IPv6",
+        "predicate": "取消了",
+        "object": "子网掩码"
+      },
+      {
+        "subject": "IPv6",
+        "predicate": "地址空间大于",
+        "object": "3.4x10^38"
+      }
+    ]
+  },
+  {
+    "id": "draft_25",
+    "question": "PPP协议 提供哪些功能或服务？",
+    "gold": "数据压缩算法协商方法",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路终止状态时释放数据链路层连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路打开状态时PPP端点可以彼此向对方发送分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路建立状态时建立链路层的LCP连接"
+      }
+    ]
+  },
+  {
+    "id": "draft_27",
+    "question": "TCP 需要满足什么条件？",
+    "gold": "区分有线网络拥塞和无线链路拥塞",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      }
+    ]
+  },
+  {
+    "id": "draft_31",
+    "question": "计算机网络 发展最快并起着核心作用的具体内容是什么？",
+    "gold": "是信息时代中发展最快并起着核心作用的网络。",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "计算机网络",
+        "predicate": "起着",
+        "object": "核心作用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "随着技术发展",
+        "object": "应用范围不断扩大，能够传送音频和视频文件"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起初用来",
+        "object": "传送数据"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "并非专门用来",
+        "object": "传送数据，而是能够支持很多种应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "所连接的硬件",
+        "object": "不限于一般的计算机，而是包括了智能手机或智能电视机"
+      }
+    ]
+  }
+]

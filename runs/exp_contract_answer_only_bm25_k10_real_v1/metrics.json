@@ -1,0 +1,35 @@
+{
+  "total": {
+    "n": 55,
+    "EM": 0.21818181818181817,
+    "F1": 0.5271764389587268
+  },
+  "executable_or_answerable": {
+    "n": 55,
+    "EM": 0.21818181818181817,
+    "F1": 0.5271764389587268
+  },
+  "audit": {
+    "eval_tokenizer": "mixed_zh_char_en_word_v1",
+    "generator_parse_version": "v1_content_or_text",
+    "retry_policy": "max_attempts=3",
+    "prompt_contract_version": "short_answer_v1",
+    "contract_variant": "answer_only",
+    "run_mode": "real",
+    "generator_backend": "openai_compatible",
+    "generator_endpoint_fingerprint": {
+      "base_url": "https://tb.api.mkeai.com/v1",
+      "model": "deepseek-v3.2"
+    },
+    "generator_temperature": 0.1,
+    "generator_top_p": 1.0,
+    "generator_max_tokens": 128,
+    "seed": 42,
+    "ablation": "contract_answer_only",
+    "retriever_topk": 10,
+    "retriever_type": "bm25",
+    "eval_py_sha256": "faa867f99bc3c228956552ae7521e9f125c56ec8a72f5b1588b2e6578b97c52f",
+    "eval_remove_en_articles": true,
+    "normalize_rules": "lower, remove_punc(en+cn), white_space_fix"
+  }
+}

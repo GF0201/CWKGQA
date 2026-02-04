@@ -1,0 +1,8 @@
+{
+  "n": 55,
+  "parse_success_rate": 0.9818181818181818,
+  "has_evidence_line_rate": 0.9818181818181818,
+  "empty_evidence_rate": 0.0,
+  "out_of_range_rate": 0.0,
+  "has_duplicate_rate": 0.0
+}

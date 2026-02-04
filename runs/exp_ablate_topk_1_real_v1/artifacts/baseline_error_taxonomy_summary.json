@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "retriever_miss": 16,
+    "partial_correct": 21,
+    "ungrounded_or_wrong": 18
+  },
+  "ratios": {
+    "retriever_miss": 0.2909,
+    "partial_correct": 0.3818,
+    "ungrounded_or_wrong": 0.3273
+  }
+}

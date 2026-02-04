@@ -1,0 +1,83 @@
+{
+  "answer_only": {
+    "EM": 0.21818181818181817,
+    "F1": 0.5271764389587268,
+    "taxonomy_ratios": {
+      "partial_correct": 0.6182,
+      "format_mismatch": 0.2,
+      "ungrounded_or_wrong": 0.1455,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 36.72727272727273,
+      "median": 20,
+      "p90": 73
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.14545454545454545,
+      "very_short_rate": 0.16363636363636364,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.14545454545454545
+    }
+  },
+  "answer_plus_evidence": {
+    "EM": 0.3090909090909091,
+    "F1": 0.6543577608910301,
+    "taxonomy_ratios": {
+      "partial_correct": 0.7091,
+      "format_mismatch": 0.1818,
+      "ungrounded_or_wrong": 0.0727,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 24.345454545454544,
+      "median": 16,
+      "p90": 45
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.03636363636363636,
+      "very_short_rate": 0.05454545454545454,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.03636363636363636
+    },
+    "evidence_line_parse_report": {
+      "n": 55,
+      "parse_success_rate": 0.9636363636363636,
+      "has_evidence_line_rate": 1.0,
+      "empty_evidence_rate": 0.03636363636363636,
+      "out_of_range_rate": 0.0,
+      "has_duplicate_rate": 0.0
+    },
+    "evidence_support_summary": {
+      "n": 53,
+      "key_tokens_k": 5,
+      "coverage_mean": 0.9811320754716981,
+      "coverage_median": 1.0,
+      "support_rate_ge_0_5": 0.9811320754716981,
+      "failure_case_ids": [
+        "draft_40"
+      ]
+    }
+  },
+  "guardrail_answerable_only": {
+    "EM": 0.23636363636363636,
+    "F1": 0.5508839588149622,
+    "taxonomy_ratios": {
+      "partial_correct": 0.6727,
+      "format_mismatch": 0.1273,
+      "ungrounded_or_wrong": 0.1636,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 29.70909090909091,
+      "median": 17,
+      "p90": 54
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.16363636363636364,
+      "very_short_rate": 0.18181818181818182,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.16363636363636364
+    }
+  }
+}

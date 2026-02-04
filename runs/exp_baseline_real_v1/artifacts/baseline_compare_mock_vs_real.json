@@ -1,0 +1,92 @@
+{
+  "mock_run_dir": "D:\\KGELLM\\kgqa_framework\\runs\\exp_baseline_retry_v1",
+  "real_run_dir": "D:\\KGELLM\\kgqa_framework\\runs\\exp_baseline_real_v1",
+  "mock": {
+    "EM": 1.0,
+    "F1": 1.0,
+    "taxonomy_ratios": {
+      "partial_correct": 0.9636,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 13.545454545454545,
+      "median": 12,
+      "p90": 22
+    },
+    "gold_len_char": {
+      "mean": 13.545454545454545,
+      "median": 12,
+      "p90": 22
+    },
+    "gold_token_hit_rate": {
+      "mean": 1.0,
+      "median": 1.0
+    },
+    "f1_summary": {
+      "mean": 1.0,
+      "median": 1.0,
+      "p90": 1.0
+    },
+    "generator_failure": {
+      "prediction_empty_or_whitespace": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "prediction_nonempty_but_very_short_le1_token": {
+        "count": 1,
+        "ratio": 0.0182
+      },
+      "error_fields_present": {},
+      "run_log_mention_counts": {
+        "http_error_like": 0,
+        "timeout_like": 0,
+        "parse_fail_like": 3
+      }
+    }
+  },
+  "real": {
+    "EM": 0.2545454545454545,
+    "F1": 0.6060562145003079,
+    "taxonomy_ratios": {
+      "partial_correct": 0.7273,
+      "format_mismatch": 0.0364,
+      "ungrounded_or_wrong": 0.2,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 21.29090909090909,
+      "median": 14,
+      "p90": 40
+    },
+    "gold_len_char": {
+      "mean": 13.545454545454545,
+      "median": 12,
+      "p90": 22
+    },
+    "gold_token_hit_rate": {
+      "mean": 0.7443939393939395,
+      "median": 1.0
+    },
+    "f1_summary": {
+      "mean": 0.606056214500308,
+      "median": 0.7058823529411764,
+      "p90": 1.0
+    },
+    "generator_failure": {
+      "prediction_empty_or_whitespace": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "prediction_nonempty_but_very_short_le1_token": {
+        "count": 12,
+        "ratio": 0.2182
+      },
+      "error_fields_present": {},
+      "run_log_mention_counts": {
+        "http_error_like": 1,
+        "timeout_like": 0,
+        "parse_fail_like": 3
+      }
+    }
+  }
+}

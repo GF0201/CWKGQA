@@ -1,0 +1,10 @@
+{
+  "n": 53,
+  "key_tokens_k": 5,
+  "coverage_mean": 0.9811320754716981,
+  "coverage_median": 1.0,
+  "support_rate_ge_0_5": 0.9811320754716981,
+  "failure_case_ids": [
+    "draft_40"
+  ]
+}

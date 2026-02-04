@@ -1,0 +1,92 @@
+{
+  "baseline_answer_plus_evidence": {
+    "EM": 0.3090909090909091,
+    "F1": 0.6543577608910301,
+    "taxonomy_ratios": {
+      "partial_correct": 0.7091,
+      "format_mismatch": 0.1818,
+      "ungrounded_or_wrong": 0.0727,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 24.345454545454544,
+      "median": 16,
+      "p90": 45
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.03636363636363636,
+      "very_short_rate": 0.05454545454545454,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.03636363636363636
+    },
+    "evidence_line_parse_report": {
+      "n": 55,
+      "parse_success_rate": 0.9636363636363636,
+      "has_evidence_line_rate": 1.0,
+      "empty_evidence_rate": 0.03636363636363636,
+      "out_of_range_rate": 0.0,
+      "has_duplicate_rate": 0.0
+    },
+    "evidence_support_summary": {
+      "n": 53,
+      "key_tokens_k": 5,
+      "coverage_mean": 0.9811320754716981,
+      "coverage_median": 1.0,
+      "support_rate_ge_0_5": 0.9811320754716981,
+      "failure_case_ids": [
+        "draft_40"
+      ]
+    }
+  },
+  "guardrail_evidence_bounded_v2": {
+    "EM": 0.36363636363636365,
+    "F1": 0.7079683677932213,
+    "taxonomy_ratios": {
+      "partial_correct": 0.8182,
+      "format_mismatch": 0.1091,
+      "ungrounded_or_wrong": 0.0364,
+      "retriever_miss": 0.0364
+    },
+    "pred_len_char": {
+      "mean": 21.70909090909091,
+      "median": 15,
+      "p90": 43
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.03636363636363636,
+      "very_short_rate": 0.03636363636363636,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.03636363636363636
+    },
+    "evidence_line_parse_report": {
+      "n": 55,
+      "parse_success_rate": 0.9818181818181818,
+      "has_evidence_line_rate": 0.9818181818181818,
+      "empty_evidence_rate": 0.0,
+      "out_of_range_rate": 0.0,
+      "has_duplicate_rate": 0.0
+    },
+    "evidence_support_summary": {
+      "n": 54,
+      "key_tokens_k": 5,
+      "coverage_mean": 0.9814814814814815,
+      "coverage_median": 1.0,
+      "support_rate_ge_0_5": 0.9814814814814815,
+      "failure_case_ids": [
+        "draft_40"
+      ]
+    },
+    "evidence_violation_report": {
+      "n": 55,
+      "evidence_violation_rate": 0.03636363636363636,
+      "violation_ids": [
+        "draft_25",
+        "draft_40"
+      ],
+      "enforcement_action_counts": {
+        "none": 53,
+        "force_unknown": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "draft_25": {
+    "question": "PPP协议 提供哪些功能或服务？",
+    "gold": "数据压缩算法协商方法",
+    "raw_prediction_before_enforcement": "ANSWER: 在链路终止状态时释放数据链路层连接,在链路打开状态时PPP端点可以彼此向对方发送分组,在网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组,在鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组,在链路建立状态时建立链路层的LCP连接,在链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接,通过NCP分配临时IP地址,允许双方协商使用压缩的TCP和IP首部,使用IP控制协议",
+    "final_prediction": "UNKNOWN",
+    "retrieved_triples": [
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路终止状态时释放数据链路层连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路打开状态时PPP端点可以彼此向对方发送分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路建立状态时建立链路层的LCP连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "通过",
+        "object": "NCP分配临时IP地址"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "允许",
+        "object": "双方协商使用压缩的TCP和IP首部"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "使用",
+        "object": "IP控制协议IPCP"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "包含",
+        "object": "物理层和网络层的内容"
+      }
+    ],
+    "evidence_line_ids": [],
+    "evidence_support_detail": {
+      "key_tokens": [],
+      "covered_tokens": [],
+      "uncovered_tokens": [],
+      "coverage": null
+    },
+    "attribution": "B"
+  },
+  "draft_40": {
+    "question": "I/G位 表示什么？",
+    "gold": "Individual/Group",
+    "raw_prediction_before_enforcement": "ANSWER: Individual/Group\nEVIDENCE: 1",
+    "final_prediction": "UNKNOWN",
+    "retrieved_triples": [
+      {
+        "subject": "I/G位",
+        "predicate": "表示",
+        "object": "Individual/Group"
+      },
+      {
+        "subject": "MAC地址",
+        "predicate": "第一字节的最低有效位为",
+        "object": "I/G位"
+      }
+    ],
+    "evidence_line_ids": [
+      1
+    ],
+    "evidence_support_detail": {
+      "key_tokens": [
+        "answer",
+        "individualgroup",
+        "evidence",
+        "1"
+      ],
+      "covered_tokens": [],
+      "uncovered_tokens": [
+        "answer",
+        "individualgroup",
+        "evidence",
+        "1"
+      ],
+      "coverage": 0.0
+    },
+    "attribution": "A"
+  }
+}

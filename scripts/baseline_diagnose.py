@@ -248,7 +248,38 @@ def main() -> int:
         json.dumps(id_report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    # Step 5: Console report
+    # Step 5: Answer quality gates
+    norm_preds: list[str] = []
+    for s in samples:
+        raw = (s.get("prediction") or "").strip()
+        norm = normalize_answer(raw)
+        norm_preds.append(norm)
+    total_n = len(norm_preds)
+
+    def _rate(cond) -> float:
+        cnt = sum(1 for p in norm_preds if cond(p))
+        return cnt / total_n if total_n else 0.0
+
+    import re
+
+    unknown_rate = _rate(lambda p: p.lower() == "unknown")
+    very_short_rate = _rate(lambda p: len(mixed_segmentation(p)) <= 1)
+    numeric_only_rate = _rate(lambda p: bool(p) and re.fullmatch(r"[0-9\\W_]+", p) is not None)
+    pred_counter = Counter(norm_preds)
+    most_common_count = pred_counter.most_common(1)[0][1] if pred_counter else 0
+    duplicated_answer_rate = most_common_count / total_n if total_n else 0.0
+
+    quality_gates = {
+        "unknown_rate": unknown_rate,
+        "very_short_rate": very_short_rate,
+        "numeric_only_rate": numeric_only_rate,
+        "duplicated_answer_rate": duplicated_answer_rate,
+    }
+    (artifacts_dir / "answer_quality_gates.json").write_text(
+        json.dumps(quality_gates, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # Step 6: Console report
     print("=== Audit 写入确认 ===")
     print(f"  eval.py sha256: {eval_sha[:16]}...")
 

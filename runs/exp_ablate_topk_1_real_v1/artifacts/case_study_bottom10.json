@@ -1,0 +1,142 @@
+[
+  {
+    "id": "draft_0",
+    "question": "ICMP 允许完成什么功能？",
+    "gold": "主机或路由器提供有关异常情况的报告",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "ICMP",
+        "predicate": "不再使用",
+        "object": "源点抑制报文"
+      }
+    ]
+  },
+  {
+    "id": "draft_4",
+    "question": "流量控制 的定义是什么？",
+    "gold": "让发送方的发送速率不要太快，要让接收方来得及接收",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "运输层",
+        "predicate": "讨论",
+        "object": "流量控制"
+      }
+    ]
+  },
+  {
+    "id": "draft_7",
+    "question": "RTCP 提供哪些功能或服务？",
+    "gold": "多播组成员的标志",
+    "pred": "服务质量监视与反馈",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "RTCP",
+        "predicate": "提供",
+        "object": "服务质量监视与反馈"
+      }
+    ]
+  },
+  {
+    "id": "draft_10",
+    "question": "椭圆曲线密码ECC 已在时会发生什么？",
+    "gold": "TLS 1.3的握手协议中占据非常重要地位",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "在",
+        "object": "电子护照和金融系统中大量使用"
+      }
+    ]
+  },
+  {
+    "id": "draft_11",
+    "question": "Skype 采用什么技术或方案？",
+    "gold": "P2P技术和全球索引技术",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "Skype",
+        "predicate": "用户增长速度",
+        "object": "每天超过15万用户"
+      }
+    ]
+  },
+  {
+    "id": "draft_12",
+    "question": "客户进程 在 向 方面有什么特点？",
+    "gold": "服务器进程发出请求建立连接",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "客户进程",
+        "predicate": "向",
+        "object": "服务器进程发出请求建立连接"
+      }
+    ]
+  },
+  {
+    "id": "draft_14",
+    "question": "本地域名服务器 在 不隶属于 方面有什么特点？",
+    "gold": "域名服务器层次结构",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "本地域名服务器",
+        "predicate": "维护",
+        "object": "存放自己最近使用的域名的高速缓存"
+      }
+    ]
+  },
+  {
+    "id": "draft_18",
+    "question": "以太网 在 参数包括 方面有什么特点？",
+    "gold": "单程端到端时延",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "以太网",
+        "predicate": "价格大约只有",
+        "object": "同步光纤网SONET的五分之一"
+      }
+    ]
+  },
+  {
+    "id": "draft_19",
+    "question": "802.11局域网 在 还使用 方面有什么特点？",
+    "gold": "停止等待协议",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "802.11局域网",
+        "predicate": "还使用",
+        "object": "停止等待协议"
+      }
+    ]
+  },
+  {
+    "id": "draft_20",
+    "question": "波分复用 使用什么技术或方法？",
+    "gold": "一根光纤同时传输多个光载波信号",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "无源光网络PON",
+        "predicate": "采用",
+        "object": "波分复用"
+      }
+    ]
+  }
+]

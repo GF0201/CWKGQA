@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "partial_correct": 53,
+    "retriever_miss": 2
+  },
+  "ratios": {
+    "partial_correct": 0.9636,
+    "retriever_miss": 0.0364
+  }
+}

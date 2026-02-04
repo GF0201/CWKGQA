@@ -1,0 +1,35 @@
+{
+  "total": {
+    "n": 55,
+    "EM": 1.0,
+    "F1": 1.0
+  },
+  "executable_or_answerable": {
+    "n": 55,
+    "EM": 1.0,
+    "F1": 1.0
+  },
+  "audit": {
+    "eval_tokenizer": "mixed_zh_char_en_word_v1",
+    "generator_parse_version": "v1_content_or_text",
+    "retry_policy": "max_attempts=3",
+    "prompt_contract_version": "short_answer_guardrail_answerable_only_v1",
+    "contract_variant": "guardrail_answerable_only",
+    "run_mode": "mock",
+    "generator_backend": "openai_compatible",
+    "generator_endpoint_fingerprint": {
+      "base_url": "http://localhost:11434/v1",
+      "model": "deepseek-r1:7b"
+    },
+    "generator_temperature": 0.1,
+    "generator_top_p": 1.0,
+    "generator_max_tokens": 128,
+    "seed": 42,
+    "ablation": "guardrail_answerable_only",
+    "retriever_topk": 10,
+    "retriever_type": "bm25",
+    "eval_py_sha256": "faa867f99bc3c228956552ae7521e9f125c56ec8a72f5b1588b2e6578b97c52f",
+    "eval_remove_en_articles": true,
+    "normalize_rules": "lower, remove_punc(en+cn), white_space_fix"
+  }
+}

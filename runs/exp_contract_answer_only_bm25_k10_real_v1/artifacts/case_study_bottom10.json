@@ -1,0 +1,512 @@
+[
+  {
+    "id": "draft_10",
+    "question": "椭圆曲线密码ECC 已在时会发生什么？",
+    "gold": "TLS 1.3的握手协议中占据非常重要地位",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "在",
+        "object": "电子护照和金融系统中大量使用"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要地位"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要的地位"
+      }
+    ]
+  },
+  {
+    "id": "draft_12",
+    "question": "客户进程 在 向 方面有什么特点？",
+    "gold": "服务器进程发出请求建立连接",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "客户进程",
+        "predicate": "向",
+        "object": "服务器进程发出请求建立连接"
+      },
+      {
+        "subject": "运输层",
+        "predicate": "向",
+        "object": "高层用户屏蔽网络核心的细节"
+      },
+      {
+        "subject": "运输层",
+        "predicate": "向",
+        "object": "应用层提供逻辑通信服务"
+      },
+      {
+        "subject": "媒体播放器",
+        "predicate": "向",
+        "object": "媒体服务器请求音频/视频文件"
+      },
+      {
+        "subject": "分布协调功能DCF",
+        "predicate": "向",
+        "object": "上提供争用服务"
+      },
+      {
+        "subject": "本地域名服务器",
+        "predicate": "向",
+        "object": "根域名服务器的查询通常采用迭代查询"
+      },
+      {
+        "subject": "主机",
+        "predicate": "向",
+        "object": "本地域名服务器的查询一般采用递归查询"
+      },
+      {
+        "subject": "拥塞控制算法",
+        "predicate": "向",
+        "object": "发送端发送控制报文，告诉发送端网络已出现麻烦"
+      },
+      {
+        "subject": "100BASE-T以太网",
+        "predicate": "在",
+        "object": "全双工方式下工作而无冲突发生"
+      },
+      {
+        "subject": "IP协议",
+        "predicate": "在",
+        "object": "互联网中的核心作用"
+      }
+    ]
+  },
+  {
+    "id": "draft_27",
+    "question": "TCP 需要满足什么条件？",
+    "gold": "区分有线网络拥塞和无线链路拥塞",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "需要",
+        "object": "区分有线网络拥塞和无线链路拥塞"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "响应",
+        "object": "报文段丢失或出错"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "默认",
+        "object": "报文段丢失是由网络拥塞造成的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "YouTube和Netflix等流媒体服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "流式存储音频/视频的播放"
+      }
+    ]
+  },
+  {
+    "id": "draft_31",
+    "question": "计算机网络 发展最快并起着核心作用的具体内容是什么？",
+    "gold": "是信息时代中发展最快并起着核心作用的网络。",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "计算机网络",
+        "predicate": "随着技术发展",
+        "object": "应用范围不断扩大，能够传送音频和视频文件"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起初用来",
+        "object": "传送数据"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "并非专门用来",
+        "object": "传送数据，而是能够支持很多种应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "所连接的硬件",
+        "object": "不限于一般的计算机，而是包括了智能手机或智能电视机"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够用来",
+        "object": "传送多种不同类型的数据，并支持广泛的和日益增长的应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "定义为",
+        "object": "由一些通用的、可编程的硬件互连而成的网络"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够",
+        "object": "向用户提供电话通信、视频通信以及传送视频节目的服务"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起着",
+        "object": "核心作用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "具有",
+        "object": "非性能特征"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "应模仿",
+        "object": "打电话所使用的面向连接的通信方式"
+      }
+    ]
+  },
+  {
+    "id": "draft_37",
+    "question": "SIP 主要用于什么？",
+    "gold": "会话发起",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "SIP",
+        "predicate": "包含",
+        "object": "代理服务器和重定向服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "包含",
+        "object": "用户代理客户和用户代理服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "定义",
+        "object": "用户代理和网络服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "具有",
+        "object": "更好的可扩缩性"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "使用",
+        "object": "文本方式的客户-服务器协议"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "不强制使用",
+        "object": "RTP协议"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "不强制使用",
+        "object": "特定的编解码器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "涉及",
+        "object": "信令和服务质量问题"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "视为",
+        "object": "IP电话为互联网上的新应用"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "以",
+        "object": "互联网为基础"
+      }
+    ]
+  },
+  {
+    "id": "draft_38",
+    "question": "DNS服务器 在 根据 方面有什么特点？",
+    "gold": "域名服务器所起的作用进行分类",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "DNS服务器",
+        "predicate": "根据",
+        "object": "域名服务器所起的作用进行分类"
+      },
+      {
+        "subject": "DNS服务器",
+        "predicate": "把数据复制到",
+        "object": "几个域名服务器来保存"
+      },
+      {
+        "subject": "DNS服务器",
+        "predicate": "具体实现",
+        "object": "域名系统"
+      },
+      {
+        "subject": "应用层协议",
+        "predicate": "根据",
+        "object": "使用的运输层协议是TCP或UDP"
+      },
+      {
+        "subject": "中间设备",
+        "predicate": "根据",
+        "object": "所在层次的不同有转发器、网桥、路由器和网关"
+      },
+      {
+        "subject": "分组过滤路由器",
+        "predicate": "根据",
+        "object": "过滤规则对进出内部网络的分组执行转发或者丢弃"
+      },
+      {
+        "subject": "边界路由器",
+        "predicate": "根据",
+        "object": "DS字段的值处理分组转发"
+      },
+      {
+        "subject": "网桥",
+        "predicate": "根据",
+        "object": "MAC帧的目的地址进行转发和过滤"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "根据",
+        "object": "窗口值和网络拥塞程度决定报文段长度"
+      },
+      {
+        "subject": "路由器",
+        "predicate": "根据",
+        "object": "分组中的目的地址查找转发表"
+      }
+    ]
+  },
+  {
+    "id": "draft_41",
+    "question": "用户数据报协议UDP 只在时会发生什么？",
+    "gold": "IP的数据报服务之上增加了很少一点的功能",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "用户数据报协议UDP",
+        "predicate": "只在",
+        "object": "IP的数据报服务之上增加了很少一点的功能"
+      }
+    ]
+  },
+  {
+    "id": "draft_54",
+    "question": "TCP 有哪些要求？",
+    "gold": "接收方对按序收到的数据中的最高序号给出确认",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "需要",
+        "object": "区分有线网络拥塞和无线链路拥塞"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "响应",
+        "object": "报文段丢失或出错"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "默认",
+        "object": "报文段丢失是由网络拥塞造成的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "YouTube和Netflix等流媒体服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "流式存储音频/视频的播放"
+      }
+    ]
+  },
+  {
+    "id": "draft_49",
+    "question": "SNMP 包括哪些方面或内容？",
+    "gold": "监视网络性能、检测分析网络差错和配置网络设备等功能",
+    "pred": "SNMP使用UDP协议；SNMP允许管理者和代理之间进行Inform和SNMPv2Trap操作；SNMP允许管理者和代理之间进行GetBulk操作；SNMP允许管理者和代理之间进行Get和Set操作；SNMP使用UDP作为传输层协议；SNMP使用ASN.1编码报文；SNMP允许代理向管理者发送trap报文；SNMP允许管理者设置代理中变量的值；SNMP允许管理者从代理读取变量的值；SNMP使用熟知端口161和162",
+    "f1": 0.026905829596412554,
+    "retrieved_triples": [
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "UDP协议"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行Inform和SNMPv2Trap操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行GetBulk操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行Get和Set操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "UDP作为传输层协议"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "ASN.1编码报文"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "代理向管理者发送trap报文"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者设置代理中变量的值"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者从代理读取变量的值"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "熟知端口161和162"
+      }
+    ]
+  },
+  {
+    "id": "draft_25",
+    "question": "PPP协议 提供哪些功能或服务？",
+    "gold": "数据压缩算法协商方法",
+    "pred": "PPP协议在链路终止状态时释放数据链路层连接；在链路打开状态时PPP端点可以彼此向对方发送分组；在网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组；在鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组；在链路建立状态时建立链路层的LCP连接；在链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接；通过NCP分配临时IP地址；允许双方协商使用压缩的TCP和IP首部；使用IP控制协议IP",
+    "f1": 0.06222222222222222,
+    "retrieved_triples": [
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路终止状态时释放数据链路层连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路打开状态时PPP端点可以彼此向对方发送分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路建立状态时建立链路层的LCP连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "通过",
+        "object": "NCP分配临时IP地址"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "允许",
+        "object": "双方协商使用压缩的TCP和IP首部"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "使用",
+        "object": "IP控制协议IPCP"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "包含",
+        "object": "物理层和网络层的内容"
+      }
+    ]
+  }
+]

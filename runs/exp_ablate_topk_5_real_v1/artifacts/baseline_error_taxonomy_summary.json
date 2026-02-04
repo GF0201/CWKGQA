@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "partial_correct": 30,
+    "format_mismatch": 5,
+    "ungrounded_or_wrong": 17,
+    "retriever_miss": 3
+  },
+  "ratios": {
+    "partial_correct": 0.5455,
+    "format_mismatch": 0.0909,
+    "ungrounded_or_wrong": 0.3091,
+    "retriever_miss": 0.0545
+  }
+}

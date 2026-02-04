@@ -1,0 +1,55 @@
+{"id": "draft_0", "question": "ICMP 允许完成什么功能？", "gold": "主机或路由器提供有关异常情况的报告", "pred": "主机或路由器提供有关异常情况的报告", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_1", "question": "完整域名 的长度或数量限制是多少？", "gold": "255个字符", "pred": "255个字符", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_2", "question": "计算机网络中的信道 广泛使用什么技术？", "gold": "各种复用技术", "pred": "各种复用技术", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_3", "question": "基本服务集 也可以通过接入点AP连接到什么？", "gold": "分配系统DS", "pred": "分配系统DS", "label": "partial_correct", "retrieved_k": 2}
+{"id": "draft_4", "question": "流量控制 的定义是什么？", "gold": "让发送方的发送速率不要太快，要让接收方来得及接收", "pred": "让发送方的发送速率不要太快，要让接收方来得及接收", "label": "partial_correct", "retrieved_k": 6}
+{"id": "draft_5", "question": "UDP 提供哪些功能或服务？", "gold": "复用和分用功能以及差错检测功能", "pred": "复用和分用功能以及差错检测功能", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_6", "question": "RTSP控制分组 可以在什么？", "gold": "TCP上传送", "pred": "TCP上传送", "label": "partial_correct", "retrieved_k": 2}
+{"id": "draft_7", "question": "RTCP 提供哪些功能或服务？", "gold": "多播组成员的标志", "pred": "多播组成员的标志", "label": "partial_correct", "retrieved_k": 5}
+{"id": "draft_8", "question": "移动用户 更换时需要切换什么？", "gold": "连接点（基站）", "pred": "连接点（基站）", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_9", "question": "ARP 中存放什么信息？", "gold": "从IP地址到MAC地址的映射表", "pred": "从IP地址到MAC地址的映射表", "label": "partial_correct", "retrieved_k": 2}
+{"id": "draft_10", "question": "椭圆曲线密码ECC 已在时会发生什么？", "gold": "TLS 1.3的握手协议中占据非常重要地位", "pred": "TLS 1.3的握手协议中占据非常重要地位", "label": "partial_correct", "retrieved_k": 3}
+{"id": "draft_11", "question": "Skype 采用什么技术或方案？", "gold": "P2P技术和全球索引技术", "pred": "P2P技术和全球索引技术", "label": "partial_correct", "retrieved_k": 8}
+{"id": "draft_12", "question": "客户进程 在 向 方面有什么特点？", "gold": "服务器进程发出请求建立连接", "pred": "服务器进程发出请求建立连接", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_13", "question": "SDP 详细指明了哪些参数或信息？", "gold": "媒体编码、协议的端口号以及多播地址", "pred": "媒体编码、协议的端口号以及多播地址", "label": "partial_correct", "retrieved_k": 2}
+{"id": "draft_14", "question": "本地域名服务器 在 不隶属于 方面有什么特点？", "gold": "域名服务器层次结构", "pred": "域名服务器层次结构", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_15", "question": "双协议栈 的具体含义是什么？", "gold": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈", "pred": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_16", "question": "适配器 功能包括什么？", "gold": "进行数据串行传输和并行传输的转换", "pred": "进行数据串行传输和并行传输的转换", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_17", "question": "脸书Facebook 在 特点包括 方面有什么特点？", "gold": "在朋友圈中分享图片、视频和音频文件", "pred": "在朋友圈中分享图片、视频和音频文件", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_18", "question": "以太网 在 参数包括 方面有什么特点？", "gold": "单程端到端时延", "pred": "单程端到端时延", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_19", "question": "802.11局域网 在 还使用 方面有什么特点？", "gold": "停止等待协议", "pred": "停止等待协议", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_20", "question": "波分复用 使用什么技术或方法？", "gold": "一根光纤同时传输多个光载波信号", "pred": "一根光纤同时传输多个光载波信号", "label": "partial_correct", "retrieved_k": 6}
+{"id": "draft_21", "question": "票据 在 用 方面有什么特点？", "gold": "B的密钥KB加密", "pred": "B的密钥KB加密", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_22", "question": "IP多播 可以分为什么？", "gold": "只在本局域网网上进行硬件多播和在互联网的范围进行多播", "pred": "只在本局域网网上进行硬件多播和在互联网的范围进行多播", "label": "partial_correct", "retrieved_k": 9}
+{"id": "draft_23", "question": "以太网 在 保持 方面有什么特点？", "gold": "帧长一定的条件下", "pred": "帧长一定的条件下", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_24", "question": "IPv6 在 取消了 方面有什么特点？", "gold": "首部长度字段", "pred": "首部长度字段", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_25", "question": "PPP协议 提供哪些功能或服务？", "gold": "数据压缩算法协商方法", "pred": "数据压缩算法协商方法", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_27", "question": "TCP 需要满足什么条件？", "gold": "区分有线网络拥塞和无线链路拥塞", "pred": "区分有线网络拥塞和无线链路拥塞", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_28", "question": "分组交换 通过什么方式实现？", "gold": "路由器的缓存和转发表实现分组的存储和转发", "pred": "路由器的缓存和转发表实现分组的存储和转发", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_29", "question": "蜂窝无线通信网 在 最初用来 方面有什么特点？", "gold": "打电话", "pred": "打电话", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_30", "question": "区分服务DiffServ 如何划分或处理？", "gold": "网络划分为多个DS域", "pred": "网络划分为多个DS域", "label": "partial_correct", "retrieved_k": 8}
+{"id": "draft_31", "question": "计算机网络 发展最快并起着核心作用的具体内容是什么？", "gold": "是信息时代中发展最快并起着核心作用的网络。", "pred": "是信息时代中发展最快并起着核心作用的网络。", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_32", "question": "FFD节点 在 充当 方面有什么特点？", "gold": "ZigBee网络的协调器", "pred": "ZigBee网络的协调器", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_33", "question": "拥塞避免算法 有哪些规定或要求？", "gold": "每经过一个往返时间RTT，发送方的拥塞窗口cwnd的大小就加1", "pred": "每经过一个往返时间RTT，发送方的拥塞窗口cwnd的大小就加1", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_34", "question": "X.509 有哪些规定或要求？", "gold": "数字证书必须包括的字段", "pred": "数字证书必须包括的字段", "label": "partial_correct", "retrieved_k": 5}
+{"id": "draft_35", "question": "证书链 对应什么概念？", "gold": "信任链", "pred": "信任链", "label": "partial_correct", "retrieved_k": 2}
+{"id": "draft_36", "question": "ICMP询问报文 包括哪些方面或内容？", "gold": "回送请求或回送回答", "pred": "回送请求或回送回答", "label": "partial_correct", "retrieved_k": 3}
+{"id": "draft_37", "question": "SIP 主要用于什么？", "gold": "会话发起", "pred": "会话发起", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_38", "question": "DNS服务器 在 根据 方面有什么特点？", "gold": "域名服务器所起的作用进行分类", "pred": "域名服务器所起的作用进行分类", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_39", "question": "物理层的主要任务 在 描述为 方面有什么特点？", "gold": "确定与传输媒体的接口有关的一些特性", "pred": "确定与传输媒体的接口有关的一些特性", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_40", "question": "I/G位 表示什么？", "gold": "Individual/Group", "pred": "Individual/Group", "label": "retriever_miss", "retrieved_k": 2}
+{"id": "draft_41", "question": "用户数据报协议UDP 只在时会发生什么？", "gold": "IP的数据报服务之上增加了很少一点的功能", "pred": "IP的数据报服务之上增加了很少一点的功能", "label": "partial_correct", "retrieved_k": 1}
+{"id": "draft_42", "question": "IP电话网关 进行什么操作或转换？", "gold": "话音编码的转换", "pred": "话音编码的转换", "label": "partial_correct", "retrieved_k": 4}
+{"id": "draft_43", "question": "网络层 在 为 方面有什么特点？", "gold": "主机之间的通信提供服务", "pred": "主机之间的通信提供服务", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_44", "question": "MIME 主要用于什么？", "gold": "扩充电子邮件传送多种类型的数据", "pred": "扩充电子邮件传送多种类型的数据", "label": "partial_correct", "retrieved_k": 9}
+{"id": "draft_45", "question": "DES使用的密钥 在 占有 方面有什么特点？", "gold": "64位（实际密钥长度为56位，外加8位用于奇偶校验）", "pred": "64位（实际密钥长度为56位，外加8位用于奇偶校验）", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_46", "question": "LTE-A Pro 在 吞吐量超过 方面有什么特点？", "gold": "3 Gbit/s", "pred": "3 Gbit/s", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_47", "question": "电路交换 在 保证 方面有什么特点？", "gold": "通信双方占用端到端的通信资源", "pred": "通信双方占用端到端的通信资源", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_48", "question": "ADSL 采用什么技术或方案？", "gold": "频分复用的方法", "pred": "频分复用的方法", "label": "partial_correct", "retrieved_k": 9}
+{"id": "draft_49", "question": "SNMP 包括哪些方面或内容？", "gold": "监视网络性能、检测分析网络差错和配置网络设备等功能", "pred": "监视网络性能、检测分析网络差错和配置网络设备等功能", "label": "retriever_miss", "retrieved_k": 10}
+{"id": "draft_50", "question": "中间CA2 在 给 方面有什么特点？", "gold": "用户签发用户证书", "pred": "用户签发用户证书", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_52", "question": "以太网 可以什么？", "gold": "提供双向的宽带通信", "pred": "提供双向的宽带通信", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_53", "question": "DES的机密性 在 取决于 方面有什么特点？", "gold": "对密钥的保密", "pred": "对密钥的保密", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_54", "question": "TCP 有哪些要求？", "gold": "接收方对按序收到的数据中的最高序号给出确认", "pred": "接收方对按序收到的数据中的最高序号给出确认", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_55", "question": "FCC 在 重新定义 方面有什么特点？", "gold": "宽带上行速率为3 Mbit/s", "pred": "宽带上行速率为3 Mbit/s", "label": "partial_correct", "retrieved_k": 10}
+{"id": "draft_56", "question": "区分服务DiffServ 在 定义了 方面有什么特点？", "gold": "两种PHB，即迅速转发PHB和确保转发PHB", "pred": "两种PHB，即迅速转发PHB和确保转发PHB", "label": "partial_correct", "retrieved_k": 10}

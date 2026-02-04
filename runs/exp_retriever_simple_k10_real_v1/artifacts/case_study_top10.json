@@ -1,0 +1,466 @@
+{
+  "samples": [
+    {
+      "id": "draft_2",
+      "question": "计算机网络中的信道 广泛使用什么技术？",
+      "gold": "各种复用技术",
+      "pred": "各种复用技术",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "计算机网络中的信道",
+          "predicate": "广泛地使用",
+          "object": "各种复用技术"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "随着技术发展",
+          "object": "应用范围不断扩大，能够传送音频和视频文件"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "起初用来",
+          "object": "传送数据"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "并非专门用来",
+          "object": "传送数据，而是能够支持很多种应用"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "所连接的硬件",
+          "object": "不限于一般的计算机，而是包括了智能手机或智能电视机"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "能够用来",
+          "object": "传送多种不同类型的数据，并支持广泛的和日益增长的应用"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "定义为",
+          "object": "由一些通用的、可编程的硬件互连而成的网络"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "能够",
+          "object": "向用户提供电话通信、视频通信以及传送视频节目的服务"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "起着",
+          "object": "核心作用"
+        },
+        {
+          "subject": "计算机网络",
+          "predicate": "具有",
+          "object": "非性能特征"
+        }
+      ]
+    },
+    {
+      "id": "draft_3",
+      "question": "基本服务集 也可以通过接入点AP连接到什么？",
+      "gold": "分配系统DS",
+      "pred": "分配系统DS",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "基本服务集",
+          "predicate": "也可以通过接入点AP连接到",
+          "object": "分配系统DS"
+        },
+        {
+          "subject": "基本服务集",
+          "predicate": "可以是",
+          "object": "孤立的单个服务集"
+        },
+        {
+          "subject": "接入点AP",
+          "predicate": "也称为",
+          "object": "无线接入点WAP"
+        },
+        {
+          "subject": "无线局域网的中心",
+          "predicate": "称为",
+          "object": "接入点AP"
+        },
+        {
+          "subject": "接入点AP",
+          "predicate": "保存",
+          "object": "处于待机状态的移动站的名单"
+        },
+        {
+          "subject": "接入点AP",
+          "predicate": "总是处于",
+          "object": "活跃状态"
+        },
+        {
+          "subject": "服务",
+          "predicate": "必须",
+          "object": "能够被高一层实体‘看得见’"
+        },
+        {
+          "subject": "服务",
+          "predicate": "是",
+          "object": "由下层向上一层通过层间接口提供的"
+        },
+        {
+          "subject": "网络层",
+          "predicate": "向运输层提供",
+          "object": "服务"
+        },
+        {
+          "subject": "AP",
+          "predicate": "周期性地向周围的移动站发送",
+          "object": "信标帧"
+        }
+      ]
+    },
+    {
+      "id": "draft_4",
+      "question": "流量控制 的定义是什么？",
+      "gold": "让发送方的发送速率不要太快，要让接收方来得及接收",
+      "pred": "让发送方的发送速率不要太快，要让接收方来得及接收",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "运输层",
+          "predicate": "讨论",
+          "object": "流量控制"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "是",
+          "object": "端到端的问题"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "包括",
+          "object": "把窗口减小到rwnd=300，再减到rwnd=100，最后减到rwnd=0"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "定义为",
+          "object": "让发送方的发送速率不要太快，要让接收方来得及接收"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "实现",
+          "object": "流量控制"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "是",
+          "object": "端到端的问题，接收端控制发送端"
+        },
+        {
+          "subject": "流",
+          "predicate": "在序列中",
+          "object": "分组共享分组首部某些字段的值"
+        },
+        {
+          "subject": "流",
+          "predicate": "定义为",
+          "object": "穿过网络的一种分组序列"
+        }
+      ]
+    },
+    {
+      "id": "draft_8",
+      "question": "移动用户 更换时需要切换什么？",
+      "gold": "连接点（基站）",
+      "pred": "连接点（基站）",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "移动用户",
+          "predicate": "更换",
+          "object": "连接点（基站）"
+        },
+        {
+          "subject": "用户",
+          "predicate": "需要",
+          "object": "和密钥分配中心KDC进行通信的主密钥"
+        },
+        {
+          "subject": "用户",
+          "predicate": "很难记住",
+          "object": "点分十进制IP地址"
+        },
+        {
+          "subject": "用户",
+          "predicate": "很难记住",
+          "object": "长达32位的二进制主机地址"
+        },
+        {
+          "subject": "用户",
+          "predicate": "必须知道",
+          "object": "互联网上某台主机的IP地址"
+        },
+        {
+          "subject": "用户",
+          "predicate": "若发现私钥被盗或遗失",
+          "object": "应及时报告上级CA"
+        },
+        {
+          "subject": "用户",
+          "predicate": "可以从",
+          "object": "可信任的地方获得CA的公钥"
+        },
+        {
+          "subject": "用户",
+          "predicate": "通过",
+          "object": "调制解调器连接到ISP"
+        },
+        {
+          "subject": "用户",
+          "predicate": "连接到",
+          "object": "ISP"
+        },
+        {
+          "subject": "用户",
+          "predicate": "必须知道",
+          "object": "对方的IP地址"
+        }
+      ]
+    },
+    {
+      "id": "draft_13",
+      "question": "SDP 详细指明了哪些参数或信息？",
+      "gold": "媒体编码、协议的端口号以及多播地址",
+      "pred": "媒体编码、协议的端口号以及多播地址",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "SDP",
+          "predicate": "详细地指明了",
+          "object": "媒体编码、协议的端口号以及多播地址"
+        },
+        {
+          "subject": "SDP",
+          "predicate": "是",
+          "object": "会话描述协议"
+        },
+        {
+          "subject": "网络当前的时延",
+          "predicate": "表示为",
+          "object": "D"
+        }
+      ]
+    },
+    {
+      "id": "draft_15",
+      "question": "双协议栈 的具体含义是什么？",
+      "gold": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈",
+      "pred": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "双协议栈",
+          "predicate": "指",
+          "object": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈"
+        },
+        {
+          "subject": "运输层",
+          "predicate": "使用",
+          "object": "协议栈"
+        },
+        {
+          "subject": "协议栈",
+          "predicate": "像",
+          "object": "一个栈的结构"
+        },
+        {
+          "subject": "协议",
+          "predicate": "必须",
+          "object": "把所有不利的条件事先都估计到"
+        },
+        {
+          "subject": "协议",
+          "predicate": "是",
+          "object": "控制对等实体间通信的规则"
+        },
+        {
+          "subject": "协议",
+          "predicate": "是",
+          "object": "控制两个对等实体进行通信的规则的集合"
+        }
+      ]
+    },
+    {
+      "id": "draft_22",
+      "question": "IP多播 可以分为什么？",
+      "gold": "只在本局域网网上进行硬件多播和在互联网的范围进行多播",
+      "pred": "只在本局域网网上进行硬件多播和在互联网的范围进行多播",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "IP多播",
+          "predicate": "是",
+          "object": "网络层讨论的概念之一"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "需要",
+          "object": "网际组管理协议IGMP和多播路由选择协议"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "可以分为",
+          "object": "只在本局域网网上进行硬件多播和在互联网的范围进行多播"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "使用",
+          "object": "多播IP地址"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "支持",
+          "object": "一对多的通信"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "需要",
+          "object": "在互联网上增加更多的智能才能提供的一种服务"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "已成为",
+          "object": "互联网的一个热门课题"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "在",
+          "object": "1992年3月IETF会议声音的多播中首次试验"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "由",
+          "object": "Steve Deering首次在其博士学位论文中提出"
+        },
+        {
+          "subject": "IP",
+          "predicate": "是",
+          "object": "互联网的核心协议"
+        }
+      ]
+    },
+    {
+      "id": "draft_29",
+      "question": "蜂窝无线通信网 在 最初用来 方面有什么特点？",
+      "gold": "打电话",
+      "pred": "打电话",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "蜂窝无线通信网",
+          "predicate": "最初用来",
+          "object": "打电话"
+        },
+        {
+          "subject": "通信",
+          "predicate": "可以看成由",
+          "object": "四段不同的链路层通信组成"
+        },
+        {
+          "subject": "通信",
+          "predicate": "目的是",
+          "object": "传送消息"
+        },
+        {
+          "subject": "通信",
+          "predicate": "划分为",
+          "object": "单向通信、双向交替通信和双向同时通信"
+        },
+        {
+          "subject": "通信",
+          "predicate": "传送",
+          "object": "消息"
+        }
+      ]
+    },
+    {
+      "id": "draft_35",
+      "question": "证书链 对应什么概念？",
+      "gold": "信任链",
+      "pred": "信任链",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "证书链",
+          "predicate": "通过",
+          "object": "链接可以查到本证书的签发者"
+        },
+        {
+          "subject": "证书链",
+          "predicate": "对应",
+          "object": "信任链"
+        }
+      ]
+    },
+    {
+      "id": "draft_39",
+      "question": "物理层的主要任务 在 描述为 方面有什么特点？",
+      "gold": "确定与传输媒体的接口有关的一些特性",
+      "pred": "确定与传输媒体的接口有关的一些特性",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "物理层的主要任务",
+          "predicate": "描述为",
+          "object": "确定与传输媒体的接口有关的一些特性"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "负责",
+          "object": "在物理媒介上传送比特流"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "使",
+          "object": "数据链路层感觉不到这些差异"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "考虑的是",
+          "object": "如何在连接各种计算机的传输媒体上传输数据比特流"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "位于",
+          "object": "数据传输系统的底层"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "应将",
+          "object": "重点放在掌握基本概念"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "确定",
+          "object": "过程特性"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "确定",
+          "object": "功能特性"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "确定",
+          "object": "电气特性"
+        },
+        {
+          "subject": "物理层",
+          "predicate": "确定",
+          "object": "机械特性"
+        }
+      ]
+    }
+  ],
+  "n_actual": 10,
+  "note": null
+}

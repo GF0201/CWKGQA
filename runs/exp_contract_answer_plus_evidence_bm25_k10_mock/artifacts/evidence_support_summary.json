@@ -1,0 +1,8 @@
+{
+  "n": 0,
+  "key_tokens_k": 5,
+  "coverage_mean": 0.0,
+  "coverage_median": 0.0,
+  "support_rate_ge_0_5": 0.0,
+  "failure_case_ids": []
+}
