@@ -1,0 +1,33 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l l r r}
+    \toprule
+    Run ID & Top-1 intent label & Count & Ratio (\%) \\
+    \midrule
+    exp\_default\_intent\_rule\_v1\_real\_v1  & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & LIST     &  3 &  5.5 \\
+    \midrule
+    exp\_default\_intent\_route\_real\_v1     & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_route\_real\_v1     & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_route\_real\_v1     & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_route\_real\_v1     & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_route\_real\_v1     & LIST     &  3 &  5.5 \\
+    \midrule
+    exp\_default\_intent\_clarify\_real\_v1   & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_clarify\_real\_v1   & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_clarify\_real\_v1   & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_clarify\_real\_v1   & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_clarify\_real\_v1   & LIST     &  3 &  5.5 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Top-1 intent label distribution for the three intent-enabled runs. Ratios are derived from \texttt{intent\_workspace/artifacts/intent\_trigger\_stats.csv} and rounded to one decimal place.}
+  \label{tab:intent_trigger_stats}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: For each intent-enabled run (\texttt{rule\_v1}, \texttt{rule\_v1\_route}, \texttt{rule\_v1\_clarify}), this table reports the empirical distribution of the top-1 intent label. All rows are taken directly from \texttt{intent\_trigger\_stats.csv}. The near-identical distributions across the three runs are consistent with the design that routing and clarification change retrieval or final answers, but not the underlying intent predictions.
+  \end{tablenotes}
+\end{table}
+

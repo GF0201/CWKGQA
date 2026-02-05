@@ -1,0 +1,20 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    Intent mode & EM (\%) & F1 (\%) & Unknown (\%) & Multi-intent (\%) & Ambiguous (\%) & Coverage (\%) \\
+    \midrule
+    none            & 40.0 & 72.0 &  1.8 &      N/A &     N/A &    N/A \\
+    rule\_v1        & 34.5 & 71.1 &  1.8 &     10.9 &      5.5 & 100.0 \\
+    rule\_v1\_route & 36.4 & 72.9 &  0.0 &     10.9 &      5.5 & 100.0 \\
+    rule\_v1\_clarify & 36.4 & 68.4 &  7.3 &     10.9 &      5.5 & 100.0 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Main ablation results for four intent\_mode settings on the domain\_main QA benchmark. All runs share the same contract variant, enforcement policy, retriever type (bm25), and top-\emph{k}=10; only the intent configuration differs.}
+  \label{tab:intent_ablation_main}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: All numbers are directly computed from \texttt{intent\_workspace/artifacts/intent\_ablation\_main\_table.csv} (rounded to one decimal place). Percentages are shown in $[0,100]$ scale. For \texttt{intent\_mode=none}, multi-intent, ambiguous, and coverage statistics are not applicable because the intent module is disabled (cells marked as N/A rather than assumed to be zero). In \texttt{rule\_v1}, the intent module is audit-only and does not change QA behaviour; \texttt{rule\_v1\_route} and \texttt{rule\_v1\_clarify} are behaviour-changing modes (routing and offline clarification, respectively). In offline evaluation, clarify forces final answers for samples with \texttt{is\_ambiguous=True} to UNKNOWN to avoid unjustified single-turn answers; this does not model the eventual outcome of an interactive multi-turn clarification dialogue.
+  \end{tablenotes}
+\end{table}
+

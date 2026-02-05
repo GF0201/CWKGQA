@@ -1,0 +1,30 @@
+{
+  "n": 55,
+  "pred_len_char": {
+    "mean": 23.181818181818183,
+    "median": 15,
+    "p90": 43
+  },
+  "gold_len_char": {
+    "mean": 13.545454545454545,
+    "median": 12,
+    "p90": 22
+  },
+  "gold_token_hit_rate": {
+    "mean": 0.839848484848485,
+    "median": 1.0
+  },
+  "f1": {
+    "mean": 0.6895667637006245,
+    "median": 0.8181818181818181,
+    "p90": 1.0
+  },
+  "pred_token_count": {
+    "median": 15,
+    "p90": 39
+  },
+  "gold_token_count": {
+    "median": 12,
+    "p90": 21
+  }
+}

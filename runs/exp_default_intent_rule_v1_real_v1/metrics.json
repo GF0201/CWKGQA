@@ -1,0 +1,57 @@
+{
+  "total": {
+    "n": 55,
+    "EM": 0.34545454545454546,
+    "F1": 0.7112469277519223
+  },
+  "executable_or_answerable": {
+    "n": 55,
+    "EM": 0.34545454545454546,
+    "F1": 0.7112469277519223
+  },
+  "audit": {
+    "eval_tokenizer": "mixed_zh_char_en_word_v1",
+    "eval_py_sha256": "faa867f99bc3c228956552ae7521e9f125c56ec8a72f5b1588b2e6578b97c52f",
+    "eval_remove_en_articles": true,
+    "normalize_rules": "lower, remove_punc(en+cn), white_space_fix",
+    "config_fingerprint": "51396c02d84be88640a30208233ed487eae614f1dc1be52d5d62ef0f399e45a3",
+    "audit_overrides": null,
+    "api_key_source": "OPENAI_API_KEY",
+    "generator_parse_version": "v1_content_or_text",
+    "retry_policy": "max_attempts=3",
+    "prompt_contract_version": "short_answer_with_evidence_guardrail_v2",
+    "contract_variant": "answer_plus_evidence_guardrail_v2",
+    "guardrail_version": "evidence_bounded_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "support_semantics_version": "raw_answer_only_v1",
+    "support_module_sha256": "c266288c3ec0fda5c59f4dd4f3c896ae7ca21cf89d5dcf2c2b94944b0e7279fc",
+    "intent_module_enabled": true,
+    "intent_rules_sha256": "191deb6e47ada9e8c160c8af598d0ded38d30caebeebfedd4a4deb68a9ec8ecf",
+    "intent_taxonomy_sha256": "641c69ca80459806e8a46b252881819e9189a6b375afdbaa695f5b454821d1af",
+    "intent_rules_sha": "191deb6e47ada9e8c160c8af598d0ded38d30caebeebfedd4a4deb68a9ec8ecf",
+    "intent_taxonomy_sha": "641c69ca80459806e8a46b252881819e9189a6b375afdbaa695f5b454821d1af",
+    "intent_thresholds": {
+      "multi_label_threshold": 0.6,
+      "ambiguous_margin": 0.15,
+      "min_confidence": 0.4
+    },
+    "intent_config_fingerprint": "be8a5584eb38a885f3a804f195808b444fd4cd3ad304a185352271fea6661140",
+    "intent_multi_intent_rate": 0.10909090909090909,
+    "intent_ambiguous_rate": 0.05454545454545454,
+    "intent_coverage_rate": 1.0,
+    "intent_mode": "rule_v1",
+    "run_mode": "real",
+    "ablation": null,
+    "generator_backend": "openai_compatible",
+    "generator_endpoint_fingerprint": {
+      "base_url": "https://tb.api.mkeai.com/v1",
+      "model": "deepseek-v3.2"
+    },
+    "generator_temperature": 0.1,
+    "generator_top_p": 1.0,
+    "generator_max_tokens": 128,
+    "seed": 42,
+    "retriever_topk": 10,
+    "retriever_type": "bm25"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "n_total": 55,
+  "n_retry_triggered": 2,
+  "retry_trigger_rate": 0.03636363636363636,
+  "outcomes": {
+    "improved_after_retry_count": 0,
+    "unchanged_after_retry_count": 0,
+    "worsened_after_retry_count": 0,
+    "forced_unknown_after_retry_count": 2
+  },
+  "metrics_deltas_on_retry_cases": {
+    "mean_f1_before_retry": 0.5,
+    "mean_f1_after_retry": 0.0,
+    "mean_em_before_retry": 0.5,
+    "mean_em_after_retry": 0.0
+  },
+  "top_examples": [
+    {
+      "id": "draft_10",
+      "question": "椭圆曲线密码ECC 已在时会发生什么？",
+      "gold": "TLS 1.3的握手协议中占据非常重要地位",
+      "raw_answer_before_retry": "UNKNOWN",
+      "evidence_before_retry": [
+        1,
+        2,
+        3
+      ],
+      "support_before_retry": 0.0,
+      "raw_answer_retry": "UNKNOWN",
+      "evidence_retry": [
+        1,
+        2,
+        3
+      ],
+      "support_retry": 0.0,
+      "final_answer": "UNKNOWN",
+      "em_before": 0,
+      "em_after": 0,
+      "f1_before": 0,
+      "f1_after": 0.0
+    },
+    {
+      "id": "draft_40",
+      "question": "I/G位 表示什么？",
+      "gold": "Individual/Group",
+      "raw_answer_before_retry": "Individual/Group",
+      "evidence_before_retry": [
+        1
+      ],
+      "support_before_retry": 0.0,
+      "raw_answer_retry": "Individual/Group",
+      "evidence_retry": [
+        1
+      ],
+      "support_retry": 0.0,
+      "final_answer": "UNKNOWN",
+      "em_before": 1,
+      "em_after": 0,
+      "f1_before": 1.0,
+      "f1_after": 0.0
+    }
+  ],
+  "list_retry_ids": [
+    "draft_10",
+    "draft_40"
+  ]
+}

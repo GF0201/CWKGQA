@@ -1,0 +1,497 @@
+[
+  {
+    "id": "draft_10",
+    "question": "椭圆曲线密码ECC 已在时会发生什么？",
+    "gold": "TLS 1.3的握手协议中占据非常重要地位",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "在",
+        "object": "电子护照和金融系统中大量使用"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要地位"
+      },
+      {
+        "subject": "椭圆曲线密码ECC",
+        "predicate": "已在",
+        "object": "TLS 1.3的握手协议中占据非常重要的地位"
+      }
+    ]
+  },
+  {
+    "id": "draft_37",
+    "question": "SIP 主要用于什么？",
+    "gold": "会话发起",
+    "pred": "信令和服务质量问题",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "SIP",
+        "predicate": "包含",
+        "object": "代理服务器和重定向服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "包含",
+        "object": "用户代理客户和用户代理服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "定义",
+        "object": "用户代理和网络服务器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "具有",
+        "object": "更好的可扩缩性"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "使用",
+        "object": "文本方式的客户-服务器协议"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "不强制使用",
+        "object": "RTP协议"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "不强制使用",
+        "object": "特定的编解码器"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "涉及",
+        "object": "信令和服务质量问题"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "视为",
+        "object": "IP电话为互联网上的新应用"
+      },
+      {
+        "subject": "SIP",
+        "predicate": "以",
+        "object": "互联网为基础"
+      }
+    ]
+  },
+  {
+    "id": "draft_40",
+    "question": "I/G位 表示什么？",
+    "gold": "Individual/Group",
+    "pred": "UNKNOWN",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "I/G位",
+        "predicate": "表示",
+        "object": "Individual/Group"
+      },
+      {
+        "subject": "MAC地址",
+        "predicate": "第一字节的最低有效位为",
+        "object": "I/G位"
+      }
+    ]
+  },
+  {
+    "id": "draft_54",
+    "question": "TCP 有哪些要求？",
+    "gold": "接收方对按序收到的数据中的最高序号给出确认",
+    "pred": "需要区分有线网络拥塞和无线链路拥塞",
+    "f1": 0.0,
+    "retrieved_triples": [
+      {
+        "subject": "TCP",
+        "predicate": "增加",
+        "object": "确认、流量控制、计时器以及连接管理等开销"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "具有",
+        "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "是",
+        "object": "面向连接的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "提供",
+        "object": "面向连接的、可靠的数据传输服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "需要",
+        "object": "区分有线网络拥塞和无线链路拥塞"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "响应",
+        "object": "报文段丢失或出错"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "默认",
+        "object": "报文段丢失是由网络拥塞造成的"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "YouTube和Netflix等流媒体服务"
+      },
+      {
+        "subject": "TCP",
+        "predicate": "适用于",
+        "object": "流式存储音频/视频的播放"
+      }
+    ]
+  },
+  {
+    "id": "draft_49",
+    "question": "SNMP 包括哪些方面或内容？",
+    "gold": "监视网络性能、检测分析网络差错和配置网络设备等功能",
+    "pred": "使用UDP协议,允许管理者和代理之间进行Inform和SNMPv2Trap操作,允许管理者和代理之间进行GetBulk操作,允许管理者和代理之间进行Get和Set操作,使用UDP作为传输层协议,使用ASN.1编码报文,允许代理向管理者发送trap报文,允许管理者设置代理中变量的值,允许管理者从代理读取变量的值,使用熟知端口161和162",
+    "f1": 0.03278688524590164,
+    "retrieved_triples": [
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "UDP协议"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行Inform和SNMPv2Trap操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行GetBulk操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者和代理之间进行Get和Set操作"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "UDP作为传输层协议"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "ASN.1编码报文"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "代理向管理者发送trap报文"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者设置代理中变量的值"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "允许",
+        "object": "管理者从代理读取变量的值"
+      },
+      {
+        "subject": "SNMP",
+        "predicate": "使用",
+        "object": "熟知端口161和162"
+      }
+    ]
+  },
+  {
+    "id": "draft_25",
+    "question": "PPP协议 提供哪些功能或服务？",
+    "gold": "数据压缩算法协商方法",
+    "pred": "在链路打开状态时PPP端点可以彼此向对方发送分组,通过NCP分配临时IP地址,允许双方协商使用压缩的TCP和IP首部,使用IP控制协议IPCP,包含物理层和网络层的内容",
+    "f1": 0.1111111111111111,
+    "retrieved_triples": [
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路终止状态时释放数据链路层连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路打开状态时PPP端点可以彼此向对方发送分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "网络层协议状态时NCP根据网络层的不同协议互相交换网络层特定的网络控制分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "鉴别状态时只允许传送LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路建立状态时建立链路层的LCP连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "在",
+        "object": "链路静止状态时用户个人电脑和ISP的路由器之间不存在物理层的连接"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "通过",
+        "object": "NCP分配临时IP地址"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "允许",
+        "object": "双方协商使用压缩的TCP和IP首部"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "使用",
+        "object": "IP控制协议IPCP"
+      },
+      {
+        "subject": "PPP协议",
+        "predicate": "包含",
+        "object": "物理层和网络层的内容"
+      }
+    ]
+  },
+  {
+    "id": "draft_31",
+    "question": "计算机网络 发展最快并起着核心作用的具体内容是什么？",
+    "gold": "是信息时代中发展最快并起着核心作用的网络。",
+    "pred": "传送多种不同类型的数据，并支持广泛的和日益增长的应用",
+    "f1": 0.1333333333333333,
+    "retrieved_triples": [
+      {
+        "subject": "计算机网络",
+        "predicate": "随着技术发展",
+        "object": "应用范围不断扩大，能够传送音频和视频文件"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起初用来",
+        "object": "传送数据"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "并非专门用来",
+        "object": "传送数据，而是能够支持很多种应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "所连接的硬件",
+        "object": "不限于一般的计算机，而是包括了智能手机或智能电视机"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够用来",
+        "object": "传送多种不同类型的数据，并支持广泛的和日益增长的应用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "定义为",
+        "object": "由一些通用的、可编程的硬件互连而成的网络"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "能够",
+        "object": "向用户提供电话通信、视频通信以及传送视频节目的服务"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "起着",
+        "object": "核心作用"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "具有",
+        "object": "非性能特征"
+      },
+      {
+        "subject": "计算机网络",
+        "predicate": "应模仿",
+        "object": "打电话所使用的面向连接的通信方式"
+      }
+    ]
+  },
+  {
+    "id": "draft_46",
+    "question": "LTE-A Pro 在 吞吐量超过 方面有什么特点？",
+    "gold": "3 Gbit/s",
+    "pred": "吞吐量超过 3 Gbit/s",
+    "f1": 0.15384615384615385,
+    "retrieved_triples": [
+      {
+        "subject": "LTE-A Pro",
+        "predicate": "吞吐量超过",
+        "object": "3 Gbit/s"
+      },
+      {
+        "subject": "LTE-A Pro",
+        "predicate": "俗称",
+        "object": "4.5G"
+      },
+      {
+        "subject": "LTE-A",
+        "predicate": "达到",
+        "object": "ITU-R制定的4G标准"
+      },
+      {
+        "subject": "LTE-Advanced",
+        "predicate": "简称为",
+        "object": "LTE-A"
+      },
+      {
+        "subject": "100BASE-T以太网",
+        "predicate": "在",
+        "object": "全双工方式下工作而无冲突发生"
+      },
+      {
+        "subject": "IP协议",
+        "predicate": "在",
+        "object": "互联网中的核心作用"
+      },
+      {
+        "subject": "ICMP标准",
+        "predicate": "在",
+        "object": "不断更新"
+      },
+      {
+        "subject": "traceroute",
+        "predicate": "在",
+        "object": "Windows操作系统中称为tracert"
+      },
+      {
+        "subject": "IP数据报",
+        "predicate": "在",
+        "object": "互联网中至多可经过255个路由器"
+      },
+      {
+        "subject": "IP数据报",
+        "predicate": "在",
+        "object": "互联网中传送和转发是基于分组首部中的目的地址的"
+      }
+    ]
+  },
+  {
+    "id": "draft_20",
+    "question": "波分复用 使用什么技术或方法？",
+    "gold": "一根光纤同时传输多个光载波信号",
+    "pred": "光复用器和光分用器",
+    "f1": 0.16666666666666669,
+    "retrieved_triples": [
+      {
+        "subject": "无源光网络PON",
+        "predicate": "采用",
+        "object": "波分复用"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使用",
+        "object": "光复用器和光分用器"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "提高",
+        "object": "光纤传输能力"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "通过",
+        "object": "改变光载波的波长实现"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使用",
+        "object": "一根光纤同时传输多个光载波信号"
+      },
+      {
+        "subject": "波分复用",
+        "predicate": "使",
+        "object": "光纤的传输能力成倍提高"
+      }
+    ]
+  },
+  {
+    "id": "draft_52",
+    "question": "以太网 可以什么？",
+    "gold": "提供双向的宽带通信",
+    "pred": "根据用户对带宽的需求灵活地进行带宽升级",
+    "f1": 0.21428571428571427,
+    "retrieved_triples": [
+      {
+        "subject": "以太网",
+        "predicate": "价格大约只有",
+        "object": "同步光纤网SONET的五分之一"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "扩大到",
+        "object": "城域网和广域网"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "使用",
+        "object": "MAC地址"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "具有冲突检测的载波监听多点接入CSMA/CD"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "采用",
+        "object": "无连接的工作方式"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "证明是",
+        "object": "可扩展的、灵活的、易于安装的、稳健性好的"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "简化",
+        "object": "操作和管理"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "适应",
+        "object": "多种传输媒体"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "实现",
+        "object": "端到端的以太网传输"
+      },
+      {
+        "subject": "以太网",
+        "predicate": "可以",
+        "object": "根据用户对带宽的需求灵活地进行带宽升级"
+      }
+    ]
+  }
+]

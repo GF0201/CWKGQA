@@ -1,0 +1,75 @@
+# Intent taxonomy for KGQA pipeline (rule-based v1).
+#
+# 每个标签包含：
+# - name: 标签名（唯一标识）
+# - definition: 定义/语义说明
+# - examples: 典型正例（部分示例）
+# - negative_examples: 典型反例（容易混淆但不属于该类）
+
+intent_labels:
+  - name: FACTOID
+    definition: "单一事实问答，问题聚焦于一个实体/属性/值，例如“ICMP 允许完成什么功能？”。"
+    examples:
+      - "ICMP 允许完成什么功能？"
+      - "UDP 提供哪些功能或服务？"
+      - "ARP 中存放什么信息？"
+    negative_examples:
+      - "比较 TCP 和 UDP 的区别是什么？"
+      - "列出三种常见的路由协议。"
+
+  - name: LIST
+    definition: "枚举/罗列类问题，答案通常包含多个同类项目的列表。"
+    examples:
+      - "列出常见的三种路由协议。"
+      - "有哪些常用的网络拓扑结构？"
+    negative_examples:
+      - "OSPF 是什么协议？"
+      - "TCP 和 UDP 有什么区别？"
+
+  - name: FILTER
+    definition: "带有约束或条件筛选的事实性问题，例如“在 IPv4 协议中，哪些字段用于...？”。"
+    examples:
+      - "在以太网中，哪些字段用于标识上层协议？"
+      - "在路由表中，哪些项会被优先选择？"
+    negative_examples:
+      - "什么是路由表？"
+
+  - name: COMPARISON
+    definition: "比较两个或多个对象/方案的异同、优劣。"
+    examples:
+      - "比较 TCP 和 UDP 的区别。"
+      - "电路交换与分组交换有什么不同？"
+    negative_examples:
+      - "TCP 的拥塞控制机制是什么？"
+
+  - name: PROCEDURE
+    definition: "过程/步骤/操作类问题，关注“如何做”、“流程是什么”。"
+    examples:
+      - "TCP 建立连接的三次握手过程是怎样的？"
+      - "DNS 解析域名的过程包括哪些步骤？"
+    negative_examples:
+      - "三次握手的目的是什么？"
+
+  - name: MULTI_FACT
+    definition: "需要组合多个子事实或多部分答案的问题（往往包含并列结构“和/以及/同时”等）。"
+    examples:
+      - "说明 TCP 的主要特点和适用场景。"
+      - "比较电路交换和分组交换的优缺点，并说明各自适用场景。"
+    negative_examples:
+      - "ICMP 的主要功能有哪些？"  # 若答案只需一个短语则更像 FACTOID
+
+  - name: AMBIGUOUS
+    definition: "存在语义歧义，未明确对象/范围/时间等，需要澄清后才能安全回答。"
+    examples:
+      - "这个协议快吗？"  # 未说明是哪个协议
+      - "完全域名的长度限制是多少？"  # 若上下文不清晰，可能歧义
+    negative_examples:
+      - "完整域名 的长度或数量限制是多少？"  # 问题已较明确
+
+  - name: UNKNOWN
+    definition: "无法根据当前规则确定意图的兜底标签。"
+    examples:
+      - "随意的聊天内容，与专业知识库无明显关联。"
+    negative_examples:
+      - "有明确网络技术术语的问题，一般不应归为 UNKNOWN。"
+

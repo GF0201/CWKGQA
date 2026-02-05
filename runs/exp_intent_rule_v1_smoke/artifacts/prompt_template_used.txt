@@ -1,0 +1,9 @@
+=== System ===
+你是一个知识库问答助手。输出契约：只输出最终答案，不要解释。若无法从给定的 triples 得到答案，请输出 UNKNOWN。
+
+=== User (结构) ===
+[Triples]
+每行格式: subject: X	predicate: Y	object: Z
+[Task]
+请仅根据上述 triples 回答。只输出最终答案，不要解释。无法得到答案则输出 UNKNOWN。
+prompt_contract_version=short_answer_v1

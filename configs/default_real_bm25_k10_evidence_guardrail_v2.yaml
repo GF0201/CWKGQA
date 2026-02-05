@@ -1,0 +1,37 @@
+# Default config for real BM25 k=10 Answer+Evidence Guardrail v2 experiments.
+# TASK 16: Default Config Lock-in
+# API Key: 通过环境变量 MKEAI_API_KEY 设置，例如：
+#   set MKEAI_API_KEY=sk-your-key-here
+# 或 export MKEAI_API_KEY=sk-your-key-here
+
+retriever:
+  type: bm25
+  topk: 10
+  params: {}
+
+contract:
+  type: answer_plus_evidence
+  eval_only_answer: true
+
+guardrail:
+  version: evidence_bounded_v2
+  enforcement_policy: retry_once_if_support_lt_0.5_else_force_unknown  # TASK 15 胜出
+
+support:
+  semantics_version: raw_answer_only_v1
+  threshold: 0.5
+  key_tokens_k: 5
+
+generator:
+  backend: openai_compatible
+  base_url: https://tb.api.mkeai.com/v1
+  model: deepseek-v3.2
+  temperature: 0.1
+  top_p: 1.0
+  max_tokens: 128
+  seed: 42
+
+eval:
+  tokenizer: mixed_zh_char_en_word_v1
+  normalize_rules: lower, remove_punc(en+cn), white_space_fix
+  # eval_py_sha256 在运行时计算

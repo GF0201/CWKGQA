@@ -1,0 +1,157 @@
+{
+  "exp_default_intent_none_real_v1": {
+    "metrics": {
+      "n": 55,
+      "EM": 0.4,
+      "F1": 0.7202882520615608
+    },
+    "unknown_rate": 0.01818181818181818,
+    "format_mismatch_rate": 0.0,
+    "ungrounded_or_wrong_rate": 0.0,
+    "intent": {
+      "module_enabled": false,
+      "multi_intent_rate": null,
+      "ambiguous_rate": null,
+      "coverage_rate": null
+    },
+    "intent_label_top1": {},
+    "ablation": null,
+    "contract_variant": "answer_plus_evidence_guardrail_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "retriever_type": "bm25",
+    "retriever_topk": 10,
+    "intent_mode": "none"
+  },
+  "exp_default_intent_rule_v1_real_v1": {
+    "metrics": {
+      "n": 55,
+      "EM": 0.34545454545454546,
+      "F1": 0.7112469277519223
+    },
+    "unknown_rate": 0.01818181818181818,
+    "format_mismatch_rate": 0.0,
+    "ungrounded_or_wrong_rate": 0.0,
+    "intent": {
+      "module_enabled": true,
+      "multi_intent_rate": 0.10909090909090909,
+      "ambiguous_rate": 0.05454545454545454,
+      "coverage_rate": 1.0
+    },
+    "intent_label_top1": {
+      "FACTOID": {
+        "count": 4,
+        "ratio": 0.07272727272727272
+      },
+      "UNKNOWN": {
+        "count": 41,
+        "ratio": 0.7454545454545455
+      },
+      "AMBIGUOUS": {
+        "count": 6,
+        "ratio": 0.10909090909090909
+      },
+      "FILTER": {
+        "count": 1,
+        "ratio": 0.01818181818181818
+      },
+      "LIST": {
+        "count": 3,
+        "ratio": 0.05454545454545454
+      }
+    },
+    "ablation": null,
+    "contract_variant": "answer_plus_evidence_guardrail_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "retriever_type": "bm25",
+    "retriever_topk": 10,
+    "intent_mode": "rule_v1"
+  },
+  "exp_default_intent_route_real_v1": {
+    "metrics": {
+      "n": 55,
+      "EM": 0.36363636363636365,
+      "F1": 0.7290110411610646
+    },
+    "unknown_rate": 0.0,
+    "format_mismatch_rate": 0.0,
+    "ungrounded_or_wrong_rate": 0.0,
+    "intent": {
+      "module_enabled": true,
+      "multi_intent_rate": 0.10909090909090909,
+      "ambiguous_rate": 0.05454545454545454,
+      "coverage_rate": 1.0
+    },
+    "intent_label_top1": {
+      "FACTOID": {
+        "count": 4,
+        "ratio": 0.07272727272727272
+      },
+      "UNKNOWN": {
+        "count": 41,
+        "ratio": 0.7454545454545455
+      },
+      "AMBIGUOUS": {
+        "count": 6,
+        "ratio": 0.10909090909090909
+      },
+      "FILTER": {
+        "count": 1,
+        "ratio": 0.01818181818181818
+      },
+      "LIST": {
+        "count": 3,
+        "ratio": 0.05454545454545454
+      }
+    },
+    "ablation": null,
+    "contract_variant": "answer_plus_evidence_guardrail_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "retriever_type": "bm25",
+    "retriever_topk": 10,
+    "intent_mode": "rule_v1_route"
+  },
+  "exp_default_intent_clarify_real_v1": {
+    "metrics": {
+      "n": 55,
+      "EM": 0.36363636363636365,
+      "F1": 0.6840944987195994
+    },
+    "unknown_rate": 0.07272727272727272,
+    "format_mismatch_rate": 0.0,
+    "ungrounded_or_wrong_rate": 0.0,
+    "intent": {
+      "module_enabled": true,
+      "multi_intent_rate": 0.10909090909090909,
+      "ambiguous_rate": 0.05454545454545454,
+      "coverage_rate": 1.0
+    },
+    "intent_label_top1": {
+      "FACTOID": {
+        "count": 4,
+        "ratio": 0.07272727272727272
+      },
+      "UNKNOWN": {
+        "count": 41,
+        "ratio": 0.7454545454545455
+      },
+      "AMBIGUOUS": {
+        "count": 6,
+        "ratio": 0.10909090909090909
+      },
+      "FILTER": {
+        "count": 1,
+        "ratio": 0.01818181818181818
+      },
+      "LIST": {
+        "count": 3,
+        "ratio": 0.05454545454545454
+      }
+    },
+    "ablation": null,
+    "contract_variant": "answer_plus_evidence_guardrail_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "retriever_type": "bm25",
+    "retriever_topk": 10,
+    "intent_mode": "rule_v1_clarify"
+  }
+}

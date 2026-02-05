@@ -1,0 +1,11 @@
+effective_config:
+  main_default_config_fingerprint: 51396c02d84be88640a30208233ed487eae614f1dc1be52d5d62ef0f399e45a3
+  intent_config_fingerprint: null
+  intent_thresholds: null
+  intent_rules_sha: null
+  intent_taxonomy_sha: null
+audit:
+  config_fingerprint: null
+  fingerprint_overridden: null
+  git_commit: 22d41c12604aa6271032908a453e198572102a88
+  derived_from_main_run: exp_default_intent_none_real_v1

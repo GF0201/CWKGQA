@@ -1,0 +1,21 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l l r r}
+    \toprule
+    Rule ID & Intent label & Count & Ratio (\%) \\
+    \midrule
+    ambiguous\_which      & AMBIGUOUS &  9 & 45.0 \\
+    factoid\_allow\_provide & FACTOID   &  4 & 20.0 \\
+    factoid\_what\_is     & FACTOID   &  3 & 15.0 \\
+    list\_enumerate       & LIST      &  3 & 15.0 \\
+    filter\_conditions    & FILTER    &  1 &  5.0 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Rule trigger frequencies for the intent-enabled runs.}
+  \label{tab:intent_rule_trigger_frequency}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: All rows and counts are copied directly from \texttt{intent\_workspace/artifacts/rules\_trigger\_frequency.csv} and converted to percentages with one decimal place. This table is short enough to include all rules; if future runs introduce many more rules, the main paper can show only the top-\emph{K} rows while keeping the full CSV as part of the artifacts. The notes also clarify that \texttt{rule\_v1} is audit-only, while \texttt{rule\_v1\_route} and \texttt{rule\_v1\_clarify} are behaviour-changing modes whose qualitative impact is illustrated in the case studies.
+  \end{tablenotes}
+\end{table}
+

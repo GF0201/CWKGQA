@@ -1,0 +1,138 @@
+{
+  "policy_B": {
+    "EM": 0.3090909090909091,
+    "F1": 0.6817199075329609,
+    "n": 55,
+    "taxonomy_ratios": {
+      "partial_correct": 0.8,
+      "format_mismatch": 0.1091,
+      "ungrounded_or_wrong": 0.0545,
+      "retriever_miss": 0.0364
+    },
+    "taxonomy_counts": {
+      "partial_correct": 44,
+      "format_mismatch": 6,
+      "ungrounded_or_wrong": 3,
+      "retriever_miss": 2
+    },
+    "pred_len_char": {
+      "mean": 23.381818181818183,
+      "median": 16,
+      "p90": 43
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.03636363636363636,
+      "very_short_rate": 0.03636363636363636,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.03636363636363636
+    },
+    "evidence_violation_rate": 0.03636363636363636,
+    "violation_ids": [
+      "draft_40",
+      "draft_41"
+    ],
+    "enforcement_action_counts": {
+      "none": 53,
+      "force_unknown": 2
+    },
+    "evidence_support_summary": {
+      "n": 55,
+      "key_tokens_k": 5,
+      "coverage_mean": 0.9636363636363636,
+      "coverage_median": 1.0,
+      "support_rate_ge_0_5": 0.9636363636363636,
+      "failure_case_ids": [
+        "draft_40",
+        "draft_41"
+      ]
+    },
+    "enforcement_policy": "force_unknown_if_support_lt_0.5"
+  },
+  "policy_R": {
+    "EM": 0.34545454545454546,
+    "F1": 0.6895667637006242,
+    "n": 55,
+    "taxonomy_ratios": {
+      "partial_correct": 0.7818,
+      "format_mismatch": 0.1273,
+      "ungrounded_or_wrong": 0.0545,
+      "retriever_miss": 0.0364
+    },
+    "taxonomy_counts": {
+      "partial_correct": 43,
+      "format_mismatch": 7,
+      "ungrounded_or_wrong": 3,
+      "retriever_miss": 2
+    },
+    "pred_len_char": {
+      "mean": 23.181818181818183,
+      "median": 15,
+      "p90": 43
+    },
+    "answer_quality_gates": {
+      "unknown_rate": 0.03636363636363636,
+      "very_short_rate": 0.03636363636363636,
+      "numeric_only_rate": 0.0,
+      "duplicated_answer_rate": 0.03636363636363636
+    },
+    "evidence_violation_rate": 0.03636363636363636,
+    "violation_ids": [
+      "draft_10",
+      "draft_40"
+    ],
+    "enforcement_action_counts": {
+      "none": 53,
+      "force_unknown": 2
+    },
+    "evidence_support_summary": {
+      "n": 55,
+      "key_tokens_k": 5,
+      "coverage_mean": 0.9636363636363636,
+      "coverage_median": 1.0,
+      "support_rate_ge_0_5": 0.9636363636363636,
+      "failure_case_ids": [
+        "draft_10",
+        "draft_40"
+      ]
+    },
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown"
+  },
+  "violation_ids_comparison": {
+    "violation_ids": [
+      "draft_40",
+      "draft_41"
+    ],
+    "per_id_comparison": [
+      {
+        "id": "draft_40",
+        "policy_B_final_answer": "UNKNOWN",
+        "policy_R_final_answer": "UNKNOWN",
+        "policy_B_unknown": true,
+        "policy_R_unknown": true,
+        "improved_to_non_unknown": false,
+        "correct_after_retry": false,
+        "em_after_R": false,
+        "f1_after_R": 0
+      },
+      {
+        "id": "draft_41",
+        "policy_B_final_answer": "UNKNOWN",
+        "policy_R_final_answer": "IP的数据报服务之上增加了很少一点的功能",
+        "policy_B_unknown": true,
+        "policy_R_unknown": false,
+        "improved_to_non_unknown": true,
+        "correct_after_retry": true,
+        "em_after_R": true,
+        "f1_after_R": 1.0
+      }
+    ],
+    "n_improved_to_non_unknown": 1,
+    "n_correct_after_retry": 1
+  },
+  "delta": {
+    "EM": 0.036363636363636376,
+    "F1": 0.00784685616766334,
+    "unknown_rate_B": 0.03636363636363636,
+    "unknown_rate_R": 0.03636363636363636
+  }
+}

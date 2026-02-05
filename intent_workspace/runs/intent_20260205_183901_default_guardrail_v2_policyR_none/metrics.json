@@ -1,0 +1,22 @@
+{
+  "overall": {
+    "macro_f1": null,
+    "micro_f1": null,
+    "multi_intent_accuracy": null,
+    "ambiguous_rate": 0.0,
+    "multi_intent_rate": 0.0,
+    "coverage_rate": 0.0
+  },
+  "per_label": {},
+  "rule_stats": {
+    "n_samples": 55,
+    "n_with_any_rule": 0
+  },
+  "audit": {
+    "config_fingerprint": null,
+    "input_path": "DATA::test.jsonl",
+    "input_hash": null,
+    "git_commit": "22d41c12604aa6271032908a453e198572102a88",
+    "derived_from": "D:\\KGELLM\\kgqa_framework\\intent_workspace\\runs\\intent_20260205_183901_default_guardrail_v2_policyR_none"
+  }
+}

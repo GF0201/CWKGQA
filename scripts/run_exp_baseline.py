@@ -10,6 +10,7 @@ Features:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -19,6 +20,8 @@ from pathlib import Path
 from typing import List, Dict, Any, Iterable, Tuple
 
 ROOT = Path(__file__).resolve().parent.parent
+CONFIGS_DIR = ROOT / "configs"
+DEFAULT_CONFIG_PATH = CONFIGS_DIR / "default_real_bm25_k10_evidence_guardrail_v2.yaml"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -36,12 +39,28 @@ from framework.eval import (  # type: ignore
     mixed_segmentation,
 )
 from core import set_seed, DualLogger, write_repro_manifest  # type: ignore
+from src.intent.intent_engine import IntentEngine  # type: ignore
 
 
 # Defaults suitable for remote DeepSeek API (can be overridden by env)
 DEFAULT_BASE_URL = os.getenv("MKEAI_BASE_URL", "https://tb.api.mkeai.com/v1")
 DEFAULT_MODEL = os.getenv("MKEAI_MODEL", "deepseek-v3.2")
-DEFAULT_API_KEY = os.getenv("MKEAI_API_KEY", "")
+
+
+def _resolve_api_key_and_source() -> tuple[str, str]:
+    """Resolve API key from env. Priority: MKEAI_API_KEY > OPENAI_API_KEY.
+    Returns (api_key, source_var_name). Records which env var was used (not the value)."""
+    mke = os.getenv("MKEAI_API_KEY", "").strip()
+    if mke:
+        return mke, "MKEAI_API_KEY"
+    oai = os.getenv("OPENAI_API_KEY", "").strip()
+    if oai:
+        return oai, "OPENAI_API_KEY"
+    return "", ""
+
+
+_API_KEY, _API_KEY_SOURCE = _resolve_api_key_and_source()
+DEFAULT_API_KEY = _API_KEY
 
 
 @dataclass
@@ -147,6 +166,7 @@ RETRY_MAX = 3
 GEN_TEMPERATURE = 0.1
 GEN_TOP_P = 1.0
 GEN_MAX_TOKENS = 128
+GEN_SEED = 42
 
 
 def format_context_structured(triples: Iterable[Triple]) -> str:
@@ -191,7 +211,7 @@ def _extract_content(resp: Any) -> tuple[str, str]:
 
 
 def _probe_endpoint(base_url: str, model: str, api_key: str) -> tuple[bool, str]:
-    """轻量探活：在正式运行前验证生成端是否可用。"""
+    """轻量探活：在正式运行前验证生成端是否可用。确保返回 non-empty content；失败则 fail-fast。"""
     try:
         from openai import OpenAI  # type: ignore
     except Exception as e:
@@ -206,12 +226,15 @@ def _probe_endpoint(base_url: str, model: str, api_key: str) -> tuple[bool, str]
                 {"role": "user", "content": "ping"},
             ],
             temperature=0.0,
-            max_tokens=1,
+            max_tokens=16,
         )
-        # 只要能正常返回 choices 即认为健康
-        if hasattr(resp, "choices") and resp.choices:
-            return True, ""
-        return False, "probe 响应中缺少 choices"
+        if not hasattr(resp, "choices") or not resp.choices:
+            return False, "probe 响应中缺少 choices"
+        c0 = resp.choices[0]
+        text = (getattr(c0.message, "content", None) if hasattr(c0, "message") and c0.message else None) or getattr(c0, "text", None)
+        if not (text and str(text).strip()):
+            return False, "probe 返回 content 为空"
+        return True, ""
     except Exception as e:  # pragma: no cover - 防御性代码
         return False, f"probe 请求失败: {e}"
 
@@ -224,6 +247,7 @@ def generate_answer_local(
     api_key: str,
     mock: bool,
     contract_variant: str,
+    use_retry_prompt: bool = False,
 ) -> tuple[str, str, int, str]:
     """返回 (raw_text, generator_status, attempts, last_error_message)。"""
     if mock:
@@ -254,33 +278,54 @@ def generate_answer_local(
             "现在输出："
         )
     elif contract_variant == "answer_plus_evidence_guardrail_v2":
-        system_prompt = (
-            "你是一个知识库问答助手。输出契约：严格输出两行，且不要添加多余文本或解释。\n"
-            "Line1: ANSWER: <最终答案或 UNKNOWN>\n"
-            "Line2: EVIDENCE: <逗号分隔的行号，范围 1..K，对应给定 triples 的行号>\n"
-            "硬性约束：\n"
-            "1）你必须先从给定 triples 中选择若干行号作为 EVIDENCE；\n"
-            "2）ANSWER 只能从这些 EVIDENCE 行中的 subject/object/数值/术语拷贝或轻微改写得到，"
-            "不得引入不在 EVIDENCE 行里的新事实；\n"
-            "3）如果在任何 EVIDENCE 行中都找不到能支撑答案的内容（包括同义表达），必须输出 UNKNOWN；\n"
-            "4）禁止使用给定 triples 之外的常识或背景知识进行补全；\n"
-            "5）禁止解释、禁止多行，只能严格输出上述两行。"
-        )
-        user_prompt = (
-            "[Triples]\n以下是检索到的三元组，每行带有方括号中的行号，可以在 EVIDENCE 中引用：\n"
-            f"{context}\n\n"
-            "[Task]\n请按如下步骤严格操作：\n"
-            "1）先在上述 triples 中选择若干最相关的行号，作为支撑答案的 EVIDENCE；\n"
-            "2）仅允许从这些 EVIDENCE 行中的 subject/object/数值/术语进行拷贝或轻微改写来构造答案；\n"
-            "3）如果在这些 EVIDENCE 中找不到可以支撑答案的内容，必须输出 UNKNOWN；\n"
-            "4）禁止使用 triples 之外的常识或背景知识。\n\n"
-            "输出格式必须严格为两行：\n"
-            "Line1: ANSWER: <最终答案或 UNKNOWN>\n"
-            "Line2: EVIDENCE: <逗号分隔的行号>\n"
-            "不得输出多余文字、标点或空行。\n"
-            f"问题：{question}\n"
-            "现在输出："
-        )
+        if use_retry_prompt:
+            # Policy R retry prompt: 进一步强调 evidence 选择与 ANSWER 从 evidence 拷贝
+            system_prompt = (
+                "你是一个知识库问答助手。【重试】上次输出不符合要求。输出契约：严格输出两行。\n"
+                "Line1: ANSWER: <最终答案或 UNKNOWN>\n"
+                "Line2: EVIDENCE: <逗号分隔的行号，范围 1..K>\n"
+                "硬性约束：\n"
+                "1）你必须重新选择正确的 evidence 行号；\n"
+                "2）ANSWER 必须从 evidence 行中拷贝或轻微改写得到；否则必须输出 UNKNOWN；\n"
+                "3）禁止编造、禁止引入 EVIDENCE 行之外的内容；\n"
+                "4）严格两行，禁止多余文字。"
+            )
+            user_prompt = (
+                "[Triples]\n以下是检索到的三元组，每行带有方括号中的行号：\n"
+                f"{context}\n\n"
+                "[Task - 重试]\n请重新选择正确的 evidence 行号；"
+                "ANSWER 必须从这些 evidence 行中拷贝或轻微改写；否则输出 UNKNOWN。严格两行。\n"
+                f"问题：{question}\n"
+                "现在输出："
+            )
+        else:
+            system_prompt = (
+                "你是一个知识库问答助手。输出契约：严格输出两行，且不要添加多余文本或解释。\n"
+                "Line1: ANSWER: <最终答案或 UNKNOWN>\n"
+                "Line2: EVIDENCE: <逗号分隔的行号，范围 1..K，对应给定 triples 的行号>\n"
+                "硬性约束：\n"
+                "1）你必须先从给定 triples 中选择若干行号作为 EVIDENCE；\n"
+                "2）ANSWER 只能从这些 EVIDENCE 行中的 subject/object/数值/术语拷贝或轻微改写得到，"
+                "不得引入不在 EVIDENCE 行里的新事实；\n"
+                "3）如果在任何 EVIDENCE 行中都找不到能支撑答案的内容（包括同义表达），必须输出 UNKNOWN；\n"
+                "4）禁止使用给定 triples 之外的常识或背景知识进行补全；\n"
+                "5）禁止解释、禁止多行，只能严格输出上述两行。"
+            )
+            user_prompt = (
+                "[Triples]\n以下是检索到的三元组，每行带有方括号中的行号，可以在 EVIDENCE 中引用：\n"
+                f"{context}\n\n"
+                "[Task]\n请按如下步骤严格操作：\n"
+                "1）先在上述 triples 中选择若干最相关的行号，作为支撑答案的 EVIDENCE；\n"
+                "2）仅允许从这些 EVIDENCE 行中的 subject/object/数值/术语进行拷贝或轻微改写来构造答案；\n"
+                "3）如果在这些 EVIDENCE 中找不到可以支撑答案的内容，必须输出 UNKNOWN；\n"
+                "4）禁止使用 triples 之外的常识或背景知识。\n\n"
+                "输出格式必须严格为两行：\n"
+                "Line1: ANSWER: <最终答案或 UNKNOWN>\n"
+                "Line2: EVIDENCE: <逗号分隔的行号>\n"
+                "不得输出多余文字、标点或空行。\n"
+                f"问题：{question}\n"
+                "现在输出："
+            )
     elif contract_variant == "guardrail_answerable_only":
         system_prompt = (
             "你是一个知识库问答助手。硬性约束：只能从给定 triples 中提取答案，"
@@ -323,7 +368,9 @@ def generate_answer_local(
                     {"role": "user", "content": user_prompt},
                 ],
                 temperature=GEN_TEMPERATURE,
+                top_p=GEN_TOP_P,
                 max_tokens=GEN_MAX_TOKENS,
+                seed=GEN_SEED,
             )
             text, status = _extract_content(resp)
             if status == "success":
@@ -414,6 +461,23 @@ def _parse_answer_and_evidence(
     return answer, evidence_ids, meta
 
 
+def _load_default_config_and_fingerprint() -> tuple[dict | None, str]:
+    """Load default config and return (config_dict, fingerprint_sha256)."""
+    if not DEFAULT_CONFIG_PATH.exists():
+        return None, ""
+    try:
+        import yaml  # type: ignore
+
+        cfg = yaml.safe_load(DEFAULT_CONFIG_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return None, ""
+    if cfg is None:
+        cfg = {}
+    canonical = json.dumps(cfg, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    fp = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+    return cfg, fp
+
+
 def _quantile(values: list[float], q: float) -> float:
     if not values:
         return 0.0
@@ -430,13 +494,17 @@ def _compute_single_evidence_support(
     evidence_ids: list[int],
     retrieved: list[dict],
 ) -> float | None:
-    """计算单个样本的 evidence 支持率；若无法计算则返回 None。"""
+    """计算单个样本的 evidence 支持率；若无法计算则返回 None。
+
+    raw_answer_only_v1 语义：key_tokens 作为子串是否出现在 norm_ctx 中（与 framework/evidence_support 一致）。
+    """
     if not evidence_ids:
         return None
     if not answer or not retrieved:
         return None
 
-    ans_tokens = mixed_segmentation(normalize_answer(answer))
+    norm_answer = normalize_answer(answer)
+    ans_tokens = mixed_segmentation(norm_answer)
     key_tokens = ans_tokens[:EVIDENCE_KEY_TOKENS_K]
     if not key_tokens:
         return None
@@ -452,14 +520,13 @@ def _compute_single_evidence_support(
     if not ctx_parts:
         return None
 
-    ctx_tokens = set(
-        mixed_segmentation(normalize_answer(" ".join(ctx_parts)))
-    )
-    if not ctx_tokens:
+    norm_ctx = normalize_answer(" ".join(ctx_parts))
+    if not norm_ctx:
         return None
 
-    hit = sum(1 for t in key_tokens if t in ctx_tokens)
-    return hit / len(key_tokens)
+    # raw_answer_only_v1: 子串匹配，key token 需作为子串出现在 ctx 中
+    covered = [t for t in key_tokens if t and t in norm_ctx]
+    return len(covered) / len(key_tokens)
 
 
 def _compute_evidence_support_summary(samples: list[dict]) -> Dict[str, Any]:
@@ -502,12 +569,24 @@ def _compute_evidence_support_summary(samples: list[dict]) -> Dict[str, Any]:
     }
 
 
-def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+def run_experiment(
+    args: argparse.Namespace,
+    log_fn: Any = None,
+) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+    """log_fn: optional callback for enforce logs, e.g. logger.log."""
+    _log = log_fn if callable(log_fn) else (lambda _: None)
     test_path = resolve(args.test_data)
     kg_path = resolve(args.kg_data)
 
     test_samples = load_jsonl(test_path)
     triples = load_kg_triples(kg_path)
+
+    # 可选：启用 IntentEngine（Task 18）
+    intent_engine: IntentEngine | None = None
+    intent_audit: Dict[str, Any] | None = None
+    if getattr(args, "intent_mode", "none") != "none":
+        intent_engine = IntentEngine()
+        intent_audit = intent_engine.get_audit_info()
 
     if not test_samples:
         raise RuntimeError(f"Test data is empty: {test_path}")
@@ -523,11 +602,37 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
         question = ex.get("question") or ""
         gold_answers = ex.get("gold_answers") or []
 
+        # --- IntentEngine 预测 ---
+        intent_pred: Dict[str, Any] | None = None
+        if intent_engine is not None:
+            intent_pred = intent_engine.predict(str(question))
+
+        # 默认检索/合同设置（可被 intent 路由覆盖）
+        retriever_type_local = args.retriever_type
+        top_k_local = args.top_k
+
+        if intent_pred is not None and getattr(args, "intent_mode", "none") in ("rule_v1_route", "rule_v1_clarify"):
+            intents = intent_pred.get("intents") or []
+            top_label = intents[0]["label"] if intents else None
+            is_multi_intent = bool(intent_pred.get("is_multi_intent"))
+
+            # 简化版路由策略：仅调整检索类型与 top_k
+            if top_label in ("FACTOID", "LIST", "FILTER"):
+                retriever_type_local = "bm25"
+                top_k_local = max(top_k_local, 10)
+            elif top_label in ("COMPARISON", "PROCEDURE"):
+                retriever_type_local = "bm25"
+                top_k_local = max(top_k_local, 10)
+
+            if is_multi_intent:
+                # 多意图样本：扩大检索范围
+                top_k_local = max(top_k_local, args.top_k * 2)
+
         retrieved = retrieve_triples(
             question,
             triples,
-            top_k=args.top_k,
-            retriever_type=args.retriever_type,
+            top_k=top_k_local,
+            retriever_type=retriever_type_local,
         )
         if args.contract_variant in ("answer_plus_evidence", "answer_plus_evidence_guardrail_v2"):
             context_str = format_context_with_ids(retrieved)
@@ -537,12 +642,26 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
         evidence_ids: list[int] = []
         evidence_meta: Dict[str, Any] | None = None
         raw_pred = ""
+        raw_answer = ""
+        raw_answer_retry: str | None = None
+        evidence_line_ids_retry: list[int] | None = None
+        evidence_support_retry: float | None = None
+        evidence_violation_retry: bool | None = None
+        final_answer_after_retry: str | None = None
+        retry_attempted: bool = False
 
+        clarify_applied = False
+        answer_before_clarify: str | None = None
         if args.mock:
             pred = (gold_answers[0] if gold_answers else "（Mock 答案）").strip()
             gen_status, attempts = "success", 1
             last_err = ""
             raw_pred = pred
+            raw_answer = pred
+            evidence_support = 1.0
+            violation = False
+            enforcement_action = "none"
+            em, f1 = evaluate_prediction(pred, gold_answers)
         else:
             raw_pred, gen_status, attempts, last_err = generate_answer_local(
                 question=question,
@@ -558,7 +677,7 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
                     raw_pred,
                     retrieved_k=len(retrieved),
                 )
-                # 先基于原始 ANSWER 计算 evidence 支持率
+                # 先基于原始 ANSWER 计算 evidence 支持率（support_semantics: raw_answer_only_v1）
                 retrieved_dicts = [
                     {"subject": t.subject, "predicate": t.predicate, "object": t.obj} for t in retrieved
                 ]
@@ -567,15 +686,64 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
                     evidence_ids,
                     retrieved_dicts,
                 )
-                violation = False
+                violation = evidence_support is None or evidence_support < 0.5
                 enforcement_action = "none"
                 pred = answer_text
+                raw_answer = answer_text
+
+                policy = (args.enforcement_policy or "").strip()
                 if args.contract_variant == "answer_plus_evidence_guardrail_v2":
-                    # Policy B: 若 evidence_support < 0.5（或不可计算），直接强制 UNKNOWN
-                    if evidence_support is None or evidence_support < 0.5:
-                        violation = True
-                        enforcement_action = "force_unknown"
-                        pred = "UNKNOWN"
+                    if not policy:
+                        policy = "force_unknown_if_support_lt_0.5"
+                    if policy == "force_unknown_if_support_lt_0.5":
+                        # Policy B: 若 support < 0.5，直接强制 UNKNOWN
+                        if violation:
+                            enforcement_action = "force_unknown"
+                            pred = "UNKNOWN"
+                    elif policy == "retry_once_if_support_lt_0.5_else_force_unknown":
+                        # Policy R: violation 时先 retry 一次；若 retry 后仍 violation，force UNKNOWN
+                        if violation:
+                            retry_attempted = True
+                            _log(f"[ENFORCE] id={qid} policy=R violation=True -> retry")
+                            raw_retry, gen_status_retry, attempts_retry, _ = generate_answer_local(
+                                question=question,
+                                context=context_str,
+                                base_url=args.base_url,
+                                model=args.model,
+                                api_key=args.api_key,
+                                mock=False,
+                                contract_variant=args.contract_variant,
+                                use_retry_prompt=True,
+                            )
+                            if gen_status_retry == "success" and raw_retry.strip():
+                                ans_retry, evidence_ids_retry, _ = _parse_answer_and_evidence(
+                                    raw_retry, retrieved_k=len(retrieved)
+                                )
+                                support_retry = _compute_single_evidence_support(
+                                    ans_retry, evidence_ids_retry, retrieved_dicts
+                                )
+                                raw_answer_retry = ans_retry
+                                evidence_line_ids_retry = evidence_ids_retry
+                                evidence_support_retry = support_retry
+                                still_violation = support_retry is None or support_retry < 0.5
+                                evidence_violation_retry = still_violation
+                                if still_violation:
+                                    enforcement_action = "retry_then_force_unknown"
+                                    pred = "UNKNOWN"
+                                    final_answer_after_retry = "UNKNOWN"
+                                else:
+                                    enforcement_action = "retry_resolved"
+                                    pred = ans_retry
+                                    final_answer_after_retry = ans_retry
+                                _log(f"[ENFORCE] id={qid} retry_result violation={still_violation} action={enforcement_action}")
+                            else:
+                                evidence_violation_retry = True
+                                enforcement_action = "retry_then_force_unknown"
+                                pred = "UNKNOWN"
+                                final_answer_after_retry = "UNKNOWN"
+                                _log(f"[ENFORCE] id={qid} retry_result violation=True action=retry_then_force_unknown (retry_fail)")
+                        else:
+                            enforcement_action = "none"
                 else:
                     violation = False
                     enforcement_action = "none"
@@ -586,6 +754,17 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
                 violation = False
                 enforcement_action = "none"
                 em, f1 = evaluate_prediction(pred, gold_answers)
+
+        # 澄清模式（离线）：若样本被标记为歧义，则将最终答案强制为 UNKNOWN
+        if (
+            intent_pred is not None
+            and getattr(args, "intent_mode", "none") == "rule_v1_clarify"
+            and intent_pred.get("is_ambiguous")
+        ):
+            answer_before_clarify = pred
+            pred = "UNKNOWN"
+            clarify_applied = True
+            em, f1 = evaluate_prediction(pred, gold_answers)
 
         total_em += em
         total_f1 += f1
@@ -603,15 +782,42 @@ def run_experiment(args: argparse.Namespace) -> Tuple[Dict[str, Any], List[Dict[
             "retrieved_triples": [
                 {"subject": t.subject, "predicate": t.predicate, "object": t.obj} for t in retrieved
             ],
-            # evidence 相关字段默认值，便于后续统一处理
             "evidence_support": evidence_support,
             "evidence_violation": bool(violation),
             "enforcement_action": enforcement_action,
+            "raw_answer": (raw_answer if args.contract_variant in ("answer_plus_evidence", "answer_plus_evidence_guardrail_v2") else raw_pred),
+            "final_answer": pred,
+            "retry_attempted": retry_attempted,
         }
         if args.contract_variant in ("answer_plus_evidence", "answer_plus_evidence_guardrail_v2"):
             row["evidence_line_ids"] = evidence_ids
             if evidence_meta is not None:
                 row["evidence_parse"] = evidence_meta
+            if raw_answer_retry is not None:
+                row["raw_answer_retry"] = raw_answer_retry
+                row["evidence_line_ids_retry"] = evidence_line_ids_retry
+                row["evidence_support_retry"] = evidence_support_retry
+                row["evidence_violation_retry"] = evidence_violation_retry
+                row["final_answer_after_retry"] = final_answer_after_retry
+
+        if clarify_applied:
+            row["clarify_applied"] = True
+            row["answer_before_clarify"] = answer_before_clarify
+
+        # IntentEngine per-sample 工件（可关开）
+        if intent_pred is not None and intent_audit is not None:
+            row["intent_pred"] = {
+                "intents": intent_pred.get("intents"),
+                "is_multi_intent": intent_pred.get("is_multi_intent"),
+                "is_ambiguous": intent_pred.get("is_ambiguous"),
+                "clarification_question": intent_pred.get("clarification_question"),
+                "clarification_options": intent_pred.get("clarification_options"),
+            }
+            row["intent_audit"] = {
+                "rules_version_sha": intent_audit.get("rules_version_sha"),
+                "thresholds": intent_audit.get("thresholds"),
+                "config_fingerprint_intent": intent_audit.get("config_fingerprint_intent"),
+            }
 
         per_sample_results.append(row)
 
@@ -705,6 +911,19 @@ def main() -> int:
         choices=["answer_only", "answer_plus_evidence", "guardrail_answerable_only", "answer_plus_evidence_guardrail_v2"],
         help="Prompt contract variant / 输出契约变体。",
     )
+    parser.add_argument(
+        "--enforcement_policy",
+        type=str,
+        default="",
+        help="Enforcement policy when support < 0.5: force_unknown_if_support_lt_0.5 | retry_once_if_support_lt_0.5_else_force_unknown. Default for guardrail_v2: force_unknown_if_support_lt_0.5.",
+    )
+    parser.add_argument(
+        "--intent_mode",
+        type=str,
+        default="none",
+        choices=["none", "rule_v1", "rule_v1_route", "rule_v1_clarify"],
+        help="Intent module mode: none（关闭）/ rule_v1（仅打标）/ rule_v1_route（路由）/ rule_v1_clarify（路由+澄清）。",
+    )
     args = parser.parse_args()
 
     set_seed(args.seed)
@@ -742,7 +961,7 @@ def main() -> int:
             return 1
 
     try:
-        metrics, per_sample = run_experiment(args)
+        metrics, per_sample = run_experiment(args, log_fn=logger.log)
     except RuntimeError as e:
         logger.log(f"FATAL: {e}")
         print(str(e), file=sys.stderr)
@@ -773,29 +992,132 @@ def main() -> int:
     else:
         prompt_contract_version = PROMPT_CONTRACT_VERSION
 
+    default_cfg, config_fingerprint = _load_default_config_and_fingerprint()
+    overrides: list[str] = []
+    if default_cfg:
+        gen_cfg = default_cfg.get("generator", {})
+        def_base = gen_cfg.get("base_url")
+        if def_base is not None and args.base_url != def_base:
+            overrides.append("base_url")
+        def_model = gen_cfg.get("model")
+        if def_model is not None and args.model != def_model:
+            overrides.append("model")
+        ret_cfg = default_cfg.get("retriever", {})
+        def_ret = ret_cfg.get("type")
+        if def_ret is not None and args.retriever_type != def_ret:
+            overrides.append("retriever_type")
+        def_topk = ret_cfg.get("topk")
+        if def_topk is not None and args.top_k != def_topk:
+            overrides.append("top_k")
+        if args.contract_variant == "answer_plus_evidence_guardrail_v2":
+            g_cfg = default_cfg.get("guardrail", {})
+            def_policy = g_cfg.get("enforcement_policy")
+            policy_arg = (args.enforcement_policy or "").strip()
+            if def_policy is not None and policy_arg and policy_arg != def_policy:
+                overrides.append("enforcement_policy")
+
     if args.contract_variant == "answer_plus_evidence_guardrail_v2":
         guardrail_version = "evidence_bounded_v2"
-        enforcement_policy = "force_unknown_if_evidence_support_lt_0.5"
+        policy = (args.enforcement_policy or "").strip()
+        if not policy and default_cfg:
+            policy = (default_cfg.get("guardrail") or {}).get("enforcement_policy", "")
+        enforcement_policy = policy or "force_unknown_if_support_lt_0.5"
+        support_semantics_version = "raw_answer_only_v1"
+        from framework.evidence_support import get_module_sha256  # type: ignore
+
+        support_module_sha256 = get_module_sha256()
     else:
         guardrail_version = None
         enforcement_policy = "none"
+        support_semantics_version = None
+        support_module_sha256 = None
 
+    eval_sha = ""
+    eval_path = ROOT / "framework" / "eval.py"
+    if eval_path.exists():
+        try:
+            eval_sha = hashlib.sha256(eval_path.read_bytes()).hexdigest()
+        except Exception:
+            pass
+    api_key_source = None
+    if not args.mock and args.api_key:
+        api_key_source = _API_KEY_SOURCE if (args.api_key == _API_KEY and _API_KEY_SOURCE) else "cli"
+
+    # IntentEngine 审计字段
+    intent_module_enabled = args.intent_mode != "none"
+    intent_rules_sha256 = None
+    intent_taxonomy_sha256 = None
+    intent_thresholds = None
+    intent_config_fingerprint_intent = None
+    if intent_module_enabled:
+        from src.intent.intent_engine import IntentEngine as _IE  # type: ignore
+
+        _ie = _IE()
+        _info = _ie.get_audit_info()
+        intent_rules_sha256 = _info.get("rules_version_sha")
+        intent_taxonomy_sha256 = _info.get("taxonomy_sha256")
+        intent_thresholds = _info.get("thresholds")
+        intent_config_fingerprint_intent = _info.get("config_fingerprint_intent")
+
+    # Intent 统计汇总（从 per-sample 反推）
+    intent_multi_intent_rate = None
+    intent_ambiguous_rate = None
+    intent_coverage_rate = None
+    if intent_module_enabled:
+        n_samples = len(per_sample)
+        if n_samples > 0:
+            n_multi = 0
+            n_amb = 0
+            n_with_any_intent = 0
+            for s in per_sample:
+                ip = s.get("intent_pred") or {}
+                intents = ip.get("intents") or []
+                if intents:
+                    n_with_any_intent += 1
+                if ip.get("is_multi_intent"):
+                    n_multi += 1
+                if ip.get("is_ambiguous"):
+                    n_amb += 1
+            intent_multi_intent_rate = n_multi / n_samples
+            intent_ambiguous_rate = n_amb / n_samples
+            intent_coverage_rate = n_with_any_intent / n_samples
     audit = {
         "eval_tokenizer": "mixed_zh_char_en_word_v1",
+        "eval_py_sha256": eval_sha,
+        "eval_remove_en_articles": True,
+        "normalize_rules": "lower, remove_punc(en+cn), white_space_fix",
+        "config_fingerprint": config_fingerprint or None,
+        "audit_overrides": overrides if overrides else None,
+        "api_key_source": api_key_source,
         "generator_parse_version": GENERATOR_PARSE_VERSION,
         "retry_policy": f"max_attempts={RETRY_MAX}",
         "prompt_contract_version": prompt_contract_version,
         "contract_variant": args.contract_variant,
         "guardrail_version": guardrail_version,
         "enforcement_policy": enforcement_policy,
+        "support_semantics_version": support_semantics_version,
+        "support_module_sha256": support_module_sha256,
+        # Intent module audit
+        "intent_module_enabled": intent_module_enabled,
+        # 兼容旧字段命名（*_sha256），同时增加更简洁的别名与指纹字段
+        "intent_rules_sha256": intent_rules_sha256,
+        "intent_taxonomy_sha256": intent_taxonomy_sha256,
+        "intent_rules_sha": intent_rules_sha256,
+        "intent_taxonomy_sha": intent_taxonomy_sha256,
+        "intent_thresholds": intent_thresholds,
+        "intent_config_fingerprint": intent_config_fingerprint_intent,
+        "intent_multi_intent_rate": intent_multi_intent_rate,
+        "intent_ambiguous_rate": intent_ambiguous_rate,
+        "intent_coverage_rate": intent_coverage_rate,
+        "intent_mode": args.intent_mode,
         "run_mode": run_mode,
+        "ablation": args.ablation,
         "generator_backend": backend,
         "generator_endpoint_fingerprint": endpoint_fingerprint,
         "generator_temperature": GEN_TEMPERATURE,
         "generator_top_p": GEN_TOP_P,
         "generator_max_tokens": GEN_MAX_TOKENS,
         "seed": args.seed,
-        "ablation": args.ablation,
         "retriever_topk": args.top_k,
         "retriever_type": args.retriever_type,
     }

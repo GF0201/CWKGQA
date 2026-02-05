@@ -1,0 +1,32 @@
+# 实验默认配置：随机种子、输入路径、阈值及配置文件路径
+
+seed: 42
+
+# 默认输入数据路径（相对于项目根目录）
+default_input_path: "datasets/domain_main_qa/test.jsonl"
+
+# 意图标签体系与规则配置文件路径（相对于项目根目录）
+taxonomy_path: "intent_workspace/configs/intent_taxonomy.yaml"
+rules_path: "intent_workspace/configs/intent_rules.yaml"
+
+# 输出基础目录（禁止写出到此目录以外）
+output_base_dir: "intent_workspace/runs"
+
+# 多意图 / 歧义 判定相关阈值
+thresholds:
+  # 多意图：当多个标签得分均达到该阈值时，视为多意图
+  multi_intent: 0.5
+  # 歧义：当歧义相关标签得分达到该阈值时，视为存在歧义
+  ambiguous: 0.5
+
+# 规则引擎相关默认设置（可按需扩展）
+rule_engine:
+  default_weight: 1.0
+  # 当无任何规则触发时的 fallback 标签（可选）
+  fallback_label: "UNKNOWN"
+
+# 报告与索引相关设置
+report:
+  # runs/_index 索引文件路径（相对于项目根）
+  index_path: "intent_workspace/runs/_index/index.jsonl"
+

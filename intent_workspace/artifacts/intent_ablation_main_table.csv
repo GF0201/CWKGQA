@@ -1,0 +1,5 @@
+run_id,intent_mode,EM,F1,unknown_rate,ungrounded_or_wrong_rate,format_mismatch_rate,multi_intent_rate,ambiguous_rate,intent_coverage_rate,contract_variant,enforcement_policy,retriever_type,retriever_topk
+exp_default_intent_none_real_v1,none,0.4,0.7202882520615608,0.01818181818181818,0.0,0.0,,,,answer_plus_evidence_guardrail_v2,retry_once_if_support_lt_0.5_else_force_unknown,bm25,10
+exp_default_intent_rule_v1_real_v1,rule_v1,0.34545454545454546,0.7112469277519223,0.01818181818181818,0.0,0.0,0.10909090909090909,0.05454545454545454,1.0,answer_plus_evidence_guardrail_v2,retry_once_if_support_lt_0.5_else_force_unknown,bm25,10
+exp_default_intent_route_real_v1,rule_v1_route,0.36363636363636365,0.7290110411610646,0.0,0.0,0.0,0.10909090909090909,0.05454545454545454,1.0,answer_plus_evidence_guardrail_v2,retry_once_if_support_lt_0.5_else_force_unknown,bm25,10
+exp_default_intent_clarify_real_v1,rule_v1_clarify,0.36363636363636365,0.6840944987195994,0.07272727272727272,0.0,0.0,0.10909090909090909,0.05454545454545454,1.0,answer_plus_evidence_guardrail_v2,retry_once_if_support_lt_0.5_else_force_unknown,bm25,10

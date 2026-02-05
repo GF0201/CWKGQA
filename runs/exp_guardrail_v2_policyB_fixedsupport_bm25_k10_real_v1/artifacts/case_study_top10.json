@@ -1,0 +1,281 @@
+{
+  "samples": [
+    {
+      "id": "draft_2",
+      "question": "计算机网络中的信道 广泛使用什么技术？",
+      "gold": "各种复用技术",
+      "pred": "各种复用技术",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "计算机网络中的信道",
+          "predicate": "广泛地使用",
+          "object": "各种复用技术"
+        }
+      ]
+    },
+    {
+      "id": "draft_3",
+      "question": "基本服务集 也可以通过接入点AP连接到什么？",
+      "gold": "分配系统DS",
+      "pred": "分配系统DS",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "基本服务集",
+          "predicate": "也可以通过接入点AP连接到",
+          "object": "分配系统DS"
+        },
+        {
+          "subject": "基本服务集",
+          "predicate": "可以是",
+          "object": "孤立的单个服务集"
+        }
+      ]
+    },
+    {
+      "id": "draft_4",
+      "question": "流量控制 的定义是什么？",
+      "gold": "让发送方的发送速率不要太快，要让接收方来得及接收",
+      "pred": "让发送方的发送速率不要太快，要让接收方来得及接收",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "运输层",
+          "predicate": "讨论",
+          "object": "流量控制"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "是",
+          "object": "端到端的问题"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "包括",
+          "object": "把窗口减小到rwnd=300，再减到rwnd=100，最后减到rwnd=0"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "定义为",
+          "object": "让发送方的发送速率不要太快，要让接收方来得及接收"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "实现",
+          "object": "流量控制"
+        },
+        {
+          "subject": "流量控制",
+          "predicate": "是",
+          "object": "端到端的问题，接收端控制发送端"
+        }
+      ]
+    },
+    {
+      "id": "draft_8",
+      "question": "移动用户 更换时需要切换什么？",
+      "gold": "连接点（基站）",
+      "pred": "连接点（基站）",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "移动用户",
+          "predicate": "更换",
+          "object": "连接点（基站）"
+        }
+      ]
+    },
+    {
+      "id": "draft_9",
+      "question": "ARP 中存放什么信息？",
+      "gold": "从IP地址到MAC地址的映射表",
+      "pred": "从IP地址到MAC地址的映射表",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "ARP",
+          "predicate": "存放",
+          "object": "从IP地址到MAC地址的映射表"
+        },
+        {
+          "subject": "ARP",
+          "predicate": "用于",
+          "object": "解析MAC地址"
+        }
+      ]
+    },
+    {
+      "id": "draft_10",
+      "question": "椭圆曲线密码ECC 已在时会发生什么？",
+      "gold": "TLS 1.3的握手协议中占据非常重要地位",
+      "pred": "TLS 1.3的握手协议中占据非常重要地位",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "椭圆曲线密码ECC",
+          "predicate": "在",
+          "object": "电子护照和金融系统中大量使用"
+        },
+        {
+          "subject": "椭圆曲线密码ECC",
+          "predicate": "已在",
+          "object": "TLS 1.3的握手协议中占据非常重要地位"
+        },
+        {
+          "subject": "椭圆曲线密码ECC",
+          "predicate": "已在",
+          "object": "TLS 1.3的握手协议中占据非常重要的地位"
+        }
+      ]
+    },
+    {
+      "id": "draft_13",
+      "question": "SDP 详细指明了哪些参数或信息？",
+      "gold": "媒体编码、协议的端口号以及多播地址",
+      "pred": "媒体编码、协议的端口号以及多播地址",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "SDP",
+          "predicate": "详细地指明了",
+          "object": "媒体编码、协议的端口号以及多播地址"
+        },
+        {
+          "subject": "SDP",
+          "predicate": "是",
+          "object": "会话描述协议"
+        }
+      ]
+    },
+    {
+      "id": "draft_15",
+      "question": "双协议栈 的具体含义是什么？",
+      "gold": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈",
+      "pred": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "双协议栈",
+          "predicate": "指",
+          "object": "在完全过渡到IPv6之前，使一部分主机（或路由器）同时装有IPv4和IPv6这两种协议栈"
+        }
+      ]
+    },
+    {
+      "id": "draft_22",
+      "question": "IP多播 可以分为什么？",
+      "gold": "只在本局域网网上进行硬件多播和在互联网的范围进行多播",
+      "pred": "只在本局域网网上进行硬件多播和在互联网的范围进行多播",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "IP多播",
+          "predicate": "是",
+          "object": "网络层讨论的概念之一"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "需要",
+          "object": "网际组管理协议IGMP和多播路由选择协议"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "可以分为",
+          "object": "只在本局域网网上进行硬件多播和在互联网的范围进行多播"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "使用",
+          "object": "多播IP地址"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "支持",
+          "object": "一对多的通信"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "需要",
+          "object": "在互联网上增加更多的智能才能提供的一种服务"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "已成为",
+          "object": "互联网的一个热门课题"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "在",
+          "object": "1992年3月IETF会议声音的多播中首次试验"
+        },
+        {
+          "subject": "IP多播",
+          "predicate": "由",
+          "object": "Steve Deering首次在其博士学位论文中提出"
+        }
+      ]
+    },
+    {
+      "id": "draft_27",
+      "question": "TCP 需要满足什么条件？",
+      "gold": "区分有线网络拥塞和无线链路拥塞",
+      "pred": "区分有线网络拥塞和无线链路拥塞",
+      "f1": 1.0,
+      "retrieved_triples": [
+        {
+          "subject": "TCP",
+          "predicate": "增加",
+          "object": "确认、流量控制、计时器以及连接管理等开销"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "提供",
+          "object": "面向连接的服务"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "具有",
+          "object": "滑动窗口、流量控制、拥塞控制和连接管理"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "是",
+          "object": "面向连接的"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "提供",
+          "object": "面向连接的、可靠的数据传输服务"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "需要",
+          "object": "区分有线网络拥塞和无线链路拥塞"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "响应",
+          "object": "报文段丢失或出错"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "默认",
+          "object": "报文段丢失是由网络拥塞造成的"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "适用于",
+          "object": "YouTube和Netflix等流媒体服务"
+        },
+        {
+          "subject": "TCP",
+          "predicate": "适用于",
+          "object": "流式存储音频/视频的播放"
+        }
+      ]
+    }
+  ],
+  "n_actual": 10,
+  "note": null
+}

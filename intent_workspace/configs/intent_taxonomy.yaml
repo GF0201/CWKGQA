@@ -1,0 +1,17 @@
+# 意图标签体系定义（示例）
+#
+# 该文件描述可用于“多意图 / 歧义 / 澄清”的标签空间。
+# 实际项目可根据业务需要进行扩展或替换。
+
+labels:
+  - id: SINGLE_FACT
+    description: "单一事实问题，只需一次查询即可回答。"
+  - id: MULTI_FACT
+    description: "多事实组合问题，需要多个子事实联合回答。"
+  - id: AMBIGUOUS
+    description: "存在语义歧义，需澄清具体对象、范围或时间等。"
+  - id: CLARIFICATION
+    description: "系统需要主动向用户提出澄清问题或给出澄清选项。"
+  - id: UNKNOWN
+    description: "无法根据当前规则确定意图（兜底标签）。"
+

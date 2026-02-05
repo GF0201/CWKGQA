@@ -1,0 +1,12 @@
+{
+  "n": 55,
+  "evidence_violation_rate": 0.03636363636363636,
+  "violation_ids": [
+    "draft_40",
+    "draft_41"
+  ],
+  "enforcement_action_counts": {
+    "none": 53,
+    "force_unknown": 2
+  }
+}

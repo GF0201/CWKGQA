@@ -1,0 +1,33 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l l r r}
+    \toprule
+    Run ID & Top-1 intent label & Count & Ratio (\%) \\
+    \midrule
+    exp\_default\_intent\_rule\_v1\_real\_v1  & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & LIST     &  3 &  5.5 \\
+    \midrule
+    exp\_default\_intent\_route\_real\_v1     & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_route\_real\_v1     & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_route\_real\_v1     & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_route\_real\_v1     & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_route\_real\_v1     & LIST     &  3 &  5.5 \\
+    \midrule
+    exp\_default\_intent\_clarify\_real\_v1   & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_clarify\_real\_v1   & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_clarify\_real\_v1   & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_clarify\_real\_v1   & FILTER   &  1 &  1.8 \\
+    exp\_default\_intent\_clarify\_real\_v1   & LIST     &  3 &  5.5 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Full top-1 intent label distribution for the three intent-enabled runs. Ratios are derived from \texttt{intent\_workspace/artifacts/intent\_trigger\_stats.csv} and rounded to one decimal place.}
+  \label{tab:intent_trigger_stats_full}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: This appendix table includes all rows from \texttt{intent\_workspace/artifacts/intent\_trigger\_stats.csv} for the three intent-enabled runs (\texttt{rule\_v1}, \texttt{rule\_v1\_route}, \texttt{rule\_v1\_clarify}). It is intended for complete audit of the top-1 intent distribution; a more compact top-K version can be used in the main text.
+  \end{tablenotes}
+\end{table}
+

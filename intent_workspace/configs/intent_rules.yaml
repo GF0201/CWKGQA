@@ -1,0 +1,43 @@
+# 意图识别规则配置（示例）
+#
+# 每条规则在推理时会尝试匹配 question 文本：
+# - 若任一 pattern（子串）命中，则认为该规则被触发；
+# - 触发后会对对应 label 累加 weight 分数。
+
+rules:
+  - id: multi_and
+    label: MULTI_FACT
+    weight: 1.0
+    description: "包含“和/以及”等并列结构，倾向于多事实问题。"
+    patterns:
+      - " 和 "
+      - "以及"
+      - "与"
+
+  - id: ambiguous_which
+    label: AMBIGUOUS
+    weight: 1.0
+    description: "使用“哪一个/哪些/哪种”等模糊指代，可能需要澄清。"
+    patterns:
+      - "哪一个"
+      - "哪一种"
+      - "哪种"
+      - "哪些"
+
+  - id: clarification_time
+    label: CLARIFICATION
+    weight: 1.0
+    description: "包含“什么时候/多长时间”等模糊时间表达，可能需要澄清。"
+    patterns:
+      - "什么时候"
+      - "多长时间"
+
+  - id: clarification_scope
+    label: CLARIFICATION
+    weight: 1.0
+    description: "包含“范围/区域/地区”等模糊范围表达，可能需要澄清。"
+    patterns:
+      - "范围"
+      - "区域"
+      - "地区"
+

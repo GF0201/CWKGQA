@@ -1,0 +1,6 @@
+rule_id,label,count,ratio
+ambiguous_which,AMBIGUOUS,9,0.45
+factoid_allow_provide,FACTOID,4,0.2
+factoid_what_is,FACTOID,3,0.15
+list_enumerate,LIST,3,0.15
+filter_conditions,FILTER,1,0.05

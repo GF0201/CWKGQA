@@ -1,0 +1,14 @@
+effective_config:
+  main_default_config_fingerprint: 51396c02d84be88640a30208233ed487eae614f1dc1be52d5d62ef0f399e45a3
+  intent_config_fingerprint: be8a5584eb38a885f3a804f195808b444fd4cd3ad304a185352271fea6661140
+  intent_thresholds:
+    multi_label_threshold: 0.6
+    ambiguous_margin: 0.15
+    min_confidence: 0.4
+  intent_rules_sha: 191deb6e47ada9e8c160c8af598d0ded38d30caebeebfedd4a4deb68a9ec8ecf
+  intent_taxonomy_sha: 641c69ca80459806e8a46b252881819e9189a6b375afdbaa695f5b454821d1af
+audit:
+  config_fingerprint: be8a5584eb38a885f3a804f195808b444fd4cd3ad304a185352271fea6661140
+  fingerprint_overridden: be8a5584eb38a885f3a804f195808b444fd4cd3ad304a185352271fea6661140
+  git_commit: 22d41c12604aa6271032908a453e198572102a88
+  derived_from_main_run: exp_default_intent_route_real_v1

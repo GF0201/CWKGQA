@@ -1,0 +1,24 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{l l r r}
+    \toprule
+    Run ID & Top-1 intent label & Count & Ratio (\%) \\
+    \midrule
+    exp\_default\_intent\_clarify\_real\_v1   & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_route\_real\_v1     & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & UNKNOWN  & 41 & 74.5 \\
+    exp\_default\_intent\_clarify\_real\_v1   & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_route\_real\_v1     & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_rule\_v1\_real\_v1  & AMBIGUOUS &  6 & 10.9 \\
+    exp\_default\_intent\_clarify\_real\_v1   & FACTOID  &  4 &  7.3 \\
+    exp\_default\_intent\_route\_real\_v1     & FACTOID  &  4 &  7.3 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Top-K (K=8) rows from the top-1 intent label distribution for the three intent-enabled runs, sorted by Ratio (\%) in descending order.}
+  \label{tab:intent_trigger_stats_topk}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: This main-text table selects the top-K (K=8) rows from \texttt{intent\_workspace/artifacts/intent\_trigger\_stats.csv} by sorting all (run ID, label) combinations in descending order of the \texttt{ratio} value; ties are broken lexicographically by run ID and label. The full distribution for all labels and runs is given in Table~\ref{tab:intent_trigger_stats_full}.
+  \end{tablenotes}
+\end{table}
+

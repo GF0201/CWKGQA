@@ -1,0 +1,14 @@
+{
+  "fingerprint_sha256": "51396c02d84be88640a30208233ed487eae614f1dc1be52d5d62ef0f399e45a3",
+  "key_fields_summary": {
+    "retriever_type": "bm25",
+    "retriever_topk": 10,
+    "contract_type": "answer_plus_evidence",
+    "guardrail_version": "evidence_bounded_v2",
+    "enforcement_policy": "retry_once_if_support_lt_0.5_else_force_unknown",
+    "support_semantics_version": "raw_answer_only_v1",
+    "generator_model": "deepseek-v3.2",
+    "generator_seed": 42
+  },
+  "config_path": "D:\\KGELLM\\kgqa_framework\\configs\\default_real_bm25_k10_evidence_guardrail_v2.yaml"
+}

@@ -1,0 +1,26 @@
+\begin{table}[t]
+  \centering
+  \begin{tabular}{r r r r r r r l}
+    \toprule
+    Multi-label & Ambiguous & Min & Ambiguous & Multi-intent & Coverage & $n$ & Intent config \\
+    threshold & margin & confidence & rate (\%) & rate (\%) & rate (\%) & & fingerprint \\
+    \midrule
+    0.4 & 0.15 & 0.3 &  5.5 & 10.9 & 100.0 & 55 & c6d1d0a1808b0449242abbb47624885a54cf64c743bdde3e275d0eeb9416019a \\
+    0.4 & 0.15 & 0.4 &  5.5 & 10.9 & 100.0 & 55 & 8286efefedfda1ddb767c4a685b67f1d68e9f5df53c866f52e7a27d9569dfae1 \\
+    0.4 & 0.15 & 0.5 &  5.5 & 10.9 & 100.0 & 55 & f335d4ce2428a4ebdeba60f43aa7b9cebf466313c03e7839108cd3c02fbf03cd \\
+    0.6 & 0.15 & 0.3 &  5.5 & 10.9 & 100.0 & 55 & ddb91462bbb3015d503b541e2b4dde07011b07fa0f5cbd03ff17dc944ca64ecf \\
+    0.6 & 0.15 & 0.4 &  5.5 & 10.9 & 100.0 & 55 & 078a436b78face8f4b10a4bc059d20c10a58c0fb2828809d7475e96f5e248825 \\
+    0.6 & 0.15 & 0.5 &  5.5 & 10.9 & 100.0 & 55 & a243e17a6bd8a02b627ed93d4c4966e8e05ff62ecd1f95ae84de03e6e8d7450c \\
+    0.8 & 0.15 & 0.3 &  5.5 & 10.9 & 100.0 & 55 & 164ff8c14f20a9fc37b4786bc2440c90dceaa1f08915ad181a26b9c62e174f5c \\
+    0.8 & 0.15 & 0.4 &  5.5 & 10.9 & 100.0 & 55 & 5f9de87874d752491189f630ea1b61bef5dbc81c811546a215042a14428a0615 \\
+    0.8 & 0.15 & 0.5 &  5.5 & 10.9 & 100.0 & 55 & 2f1bc9e7954c540c32d9abdf3e3dd497a96e0cefd4c6ac56120539046267a7e4 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Selected threshold configurations for the intent module, restricted to ambiguous margin $=0.15$. All rows are taken from \texttt{intent\_workspace/artifacts/threshold\_sweep\_summary.csv}.}
+  \label{tab:intent_threshold_sweep}
+  \begin{tablenotes}
+    \footnotesize
+    \item Notes: This table reports a representative $3 \times 3$ sub-grid of the full threshold sweep (fixing \texttt{ambiguous\_margin=0.15} and varying \texttt{multi\_label\_threshold} and \texttt{min\_confidence}). Ambiguous, multi-intent, and coverage rates are converted from the corresponding decimal columns in the CSV to percentages with one decimal place. The full $3 \times 3 \times 3$ grid, including configurations with \texttt{ambiguous\_margin=0.10} and \texttt{0.20}, is available in the CSV together with the complete SHA256 fingerprints. Columns \texttt{gold\_macro\_f1} and \texttt{gold\_accuracy} are empty in the current artifacts and are therefore omitted from this table.
+  \end{tablenotes}
+\end{table}
+

@@ -1,0 +1,53 @@
+{
+  "overall": {
+    "macro_f1": null,
+    "micro_f1": null,
+    "multi_intent_accuracy": null,
+    "ambiguous_rate": 0.05454545454545454,
+    "multi_intent_rate": 0.10909090909090909,
+    "coverage_rate": 1.0
+  },
+  "per_label": {
+    "FACTOID": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 4
+    },
+    "UNKNOWN": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 41
+    },
+    "AMBIGUOUS": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 6
+    },
+    "FILTER": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 1
+    },
+    "LIST": {
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "support": 3
+    }
+  },
+  "rule_stats": {
+    "n_samples": 55,
+    "n_with_any_rule": 14
+  },
+  "audit": {
+    "config_fingerprint": "be8a5584eb38a885f3a804f195808b444fd4cd3ad304a185352271fea6661140",
+    "input_path": "DATA::test.jsonl",
+    "input_hash": null,
+    "git_commit": "22d41c12604aa6271032908a453e198572102a88",
+    "derived_from": "D:\\KGELLM\\kgqa_framework\\intent_workspace\\runs\\intent_20260205_183903_default_guardrail_v2_policyR_rule_v1_route"
+  }
+}

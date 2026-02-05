@@ -1,0 +1,150 @@
+# Rule configuration for IntentEngine v1.
+#
+# 结构：
+# - thresholds: 多标签/歧义判定的全局阈值
+# - conflict_matrix: 互相冲突或容易混淆的标签对
+# - clarification_templates: 针对歧义场景的澄清问题模板
+# - rules: 逐条规则（按关键词/正则/模式累加打分）
+
+thresholds:
+  # 归一化分数 >= multi_label_threshold 的标签数量 >= 2，则视为多意图
+  multi_label_threshold: 0.6
+  # 若 top1 - top2 <= ambiguous_margin，则认为存在多种合理解释（歧义）
+  ambiguous_margin: 0.15
+  # 若 top1 < min_confidence，则整体置信度不足，也标记为歧义
+  min_confidence: 0.4
+
+conflict_matrix:
+  # FACTOID vs COMPARISON：是要单一事实还是比较？
+  - [FACTOID, COMPARISON]
+  # FACTOID vs PROCEDURE：是要定义/事实还是过程/步骤？
+  - [FACTOID, PROCEDURE]
+  # LIST vs FACTOID：列表 vs 单一值
+  - [LIST, FACTOID]
+
+clarification_templates:
+  # 通用澄清模板：{candidates} 会被替换为候选意图标签名列表
+  generic: "这个问题可能有多种理解：{candidates}。请问你更关心哪一类？"
+
+  FACTOID_vs_COMPARISON: "请问你是想要单一事实（FACTOID），还是比较两个/多个对象（COMPARISON）？"
+  FACTOID_vs_PROCEDURE: "请问你是想了解一个概念/定义（FACTOID），还是详细的过程/步骤（PROCEDURE）？"
+  LIST_vs_FACTOID: "请问你是想要一个列表（LIST），还是单一答案（FACTOID）？"
+
+rules:
+  # --- FACTOID ---
+  - id: factoid_what_is
+    label: FACTOID
+    weight: 1.0
+    keywords:
+      - "是什么"
+      - "定义是什么"
+      - "含义是什么"
+
+  - id: factoid_allow_provide
+    label: FACTOID
+    weight: 0.8
+    keywords:
+      - "提供哪些功能"
+      - "提供什么功能"
+      - "允许完成什么功能"
+      - "作用是什么"
+
+  # --- LIST ---
+  - id: list_enumerate
+    label: LIST
+    weight: 1.0
+    keywords:
+      - "列出"
+      - "有哪些"
+      - "有哪些类型"
+      - "有哪些常见的"
+
+  - id: list_multiple_items
+    label: LIST
+    weight: 0.8
+    keywords:
+      - "三种"
+      - "多种"
+      - "若干种"
+
+  # --- FILTER ---
+  - id: filter_conditions
+    label: FILTER
+    weight: 1.0
+    keywords:
+      - "哪些字段"
+      - "哪些项"
+      - "在什么条件下"
+      - "满足什么条件"
+
+  # --- COMPARISON ---
+  - id: comparison_vs
+    label: COMPARISON
+    weight: 1.2
+    keywords:
+      - "和有什么不同"
+      - "和有何不同"
+      - "与有何不同"
+      - "和的区别"
+      - "区别是什么"
+      - "对比"
+
+  - id: comparison_advantages_disadvantages
+    label: COMPARISON
+    weight: 1.0
+    keywords:
+      - "优点和缺点"
+      - "优缺点"
+      - "优势和劣势"
+
+  # --- PROCEDURE ---
+  - id: procedure_steps
+    label: PROCEDURE
+    weight: 1.2
+    keywords:
+      - "过程是怎样的"
+      - "过程包括哪些步骤"
+      - "如何实现"
+      - "怎么做"
+      - "步骤有哪些"
+
+  - id: procedure_handshake
+    label: PROCEDURE
+    weight: 1.0
+    keywords:
+      - "三次握手过程"
+      - "四次挥手过程"
+
+  # --- MULTI_FACT ---
+  - id: multi_and
+    label: MULTI_FACT
+    weight: 1.0
+    keywords:
+      - "和"
+      - "以及"
+      - "同时"
+
+  - id: multi_explain_and_compare
+    label: MULTI_FACT
+    weight: 1.0
+    keywords:
+      - "说明"
+      - "并比较"
+
+  # --- AMBIGUOUS ---
+  - id: ambiguous_which
+    label: AMBIGUOUS
+    weight: 1.0
+    keywords:
+      - "哪一个"
+      - "哪一种"
+      - "哪种"
+      - "哪些"
+
+  - id: ambiguous_vague_pronoun
+    label: AMBIGUOUS
+    weight: 0.8
+    keywords:
+      - "这个"
+      - "那个"
+
